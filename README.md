@@ -1,6 +1,7 @@
-# 📰 arXiv 每日论文追踪
+# 🤖 具身智能每日论文追踪 · Embodied AI Papers Daily
 
-按关键词每日自动检索 [arXiv](https://arxiv.org) 最新论文，去重后按主题分类，
+每日自动检索 [arXiv](https://arxiv.org) 上**机器人 / 物理AI** 方向的最新论文，去重后按主题分类，
+涵盖人形机器人、四足机器人、强化学习运控、VLA、世界模型、具身智能、角色动画等方向。
 结果提交到本仓库的 [`papers/`](papers/) 目录。全程由 GitHub Actions 在云端运行，
 **无需本地电脑常开，无需任何 API 密钥**。
 
