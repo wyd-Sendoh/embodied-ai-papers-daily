@@ -2,6 +2,17 @@
 
 _自动追踪 arXiv 最新论文，最新更新在最上方。_
 
+## 📅 2026-07-03
+
+### [Training-free Controllable Human Motion Generation under Heterogeneous Constraints](https://arxiv.org/abs/2607.01990v1)
+
+- **arXiv**: `2607.01990v1`  |  **提交日期**: 2026-07-02
+- **作者**: Xiaofei Hui, Bo Yan, Haoxuan Qu, Hossein Rahmani, Jun Liu
+
+Training-free controllable motion generation has attracted growing interest for enabling flexible constraint enforcement without constraint-specific training. However, existing training-free methods require constraints to be continuous objective-based with differentiable losses, while many real-world requirements are criterion-based and provide only discontinuous, sparse, or even black-box feedback. In this paper, we propose Motion-Inference-as-Control (MIC), the first training-free motion generation framework that handles both continuous objective-based and criterion-based motion constraints…
+
+---
+
 ## 📅 2026-07-02
 
 ### [PoseShield: Neural Collision Fields for Human Self-Collision Resolution](https://arxiv.org/abs/2606.29686v2)
