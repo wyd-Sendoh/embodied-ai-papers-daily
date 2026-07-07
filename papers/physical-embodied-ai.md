@@ -2,6 +2,35 @@
 
 _自动追踪 arXiv 最新论文，最新更新在最上方。_
 
+## 📅 2026-07-07
+
+### [ACE-Brain-0.5: A Unified Embodied Foundational Model for Physical Agentic AI](https://arxiv.org/abs/2607.04426v1)
+
+- **arXiv**: `2607.04426v1`  |  **提交日期**: 2026-07-05
+- **作者**: ACE-Brain Team,  :, Ziyang Gong, Haoming Gu, Zehang Luo, Tianyi Zhang et al.
+
+Embodied AI is moving from isolated perception or action modules toward physical agents that understand, plan under goals, act through robot bodies, monitor progress, and improve from experience. Existing systems address this loop only in parts: end-to-end policies generate actions but often lack spatial reasoning, planning, and execution assessment, while robot-agent systems orchestrate tools or specialists but do not learn a shared representation. This fragmentation limits general Physical Agentic AI. We present ACE-Brain-0.5, a unified embodied foundation model that organizes robot…
+
+---
+
+### [WSA$_1$: a 3D-Centric World-Spatial-Action Model for Generalizable Robot Control](https://arxiv.org/abs/2607.03941v1)
+
+- **arXiv**: `2607.03941v1`  |  **提交日期**: 2026-07-04
+- **作者**: Jiahao Jiang, Jianing Zhang, Zhenhan Yin, Ruidong Chen, Sen Wang, Zhaoshu Yu et al.
+
+Recent advances in embodied AI have established robot foundation models (RFMs) as the dominant approach for generalist robotic systems to date. By leveraging imitation learning on extensive robot demonstrations, RFMs have achieved impressive capabilities in mapping visual observations and language instructions to continuous robotic actions. However, current RFMs lack an inherent ability to reason about physical dynamics and the causal effects of robot behaviors on the 3D physical world. This creates a fundamental mismatch between 2D-centric visual perception and 3D-centric embodied…
+
+---
+
+### [ObjRetarget: An Object-Aware Motion Retargeting Framework with Anthropomorphic Arm Constraints and Polyhedral Hand Modeling](https://arxiv.org/abs/2607.03828v1)
+
+- **arXiv**: `2607.03828v1`  |  **提交日期**: 2026-07-04
+- **作者**: Yuanchuan Lai, Qing Gao, Ziyan Liang, Junjie Hu, Zhaojie Ju
+
+Learning robot dexterous manipulation from human manipulation videos requires reliably retargeting human intent to executable robot actions while maintaining stable hand-object contact, which remains a key challenge in embodied intelligence. Existing retargeting methods often ignore explicit contact modeling or rely on reinforcement learning, resulting in limited accuracy and generalization. To address this, we propose ObjRetarget, a human-to-robot motion retargeting framework for learning robot dexterous manipulation from human videos, which integrates anthropomorphic arm trajectory…
+
+---
+
 ## 📅 2026-07-03
 
 ### [Seek to Segment: Active Perception for Panoramic Referring Segmentation](https://arxiv.org/abs/2607.02497v1)

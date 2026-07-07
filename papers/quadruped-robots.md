@@ -2,6 +2,26 @@
 
 _自动追踪 arXiv 最新论文，最新更新在最上方。_
 
+## 📅 2026-07-07
+
+### [Unsupervised Pixel-Level Semantic Left-Right Understanding of In-the-Wild Images](https://arxiv.org/abs/2607.05006v1)
+
+- **arXiv**: `2607.05006v1`  |  **提交日期**: 2026-07-06
+- **作者**: Weikang Wang, Tobias Weißberg, Florian Bernard
+
+While various works address reflective symmetry understanding in 3D data and images, pixel-level semantic left-right prediction of in-the-wild images remains challenging, due to certain difficulties including the lack of 3D information, occlusion, object pose variation, partiality, etc. In this work, we propose an unsupervised learning framework to tackle this challenge. Leveraging recent advances in vertex-wise semantic left-right understanding of 3D data, our unsupervised learning method jointly utilises 3D shape and image datasets to infer pixel-wise semantic left-right predictions in…
+
+---
+
+### [Multi-Robot Open Adaptive Teaming Across Unseen Environments, Partners, and Scales](https://arxiv.org/abs/2607.04972v1)
+
+- **arXiv**: `2607.04972v1`  |  **提交日期**: 2026-07-06
+- **作者**: Yang Li, Feng Xue, Fan Mo, Yunhao Liu, Jianhong Wang, Ying Wen et al.
+
+Deploying robot teams in the real world requires simultaneous adaptation to unseen environments, unknown partners, and varying team sizes, yet existing approaches often address these challenges in isolation under the closed-world assumption of fixed teammates. We formalize this as open adaptive multi-robot teaming and propose a hypergraphic-form game formulation that captures team-level cooperative relationships beyond pairwise interactions, providing a principled foundation for coordination structure inference when team composition changes dynamically within episodes. Unlike graph neural…
+
+---
+
 ## 📅 2026-07-02
 
 ### [Learning Gait-Aware Quadruped Locomotion with Temporal Logic Specifications](https://arxiv.org/abs/2607.00442v1)
