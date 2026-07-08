@@ -2,6 +2,71 @@
 
 _自动追踪 arXiv 最新论文，最新更新在最上方。_
 
+## 📅 2026-07-08
+
+### [WristMimic: Full-Body Humanoid Control with Wrist-Guided Manipulation](https://arxiv.org/abs/2607.06438v1)
+
+- **arXiv**: `2607.06438v1`  |  **提交日期**: 2026-07-07
+- **作者**: Wongyun Yu, Youngwoon Kim, Minsu Cho
+
+Retargeting human object interaction demonstrations to physics based simulation requires reproducing not only body motion but also the object motion and contacts that make manipulation succeed. However, position only hand trajectories do not specify the contact forces needed to manipulate objects, and directly tracking them can overconstrain contact rich finger behavior. We introduce WristMimic, a wrist guided whole body control framework that explicitly separates contact free body motion from contact rich hand manipulation. The contact free body and wrist are guided by kinematic pose…
+
+---
+
+### [Learning to Throw Objects Safely in Multi-Obstacle Environments](https://arxiv.org/abs/2607.06388v1)
+
+- **arXiv**: `2607.06388v1`  |  **提交日期**: 2026-07-07
+- **作者**: Mohammadreza Kasaei, Klemen Voncina, Hamidreza Kasaei
+
+Robotic throwing enables fast and efficient object placement beyond the robot's immediate workspace, but reliable throwing in cluttered environments remains underexplored. Existing approaches, such as TossingBot, learn throwing strategies from visual input but assume obstacle-free settings. In this paper, we address the problem of throwing objects into a target basket while avoiding obstacles placed randomly in the scene. We introduce a potential field state representation that compactly encodes both basket attraction and obstacle repulsion on a fixed-size grid, enabling reinforcement…
+
+---
+
+### [GraspIT: A Dataset Bridging the Sim-to-Real gap and back for Validated Grasping SE(3) Pose Generation](https://arxiv.org/abs/2607.05869v1)
+
+- **arXiv**: `2607.05869v1`  |  **提交日期**: 2026-07-07
+- **作者**: Paul Koch. Adem Karakurt, André Sers
+
+Robust robotic grasping of novel objects requires datasets that simultaneously provide photorealistic RGB-D observations, physically validated grasp quality annotations, and a principled bridge between simulation and the real world, which existing datasets lack to provide jointly. \textbf{GraspIT} addresses this gap: tabletop scenes in NVIDIA Isaac Sim are annotated via a four-stage physical slip-test on parallel Franka Panda instances, producing trajectory-reachability checks and continuous quality scores beyond force-closure.Of ${\sim}$2.3M candidates, 83% pass as \emph{good}…
+
+---
+
+### [Onnes: A Physics-Grounded Multi-Agent LLM Simulator for Cryogenic Fault Diagnosis in Quantum Computing Infrastructure](https://arxiv.org/abs/2607.05805v1)
+
+- **arXiv**: `2607.05805v1`  |  **提交日期**: 2026-07-07
+- **作者**: Praneeth Narisetty, Uday Kumar Reddy Kattamanchi, Shiva Nagendra Babu Kore
+
+Dilution refrigerators are the enabling infrastructure of superconducting quantum computers, yet their fault diagnosis is still dominated by threshold alarms that report that something is wrong, not what. We present Onnes, a physics-grounded digital-twin simulator of a dilution refrigerator (a forward physics model with a learned real-fridge noise fingerprint) that drives a live multi-agent LLM operations layer, and use it for a controlled head-to-head between a zero-shot LLM agent panel and a supervised ML classifier on cryogenic fault diagnosis. The twin couples a real dilution-cooling…
+
+---
+
+### [Image2Sim: Scaling Embodied Navigation via Generative Neural Simulator](https://arxiv.org/abs/2607.05765v1)
+
+- **arXiv**: `2607.05765v1`  |  **提交日期**: 2026-07-07
+- **作者**: Zihan Wang, Seungjun Lee, Yinghao Xu, Gim Hee Lee
+
+Embodied navigation aims to build agents that interpret multimodal goals, reason in 3D space, and reach target destinations reliably in the real world. However, progress remains constrained by the lack of scalable, high-fidelity, and physically grounded interactive environments. Although real-world scanned datasets offer visual realism, they are limited by scale. In contrast, synthetic simulators scale more easily but often exhibit large sim-to-real gaps. We introduce Image2Sim, a real-time neural simulation framework that constructs high-quality interactive environments from posed RGB-D…
+
+---
+
+### [Athena-WBC: Capability-Aligned Policy Experts for Long-Tail Humanoid Whole-Body Control](https://arxiv.org/abs/2607.04837v2)
+
+- **arXiv**: `2607.04837v2`  |  **提交日期**: 2026-07-06
+- **作者**: Yuan Jiang, Ningyuan Zhang, Xicun Yang, Yuzhi Jiang, Jie Chen
+
+Large-scale humanoid motion-tracking controllers are commonly improved by reallocating training effort: difficult motions are sampled more often, isolated into smaller subsets, or assigned to specialized experts. We show that this view is incomplete. In strong whole-body-control baselines, a residual set of feasible training clips remains unsolved even under targeted training, especially for high-dynamic transitions and balance-critical motions. These failures arise not only from insufficient exposure, but from a mismatch between the motion demands and the effective capability induced by the…
+
+---
+
+### [RoboDojo: A Unified Sim-and-Real Benchmark for Comprehensive Evaluation of Generalist Robot Manipulation Policies](https://arxiv.org/abs/2607.04434v2)
+
+- **arXiv**: `2607.04434v2`  |  **提交日期**: 2026-07-05
+- **作者**: Tianxing Chen, Yue Chen, Zixuan Li, Junyuan Tang, Kailun Su, Haoran Lu et al.
+
+Generalist robot manipulation policies have advanced rapidly, yet existing benchmarks remain limited in systematically evaluating their capabilities. Many rely on simple, short-horizon, or skill-narrow tasks with limited capability coverage, and are often conducted only in simulation or only in the real world. Simulation enables scalable feedback but misses physical deployment challenges, while real-world evaluation is costly, time-consuming, and difficult to reproduce. We introduce RoboDojo, a unified sim-and-real benchmark for comprehensive evaluation of generalist robot manipulation…
+
+---
+
 ## 📅 2026-07-07
 
 ### [Closing the Reality Gap: Zero-Shot Sim-to-Real Deployment for Dexterous Force-Based Grasping and Manipulation](https://arxiv.org/abs/2607.04940v1)

@@ -2,6 +2,26 @@
 
 _自动追踪 arXiv 最新论文，最新更新在最上方。_
 
+## 📅 2026-07-08
+
+### [SparseCtrl-HOI: Sparse Temporal Control for Human-Object Interaction Video Generation](https://arxiv.org/abs/2607.05994v1)
+
+- **arXiv**: `2607.05994v1`  |  **提交日期**: 2026-07-07
+- **作者**: Shenbo Xie, Mingrui Cai, Xu Yang, Yifei Liu, Changxing Ding
+
+Human-Object Interaction (HOI) video generation aims to synthesize realistic videos of humans manipulating diverse objects, serving as a promising avenue for AI-driven live streaming e-commerce. A primary obstacle in this domain lies in the complexity of modeling fine-grained physical dynamics and the intricate spatial-temporal coordination between human hands and objects. Existing approaches to this problem typically rely on dense temporal guidance, e.g., frame-wise hand-object pose sequences, to strictly control the interaction process. However, such dense guidance incurs high annotation…
+
+---
+
+### [DeSeG: Decoupling Semantic Intent and Geometric Constraints for Physically Plausible Human-Scene Interaction](https://arxiv.org/abs/2607.05787v1)
+
+- **arXiv**: `2607.05787v1`  |  **提交日期**: 2026-07-07
+- **作者**: Jiakun Li, Zhe Li, Wenqiang Wu, Zheng Chang, Mingqi Gao, Jinyu Yang et al.
+
+Synthesizing physically plausible human-scene interactions (HSI) remains a critical challenge in computer vision and the development of human avatars. Although recent generative models enable diverse motion synthesis, they suffer from an inductive bias referred to as semantic-geometric entanglement. Because spatial constraints often strongly correlate with specific actions in training data, monolithic models will learn the shortcut bias, aggressively overriding the semantic intent when faced with strict geometric cues. Furthermore, this entanglement exacerbates physical hallucinations, such…
+
+---
+
 ## 📅 2026-07-03
 
 ### [Training-free Controllable Human Motion Generation under Heterogeneous Constraints](https://arxiv.org/abs/2607.01990v1)

@@ -2,6 +2,17 @@
 
 _自动追踪 arXiv 最新论文，最新更新在最上方。_
 
+## 📅 2026-07-08
+
+### [ThorArena: Benchmarking Humanoid Physical Interaction with Human Motion-Force Demonstrations](https://arxiv.org/abs/2607.06052v1)
+
+- **arXiv**: `2607.06052v1`  |  **提交日期**: 2026-07-07
+- **作者**: Chenhao Yu, Hongwu Wang, Weitao Zhang, Youhao Hu, Jiachen Zhang, Gangyang Li et al.
+
+Humanoid robots are increasingly expected to perform contact-rich tasks that require not only accurate whole-body motion but also robust physical interaction with surrounding objects and humans. Although recent advances in humanoid motion imitation and whole-body control have achieved remarkable tracking performance, existing datasets and benchmarks primarily focus on kinematic motion while largely overlooking synchronized interaction forces. As a result, current evaluations fail to capture how external interaction forces affect tracking accuracy, stability, and control robustness. In this…
+
+---
+
 ## 📅 2026-07-02
 
 ### [Labimus: A Simulation and Benchmark for Humanoid Dexterous Manipulation in Chemical Laboratory](https://arxiv.org/abs/2606.31037v2)

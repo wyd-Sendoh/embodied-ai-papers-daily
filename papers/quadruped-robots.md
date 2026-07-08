@@ -2,6 +2,44 @@
 
 _自动追踪 arXiv 最新论文，最新更新在最上方。_
 
+## 📅 2026-07-08
+
+### [UniLM-Nav: A Unified Framework for Zero-Shot Last-Mile Navigation](https://arxiv.org/abs/2607.06537v1)
+
+- **arXiv**: `2607.06537v1`  |  **提交日期**: 2026-07-07
+- **作者**: Zhuofan Zhang, Tianxu Wang, Guoxi Zhang, Yixiong Lin, Xilin Wang, Hongming Xu et al.
+
+Mobile manipulation requires a robot to navigate to a target object or receptacle and then perform intended manipulation. However, reaching the vicinity of the target does not guarantee a manipulation-ready base pose, a problem known as last-mile navigation. Prior methods for last-mile navigation either rely on manual pose annotation or task-specific training, limiting their scalability to open-vocabulary settings with fine-grained spatial constraints. We propose UniLM-Nav, a unified framework for zero-shot open-vocabulary last-mile navigation. UniLM-Nav decomposes last-mile navigation into…
+
+---
+
+### [Calf-Integrated Arms for Bimanual Quadruped Loco-Manipulation](https://arxiv.org/abs/2607.06186v1)
+
+- **arXiv**: `2607.06186v1`  |  **提交日期**: 2026-07-07
+- **作者**: Yan Pan, Yuanchuan Ren, Chipui Chan, Jingcheng Sun, Chengxu Zhou
+
+Most quadruped loco-manipulation designs trade manipulation capability against stance. A trunk-mounted arm sits high and usually carries a single arm; using the legs as manipulators lifts the manipulating leg off the ground; and even leg-mounted grippers reach two-handed tasks only by rearing onto the hind legs. This paper integrates a manipulator with a prismatic slider, two revolute joints, and a gripper into each front calf of a Unitree Go2. The two arms grasp objects at ground level and manipulate with both hands while all four feet stay planted, without rearing. With one arm carrying,…
+
+---
+
+### [EAGOR: Embodied Reasoning in Omni-direction](https://arxiv.org/abs/2607.06165v1)
+
+- **arXiv**: `2607.06165v1`  |  **提交日期**: 2026-07-07
+- **作者**: Shriram Damodaran, Soumyaratna Debnath, Yan Wu, Wei-Yun Yau, Addison Lin Wang
+
+Omni-directional (360°) cameras provide embodied agents with a holistic view of their surroundings, making them suited for directional reasoning in tasks such as navigation and object search. Existing Vision Language Models (VLMs) project 360° observations to 2D equirectangular projection (ERP) images and process them using architectures designed for perspective images. However, they ignore the spherical nature of 360° observations, where each pixel represents a viewing direction relative to the agent. Consequently, their direction estimates often become inconsistent under camera view…
+
+---
+
+### [TypeGo: An OS Runtime for Embodied Agents](https://arxiv.org/abs/2607.05482v1)
+
+- **arXiv**: `2607.05482v1`  |  **提交日期**: 2026-07-06
+- **作者**: Guojun Chen, Alex Schott, Lin Zhong
+
+Large language models (LLMs) can plan behavior for embodied agents from natural language, but treating the LLM as a request/response oracle on the critical path is fundamentally at odds with real-time control and concurrent goals. We argue for an operating-system-style runtime for embodied agents, and instantiate this idea in an early prototype, TypeGo. TypeGo structures LLM-based planning as asynchronous loops at multiple timescales that overlap with execution, and manages the agent's physical body like an OS manages hardware: the Skill Kernel arbitrates typed physical subsystems among…
+
+---
+
 ## 📅 2026-07-07
 
 ### [Unsupervised Pixel-Level Semantic Left-Right Understanding of In-the-Wild Images](https://arxiv.org/abs/2607.05006v1)
