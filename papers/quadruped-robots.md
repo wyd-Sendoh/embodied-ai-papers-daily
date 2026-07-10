@@ -2,6 +2,17 @@
 
 _自动追踪 arXiv 最新论文，最新更新在最上方。_
 
+## 📅 2026-07-10
+
+### [Behavior Foundations for Quadruped Robots: ABot-C0 Technical Report](https://arxiv.org/abs/2607.07370v2)
+
+- **arXiv**: `2607.07370v2`  |  **提交日期**: 2026-07-08
+- **作者**: Xufeng Zhao, Fuzhi Yang, Jianhui Chen, Li Gao, Zhang Meng, Jie Gao et al.
+
+The motion controller is one of the most fundamental modules in embodied intelligence systems. Driven by large-scale human motion-capture data and the motion-tracking paradigm, humanoid control has achieved remarkable progress in recent years. However, migrating this recipe to the quadrupedal setting is far less straightforward: animal motion data is scarcer and harder to capture at scale than human data, and cross-embodiment retargeting remains fragile. We present ABot-C0, a generalist motion-control system for quadruped robots that establishes three complementary behavior foundations: a…
+
+---
+
 ## 📅 2026-07-09
 
 ### [Behavior Foundations for Quadruped Robots: ABot-C0 Technical Report](https://arxiv.org/abs/2607.07370v1)

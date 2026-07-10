@@ -2,6 +2,35 @@
 
 _自动追踪 arXiv 最新论文，最新更新在最上方。_
 
+## 📅 2026-07-10
+
+### [ARDY: Autoregressive Diffusion with Hybrid Representation for Interactive Human Motion Generation](https://arxiv.org/abs/2607.08741v1)
+
+- **arXiv**: `2607.08741v1`  |  **提交日期**: 2026-07-09
+- **作者**: Kaifeng Zhao, Mathis Petrovich, Haotian Zhang, Tingwu Wang, Siyu Tang, Davis Rempe
+
+Generating realistic 3D human motions in real-time within interactive applications is key for animation, simulation, and humanoid robotics. While recent offline motion generation approaches offer precise control via text and kinematic constraints, they lack the inference speed required for interactive settings. Conversely, existing online methods enable real-time synthesis but often sacrifice controllability or struggle with complex text semantics and long-horizon goals due to limited context windows. In this work, we introduce ARDY, a streaming generation framework that bridges this gap by…
+
+---
+
+### [In vivo feasibility study of humanoid robots in surgery](https://arxiv.org/abs/2607.07972v1)
+
+- **arXiv**: `2607.07972v1`  |  **提交日期**: 2026-07-08
+- **作者**: Zekai Liang, Nikita Thareja, Peihan Zhang, Calvin Joyce, Soofiyan Atar, Florian Richter et al.
+
+Recent advances in actuation, control and learning have rapidly pushed humanoid robots from a distant vision towards near-term real-world deployment. Healthcare is a particularly pressing domain, in which staffing shortages and increasing care demand are widening the gap between clinical workload and available skilled labour. Although current automation has largely focused on digital and logistical tasks, much hospital work remains embodied, requiring mobility, manipulation and safe interaction in human-designed environments. Humanoid form factors offer unique potential, particularly for…
+
+---
+
+### [Physics-Guided Biomechanical Gait Adaptation for Humanoid Locomotion on Extreme Sloped Terrains](https://arxiv.org/abs/2607.07830v1)
+
+- **arXiv**: `2607.07830v1`  |  **提交日期**: 2026-07-08
+- **作者**: Xuanyu Chen, Mohan Liu, Dengchen Mei, Zhihao Gu, Haitian Zhang, Kaimin Mao et al.
+
+Model-free reinforcement learning has enabled impressive humanoid locomotion; however, control on steep slopes remains largely unexplored. Unlike flat or discrete terrains, sloped terrains impose a persistent gravitational bias that demands simultaneous stability and posture control. Consequently, under generic reward formulations, policies can converge to slow, conservative low-center-of-mass (CoM) crouched gaits. In this work, we propose a novel two-stage physics-guided framework, dubbed HumoSlope, dedicated to robust humanoid locomotion on diverse sloped terrains. Specifically, Stage I…
+
+---
+
 ## 📅 2026-07-09
 
 ### [Immersive Social Interaction with VR and LLM-Assisted Humanoids](https://arxiv.org/abs/2607.07430v1)

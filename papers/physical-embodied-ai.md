@@ -2,6 +2,26 @@
 
 _自动追踪 arXiv 最新论文，最新更新在最上方。_
 
+## 📅 2026-07-10
+
+### [Early to Share, Late to Save: Synchronisation-Driven Communication Gating in Bandwidth-Constrained Cooperative VLN](https://arxiv.org/abs/2607.08504v1)
+
+- **arXiv**: `2607.08504v1`  |  **提交日期**: 2026-07-09
+- **作者**: Arav Gupta, Nivedan Yakolli, Avinash Gautam
+
+Most cooperative Vision-Language Navigation (VLN) methods assume unlimited communication, not considering real-world applications where bandwidth is restricted and information efficiency is critical. We introduce \textbf{bandwidth-constrained cooperative VLN} and propose \textbf{hindsight gating}: a lightweight supervised gate that labels communication-critical steps post-hoc from navigation failures, avoiding the high variance of REINFORCE. Contrary to the intuition that agents should communicate when uncertain, we observe a consistent counter-intuitive pattern: trained gates fire…
+
+---
+
+### [GIRAF: Towards Generalizable Human Interactions with Articulated Objects](https://arxiv.org/abs/2607.07880v1)
+
+- **arXiv**: `2607.07880v1`  |  **提交日期**: 2026-07-08
+- **作者**: Xiaohan Zhang, Sebastian Starke, Alexander Winkler, Federica Bogo, Samir Aroudj, Yuting Ye
+
+Synthesizing realistic full-body human interactions with articulated objects is a fundamental challenge for embodied AI and graphics, with applications in robotics training and virtual agents. Existing models remain limited: some focus on simple activities with static objects, while others restrict attention to hand-only manipulation. This leaves open the problem of generating coordinated full-body motion that approaches, manipulates, and moves articulated objects in a realistic and generalizable way. The key difficulty lies in reasoning jointly about locomotion, fine-grained contact, and…
+
+---
+
 ## 📅 2026-07-09
 
 ### [Scaling Mixture-of-Experts Video Pretraining for Embodied Intelligence](https://arxiv.org/abs/2607.07675v1)
