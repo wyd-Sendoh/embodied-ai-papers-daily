@@ -2,6 +2,17 @@
 
 _自动追踪 arXiv 最新论文，最新更新在最上方。_
 
+## 📅 2026-07-13
+
+### [Effects of Robotic Touch on Older Users During Walking Guidance by a Humanoid Robot](https://arxiv.org/abs/2607.09323v1)
+
+- **arXiv**: `2607.09323v1`  |  **提交日期**: 2026-07-10
+- **作者**: Leonie Leven, Marko Ackermann, Christian Werner, Melina Schmetterer, Theresa Buchner, Monika Eckstein et al.
+
+The shortage of healthcare staff is a challenge in geriatric care. To address this, robots can be integrated into care settings to provide assistance and emotional support. A promising application is walking guidance, particularly benefiting older adults as navigation skills deteriorate with aging. As walking guidance involves direct contact, the aim of this study is to understand how older adults perceive and respond to different touch modes during guided walking. 24 older adults (68 - 88 yrs.) walked four times a ten-meter trajectory guided by the robot TIAGo Pro in four contact conditions:…
+
+---
+
 ## 📅 2026-07-10
 
 ### [ARDY: Autoregressive Diffusion with Hybrid Representation for Interactive Human Motion Generation](https://arxiv.org/abs/2607.08741v1)

@@ -2,6 +2,44 @@
 
 _自动追踪 arXiv 最新论文，最新更新在最上方。_
 
+## 📅 2026-07-13
+
+### [B-spline Policy: Accelerating Manipulation Policies via B-spline Action Representations](https://arxiv.org/abs/2607.09648v1)
+
+- **arXiv**: `2607.09648v1`  |  **提交日期**: 2026-07-10
+- **作者**: Xiaoshen Han, Haoyu Xiong, Haonan Chen, Chaoqi Liu, Antonio Torralba, Yuke Zhu et al.
+
+In this work, we present B-spline Policy (BSP), an action representation designed for accelerating robot manipulation policies. Rather than predicting discrete-time action chunks, BSP parameterizes actions as continuous B-spline curves defined by a set of knots and control points. This representation yields smooth, time-continuous trajectories that can be temporally scaled and executed by low-level controllers at higher frequencies and speeds. We show that B-spline-parameterized actions can be seamlessly integrated into standard policy learning pipelines by directly predicting B-spline…
+
+---
+
+### [PAC-ACT: Post-training Actor-Critic for Action Chunking Transformers](https://arxiv.org/abs/2607.09590v1)
+
+- **arXiv**: `2607.09590v1`  |  **提交日期**: 2026-07-10
+- **作者**: Yujie Pang, Zudong Li
+
+Precision industrial contact manipulation requires reliable robot policies under pose perturbations and contact-force constraints. Vision-language-action models offer broad generalization but often introduce high inference latency and GPU-memory cost, while vision-action chunking policies are more suitable for real-time industrial control. However, these policies are usually trained by behavior cloning and suffer from distribution shift in contact-rich tasks. This paper proposes PAC-ACT, a reinforcement-learning post-training framework for pretrained Action Chunking Transformer policies.…
+
+---
+
+### [Can the Cloud Drive? Infrastructure Feasibility of Offloading Autonomous Driving Across 5G and 6G](https://arxiv.org/abs/2607.09045v1)
+
+- **arXiv**: `2607.09045v1`  |  **提交日期**: 2026-07-10
+- **作者**: Pouya Parsa, Kawon Han, Seongjin Choi
+
+Frontier autonomous-driving models -- especially vision-language-action (VLA) models, whose forward pass approaches $\sim$60~TFLOPs -- are outgrowing economical onboard deployment, since peak hardware sits idle most of the day. Cloud inference can instead share GPUs across active vehicles, but the vehicle must upload through a capacity-limited uplink, reach a GPU without queueing, and return a decision within the closed-loop budget. This paper asks: can the cloud drive? We answer with an analytical framework coupling communication limits, a roofline GPU service model, stochastic latency, and…
+
+---
+
+### [Learning More from Less: Reinforcement Learning from Hindsight](https://arxiv.org/abs/2607.09042v1)
+
+- **arXiv**: `2607.09042v1`  |  **提交日期**: 2026-07-10
+- **作者**: Iris Xu, Sunshine Jiang, John Marangola, Nitish Dashora, Richard Li, Thomas Liu et al.
+
+Reinforcement learning (RL) is increasingly used to post-train vision-language-action (VLA) models, but every update consumes robot rollouts that are slow and costly to collect, making sample efficiency a central concern. Manipulation tasks typically provide only sparse rewards, so a weak policy fails almost every rollout early in training and has little to learn from, even when those failures execute coherent behavior. Such a failure, however, is a success at a different task. We present Learning from Hindsight (LfH), which brings hindsight relabeling to RL post-training of VLAs by scoring…
+
+---
+
 ## 📅 2026-07-10
 
 ### [FabriVLA: A Lightweight Vision-Language-Action Model for Precise Multi-Task Manipulation](https://arxiv.org/abs/2607.08575v1)
