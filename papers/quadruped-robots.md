@@ -2,6 +2,44 @@
 
 _自动追踪 arXiv 最新论文，最新更新在最上方。_
 
+## 📅 2026-07-14
+
+### [AutoPath: Learning Transferable Goal-Conditioned Stochastic Path Prior for Safe Navigation Without Human Demonstrations](https://arxiv.org/abs/2607.11739v1)
+
+- **arXiv**: `2607.11739v1`  |  **提交日期**: 2026-07-13
+- **作者**: Ziyang Zhang, Boyang Zhou, Zesong Yang, Haocheng Peng, Zeming Gai, Xiao Liang et al.
+
+Real-time navigation in cluttered and dynamic environments requires collision-free and dynamically feasible motion under limited perception. However, feasible navigation behaviors are inherently multimodal because multiple paths may exist around obstacles. In this paper, we formulate navigation as learning a transferable goal-conditioned stochastic path prior that models a reusable distribution over goal-aligned geometry-consistent local paths conditioned on local observations. This formulation enables structured sampling of navigation candidates, allowing multiple feasible paths to be…
+
+---
+
+### [Stop to Decide: Latency-Aware Proprioceptive Navigation Primitives for Mapping-Free Quadruped Inspection](https://arxiv.org/abs/2607.11204v1)
+
+- **arXiv**: `2607.11204v1`  |  **提交日期**: 2026-07-13
+- **作者**: Hanting Suo, Haonan Yan, Liang Wang, Aiguo Song
+
+Compute-constrained quadrupeds often run their navigation loop far below the controller's design rate: sharing the onboard Jetson Orin with the vision pipeline slows our stair loop to about 15 Hz. This latency breaks a standard proprioceptive pattern: declaring stair-summit arrival from the body-pitch signal while still climbing. On a stepped platform whose 50 cm top is shorter than the robot (Unitree Go2, about 75 cm), in-motion detection overshoots the top edge with probability rising with the per-period advance v/f (the slowest about 15 Hz cell partly diluted by a separate non-arrival…
+
+---
+
+### [PAKE: Learning Whole-Body Loco-Manipulation with Partial Kinematic Embeddings](https://arxiv.org/abs/2607.11041v1)
+
+- **arXiv**: `2607.11041v1`  |  **提交日期**: 2026-07-13
+- **作者**: Zhengmao He, Moonkyu Jung, Hyeongjun Kim, Jiseong Lee, Hui Zhang, Jemin Hwangbo et al.
+
+Loco-manipulation has recently shown promising capabilities; however, achieving high-precision control, managing the high-dimensional action space induced by many degrees of freedom (DoFs), and fully exploiting the inherent redundancy of whole-body systems remain challenging. In this paper, we propose a novel whole-body control framework that effectively addresses these challenges by decomposing the complex loco-manipulation problem into partial reference motion generation and low-level imitation control. We introduce a new Kinematic Normalizing Flow (KNF) model, trained on a large-scale…
+
+---
+
+### [TAC-LOCO: Unified Whole-Body Control for Quadrupedal TACtile-Informed LOCO-Manipulation](https://arxiv.org/abs/2607.10132v1)
+
+- **arXiv**: `2607.10132v1`  |  **提交日期**: 2026-07-11
+- **作者**: Muqun Hu, Yuhao Zhou, Kabir Ray Malik, Chi Lin, Won Suk Lee, Yu She et al.
+
+Dynamic loco-manipulation requires legged robots to coordinate whole-body motion while maintaining stable physical interaction with grasped objects under uncertain external forces. While tactile sensing has been widely studied for robotic manipulation, its role in dynamic whole-body control remains largely unexplored. Existing works without tactile feedback commonly grasp firmly rather than regulate the grasp according to the interaction. We propose TAC-LOCO, a tactile-augmented unified reinforcement learning framework that encodes tactile array observations from compliant grippers into a…
+
+---
+
 ## 📅 2026-07-10
 
 ### [Behavior Foundations for Quadruped Robots: ABot-C0 Technical Report](https://arxiv.org/abs/2607.07370v2)

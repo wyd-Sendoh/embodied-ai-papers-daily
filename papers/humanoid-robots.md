@@ -2,6 +2,71 @@
 
 _自动追踪 arXiv 最新论文，最新更新在最上方。_
 
+## 📅 2026-07-14
+
+### [Robust bipedal locomotion on flowable slopes via foot-driven terrain manipulation](https://arxiv.org/abs/2607.11855v1)
+
+- **arXiv**: `2607.11855v1`  |  **提交日期**: 2026-07-13
+- **作者**: Deniz Kerimoglu, Junnosuke Kamohara, Jiyeon Maeng, Ziwon Yoon, Seth Hutchinson, Ye Zhao et al.
+
+Bipedal robots are challenging to control because they operate close to instability, where small variations in foot-terrain contact can rapidly destabilize locomotion. On rigid terrain, bipedal robots mitigate this fragility by using well-established contact mechanics and control strategies. On flowable surfaces such as granular slopes, foot contact can induce large surface deformations and solid-fluid-like transitions, coupling terrain effects with robot dynamics, leading to underperformance or failure. This is partly due to the lack of reliable methods to represent the dynamics of flowable…
+
+---
+
+### [Requirement-Driven Design of Whole-Body Social Tactile Sensing via Virtual Human-Robot Interaction](https://arxiv.org/abs/2607.11690v1)
+
+- **arXiv**: `2607.11690v1`  |  **提交日期**: 2026-07-13
+- **作者**: Dakarai Crowder, Ruohan Zhang, Alexis E. Block, Wenzhen Yuan
+
+Tactile sensing for social-physical human-robot interaction (spHRI) is designed in a hardware-driven manner, where predefined sensor configurations constrain coverage, spatial resolution, and the range of recognizable gestures. We propose a requirement-driven framework that derives sensing requirements, specifically spatial resolution and placement, directly from interaction data. Using a VR-based platform with haptic feedback, we collected high-resolution whole-body contact distributions across multiple social scenarios, from which we identified nine recurring social touch gestures. Eight…
+
+---
+
+### [DA-Nav: Direction-Aware City-Scale Vision-Language Navigation](https://arxiv.org/abs/2607.11638v1)
+
+- **arXiv**: `2607.11638v1`  |  **提交日期**: 2026-07-13
+- **作者**: Ye Yuan, Kehan Chen, Xinqiang Yu, Wentao Xu, Heng Wang, Libo Huang et al.
+
+City-scale outdoor navigation is currently hindered by the heavy reliance on dense maps or costly navigation supervision. In this work, we introduce a novel paradigm for leveraging directional instructions from commercial navigation tools (e.g., Google Maps). To bridge the gap between commercial instructions and executable navigation actions, while mitigating long-horizon error accumulation through robust trajectory recovery, we propose DA-Nav, a Direction-Aware vision-language Navigation framework that reformulates navigation as a discrete spatial grounding problem on the egocentric 2D image…
+
+---
+
+### [Breaking the 15% Barrier: A Real-World Data-Driven System for Proactive Social Robot Triggered by User Nonverbal Cues](https://arxiv.org/abs/2607.11633v1)
+
+- **arXiv**: `2607.11633v1`  |  **提交日期**: 2026-07-13
+- **作者**: Yuga Yano, Yuki Okafuji, Ryo Miyoshi, Sanae Yamashita, Yoshiki Ohira
+
+Service robots in retail stores increasingly rely on cascaded speech pipelines (STT-LLM-TTS), yet many customer-robot interactions are initiated or guided by nonverbal behaviors such as approaching, waving, pointing, or showing items. This paper studies such cues in a real-world store deployment with a teleoperated humanoid robot and shows that a non-negligible portion of robot turns are triggered by nonverbal behaviors rather than spoken input, revealing a limitation of audio-only dialogue systems. In a 6-day in-the-wild deployment, 15.3\% of robot utterances were initiated by users'…
+
+---
+
+### [SKooP: Symmetric Koopman Predictions for Faster and More Generalizable Legged Robot Locomotion with Reinforcement Learning](https://arxiv.org/abs/2607.11624v1)
+
+- **arXiv**: `2607.11624v1`  |  **提交日期**: 2026-07-13
+- **作者**: Evelyn D'Elia, Weishu Zhan, Giulio Turrisi, Giulio Romualdi, Giuseppe L'Erario, Raffaello Camoriano et al.
+
+Reinforcement learning (RL) algorithms classically suffer from poor sample efficiency. In robotics, a recent line of work has emerged addressing this problem by encoding physics priors in the learning process. However, most of these approaches are validated on well-defined, low-dimensional benchmark systems rather than high-dimensional robots with complex nonlinear dynamics. In this paper, we introduce \textit{SKooP (Symmetric Koopman Predictions)}, an approach combining the advantages of morphological symmetries with those of a Koopman model learned via autoencoder to enhance policy…
+
+---
+
+### [WarpMPC: Large-Batch MPC on GPU via ADMM with Unrolled $LDL^\top$ Factorization](https://arxiv.org/abs/2607.11603v1)
+
+- **arXiv**: `2607.11603v1`  |  **提交日期**: 2026-07-13
+- **作者**: Henrik Hose, Se Hwan Jeon, Charles Khazoom, Sangbae Kim, Sebastian Trimpe
+
+This paper introduces numerical optimizations for maximizing throughput on GPU when solving large batches (10,000 to over 100,000) of sequential quadratic programming (SQP) iterations, where all problems have the same structure. The optimizations are implemented in a toolbox WarpMPC for model-predictive control (MPC) in JAX and Warp. Based on the insight that all MPC problem instances in a batch share the same sparsity in time, cost, and constraints, we propose unrolling sparse linear factorizations and solves, which dominate alternating direction method of multipliers (ADMM) solver runtime.…
+
+---
+
+### [Learning Roller-Skating Motions of Humanoid Robots Based on Adversarial Motion Priors](https://arxiv.org/abs/2607.10815v1)
+
+- **arXiv**: `2607.10815v1`  |  **提交日期**: 2026-07-12
+- **作者**: Yunkang Cheng, Yutong Wu, Menghan Li, Shihe Zhou, Mingguo Zhao
+
+Humanoid roller-skating is difficult because the robot must coordinate whole-body balance, rolling contacts, and velocity-dependent posture regulation. This paper presents an adversarial motion prior based reinforcement learning framework for two humanoid roller-skating gaits: Pump Glide skating and Push Glide skating. The two gait datasets are collected independently through motion capture and retargeted to the humanoid robot separately. The retargeted data are then smoothed and resampled into reference motion states for AMP training. The two gaits are learned by independent AMP training…
+
+---
+
 ## 📅 2026-07-13
 
 ### [Effects of Robotic Touch on Older Users During Walking Guidance by a Humanoid Robot](https://arxiv.org/abs/2607.09323v1)

@@ -2,6 +2,53 @@
 
 _自动追踪 arXiv 最新论文，最新更新在最上方。_
 
+## 📅 2026-07-14
+
+### [AdvNav: Behavior-Guided Black-Box Adversarial Attacks on Vision-Language Navigation](https://arxiv.org/abs/2607.11063v1)
+
+- **arXiv**: `2607.11063v1`  |  **提交日期**: 2026-07-13
+- **作者**: Chenyang Li, Kaige Li, Zeyu Jiang, Changhao Chen
+
+Despite progress in Embodied AI, Vision-and-Language Navigation systems remain vulnerable to adversarial visual disturbances. Most existing methods rely on white-box access to target model gradients, which is often unrealistic for real-world deployed systems and computationally exhaustive due to recursive backpropagation for optimization, limiting their applicability. While previous black-box methods predominantly target single-step, instantaneous decision tasks, they struggle to handle the task complexities and temporal dependencies. This highlights the need for a gradient-free attack method…
+
+---
+
+### [Edge Physical AI Deployment of Vision Transformers on Heterogeneous Edge GPU Targeting Autonomous Vehicles](https://arxiv.org/abs/2607.10942v1)
+
+- **arXiv**: `2607.10942v1`  |  **提交日期**: 2026-07-12
+- **作者**: Ashiyana Abdul Majeed, Mahmoud Meribout, Neethu Joseph, Abel Kidane Haile, Mohammad Abdullah Al Faruque
+
+Physical AI systems, such as autonomous vehicles and intelligent machines, require transformer-based perception models that satisfy stringent edge latency and energy constraints. However, heterogeneous edge-GPU deployment remains limited by underutilized hardware engines and accelerator-incompatible operators, causing fragmented execution and lower throughput per watt. This paper presents Heterogeneous Frame Dispatch Scheduling (H-FraDS), a hardware-aware frame scheduling methodology for transformer inference on a recent NVIDIA edge GPU. H-FraDS routes frames across the GPU and dual deep…
+
+---
+
+### [Distributed Agent System: Fault-Tolerant Collaboration Among Embodied Agents](https://arxiv.org/abs/2607.10811v1)
+
+- **arXiv**: `2607.10811v1`  |  **提交日期**: 2026-07-12
+- **作者**: Kai Yu, Lu Chen, Hanqi Li
+
+AI engineering is shifting from passive text generation by large language models (LLMs) to agent-driven task execution, creating new reliability challenges for long-horizon tasks under resource constraints and environmental uncertainty. Conventional error-elimination optimization strategies fail to address cumulative error propagation. This paper proposes Distributed Agent System (DAS), a device-edge-cloud framework for fault-tolerant collaboration among heterogeneous agents. We redefine agent reliability as system-level fault tolerance rather than single-turn zero-error accuracy, and present…
+
+---
+
+### [Traj-VLN: Learning Pixel-Space Interaction via Autoregressive Trajectory Generation](https://arxiv.org/abs/2607.10744v1)
+
+- **arXiv**: `2607.10744v1`  |  **提交日期**: 2026-07-12
+- **作者**: Changfei Fu, Guangcheng Chen, Wenjun Xu, Hong Zhang
+
+Benefiting from the powerful priors embedded in large-scale pre-training data and the emerging commonsense reasoning ability, large language models (LLMs) have shown unprecedented generalization capabilities in many research fields. Recently, projecting visual embeddings into the language space via vision-language models (VLMs) to achieve sim-toreal and cross-scene generalization has become a prevailing paradigm in the field of Vision-and-Language Navigation in Continuous Environments (VLN-CE). VLN requires an embodied agent to navigate through unseen environments following natural linguistic…
+
+---
+
+### [ABot-AgentOS: A General Robotic Agent OS with Lifelong Multi-modal Memory](https://arxiv.org/abs/2607.10350v1)
+
+- **arXiv**: `2607.10350v1`  |  **提交日期**: 2026-07-11
+- **作者**: Jiayi Tian, Shiao Liu, Yuting Xu, Jia Lu, Zihao Guan, Honglin Han et al.
+
+Recent VLM and VLA systems have improved robotic perception and action prediction, yet long-horizon embodied agents still require a general runtime layer for reasoning, memory, tool use, verification, and cross-embodiment execution. We present ABot-AgentOS, a general robotic Agent Operating System that sits above low-level controllers and provides a deliberative agent layer for scene-conditioned planning, context-isolated skill execution, multi-stage verification, multi-modal memory, and edge-cloud collaboration. To evaluate such systems, we introduce EmbodiedWorldBench, an executable…
+
+---
+
 ## 📅 2026-07-13
 
 ### [Seeing is Free, Speaking is Not: Uncovering the True Energy Bottleneck in Edge VLM Inference](https://arxiv.org/abs/2607.09520v1)

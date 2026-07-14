@@ -2,6 +2,26 @@
 
 _自动追踪 arXiv 最新论文，最新更新在最上方。_
 
+## 📅 2026-07-14
+
+### [Automated Synthesis of Facial Mechanisms for Conversational Animatronic Robots](https://arxiv.org/abs/2607.11688v1)
+
+- **arXiv**: `2607.11688v1`  |  **提交日期**: 2026-07-13
+- **作者**: Zongzheng Zhang, Zi Lin, Jiawen Yang, Ziqiao Peng, Junyan Lao, Lin Cheng et al.
+
+Animatronic faces are a central component of socially interactive robots, enabling rich nonverbal communication through facial articulation. However, state-of-the-art animatronic faces are typically tailored systems: each new facial geometry requires extensive manual mechanical redesign, making large-scale personalization prohibitively slow and costly. In this work, we pursue automated and scalable mechanical face synthesis, aiming to rapidly generate a physically realizable facial mechanism for a wide range of facial geometries. We introduce a parametric, linkage-driven mechanical face…
+
+---
+
+### [Neural Motion Blending Across Arbitrary Character Topologies](https://arxiv.org/abs/2607.10370v1)
+
+- **arXiv**: `2607.10370v1`  |  **提交日期**: 2026-07-11
+- **作者**: Luca Cazzola, Giulia Martinelli, Nicola Conci
+
+Motion blending in character animation enables the synthesis of new motions by interpolating between existing examples. Current methods are typically restricted to fixed skeleton topologies, requiring identical or near-identical skeletal structures across characters. We present a novel framework for motion blending across heterogeneous skeletons. The proposed architecture combines a semantic encoder, which extracts per-frame latent representations of the motion state, with a diffusion-based decoder, which reconstructs character-specific motion conditioned on this latent code. At inference,…
+
+---
+
 ## 📅 2026-07-08
 
 ### [SparseCtrl-HOI: Sparse Temporal Control for Human-Object Interaction Video Generation](https://arxiv.org/abs/2607.05994v1)
