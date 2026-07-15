@@ -2,6 +2,17 @@
 
 _自动追踪 arXiv 最新论文，最新更新在最上方。_
 
+## 📅 2026-07-15
+
+### [Robust In-Hand Manipulation via Priors in Reinforcement Learning and Mechanical Design](https://arxiv.org/abs/2607.12105v1)
+
+- **arXiv**: `2607.12105v1`  |  **提交日期**: 2026-07-13
+- **作者**: Yifei Chen, Shihan Lu, Ed Colgate, Kevin Lynch
+
+In-hand manipulation without external sensing is challenging due to uncertainties from finger-object contacts and disturbances by gravity. While reinforcement learning has shown promise in learning complex finger gaiting, existing approaches do not prioritize maintaining well-conditioned grasps for sustained manipulation. We introduce two complementary physics priors for robust in-hand rolling: a global grasp-quality prior derived from classical grasp analysis and a local contact-geometry prior based on fingertip curvature. The grasp-quality prior is used as a dense reward-shaping term that…
+
+---
+
 ## 📅 2026-07-14
 
 ### [A Minimalist Retargeting-Guided Reinforcement Learning Recipe for Dexterous Manipulation](https://arxiv.org/abs/2607.11874v1)
