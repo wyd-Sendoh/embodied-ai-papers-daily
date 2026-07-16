@@ -2,6 +2,26 @@
 
 _自动追踪 arXiv 最新论文，最新更新在最上方。_
 
+## 📅 2026-07-16
+
+### [Design and Control of the "QuadBoat": A Quadruped Surface Vehicle for Drowning Rescue](https://arxiv.org/abs/2607.13633v1)
+
+- **arXiv**: `2607.13633v1`  |  **提交日期**: 2026-07-15
+- **作者**: Lianxin Zhang, Yihan Huang, Huihuan Qian
+
+Prompt extraction of victims from water is crucial in water surface rescue missions. However, previous research on rescue robots has seldom addressed this issue. This paper presents QuadBoat, a bio-inspired unmanned surface vehicle (USV) designed to track and retrieve victims from water. QuadBoat features a quadrupedal robot configuration, enabling it with highly adaptable and agile maneuverability through its actively adjustable posture. Employing an inverse kinematics-based controller and cascaded model predictive control (MPC)-PID controller for overall movement, QuadBoat can accurately…
+
+---
+
+### [Agile perceptive multi-skill locomotion for quadrupedal robots in the wild](https://arxiv.org/abs/2607.13579v1)
+
+- **arXiv**: `2607.13579v1`  |  **提交日期**: 2026-07-15
+- **作者**: Jun-Gill Kang, Jaehyun Park, Tae-Gyu Song, Joon-Ha Kim, Seungwoo Hong, Hae-Won Park
+
+Enabling quadrupedal robots to traverse complex terrains-from rugged outdoor environments to urban landscapes-requires seamless integration of multiple motor skills, smooth transitions between gaits, and high-speed perceptive locomotion using only onboard sensors. We present APT-RL (Action Pretrained Transformer-based Reinforcement Learning), a unified framework that enables multi-skill locomotion to achieve high-speed traversal in complex environments through autonomous skill transitions utilizing only onboard perception and computation. Our approach generates large-scale, feature-rich 2D…
+
+---
+
 ## 📅 2026-07-15
 
 ### [StratMamba: Strategic and Reactive Stream Partitioning for Path-Efficient LiDAR-Based Obstacle Avoidance](https://arxiv.org/abs/2607.12370v1)

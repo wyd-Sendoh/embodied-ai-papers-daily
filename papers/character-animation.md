@@ -2,6 +2,17 @@
 
 _自动追踪 arXiv 最新论文，最新更新在最上方。_
 
+## 📅 2026-07-16
+
+### [MultiAnimate: A Unified Framework for Controllable Multi-Character Animation](https://arxiv.org/abs/2607.13415v1)
+
+- **arXiv**: `2607.13415v1`  |  **提交日期**: 2026-07-15
+- **作者**: Zhongyi Zhang, Guangyuan Wang, Li Hu, Wenbo Zhou, Peng Zhang, Tianyi Wei et al.
+
+Recent advances in generative models and technological innovations have significantly addressed the fundamental challenges of character image animation. However, existing approaches predominantly focus on character animation from a single reference image, substantially limiting their applicability in scenarios such as multiple character interaction animation. To fill this gap, this paper introduces MultiAnimate, a comprehensive framework that enables concurrent animation of multiple characters within a shared environment while preserving both identity consistency and spatial relationships.…
+
+---
+
 ## 📅 2026-07-14
 
 ### [Automated Synthesis of Facial Mechanisms for Conversational Animatronic Robots](https://arxiv.org/abs/2607.11688v1)

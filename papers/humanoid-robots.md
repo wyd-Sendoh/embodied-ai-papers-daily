@@ -2,6 +2,26 @@
 
 _自动追踪 arXiv 最新论文，最新更新在最上方。_
 
+## 📅 2026-07-16
+
+### [The Nonsmooth Impact Direction (NSID) of Robotic Systems](https://arxiv.org/abs/2607.13768v1)
+
+- **arXiv**: `2607.13768v1`  |  **提交日期**: 2026-07-15
+- **作者**: Annika Kirner, Christian Ott
+
+Collisions of rigid-link robots and rigid environments are often modeled as instantaneous events. Under this idealization, the impact forces become impulsive and the system velocities nonsmooth. In this work, we systematically analyze pre- and post-impact velocities focusing on what we refer to as the nonsmooth impact direction (NSID). We show that it is a characteristic direction of a robotic impact and largely independent of contact properties. The results are directly applicable to large classes of backdrivable robotic systems with rigid links. We address particularities of systems with…
+
+---
+
+### [EgoHTR: Egocentric 4D Demonstrations of Human Terrain Traversal](https://arxiv.org/abs/2607.13472v1)
+
+- **arXiv**: `2607.13472v1`  |  **提交日期**: 2026-07-15
+- **作者**: Alex Brandes, Haig Conti Georges Sajelian, Manthan Patel, Dominik Hollidt, Chenhao Li, Matthias Heyrman et al.
+
+Deploying humanoid robots in unstructured terrain remains an open problem. While classic reinforcement learning struggles with the sheer complexity of real-world interactions, more promising methods leveraging human priors remain limited to models lacking contextual awareness. The restricted motion synthesis is a direct consequence of existing dataset pipelines failing to capture human-scene sequences in challenging environments. To bridge this gap between humanoid learning and scene reconstruction, we introduce the Egocentric Human-Terrain Reconstruction (EgoHTR) dataset. We develop and…
+
+---
+
 ## 📅 2026-07-15
 
 ### [Vision-Based Dribbling for Humanoid Soccer via Privileged Representation Learning](https://arxiv.org/abs/2607.12702v1)
