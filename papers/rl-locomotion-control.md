@@ -2,6 +2,26 @@
 
 _自动追踪 arXiv 最新论文，最新更新在最上方。_
 
+## 📅 2026-07-20
+
+### [A Task-Space Receding Horizon Controller for Fast Collision Avoidance](https://arxiv.org/abs/2607.15733v1)
+
+- **arXiv**: `2607.15733v1`  |  **提交日期**: 2026-07-17
+- **作者**: Mattia Penzotti, Marco Controzzi
+
+Real-time collision avoidance for robotic manipulators requires fast reactions to unexpected obstacle motion and lookahead to avoid becoming trapped by near-future constraints. Full model predictive control can provide this foresight, but its online cost may grow quickly with horizon length, model fidelity, and the number of active geometric constraints. Conversely, horizon-free reactive methods are computationally efficient but can be short-sighted in dynamic clutter. We present a task-space receding-horizon controller that uses a short contact-consistent rollout to generate a terminal…
+
+---
+
+### [Difference-Based Relational Learning for Zero-Shot Object-Goal Visual Navigation With Direct Sim-to-Real Transfer](https://arxiv.org/abs/2607.15642v1)
+
+- **arXiv**: `2607.15642v1`  |  **提交日期**: 2026-07-17
+- **作者**: Guolei Qi, Feitian Zhang
+
+End-to-end deep reinforcement learning (DRL) for zero-shot object-goal visual navigation remains challenged by the sim-to-real gap, particularly variations in object appearance and restricted camera field-of-view (FoV). This letter proposes a Temporal Difference-Relational Network (T-DRN) for robust zero-shot sim-to-real transfer. T-DRN combines a Siamese difference-based feature extractor, which computes relational difference between the target and observed objects to produce domain-independent representations, with a dual-frame temporal buffer that preserves short-term object continuity…
+
+---
+
 ## 📅 2026-07-17
 
 ### [SUFLECA: Scaling Up Feature Learning for CAD-to-image Alignment](https://arxiv.org/abs/2607.15058v1)
