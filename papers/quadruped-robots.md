@@ -2,6 +2,62 @@
 
 _自动追踪 arXiv 最新论文，最新更新在最上方。_
 
+## 📅 2026-07-21
+
+### [World Translation: Minimizing Sim-to-Real Gap with Backward Dynamics Extraction and Unpaired Domain Translation](https://arxiv.org/abs/2607.18154v1)
+
+- **arXiv**: `2607.18154v1`  |  **提交日期**: 2026-07-20
+- **作者**: Xinchen Yao, Leixin Chang, Hua Chen
+
+The gap between simulation and reality remains a fundamental challenge in deploying simulation-trained robotic policies in the real world. Real-to-sim methods narrow this gap from the real side, learning transition dynamics from real data to build a more realistic digital world. Learned dynamics models are their dominant instance. Such methods, however, face a partial observability problem: the same observation may branch to different transitions due to unobservable factors. Existing methods assume these factors can be recovered from observation history. However, this may fail whenever…
+
+---
+
+### [Isaac Sim-to-Real: Reinforcement Learning based Locomotion for Quadrupeds](https://arxiv.org/abs/2607.18135v1)
+
+- **arXiv**: `2607.18135v1`  |  **提交日期**: 2026-07-20
+- **作者**: Jordan Dowdy, Jean Chagas Vaz
+
+Learning-based approaches to locomotion have risen in popularity in recent years, showing the capability for complex legged locomotion and whole-body control. Reinforcement learning (RL), the primary learning-based approach for locomotion, often utilizes a high-performance simulation tool, providing a controlled and efficient training and development environment. However, policies that perform well in simulation frequently encounter unexpected challenges when deployed on a physical system, known as the sim-to-real gap. This work presents a robust RL locomotion framework capable of whole-body…
+
+---
+
+### [MEVION: Low-Cost Open-Source Data Collection System for Powerful and High-Speed Dual-Arm Manipulation](https://arxiv.org/abs/2607.17970v1)
+
+- **arXiv**: `2607.17970v1`  |  **提交日期**: 2026-07-20
+- **作者**: Kento Kawaharazuka, Yoshiki Obinata, Hirokazu Ishida, Jihoon Oh, Temma Suzuki, Shintaro Inoue et al.
+
+The global competition for developing robotic foundation models is intensifying. Among the data collection systems used for dual-arm robots, ALOHA is representative of being low-cost and open-source, and is widely adopted by researchers as a de facto standard. However, due to its limited ability to generate high forces and speeds, it is difficult to handle heavy objects or perform fast manipulations. To address this, we developed MEVION, a low-cost and open-source dual-arm robot data collection system capable of generating greater force and speed. All parts of this robot can be sourced…
+
+---
+
+### [Predictive Training with Latent Imagination for Visual Quadruped Navigation](https://arxiv.org/abs/2607.17574v1)
+
+- **arXiv**: `2607.17574v1`  |  **提交日期**: 2026-07-20
+- **作者**: Yancheng Zhu, Wanli Ma, Chen Han, Irvin Haozhe Zhan, Bingfeng Qin, Yixin Xu
+
+Reinforcement-learning navigation policies for legged robots select actions reactively from current observations and short-term memory, with limited capacity to anticipate how moving obstacles will evolve in the near future. In dynamic environments, this reactivity causes the robot to respond too late because collision risk depends on short-horizon scene structure rather than on current obstacle positions alone. Lightweight predictive supervision applied to the policy's recurrent state during training can encode anticipatory obstacle dynamics without modifying the inference-time controller.…
+
+---
+
+### [From Perception to Assistance: Open-Vocabulary Shared Autonomy for Robotic Manipulation](https://arxiv.org/abs/2607.17323v1)
+
+- **arXiv**: `2607.17323v1`  |  **提交日期**: 2026-07-19
+- **作者**: Murilo Vinicius da Silva, Ricardo V. Godoy, Juliano Negri, Gustavo J. G. Lahr, Ranulfo Bezerra, Marcelo Becker
+
+Teleoperating a robotic manipulator in industrial environments demands precision that camera-based interfaces alone struggle to deliver. The operator must align the end-effector with a target in clutter, under limited depth perception, and without colliding with the surrounding structures. This paper presents a shared-autonomy framework that assists the operator throughout this process. A single RGB-D camera captures the operator's arm motion and hand gestures without wearables, fiducials, or a calibration stage. The intended target is specified by a free-form text prompt, grounded by a…
+
+---
+
+### [ADMM-Based Safety-Critical Distributed NMPC for Cooperative Transportation by Quadrupedal Robots](https://arxiv.org/abs/2607.17007v1)
+
+- **arXiv**: `2607.17007v1`  |  **提交日期**: 2026-07-18
+- **作者**: Ruturaj S. Sambhus, Kapi Ketan Mehta, Yicheng Zeng, Kaveh Akbari Hamed
+
+This paper presents a safety-critical distributed nonlinear model predictive control (DNMPC) framework for cooperative payload transportation by teams of quadrupedal robots. The proposed approach models the robotic team and the shared payload as a dynamically coupled networked system with rigid holonomic coupling constraints arising from cooperative transportation. To enable distributed real-time optimization, the centralized finite-horizon optimal control problem is decomposed into parallel local NMPC subproblems coordinated through the alternating direction method of multipliers (ADMM). The…
+
+---
+
 ## 📅 2026-07-17
 
 ### [Learning Agile Navigation in Crowded Environments for Quadruped Robots](https://arxiv.org/abs/2607.15036v1)

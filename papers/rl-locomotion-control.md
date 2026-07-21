@@ -2,6 +2,17 @@
 
 _自动追踪 arXiv 最新论文，最新更新在最上方。_
 
+## 📅 2026-07-21
+
+### [Multi-scale closed-loop melt pool control for LPBF via policy optimization](https://arxiv.org/abs/2607.17438v1)
+
+- **arXiv**: `2607.17438v1`  |  **提交日期**: 2026-07-19
+- **作者**: Junan Lin, Riccardo Zuliani, Baris Kavas, Markus Bambach, John Lygeros, Efe C. Balta
+
+Laser powder bed fusion (LPBF) is a metal additive manufacturing process where temperature stabilization is of vital importance to avoid defects such as distortion and cracking. Existing control methods require manual tuning, increasing the risk of part failure when printing complex geometries. This paper introduces a dual-loop, data-driven control strategy to stabilize the surface temperature, ensuring robustness and near-optimal performance in the presence of disturbances. The proposed method integrates (i) an in-layer linear output feedback control with gains optimized through policy…
+
+---
+
 ## 📅 2026-07-20
 
 ### [A Task-Space Receding Horizon Controller for Fast Collision Avoidance](https://arxiv.org/abs/2607.15733v1)

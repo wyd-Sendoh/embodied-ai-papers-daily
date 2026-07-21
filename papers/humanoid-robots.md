@@ -2,6 +2,44 @@
 
 _自动追踪 arXiv 最新论文，最新更新在最上方。_
 
+## 📅 2026-07-21
+
+### [Optimization of sim-to-real transfer in the humanoid robot NICO](https://arxiv.org/abs/2607.18210v1)
+
+- **arXiv**: `2607.18210v1`  |  **提交日期**: 2026-07-20
+- **作者**: Juraj Gavura, Igor Farkaš
+
+Robotic grasping requires accurate coordination between visual perception, object localization, inverse kinematics, and hand control. However, when movements planned in simulation are executed on a physical robot, the sim-to-real gap can cause small positioning errors that prevent successful grasping. In our previous work, we introduced a low-cost haptic calibration method that improved 2D reaching accuracy of the humanoid robot NICO. In this paper, we extend this approach from reaching to tabletop object grasping by adding YOLO-based object and hand detection, stereo vision-based…
+
+---
+
+### [Imitation of Arm Gestures by the Semi-Humanoid Robot NICO](https://arxiv.org/abs/2607.18197v1)
+
+- **arXiv**: `2607.18197v1`  |  **提交日期**: 2026-07-20
+- **作者**: Anastasiya Ihnatovich, Igor Farkaš
+
+Seamless human-robot interaction (HRI) requires a number of perceptual and motor abilities from the robot, one of them being the imitation of human gestures. Humanoid robots have an advantage in HRI thanks to their anthropomorphic features. In this work, we develop a system for imitation of human arm gestures by the semi-humanoid robot NICO based on analytical geometry and a pretrained MediaPipe pose-estimation model. For each input RGB frame, 3D coordinates of relevant human body landmarks, including arm joints and hand keypoints, are obtained using the MediaPipe framework. Joint angles are…
+
+---
+
+### [From Sign Language Generation to Humanoid Execution: Vision-Language Guided Retargeting with Collision Mitigation](https://arxiv.org/abs/2607.17769v1)
+
+- **arXiv**: `2607.17769v1`  |  **提交日期**: 2026-07-20
+- **作者**: Nabeela Khan, Bowen Wu, Runwu Shi, Benjamin Yen, Takeshi Ashizawa, Carlos Toshinori Ishi et al.
+
+Recent sign language generation (SLG) systems increasingly output dense 3D body representations, which better preserve full-body kinematics and geometry for downstream embodiment on humanoid robots. However, these generated motions frequently exhibit self-intersections such as hand-hand and hand-torso penetration. While such artifacts may be tolerated in offline rendering, they become critical in humanoid execution as they lead to infeasible inverse-kinematics (IK) solutions, collisions, and unstable retargeted trajectories. We present a system-level framework that bridges SLG outputs to…
+
+---
+
+### [Articulated Humanoid Head for a Robot Receptionist Capable of Natural Human Interaction](https://arxiv.org/abs/2607.17042v1)
+
+- **arXiv**: `2607.17042v1`  |  **提交日期**: 2026-07-19
+- **作者**: Tharusha Fonseka, Charuka Bandara, Moshintha Hewavitharana, Melisa Arukgoda, Wageesha N. Manamperi, Udaya S. K. Perera Miriya Thanthrige et al.
+
+Humanoid robots have become increasingly popular in applications such as social interaction, education, and service roles, which drives the need for more natural and efficient human-robot interactions. However, currently available humanoid heads often face limitations, including high costs, mechanical complexity, and limited adaptability across diverse environments. To address these challenges, we present an articulated humanoid robot head designed for a receptionist role, integrating a mechanical structure with 21 degrees of freedom (DoF), including mechanisms for the mouth, eyes, eyebrows,…
+
+---
+
 ## 📅 2026-07-20
 
 ### [Handroid: Bridging Dexterous Hand and Humanoid](https://arxiv.org/abs/2607.16187v1)
