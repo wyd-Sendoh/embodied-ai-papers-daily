@@ -2,6 +2,35 @@
 
 _自动追踪 arXiv 最新论文，最新更新在最上方。_
 
+## 📅 2026-07-22
+
+### [Beyond Transformers: Linear Attention Policy for Open-Vocabulary Object Goal Navigation](https://arxiv.org/abs/2607.18794v1)
+
+- **arXiv**: `2607.18794v1`  |  **提交日期**: 2026-07-21
+- **作者**: Jiahong Zhang, Yifan Lin, Yandong Zhang, Sijun Shen, Kexin Wang, Yuqi Pan et al.
+
+Open-Vocabulary Object Goal Navigation (OVON) requires agents to operate under partial observability, making effective internal state updates critical for navigation performance. This update is implemented by the policy network, where recent approaches adopt Transformer-based backbones with self-attention over a context window to integrate temporal information. However, our controlled experiments show that performance does not scale with context length under Transformer-based policies, questioning the suitability of self-attention for state integration in navigation. To this end, we propose…
+
+---
+
+### [Bridging the Sim-to-Real Gap under Real-Time Constraints in Autonomous Racing](https://arxiv.org/abs/2607.18586v1)
+
+- **arXiv**: `2607.18586v1`  |  **提交日期**: 2026-07-20
+- **作者**: Hossein Maghsoumi, Yaser P. Fallah
+
+Autonomous racing exposes the sim-to-real gap under extreme operating conditions characterized by high speed, tight stability margins, and stringent real-time constraints. Although simulation is indispensable for development, controllers that perform well in simulation often degrade abruptly on physical platforms due to interacting effects of dynamics mismatch, estimation delay, and execution-layer latency. This paper frames sim-to-real transfer in autonomous racing as a full-stack, real-time systems problem. We introduce a structured three-layer perspective (Physical/Cyber/Execution) to…
+
+---
+
+### [Text-conditioned Segmentation for Tomato Phenotyping via Procedural Synthetic Data](https://arxiv.org/abs/2607.18576v1)
+
+- **arXiv**: `2607.18576v1`  |  **提交日期**: 2026-07-20
+- **作者**: Samy Mounir, Mikolaj Cieslak, Najmeddine Dhieb, Hakim Ghazzai, Jonathan Klein, Katja Froehlich et al.
+
+Vision-based automation is an excellent candidate for reducing manual labor in greenhouse crop production and phenotyping. However, progress is constrained by the lack of annotated training data. Recent advances in vision-based foundational models have shown promising results in zero-shot generalization to novel domains, but their performance drops in complex agricultural environments. In this work, we present a sim-to-real framework for tomato plant segmentation that combines synthetic data generation with fine-tuning of a foundation model. We model a commercial cherry tomato greenhouse and…
+
+---
+
 ## 📅 2026-07-21
 
 ### [Multi-scale closed-loop melt pool control for LPBF via policy optimization](https://arxiv.org/abs/2607.17438v1)

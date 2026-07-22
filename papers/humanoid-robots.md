@@ -2,6 +2,17 @@
 
 _自动追踪 arXiv 最新论文，最新更新在最上方。_
 
+## 📅 2026-07-22
+
+### [Motion Primitive Discovery in a Humanoid Robot via Self-Organising Maps for Phase Recognition](https://arxiv.org/abs/2607.18737v1)
+
+- **arXiv**: `2607.18737v1`  |  **提交日期**: 2026-07-21
+- **作者**: Radovan Gregor, Igor Farkaš
+
+Understanding the computational basis of action recognition is a central challenge in social cognition as well as in human-robot interaction. Inspired by the Mirror Neuron System (MNS), we propose a two-level architecture for motor primitive discovery and online phase recognition applied to the NICO humanoid robot. At the first level, two Self-Organising Maps (SOMs) learn topographic representations of arm kinematics (A-SOM) and hand kinematics (H-SOM) from simulated trials covering seven motor actions. The maps are trained on non-redundant features identified through hierarchical correlation…
+
+---
+
 ## 📅 2026-07-21
 
 ### [Optimization of sim-to-real transfer in the humanoid robot NICO](https://arxiv.org/abs/2607.18210v1)
