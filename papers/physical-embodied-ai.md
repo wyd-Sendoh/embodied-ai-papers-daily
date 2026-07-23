@@ -2,6 +2,26 @@
 
 _自动追踪 arXiv 最新论文，最新更新在最上方。_
 
+## 📅 2026-07-23
+
+### [EA-Nav: Learning Safe Visual Navigation Policies with Embodiment Awareness](https://arxiv.org/abs/2607.19880v1)
+
+- **arXiv**: `2607.19880v1`  |  **提交日期**: 2026-07-22
+- **作者**: Jialu Zhang, Yong Du, Xianda Guo, Shunwang Sun, Xinqi Liu, Yue Sun et al.
+
+Cross-embodiment navigation is a key challenge in embodied intelligence. Due to differences in embodiment, the same visual observation may imply different actions for different agents, making prediction ambiguous when relying solely on vision. Existing studies mainly rely on reinforcement learning, which requires large-scale interaction and careful reward design, making it difficult to support scalable pretraining and real-world adaptation. In contrast, imitation-learning-based approaches remain limited. To address these challenges, we propose an imitation-learning-based embodiment-aware…
+
+---
+
+### [Clinical Pathways as Safety Specifications for Physical AI in Hospital Wards](https://arxiv.org/abs/2607.19827v1)
+
+- **arXiv**: `2607.19827v1`  |  **提交日期**: 2026-07-22
+- **作者**: Gabriele Franchini, Giulio Mallardi, Michele De Carolis, Filippo Lanubile
+
+Ensuring safety in Physical AI systems operating in real-world environments is a critical challenge, particularly in hospital wards where vulnerable patients, clinical staff, medical devices, and assistive robots coexist. In this paper, we reinterpret Clinical Pathways as explicit runtime safety specifications for embodied medical AI. We propose a conceptual robotic architecture that integrates wearable sensors, smart medical devices, and assistive robotic components into a unified framework for real-time safety monitoring. At its core, a Runtime Safety Monitor (RSM) evaluates multimodal…
+
+---
+
 ## 📅 2026-07-22
 
 ### [Athena-Brain Technical Report: An Efficient Robot Brain for General Intelligence and Embodied Interactio](https://arxiv.org/abs/2607.18985v1)
