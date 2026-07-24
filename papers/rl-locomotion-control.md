@@ -2,6 +2,35 @@
 
 _自动追踪 arXiv 最新论文，最新更新在最上方。_
 
+## 📅 2026-07-24
+
+### [Grasp, Handover, Rotate: Bimanual Object Reorientation via Compositional Diffusion and Energy-Based Optimization](https://arxiv.org/abs/2607.21341v1)
+
+- **arXiv**: `2607.21341v1`  |  **提交日期**: 2026-07-23
+- **作者**: Wun Lam Yeung, Wenjun Liu, Yui Cheung Yu, Zhengyan Lambo Qin, Qijin She, Heng Li et al.
+
+Bimanual object reorientation - picking an object, handing it over between two arms, and placing it in a desired target pose - is valuable when direct placement from the initial grasp is infeasible due to collisions, kinematic constraints, or poor final orientation. However, achieving this under multiple competing objectives remains challenging. We introduce BiCompoDiff, a compositional diffusion and energy-based framework that jointly optimizes grasp selection, handover, regrasp, and motion planning under multiple constraints. By combining a pretrained grasp diffusion model with bimanual…
+
+---
+
+### [FORGE-plus: Force-Budgeted Recovery for Contact-Rich Assembly with a Frozen LLM Supervisor](https://arxiv.org/abs/2607.21227v1)
+
+- **arXiv**: `2607.21227v1`  |  **提交日期**: 2026-07-23
+- **作者**: Kyupaeck Jeff Rah, Midum Oh
+
+Force-conditioned reinforcement learning (RL) enables tight-clearance assembly under a commanded force ceiling, but practical deployment requires determining an appropriate force limit for each object and recovering from insertion failures without exceeding it. We present a two-layer framework in which a frozen, text-only large language model (LLM) assigns a per-object force ceiling before execution and selects recovery maneuvers from a fixed action menu using compact textual force signatures. The LLM never controls force directly: a low-level controller enforces the force ceiling, the…
+
+---
+
+### [Safe and Scalable Multi-Drone Payload Transport via CBF-based Reinforcement Learning with Zero-Shot Sim-to-Real Transfer](https://arxiv.org/abs/2607.20665v1)
+
+- **arXiv**: `2607.20665v1`  |  **提交日期**: 2026-07-22
+- **作者**: Jaeyoun Choi, Oswin So, Songyuan Zhang, Cooper Taylor, Chuchu Fan
+
+Multi-drone payload transportation has emerged as a promising research paradigm with potential applications in construction, logistics, and disaster response. However, the complex coupled dynamics among drones, cables, and payloads pose significant challenges, and existing approaches remain limited in safety and scalability, particularly in dynamic and unstructured environments. In this work, we propose a learning-based framework for safe and scalable multi-drone cooperative payload transport. We introduce a minimal 2D abstraction that preserves the task-relevant drone-payload coupling…
+
+---
+
 ## 📅 2026-07-23
 
 ### [SafeGen: Goal-Conditioned Video Diffusion of Safety-Critical Scenarios for VLM-Based Autonomous Driving](https://arxiv.org/abs/2607.19701v1)

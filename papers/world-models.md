@@ -2,6 +2,26 @@
 
 _自动追踪 arXiv 最新论文，最新更新在最上方。_
 
+## 📅 2026-07-24
+
+### [Streaming Multi-Agent Autoregressive Diffusion Model with World State Registers](https://arxiv.org/abs/2607.21594v1)
+
+- **arXiv**: `2607.21594v1`  |  **提交日期**: 2026-07-23
+- **作者**: Sicheng Mo, Yuheng Li, Ziyang Leng, Krishna Kumar Singh, Bolei Zhou
+
+Multi-agent interactive world models should not only generate consistent observations, but also maintain world states that persist across agents and evolve across views. Existing autoregressive video diffusion pipelines carry forward observation history as conditioning context, which makes shared state difficult to maintain in multi-agent and multi-view settings. We present WorldWeaver (W^2), a streaming multi-agent video diffusion model that augments rollout with cross-agent world state registers: learnable tokens that store shared world information, track individual agent status, and are…
+
+---
+
+### [PhysCoRe: Physics-Corrected Residual World Models for Material-Aware Deformable Dynamics](https://arxiv.org/abs/2607.20653v1)
+
+- **arXiv**: `2607.20653v1`  |  **提交日期**: 2026-07-22
+- **作者**: Haocheng Yin, Shuohan Tao, Yongsheng Chen, Lu Gan
+
+Predicting how deformable objects evolve under robotic manipulation is a longstanding challenge. Existing approaches typically rely on per-object optimization to fit material parameters, which can be slow and cannot generalize, while end-to-end learned alternatives extrapolate poorly and often violate basic physical structure. We present PhysCoRe, a physics-corrected residual world model that couples a differentiable Material Point Method (MPM) simulator with two feed-forward neural networks. A material refinement module, Material from Motion (MfM), infers per-particle elasticity from visual…
+
+---
+
 ## 📅 2026-07-23
 
 ### [Active Inference as a Convex Markov Decision Process](https://arxiv.org/abs/2607.20152v1)

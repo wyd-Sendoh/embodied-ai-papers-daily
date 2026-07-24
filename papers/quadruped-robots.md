@@ -2,6 +2,17 @@
 
 _自动追踪 arXiv 最新论文，最新更新在最上方。_
 
+## 📅 2026-07-24
+
+### [Towards Capability-Aware Traversability Navigation for Unstructured Environments](https://arxiv.org/abs/2607.20679v1)
+
+- **arXiv**: `2607.20679v1`  |  **提交日期**: 2026-07-22
+- **作者**: Gianluca Capezzuto, Felipe Tommaselli, Matheus P. Angarola, Ricardo V. Godoy, Marcelo Becker
+
+Estimating traversability in unstructured environments requires conditioning on robot embodiment, as the same terrain can be traversable for one platform and unsafe for another. Existing methods often transfer predictions across morphologies through late-stage trajectory filtering rather than encoding platform constraints in the learned representation. We propose Capability-Aware Traversability (CAT), a framework that embeds physical limits directly into the spatial feature space. CAT grounds dense supervision masks in physical trajectories through an interactive annotation pipeline and…
+
+---
+
 ## 📅 2026-07-22
 
 ### [Koopman DCM: Unstable Eigenfunctions as Data-driven Representations for Legged Balancing](https://arxiv.org/abs/2607.18760v1)
