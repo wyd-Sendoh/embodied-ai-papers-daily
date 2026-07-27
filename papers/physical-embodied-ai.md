@@ -2,6 +2,26 @@
 
 _自动追踪 arXiv 最新论文，最新更新在最上方。_
 
+## 📅 2026-07-27
+
+### [SiPhy: Single-Image Physical Property Reasoning](https://arxiv.org/abs/2607.22355v1)
+
+- **arXiv**: `2607.22355v1`  |  **提交日期**: 2026-07-24
+- **作者**: Hoang Le, Joonwoo Kwon, Elkhan Ismayilzada, Yufei Zhang, Zijun Cui
+
+Inferring physical properties such as mass, stiffness, and elasticity from a single image is essential for simulation and embodied AI, yet most existing approaches rely on multi-view reconstruction or physics-based supervision. We introduce SiPhy, a unified framework for single-image physical property reasoning that aligns 3D-aware visual cues, depth with language-based material knowledge. From one RGB image, SiPhy samples pseudo-voxel points, extracts CLIP features, and grounds them to material candidates proposed by a VLM. A part-based contrastive aggregator enforces region consistency,…
+
+---
+
+### [Zero-Shot Mission-Level Evaluation for Aerial MLLM Agents](https://arxiv.org/abs/2607.22014v1)
+
+- **arXiv**: `2607.22014v1`  |  **提交日期**: 2026-07-24
+- **作者**: Suman Navaratnarajah, Taehyoung Kim, Jona Ruthardt, Ishaan Bhimwal, Ryousuke Yamada, Yannik Blei et al.
+
+Multimodal Large Language Models (MLLMs) are emerging as core reasoning modules for embodied agents, yet it remains unclear how well general-purpose models can solve long-horizon embodied tasks from a single high-level instruction. We introduce MissionBench, a benchmark for mission-level evaluation of MLLMs in aerial 3D environments. It comprises 120 missions across five simulated 3D environments and four task families. Agents must autonomously plan, navigate, and report outcomes using only egocentric observations and its action history, without aerial-specific fine-tuning. Across 22 open-…
+
+---
+
 ## 📅 2026-07-24
 
 ### [GS-Agent: Creating 4D Physical Worlds With Generative Simulation](https://arxiv.org/abs/2607.21522v1)
