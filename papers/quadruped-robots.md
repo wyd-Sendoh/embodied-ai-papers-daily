@@ -2,6 +2,17 @@
 
 _自动追踪 arXiv 最新论文，最新更新在最上方。_
 
+## 📅 2026-07-28
+
+### [WARL: Wrench-Augmented Reinforcement Learning for Task-Agnostic Learning in Legged Robots](https://arxiv.org/abs/2607.24036v1)
+
+- **arXiv**: `2607.24036v1`  |  **提交日期**: 2026-07-27
+- **作者**: Keita Yoneda, Kento Kawaharazuka, Kei Okada
+
+While reinforcement learning for legged robots has achieved high motor performance, it has been constrained by the limited exploration capability of actions confined to the joint space. To address this issue, this study proposes a new method, Wrench-Augmented Reinforcement Learning (WARL), which introduces a wrenche (force and torque) into the action space. The proposed method combines wrench-guided exploration with a success rate-based curriculum mechanism to expand exploration capabilities in the early stages of learning, with the ultimate goal of acquiring behaviors based solely on joint…
+
+---
+
 ## 📅 2026-07-24
 
 ### [Towards Capability-Aware Traversability Navigation for Unstructured Environments](https://arxiv.org/abs/2607.20679v1)

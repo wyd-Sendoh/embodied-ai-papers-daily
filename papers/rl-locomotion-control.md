@@ -2,6 +2,26 @@
 
 _自动追踪 arXiv 最新论文，最新更新在最上方。_
 
+## 📅 2026-07-28
+
+### [Effective Parameters, Real Behavior: Renormalization for Robotics -- From Infinite Electron Mass to Sim-to-Real Gap](https://arxiv.org/abs/2607.24079v1)
+
+- **arXiv**: `2607.24079v1`  |  **提交日期**: 2026-07-27
+- **作者**: Youran Sun, Jiaxuan Guo, Xingyu Ren, Chugang Yi, Haizhao Yang
+
+Bridging the sim-to-real gap is a central problem in robotics, and the prevailing approach is to build increasingly accurate simulators. Here, we propose another approach based on renormalization: using effective, resolution-dependent parameters to absorb details omitted by the simulator and reproduce real behavior. These parameters may differ from measured physical values because they compensate for what the simulator leaves out. We demonstrate this mechanism analytically for proportional--derivative (PD) control at finite simulation frequency, where proportional feedback changes the…
+
+---
+
+### [Anticipatory Risk-Guided Reinforcement Learning for Safe Flight Through Dynamic Clutter](https://arxiv.org/abs/2607.23565v1)
+
+- **arXiv**: `2607.23565v1`  |  **提交日期**: 2026-07-26
+- **作者**: Yuchao Mei, Guohao Zhang, Luxia Ai, Haopeng Chen, Wenbing Tao
+
+Safe quadrotor navigation in cluttered and dynamic environments depends not only on instantaneous geometric perception, but more critically on anticipating collision risks induced by relative motion. Conventional modular pipelines frequently suffer from perception latency, while end-to-end learning methods relying on implicit scalar rewards often struggle to extract reliable spatio-temporal features without physics-grounded supervision. To address this, we propose an anticipatory risk-guided reinforcement learning framework. Leveraging privileged simulator states, we construct a directionally…
+
+---
+
 ## 📅 2026-07-24
 
 ### [Grasp, Handover, Rotate: Bimanual Object Reorientation via Compositional Diffusion and Energy-Based Optimization](https://arxiv.org/abs/2607.21341v1)
