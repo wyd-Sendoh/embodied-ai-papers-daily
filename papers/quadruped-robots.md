@@ -2,6 +2,17 @@
 
 _自动追踪 arXiv 最新论文，最新更新在最上方。_
 
+## 📅 2026-07-29
+
+### [Transformer Transformer: A Unified Model for Motion-Conditioned Robot Co-design](https://arxiv.org/abs/2607.25798v1)
+
+- **arXiv**: `2607.25798v1`  |  **提交日期**: 2026-07-28
+- **作者**: Huy Ha, C. Karen Liu, Shuran Song
+
+An often overlooked factor of robot manipulation performance is the embodiment of the robot itself. Motivated by this problem, we study motion-conditioned robot co-design, where the goal is to generate complete robot designs that track target end-effector trajectories (from human demonstrations) while optimizing user-defined rewards. We introduce Transformer Transformer, a diffusion transformer trained on RoboTokens, a unified tokenization of robot embodiments, states, and actions. The same architecture can be used across embodiment spaces (e.g., wheeled bimanual, quadrupeds, humanoids) and…
+
+---
+
 ## 📅 2026-07-28
 
 ### [WARL: Wrench-Augmented Reinforcement Learning for Task-Agnostic Learning in Legged Robots](https://arxiv.org/abs/2607.24036v1)

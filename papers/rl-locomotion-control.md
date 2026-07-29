@@ -2,6 +2,26 @@
 
 _自动追踪 arXiv 最新论文，最新更新在最上方。_
 
+## 📅 2026-07-29
+
+### [Shared Voxel-Map-Based Cooperative Indoor UAV Guidance with a Multi-Agent Soft Actor-Critic Controller](https://arxiv.org/abs/2607.25728v1)
+
+- **arXiv**: `2607.25728v1`  |  **提交日期**: 2026-07-28
+- **作者**: Thomas Hickling, Dylan Wynne, Yu Su, Nabil Aouf
+
+This paper presents a cooperative indoor UAV guidance framework that combines a shared voxel-map world model with a multi-agent Soft Actor-Critic (MASAC) controller. Multiple drones fuse 360 LiDAR observations into a common world-frame occupancy map, which is converted into a compact bird's-eye-view (BEV) representation and provided to each agent as an ego-aligned local crop. This integrate-in-world, act-in- ego design enables consistent multi-UAV spatial fusion whilst retaining decentralised continuous control. The policy combines BEV map features, near-field obstacle observations, and…
+
+---
+
+### [Egocentric Station Holding of Robotic Fish in Unknown Turbulent Background Flow](https://arxiv.org/abs/2607.24860v1)
+
+- **arXiv**: `2607.24860v1`  |  **提交日期**: 2026-07-26
+- **作者**: Xiaozhu Lin, Xu Huang, Hongru Dai, Xiaopei Liu, Junzhi Yu, Yang Wang
+
+Approaching a target position and holding station in flowing water is a fundamental and critical capability for robotic fish operating in natural aquatic environments. Despite decades of advances in enhancing swimming efficiency and maneuverability, this capability remains underdeveloped, largely owing to the insufficiently characterized, highly nonlinear fluid-structure interactions inherent to freely swimming robotic fish in flows. To bridge this gap, we propose the SWiFT framework, a Swimming With Flow Toolbox that enables the efficient exploration of an egocentric station-holding policy…
+
+---
+
 ## 📅 2026-07-28
 
 ### [Effective Parameters, Real Behavior: Renormalization for Robotics -- From Infinite Electron Mass to Sim-to-Real Gap](https://arxiv.org/abs/2607.24079v1)

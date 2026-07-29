@@ -2,6 +2,17 @@
 
 _自动追踪 arXiv 最新论文，最新更新在最上方。_
 
+## 📅 2026-07-29
+
+### [IMPRINT: Image-Conditioned Query Enrichment for Long-Tail Object Goal Navigation](https://arxiv.org/abs/2607.25106v1)
+
+- **arXiv**: `2607.25106v1`  |  **提交日期**: 2026-07-27
+- **作者**: Jelin Raphael Akkara, Filippo Ziliotto, Luciano Serafini, Lamberto Ballan, Tommaso Campari
+
+Embodied AI increasingly relies on queryable semantic maps built from pre-trained vision-language models to enable zero-shot Object Goal Navigation (ObjectNav). However, existing approaches typically depend on text-only queries, which become less reliable as semantic specificity increases toward fine-grained object categories. We introduce IMPRINT, a zero-shot plug-and-play framework that enriches textual object queries with web-sourced images to improve grounding in queryable maps. Retrieved images are encoded using a vision-language model, matched against the semantic map to produce…
+
+---
+
 ## 📅 2026-07-28
 
 ### [LabRobFail: A Benchmark for Robotic Failure Analysis in Chemical Self-driving Laboratories](https://arxiv.org/abs/2607.23704v1)
