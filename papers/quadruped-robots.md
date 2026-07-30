@@ -2,6 +2,26 @@
 
 _自动追踪 arXiv 最新论文，最新更新在最上方。_
 
+## 📅 2026-07-30
+
+### [Reinforcement Learning on Cost-Constrained Quadrupedal Hardware](https://arxiv.org/abs/2607.26434v1)
+
+- **arXiv**: `2607.26434v1`  |  **提交日期**: 2026-07-29
+- **作者**: Javier C. Weddington, Bence P. Ölveczky, Stephen A. Baccus
+
+Deploying learned control policies on low-cost robotic platforms introduces transport latencies and noisy motor feedback that systematically widens the sim-to-real gap. The chasm of simulation to deployment in hardware lies in the delay of the actuator reaching the commanded position. On platforms such as the Mini Pupper 2, a measured > $50 ms transport delay transforms the locomotion task from a standard Markov decision process into a partially observable one. In this paper, we take a biologically inspired approach of handling noisy and delayed feedback to close the sim-to-real gap, thereby…
+
+---
+
+### [Two2Four: Generative Quadruped Puppeteering from Human Motion](https://arxiv.org/abs/2607.26108v1)
+
+- **arXiv**: `2607.26108v1`  |  **提交日期**: 2026-07-28
+- **作者**: Fatemeh Zargarbashi, Zehong Qiu, Dhruv Agrawal, Stelian Coros, Robert W. Sumner, Martin Guay et al.
+
+Realistic animal motion for virtual production is typically obtained either through motion capture of highly trained performers who accurately mimic animal behavior, or by retargeting ordinary human motion using complex control setups. Both approaches are challenging and often fail to fully reproduce the nuances of natural animal motion, motivating data-driven alternatives. We present an automatic human-to-quadruped puppeteering framework that produces plausible and controllable quadruped motions from ordinary human motion data. Our approach employs a two-stage generative diffusion model…
+
+---
+
 ## 📅 2026-07-29
 
 ### [Transformer Transformer: A Unified Model for Motion-Conditioned Robot Co-design](https://arxiv.org/abs/2607.25798v1)
