@@ -2,6 +2,17 @@
 
 _自动追踪 arXiv 最新论文，最新更新在最上方。_
 
+## 📅 2026-07-31
+
+### [Bunraku: Turning a Single Illustration into an Editable Live2D Character](https://arxiv.org/abs/2607.27348v1)
+
+- **arXiv**: `2607.27348v1`  |  **提交日期**: 2026-07-29
+- **作者**: Junhao Chen, Jingjia Mao, Dayong Li, Chenghai Li, Saining Zhang, Zhihao Li et al.
+
+Live2D is the dominant 2D character-animation format for anime characters and virtual avatars, representing each character as a stack of RGBA layers driven by per-layer mesh deformation. Despite its wide use in virtual streaming, mobile games, and interactive characters, authoring a Live2D model still demands weeks of manual layer separation, occlusion completion, mesh placement, and keyframing, and no prior generative method produces such a structured asset end-to-end. We present the first system that, from a single illustration, generates all the structured information a Live2D runtime…
+
+---
+
 ## 📅 2026-07-16
 
 ### [MultiAnimate: A Unified Framework for Controllable Multi-Character Animation](https://arxiv.org/abs/2607.13415v1)
