@@ -2,6 +2,17 @@
 
 _自动追踪 arXiv 最新论文，最新更新在最上方。_
 
+## 📅 2026-08-03
+
+### [Interactive Generative Motion Editing via Scheduled Inpainting](https://arxiv.org/abs/2607.29133v1)
+
+- **arXiv**: `2607.29133v1`  |  **提交日期**: 2026-07-31
+- **作者**: Dhruv Agrawal, Dominik Borer, Luca Vögeli, Robert Sumner, Martin Guay, Jakob Buhmann
+
+Motion editing is central to VFX and game development, where it is used extensively to modify and augment existing movements to conform to new environments or changes in artistic direction. While traditional motion editing can do small modifications, it cannot accommodate larger structural edits, resulting in visual warping artifacts that require authoring new motion. Conversely, recent advances in large-scale generative modeling have unlocked newfound capabilities for authoring entire movements by directly manipulating sparse spatial constraints. While impressive at creating new movements,…
+
+---
+
 ## 📅 2026-07-31
 
 ### [Bunraku: Turning a Single Illustration into an Editable Live2D Character](https://arxiv.org/abs/2607.27348v1)
