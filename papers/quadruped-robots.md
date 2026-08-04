@@ -2,6 +2,53 @@
 
 _自动追踪 arXiv 最新论文，最新更新在最上方。_
 
+## 📅 2026-08-04
+
+### [Situation Aware Frontier Prioritization for Quadruped Search and Rescue](https://arxiv.org/abs/2608.02571v1)
+
+- **arXiv**: `2608.02571v1`  |  **提交日期**: 2026-08-03
+- **作者**: Kevin Farias, Santiago Martin, Barbara Flores, Vinicio Melgar, Igor Nunes, Hiago Sodre et al.
+
+Quadruped robots are a promising platform for search and rescue missions because they can navigate cluttered indoor environments that may be restrictive for wheeled systems. However, in unknown rescue scenarios, autonomous exploration must balance map expansion with the likelihood of finding victims, which is not explicitly addressed by clas- sical frontier selection strategies. This paper presents a situation aware frontier prioritization method for single robot quadruped search and rescue. The proposed approach preserves the frontier exploration framework, but extends frontier ranking with…
+
+---
+
+### [Residual-Based Adaptive Kalman Filtering for Legged Robot State Estimation](https://arxiv.org/abs/2608.02316v1)
+
+- **arXiv**: `2608.02316v1`  |  **提交日期**: 2026-08-03
+- **作者**: Mihaela Popescu, Dennis Mronga, Shivesh Kumar, Frank Kirchner
+
+State estimation is a key component in model-based control of walking robots and, more broadly, applicable wherever hidden variables must be inferred. The Kalman filter is widely used to estimate floating-base position and velocity by fusing multiple sensing modalities. However, tuning noise parameters is challenging and typically requires expert knowledge. Moreover, fixed noise parameters are unsuitable for varying gaits and environments. We propose an online adaptation strategy for the process noise covariance matrix Q and the measurement noise covariance matrix R. Specifically, we…
+
+---
+
+### [Open-DiffLoco: Open-Source Differentiable Learning for Deployable Blind Quadruped Locomotion](https://arxiv.org/abs/2608.02069v1)
+
+- **arXiv**: `2608.02069v1`  |  **提交日期**: 2026-08-03
+- **作者**: Martin Opat
+
+Developing deployable locomotion policies through conventional reinforcement learning often requires complex reward engineering and expensive training times. While differentiable simulation offers a highly efficient alternative, open-source tools capable of end-to-end transfer of these policies to physical hardware remain limited. This paper introduces Open-DiffLoco, an open-source framework for training deployable blind quadruped locomotion policies with differentiable simulation. The framework implements the Short-Horizon Actor-Critic (SHAC) algorithm in MuJoCo XLA (MJX) and trains a…
+
+---
+
+### [Rapid Embodiment Adaptation for Quadrupedal Locomotion](https://arxiv.org/abs/2608.01506v1)
+
+- **arXiv**: `2608.01506v1`  |  **提交日期**: 2026-08-02
+- **作者**: Dichen Li, Bo Ai, Nico Bohlinger, Jan Peters, Hao Su, Henrik I. Christensen
+
+Humans readily adapt their movements as their bodies change through aging, injury, or load carrying, but learning-based robot policies often break when hardware properties shift. We introduce an online embodiment adaptation framework for quadrupedal locomotion that infers embodiment parameters from short interaction histories and conditions control on the inferred hardware state. Our method pairs a generalist policy trained under embodiment randomization with a lightweight adaptation module that identifies physical changes within half a second. We evaluate two representative forms of…
+
+---
+
+### [KING: Embodiment-Aware Kinematic Graph Neural Network for Unified Motion Representation of Legged and Wheeled Robots](https://arxiv.org/abs/2608.01015v1)
+
+- **arXiv**: `2608.01015v1`  |  **提交日期**: 2026-08-02
+- **作者**: Taku Okawara, Aoki Takanose, Kenji Koide, Shuji Oishi, Masashi Yokozuka
+
+Kinematic models provide reliable motion constraints for odometry estimation in featureless environments, where exteroceptive sensing degrades and IMU integration drifts. Learning-based kinematic models can achieve more accurate odometry estimation than model-based methods by capturing nonlinear effects; however, most existing learning-based models are trained on a single embodiment and generalize poorly to new embodiments. This generalization is difficult because the meanings and structures of proprioceptive measurements vary across embodiments, including the number of joints and…
+
+---
+
 ## 📅 2026-08-03
 
 ### [Advances, challenges, and opportunities for legged robots](https://arxiv.org/abs/2607.28952v1)

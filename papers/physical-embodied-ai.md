@@ -2,6 +2,35 @@
 
 _自动追踪 arXiv 最新论文，最新更新在最上方。_
 
+## 📅 2026-08-04
+
+### [DerainSplat: Feed-Forward Clean 3D Gaussian Splatting from Sparse Rainy Views](https://arxiv.org/abs/2608.02191v1)
+
+- **arXiv**: `2608.02191v1`  |  **提交日期**: 2026-08-03
+- **作者**: Fuzhen Jiang, Changyue Shi, Chuxiao Yang, Xinyuan Hu, Wenjie Ye, Minghao Chen
+
+Although image deraining has advanced substantially, existing methods mainly focus on 2D image restoration. As spatial intelligence applications such as embodied AI and autonomous driving continue to emerge, reconstructing clean 3D scenes from sparse rainy views in a feed-forward manner becomes increasingly important. Existing feed-forward 3D Gaussian Splatting (3DGS) methods often assume clean inputs and collapse under rainy conditions. To this end, we present \textbf{\textit{DerainSplat}}, a feed-forward framework that reconstructs clean 3D scenes from only a few rainy views. To support…
+
+---
+
+### [When Replanning Becomes the Bottleneck: Budgeted Replanning for Embodied Agents](https://arxiv.org/abs/2608.01428v1)
+
+- **arXiv**: `2608.01428v1`  |  **提交日期**: 2026-08-02
+- **作者**: Shuaijun Liu, Feiyang You, Xingwei Chen, Ningxin Su
+
+Embodied agents replan frequently to recover from execution drift, partial observability, and coordination hazards, but each LLM-based replanning call can consume an accumulated textual context that grows over time and across agents. Once this context becomes large, replanning latency develops heavy tails and can miss real-time deadlines even when task success remains high, a failure mode that is hard to detect from average latency or success alone. We present BRACE, a controller that formulates replanning as a budgeted control loop by deciding whether to replan, selecting a replanning mode,…
+
+---
+
+### [InteracVid: Building a Real Interactive Audio-Visual Response Dataset from Live-Chat Videos](https://arxiv.org/abs/2608.01157v1)
+
+- **arXiv**: `2608.01157v1`  |  **提交日期**: 2026-08-02
+- **作者**: Chi Zhang, Haoyang Shi, Yueyi Liu, Zhaokun Yan, Yishu Yin, Yuhang Wu et al.
+
+Large language models have made text the default medium for human--AI interaction, buttext alone cannot express the full range of responses required by multimodal assistants,avatars, and embodied agents. While recent audio-video generative models can synthesizehigh-fidelity synchronized content, existing supervision is largely \emph{descriptive}:models are trained to render captions rather than to produce audio-visual responsescaused by external user interactions. We introduce \textbf{InteracVid}, \emph{the firstopen-source large-scale dataset that addresses this missing supervision}, so that…
+
+---
+
 ## 📅 2026-07-31
 
 ### [ViewMind3D: Modular View-Aware Inference for Training-Free 3D-QA](https://arxiv.org/abs/2607.28442v1)

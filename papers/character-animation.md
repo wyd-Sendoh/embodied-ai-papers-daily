@@ -2,6 +2,17 @@
 
 _自动追踪 arXiv 最新论文，最新更新在最上方。_
 
+## 📅 2026-08-04
+
+### [FineMoLA: Towards Fine-Grained Motion-Language Alignment from Clip-Level Supervision](https://arxiv.org/abs/2608.01392v1)
+
+- **arXiv**: `2608.01392v1`  |  **提交日期**: 2026-08-02
+- **作者**: Tongyan Wang, Zhengyuan Li, Muhan Lin, Shengyang Luo, Yifan Shen, Aniket Bera et al.
+
+Text-conditioned human motion generation has made rapid progress with the emergence of large-scale motion--language datasets. However, even datasets with rich long-form descriptions typically provide supervision only at the clip level, without explicit temporal correspondence between motion frames and language. This limits fine-grained motion--text grounding and temporally precise generation. We propose FineMoLA, a weakly supervised framework that learns fine-grained frame--phrase correspondence directly from clip-level annotations. Our method first segments long-form descriptions into…
+
+---
+
 ## 📅 2026-08-03
 
 ### [Interactive Generative Motion Editing via Scheduled Inpainting](https://arxiv.org/abs/2607.29133v1)
