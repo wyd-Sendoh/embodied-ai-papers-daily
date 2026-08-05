@@ -2,6 +2,35 @@
 
 _自动追踪 arXiv 最新论文，最新更新在最上方。_
 
+## 📅 2026-08-05
+
+### [LiteMVS: Efficient Multi-View Stereo with Foundation Distillation and Expert Aggregation](https://arxiv.org/abs/2608.03851v1)
+
+- **arXiv**: `2608.03851v1`  |  **提交日期**: 2026-08-04
+- **作者**: Tianbao Zhang, Zeyu Liu, Shuyu Wu, Fanxing Li, Zhaoxin Fan, Wenjun Wu et al.
+
+Real-time 3D perception is crucial for robotics, augmented reality, and embodied intelligence applications. Existing multi-view stereo (MVS) methods primarily rely on geometric correspondences, which often fail in textureless or repetitive regions, while monocular depth models leverage strong image-level priors but lack robust multi-view geometric constraints. More importantly, in robotics and embodied manipulation scenarios, high-quality 3D geometry is not only essential for static reconstruction, but also serves as a critical foundation for learning temporally consistent 4D representations.…
+
+---
+
+### [Human Centric Embodied Intelligence for Soft Wearable Robotics](https://arxiv.org/abs/2608.03556v1)
+
+- **arXiv**: `2608.03556v1`  |  **提交日期**: 2026-08-04
+- **作者**: Rainier Natividad, Raye Chen-Hua Yeow
+
+Soft wearable robots have evolved rapidly from proof-of-concept devices into promising platforms for rehabilitation, occupational assistance, and human augmentation. As the field matures, its central challenge extends beyond the development of softer materials and more capable actuators to the integration of sensing, intelligence, and human adaptation into systems that users can wear comfortably, trust, and benefit from over extended periods. This transition motivates the concept of Human-Centric Embodied Intelligence (HCEI), in which intelligence emerges from the coupled human-robot system…
+
+---
+
+### [Principles of Robot Autonomy](https://arxiv.org/abs/2608.03496v1)
+
+- **arXiv**: `2608.03496v1`  |  **提交日期**: 2026-08-04
+- **作者**: Daniele Gammelli, Joseph Lorenzetti, Katie Luo, Gioele Zardini, Marco Pavone
+
+Autonomous robots are moving rapidly from research labs into everyday life - on roads, in the air, in warehouses, and in space. Robot autonomy is no longer solely an academic pursuit, but a collection of mature, field-tested methods and tools that practitioners rely on in real-world deployments. This book offers a clear, unified introduction to the methods that make this possible. Built on decades of teaching at Stanford, the text develops the core elements of modern autonomy stacks within a single conceptual framework, bridging classical robotics and modern physical AI. Every major topic is…
+
+---
+
 ## 📅 2026-08-04
 
 ### [DerainSplat: Feed-Forward Clean 3D Gaussian Splatting from Sparse Rainy Views](https://arxiv.org/abs/2608.02191v1)

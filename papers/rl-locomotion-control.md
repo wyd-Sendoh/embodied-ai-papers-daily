@@ -2,6 +2,17 @@
 
 _自动追踪 arXiv 最新论文，最新更新在最上方。_
 
+## 📅 2026-08-05
+
+### [Shooting for Contact: Contact-Implicit Multiple Shooting for Dynamic Motion Retargeting](https://arxiv.org/abs/2608.03116v1)
+
+- **arXiv**: `2608.03116v1`  |  **提交日期**: 2026-08-04
+- **作者**: Sergio A. Esteban, Jason H. K. Siu, Derrick Mach, Junheng Li, Vince Kurtz, Joel W. Burdick et al.
+
+Motion retargeting approaches often prioritize kinematic similarity over whole-body dynamics, contact consistency, and actuation limits, yielding references that are difficult for reinforcement learning (RL) policies to reproduce, particularly for contact-rich behaviors. We present a contact-implicit, direct simulation-based multiple shooting (DSMS) framework that transforms kinematically feasible references into dynamically feasible whole-body trajectories. By embedding a differentiable simulator within a nonlinear program, DSMS resolves contact, friction, impacts, self-collision, and joint…
+
+---
+
 ## 📅 2026-08-04
 
 ### [Certifying Plans under Model Mismatch: A Trilemma for Reachability from Scarce Data](https://arxiv.org/abs/2608.02453v1)

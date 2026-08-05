@@ -2,6 +2,17 @@
 
 _自动追踪 arXiv 最新论文，最新更新在最上方。_
 
+## 📅 2026-08-05
+
+### [Tired Actor: Fatigue-Informed Character Control](https://arxiv.org/abs/2608.03528v1)
+
+- **arXiv**: `2608.03528v1`  |  **提交日期**: 2026-08-04
+- **作者**: Shengyuan Zhang, Xinpeng Liu, Muchun Niu, Yulong Chen, Lizhuang Ma, Yue Gao et al.
+
+Replicating human behavior with physics simulation has been a long-expected goal in character animation. Existing efforts have achieved impressive performance in imitating a wide span of general motions. However, most existing efforts could still suffer from unnatural movements due to the lack of biomechanical and physiological priors. Given this, we project our sights to advances in behavioral energetics, which demonstrate how energy use shapes human movements. In contrast, current character controllers typically assume the character is equipped with infinite energy over time. Inspired by…
+
+---
+
 ## 📅 2026-08-04
 
 ### [FineMoLA: Towards Fine-Grained Motion-Language Alignment from Clip-Level Supervision](https://arxiv.org/abs/2608.01392v1)
