@@ -2,6 +2,35 @@
 
 _自动追踪 arXiv 最新论文，最新更新在最上方。_
 
+## 📅 2026-08-07
+
+### [From Economic Agents to Agentic Economies: A Systems Blueprint for Economic World Models](https://arxiv.org/abs/2608.06020v1)
+
+- **arXiv**: `2608.06020v1`  |  **提交日期**: 2026-08-06
+- **作者**: Jiale Han, Xiang Li, Jing Qian, Wenyuan Gu, Pin Gao, Ye Luo et al.
+
+Economic World Models (EWMs) are generative economic models that simulate how economies evolve from within by modeling heterogeneous agents, their beliefs and actions, and the market and institutional mechanisms through which their interactions produce aggregate outcomes. This paper develops an implementation roadmap for building economic world models as generative engines in which heterogeneous agents act, interact, adapt, and co-evolve with markets and institutions, thereby producing economic dynamics from the inside. We organize EWM systems into a six-level capability ladder, from fixed…
+
+---
+
+### [Dual-Attention and Adversarial Transfer Networks for Sim-to-Real Cross-Orientation Wireless Sensing](https://arxiv.org/abs/2608.05664v1)
+
+- **arXiv**: `2608.05664v1`  |  **提交日期**: 2026-08-06
+- **作者**: Linfeng Du, Kehan Wu, Tong Zhang, Rui Wang
+
+Millimeter-wave human activity recognition suffers significant performance degradation when the user's orientation changes relative to the sensing system, yet collecting labeled multi-orientation data is labor-intensive and costly. To eliminate the need for exhaustive multi-orientation measured data, we develop a physics-guided simulator that synthesizes orientation-diverse wireless training data from single-orientation motion. Specifically, to suppress orientation-induced feature variations, we propose a dual-attention network that extracts activity-discriminative and orientation-robust…
+
+---
+
+### [MobileWAM: Bridging World Action Models to Mobile Manipulation with Chain-of-Foresight](https://arxiv.org/abs/2608.04657v2)
+
+- **arXiv**: `2608.04657v2`  |  **提交日期**: 2026-08-05
+- **作者**: Zehua Fan, Junjie He, Wenxuan Song, Xi Wang, Wenqi Lyu, Linge Zhao et al.
+
+World action models (WAMs) built on video generation backbones are a rising recipe for robot learning, yet remain confined to tabletop manipulation. Mobile manipulation demands simultaneous locomotion and whole-body manipulation amid scene-scale dynamics, yet is still dominated by dynamics-blind visual encoders with hand-crafted coordination. We bridge this gap with MobileWAM, a mixture-of-transformers architecture that fuses a pretrained video diffusion transformer with a lightweight action expert through layerwise joint attention, translating internet-scale motion priors into whole-body…
+
+---
+
 ## 📅 2026-08-06
 
 ### [RORA: Realistic Object Reconstruction with Articulation](https://arxiv.org/abs/2608.04842v1)

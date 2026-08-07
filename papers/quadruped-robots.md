@@ -2,6 +2,35 @@
 
 _自动追踪 arXiv 最新论文，最新更新在最上方。_
 
+## 📅 2026-08-07
+
+### [TRACE: Learned Proprioceptive Odometry for Legged Robots under Unreliable Contact Conditions](https://arxiv.org/abs/2608.05975v1)
+
+- **arXiv**: `2608.05975v1`  |  **提交日期**: 2026-08-06
+- **作者**: Taehyeon Kong, Woojin Kim, Jemin Hwangbo
+
+In this paper, we present TRACE (Tokenized Robust Attention for Contact-Aware Estimation), an end-to-end learned proprioceptive odometry estimator for legged robots under unreliable contact conditions. The proposed estimator directly predicts relative displacement, relative rotation, and body-frame velocity from a recent history of onboard inertial and joint measurements. To improve robustness under unreliable contact conditions, we introduce a foot-aware cross-attention module that adaptively weights IMU and leg-wise kinematic tokens without relying on manually defined contact or slip…
+
+---
+
+### [Nonvisual Classification of Ground-Condition by Artificial Proprioception in an Amoeba-Inspired Autonomous Walking Robot](https://arxiv.org/abs/2608.05684v1)
+
+- **arXiv**: `2608.05684v1`  |  **提交日期**: 2026-08-06
+- **作者**: Hyoto Yamaguchi, Zenji Yatabe, Seiya Kasai
+
+Nonvisual classification of ground condition based on a multimodal sensing approach was investigated for an amoeba-inspired autonomous walking robot. To classify ground condition without image sensing and processing, we implemented artificial proprioception by integrating a three-axis accelerometer, eight foot pressure sensors, and reservoir computing (RC). Even when large fluctuations in the sensor outputs are caused by dynamic motions of a four-legged robot in walking, our system can classify the ground condition, flat or rough, with high accuracy. We demonstrate on-site switching of…
+
+---
+
+### [PathCover: A Fast Convex Decomposition along a Path via Randomized Iterative Space Partitioning (RISP) on Point Clouds](https://arxiv.org/abs/2608.05586v1)
+
+- **arXiv**: `2608.05586v1`  |  **提交日期**: 2026-08-06
+- **作者**: Kunal S. Narkhede, Abhijeet M. Kulkarni, Guoquan Huang, Ioannis Poulakakis
+
+Autonomous robot navigation requires the rapid generation of obstacle-free regions for trajectory planning. However, existing corridor generators struggle to meet real-time, sensor-rate computational constraints. To resolve this bottleneck, we introduce PathCover, a framework driven by RISP; a novel randomized algorithm that constructs convex polytopes directly from raw point cloud data in expected linear time under a mild probabilistic elimination condition. PathCover generates sequences of overlapping, obstacle-free polytopes that safely constrain downstream MPC and trajectory optimization.…
+
+---
+
 ## 📅 2026-08-04
 
 ### [Situation Aware Frontier Prioritization for Quadruped Search and Rescue](https://arxiv.org/abs/2608.02571v1)
