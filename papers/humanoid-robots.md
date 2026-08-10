@@ -2,6 +2,17 @@
 
 _自动追踪 arXiv 最新论文，最新更新在最上方。_
 
+## 📅 2026-08-10
+
+### [A Haptic Robot Finger Designed for Guqin Instrument Playing](https://arxiv.org/abs/2608.07002v1)
+
+- **arXiv**: `2608.07002v1`  |  **提交日期**: 2026-08-07
+- **作者**: Tianwei Zhang, Hanming Yan, Yang Yang. Ziya Wang
+
+With the rapid advancement of humanoid robotics and embodied intelligence technologies, numerous musical instrument-playing robots have emerged in recent years, such as pianos, chime bells, and taiko drums. These robots primarily employ open-loop positional control, rendering them incapable of operating instruments requiring dexterous hands and precise tactile perception, such as a violin, guitar, and guqin. This paper describes the design and validation of a high-precision tactile-sensing finger. By mimicking the shape of the fingertip and fingernail found on a human finger, we develop a…
+
+---
+
 ## 📅 2026-08-07
 
 ### [KILVO: Kinematic-Inertial-LiDAR-Visual Odometry with Robust Multimodal Adaptation for Humanoid Robots](https://arxiv.org/abs/2608.05647v1)

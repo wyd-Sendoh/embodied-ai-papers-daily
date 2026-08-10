@@ -2,6 +2,35 @@
 
 _自动追踪 arXiv 最新论文，最新更新在最上方。_
 
+## 📅 2026-08-10
+
+### [Learning Fault-Tolerant Locomotion with Adaptive Gait Timing](https://arxiv.org/abs/2608.07328v1)
+
+- **arXiv**: `2608.07328v1`  |  **提交日期**: 2026-08-07
+- **作者**: Giovanbattista Gravina, Luca Rossini, Carlo Rizzardo, Arturo Laurenzi, Nikos Tsagarakis
+
+Hardware failures require legged robots to rapidly reorganize coordination and gait timing to maintain stability and mobility. This is particularly challenging for larger quadrupeds, where increased mass and tighter actuation limits reduce the feasibility of aggressive, high-frequency compensation strategies often observed on smaller platforms. In this work, we propose a deep reinforcement learning approach for fault-tolerant locomotion under actuator power loss. The method employs an asymmetric actor-critic architecture in which the critic has access to privileged information during…
+
+---
+
+### [Spatiotemporal Agility: Time-Constrained Reinforcement Learning for Vision-Guided Dynamic Quadrupedal Interception](https://arxiv.org/abs/2608.06907v1)
+
+- **arXiv**: `2608.06907v1`  |  **提交日期**: 2026-08-07
+- **作者**: Yidong Zhu, Zibo Dai, Tongning Zhang, Leixin Chang, Hua Chen
+
+Legged robots require robust agility to perceive and interact with complex and dynamic environments within a constrained time. However, most existing quadruped locomotion works rely on velocity-tracking policy, which struggle to reach precise targets within strict temporal constraints. Moreover, integrating real-time perception with agile locomotion for highly dynamic targets remains challenging due to sensor latency and processing delays. To concretely study and benchmark such agility in dynamic settings, we introduce a challenging ball-catching task for legged robots. This paper proposes an…
+
+---
+
+### [CrossTracer: Cross-Embodiment Navigation via VLA Model Reasoning and Trace Residuals Adapting](https://arxiv.org/abs/2608.06688v1)
+
+- **arXiv**: `2608.06688v1`  |  **提交日期**: 2026-08-07
+- **作者**: Yao Wang, Siyuan Wang, Zhirui Sun, Wenzheng Chi, Liang Lin, Jiankun Wang et al.
+
+Vision-language-action (VLA) models provide strong semantic priors for robot navigation, but they often ignore embodiment-specific mobility constraints. A path that is semantically plausible for one robot may be physically infeasible for another. We propose CrossTracer, a hierarchical framework for cross-embodiment navigation through adaptive trace residuals. CrossTracer represents navigation plans as normalized image-plane waypoints, forming a unified pixel-space interface between semantic reasoning and physical grounding. First, Vision-Language Trace Proposer (VL-Tracer) adapts a pretrained…
+
+---
+
 ## 📅 2026-08-07
 
 ### [TRACE: Learned Proprioceptive Odometry for Legged Robots under Unreliable Contact Conditions](https://arxiv.org/abs/2608.05975v1)
