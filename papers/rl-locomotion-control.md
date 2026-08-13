@@ -2,6 +2,17 @@
 
 _自动追踪 arXiv 最新论文，最新更新在最上方。_
 
+## 📅 2026-08-13
+
+### [DaViNCi: A Dataset Towards Outdoor Vision-and-Language Navigation with Continuous Actions and Dynamic Elements](https://arxiv.org/abs/2608.11901v1)
+
+- **arXiv**: `2608.11901v1`  |  **提交日期**: 2026-08-12
+- **作者**: Zihao Xie, Pingrui Lai, Yitong Wu, Hua Yang
+
+Vision-and-Language Navigation (VLN) has progressively expanded from indoor to outdoor environments. However, existing outdoor VLN datasets still rely on fixed discrete topological graphs for construction. It fails to align with the rapidly changing real-world outdoor environments and impedes the sim-to-real transfer of VLN agents. To address this limitation, we propose DaViNCi (\textbf{D}yn\textbf{a}mic \textbf{Vi}sion-and-Language \textbf{N}avigation in \textbf{C}ont\textbf{i}nuous Environment), the first outdoor VLN dataset that simultaneously introduces both continuous and dynamic…
+
+---
+
 ## 📅 2026-08-12
 
 ### [Overcoming Data Scarcity and Confidentiality in Hardware Assurance via Synthetic Generation](https://arxiv.org/abs/2608.09914v1)
