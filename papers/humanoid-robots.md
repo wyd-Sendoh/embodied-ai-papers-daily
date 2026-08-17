@@ -2,6 +2,17 @@
 
 _自动追踪 arXiv 最新论文，最新更新在最上方。_
 
+## 📅 2026-08-17
+
+### [THRIVE: Therapeutic Humanoid Robot In Virtual Environment](https://arxiv.org/abs/2608.14462v1)
+
+- **arXiv**: `2608.14462v1`  |  **提交日期**: 2026-08-14
+- **作者**: Jin Xu, Yu-Ping Chen, Ayanna Howard
+
+This paper presents THRIVE (Therapeutic Humanoid Robot In Virtual Environment), an at-home rehabilitation platform that integrates a suite of virtual-reality upper-body rehabilitation games, a real-time camera-based motion-tracking system, and a socially interactive robot therapist. The system is designed for therapy and intervention in children with upper-limb motor impairments, which can be improved through consistent, task-specific practice. THRIVE features a set of newly designed, engaging games that target functional reaching, grasping, and object-manipulation movements through…
+
+---
+
 ## 📅 2026-08-14
 
 ### [HumanoidVLN: A Physics-Grounded Simulator and Benchmark for Vision-Language Navigation Across Diverse Humanoid Embodiments](https://arxiv.org/abs/2608.12860v1)

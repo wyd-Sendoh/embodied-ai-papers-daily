@@ -2,6 +2,35 @@
 
 _自动追踪 arXiv 最新论文，最新更新在最上方。_
 
+## 📅 2026-08-17
+
+### [Rollplex: Cross-Phase GPU Spatial Sharing for Vision Language Model Post-Training](https://arxiv.org/abs/2608.14498v1)
+
+- **arXiv**: `2608.14498v1`  |  **提交日期**: 2026-08-14
+- **作者**: Hanfeng Lu, Tianyu Feng, Suyi Li, Yuheng Zhao, Wei Gao, Shaopan Xiong et al.
+
+Vision-language models (VLMs) enable embodied agents to reason and act from visual observations and language instructions. Reinforcement learning (RL) post-training enhances these capabilities using task feedback, but current on-policy RL runtimes execute rollout, reference scoring, and actor training in strict serial phases. While effective for text-only RL, this phase-granular execution is wasteful for VLMs, where processing dense video inputs and prompt prefixes occupies a large fraction of each phase. Because prefix processing is independent of the generated response, it can be run…
+
+---
+
+### [PRM-as-a-Judge 1.5: A Toolkit for Robot Process Assessment](https://arxiv.org/abs/2608.14284v1)
+
+- **arXiv**: `2608.14284v1`  |  **提交日期**: 2026-08-14
+- **作者**: Yuyang Liu, Yanqing Shen, Ruike Chen, Jifan Zhao, Yuxuan Tian, Yichi Zhang et al.
+
+Fine-grained robotic evaluation matters for understanding embodied models, going beyond binary success rates and rule-based process scores. We present PRM-as-a-Judge 1.5, a toolkit for robot process assessment that turns rollout videos into dense progress curves and derives multiple fine metrics. PRM-as-a-Judge 1.5 introduces three metrics, building on version 1.0, that characterize failure-side progress, post-drawdown recovery, and success-side execution quality, helping users understand embodied model capability. Based on the rollout videos from benchmarks, we perform a comprehensive…
+
+---
+
+### [Implementing Computational Law in Wolfram Language for the Governance of Artificial Intelligence](https://arxiv.org/abs/2608.13958v1)
+
+- **arXiv**: `2608.13958v1`  |  **提交日期**: 2026-08-14
+- **作者**: James K. Wiles
+
+How do we govern AI systems whose reasoning we cannot fully inspect? Governance does not require understanding a system's reasoning. It requires stating what the system is obliged, permitted, and forbidden to do, and checking whether it complied. I present an implementation of Reified Input/Output Logic, the formalism behind the DAPRECO knowledge base, in Wolfram Language: the core I/O axioms, obligations, permissions, constitutive norms, reified eventualities, and temporal operators. I then test whether GPT-4 can translate English legal statements into the formalism, and report the failures:…
+
+---
+
 ## 📅 2026-08-14
 
 ### [Enhancing Virtual Agents through SLMs and Edge-Computing: An Exploratory Evaluation of Think and Memory Processes](https://arxiv.org/abs/2608.13420v1)
