@@ -2,6 +2,116 @@
 
 _自动追踪 arXiv 最新论文，最新更新在最上方。_
 
+## 📅 2026-08-18
+
+### [HarnessEval-W: Agentifying the Evaluation of Visual Worlds](https://arxiv.org/abs/2608.16859v1)
+
+- **arXiv**: `2608.16859v1`  |  **提交日期**: 2026-08-17
+- **作者**: Weiliang Chen, Haowen Sun, Jun Gao, Jiawei Chi, Hanyang Wang, Qiyu Dai et al.
+
+A benchmark should deliver more than a scalar score: what makes an evaluation trustworthy is the reasoning that justifies the score. This is especially critical for world models, where judging a rollout requires understanding whether physics, causality, and world state evolve correctly. Humans spot such violations naturally, yet no existing benchmark automates this capability: metrics are computed brute-force, leaving no reasoning chain that can be examined or verified. We introduce HarnessEval-W, an agentified evaluation pipeline that brings the harness paradigm from the LLM ecosystem to…
+
+---
+
+### [CaliBench: Are the Stochastic Dynamics of Video World Models Physically Calibrated?](https://arxiv.org/abs/2608.16829v1)
+
+- **arXiv**: `2608.16829v1`  |  **提交日期**: 2026-08-17
+- **作者**: Jonathan Sadeghi, Jenny Seidenschwarz, Jesse Allardice, Sirish Srinivasan, Benjamin Graham, Jeffrey Hawke
+
+Video world models approximate the stochastic distribution of physical outcomes through generative sampling, but existing benchmarks score individual generations or compare distributions coarsely over a whole dataset, leaving the fine-grained aleatoric uncertainty of specific phenomena untested. We introduce CaliBench, which scores outcomes in a physically interpretable discrete space - a bin index, a die face, a suit, a colour - rather than a learned feature space such as in FID, so the distance from a known reference distribution is measured directly. We curate outcome spaces whose…
+
+---
+
+### [Orbit-Planner: Towards Latent World Models for On-Orbit Obstacle Avoidance of Satellite Agents](https://arxiv.org/abs/2608.16651v1)
+
+- **arXiv**: `2608.16651v1`  |  **提交日期**: 2026-08-17
+- **作者**: Zhijian Li, Chao Ren, Peijin Wang, Xian Sun
+
+Satellite agents for on-orbit navigation tasks need to predict collision risks using limited onboard observations. However, conventional planners often rely on predefined maps and fixed environmental assumptions, limiting their adaptability in dynamic on-orbit scenarios. In this paper, we propose Orbit-Planner, a two-stage latent world model for on-orbit obstacle avoidance. Orbit-Planner learns action-conditioned spacecraft dynamics to perform future-state rollouts in latent space, and introduces a Physics Probe to decode physical state changes from imagined latent trajectories. Experiments…
+
+---
+
+### [Stable Multi-Step Rollouts via Uncertainty-Guided Hybrid Dynamics](https://arxiv.org/abs/2608.16431v1)
+
+- **arXiv**: `2608.16431v1`  |  **提交日期**: 2026-08-17
+- **作者**: Andrei Maalberg, Axel Neumann, Jens Knobloch
+
+Multi-step rollouts are essential for model-based reinforcement learning (RL) and predictive control, yet learned dynamics models often become unstable when recursively applied, leading to divergence and unreliable policy updates. This paper proposes a model-agnostic hybrid dynamics framework that blends a provably contracting nominal model with a flexible excursion model through an uncertainty-guided switching law. The switching signal is derived from calibrated epistemic uncertainty and activates only when the system leaves the nominal region, ensuring that each model operates within its…
+
+---
+
+### [DriveCache: Action-Aware Caching for Driving World Model Inference](https://arxiv.org/abs/2608.16354v1)
+
+- **arXiv**: `2608.16354v1`  |  **提交日期**: 2026-08-17
+- **作者**: Jianchun Yang, Jian Liang, Xianda Guo, Pinhan Fu, Yanlun Peng, Conglang Zhang et al.
+
+Driving video generation models support autonomous-driving development by predicting controllable future scenes for simulation, planning evaluation, and offline data generation. Diffusion-based driving generators repeatedly evaluate large backbones across denoising steps, which limits generation throughput. Existing diffusion acceleration methods reduce this cost, but general-purpose designs omit driving signals available before generation, such as ego speed and planned trajectories. Experiments across driving motions show that cache tolerance varies with ego translation and rotation,…
+
+---
+
+### [SCALE: State-Calibrated Latent Embeddings for JEPA Planning in the Right Geometry](https://arxiv.org/abs/2608.16287v1)
+
+- **arXiv**: `2608.16287v1`  |  **提交日期**: 2026-08-17
+- **作者**: Jiaming Hu, Yan Zheng, Tian Wang
+
+Joint-embedding predictive world models plan by scoring predicted terminal embeddings against a goal embedding using a cost defined on the representation itself. Two prominent strategies for obtaining non-collapsed representations are to inherit a pretrained feature space, as in DINO-WM, and to learn an embedding end to end with anti-collapse regularization, as in LeWorldModel (LeWM) with SIGReg. These strategies show complementary strengths across tasks. Although task-relevant state is decodable from the full embeddings of both models, DINO-WM's leading principal components usually retain…
+
+---
+
+### [GaussianDWM++: Language-Grounded 3D Gaussian Driving World Model for Unified Scene Understanding, Editing, and Multi-Modal Generation](https://arxiv.org/abs/2608.16234v1)
+
+- **arXiv**: `2608.16234v1`  |  **提交日期**: 2026-08-17
+- **作者**: Tianchen Deng, Xuefeng Chen, Shuang Wu, Qu Chen, Jiajun Zhu, Bo Dai et al.
+
+Driving World Models (DWMs) have recently advanced rapidly with generative models, yet most existing methods mainly focus on conditional scene generation and lack explicit 3D scene understanding, language-grounded reasoning, and controllable 4D editing capabilities. Moreover, commonly used point cloud, occupancy, or BEV representations make it difficult to achieve fine-grained alignment between textual information and the underlying 3D scene structure. To address these limitations, we propose a foundation-feature Gaussian driving world model that unifies scene understanding, language-grounded…
+
+---
+
+### [Beyond Visual CoT: Internalized Visual Thinking for Proactive Video Reasoning](https://arxiv.org/abs/2608.15869v1)
+
+- **arXiv**: `2608.15869v1`  |  **提交日期**: 2026-08-16
+- **作者**: Xiaoyu Zhu, Xinke Deng, Suresh Taddewadikar, Arnab Kumar Mondal, Zhongyu Jiang, Ian Fasel et al.
+
+Multimodal large language models increasingly use visual chain-of-thought (Visual CoT) to reason about spatial, temporal, and embodied environments. By generating intermediate reasoning images, Visual CoT provides an intuitive mechanism for visual foresight but introduces substantial inference overhead, which is particularly problematic for proactive video reasoning. We ask whether models can learn to think visually during training while reasoning directly at inference. We introduce Internalized Visual Thinking (IVT), a post-training framework that jointly optimizes textual prediction and…
+
+---
+
+### [Physiological World Models for Human State Transitions](https://arxiv.org/abs/2608.15309v1)
+
+- **arXiv**: `2608.15309v1`  |  **提交日期**: 2026-08-15
+- **作者**: Chongyang Zhang, Rendong Wang, Hao Zheng, Hanwen Zhang, Yang Liu, Xiaolong Wei et al.
+
+Continuous multimodal sensing now allows human physiology to be observed throughout daily life rather than only during occasional clinical visits. However, most health artificial intelligence systems are designed to recognize current states, estimate risks or analyse individual biomarkers. They do not directly model how physiological states change in response to real-world events, behaviours, contexts and interventions. Here we propose the Physiological World Model (PWM), an event-conditioned framework for learning these changes at the level of the whole person. We introduce the HumanState…
+
+---
+
+### [Low-Rank Dynamics-Effective Latent Carriers for Counterfactual Rollout in Learned World Models](https://arxiv.org/abs/2608.15156v1)
+
+- **arXiv**: `2608.15156v1`  |  **提交日期**: 2026-08-15
+- **作者**: Yang Liu, Yuming Chen
+
+World models may predict the future without making clear which parts of their hidden state actually drive those predictions. We ask whether a small, directly addressable hidden-state change can place a learned world model on the intended counterfactual trajectory and then let the model continue that future on its own. We study a recurrent world model with a 192-dimensional hidden state in a controlled two-object, two-dimensional collision environment. For a bounded family of local velocity edits, we first verify that the model can natively represent and roll out the edited future. We then…
+
+---
+
+### [SCOPE: Score-Isolated Agentic Optimization for Video World Models](https://arxiv.org/abs/2608.15043v1)
+
+- **arXiv**: `2608.15043v1`  |  **提交日期**: 2026-08-15
+- **作者**: Yuhua Jiang, Jiaming Wang, Qingbin Liu, Feifei Gao
+
+Video world models are increasingly used as simulators for planning and embodied decision making, yet improving them at inference time introduces a subtle evaluation problem: prompts, samplers, verifiers, and selectors may evolve together, making it difficult to attribute gains or prevent held-out feedback from shaping the final policy. We introduce \scope (\emph{\scopefullname}), a framework for auditable inference-time adaptation of frozen video world models. \scope represents external controls as a typed state, updates this state only through bounded changes supported by development…
+
+---
+
+### [Evidence of Absence: Cross-Modal Abductive Risk Perception to Sustain World Models When Vision Fails](https://arxiv.org/abs/2608.14952v1)
+
+- **arXiv**: `2608.14952v1`  |  **提交日期**: 2026-08-15
+- **作者**: Cong Xu, Ravi Sankar
+
+A structured world-state (entities, relations, context, and predictive cues) is designed to preserve prediction-critical content when perception degrades, but it presumes observations to populate it; when the primary visual modality is occluded or degraded, those observations may be missing. We address how to sustain the world model from a complementary modality by treating the absence of expected co-evidence as evidence of a hidden cause. The abductive framework is modality-agnostic; this article instantiates it acoustically. A microphone-array front-end estimates the bearing of engine and…
+
+---
+
 ## 📅 2026-08-17
 
 ### [Marionette: Predicting World States, Rendering Geometry, Painting Appearance](https://arxiv.org/abs/2608.14530v1)

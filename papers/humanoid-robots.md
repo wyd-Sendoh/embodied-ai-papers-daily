@@ -2,6 +2,44 @@
 
 _自动追踪 arXiv 最新论文，最新更新在最上方。_
 
+## 📅 2026-08-18
+
+### [HAF: Adapting Generalist VLAs to Humanoid Whole-Body Loco-manipulation via Hierarchical Action Flow and Spectral Latent RL](https://arxiv.org/abs/2608.16837v1)
+
+- **arXiv**: `2608.16837v1`  |  **提交日期**: 2026-08-17
+- **作者**: Langzhe Gu, Chengkai Hou, Meng Li, Xinhua Wang, Jiaming Liu, Xinyuan Lv et al.
+
+Humanoid robots hold great promise as general-purpose agents in human-centered environments, yet generalist vision-language-action (VLA) foundation models are not readily applicable to humanoid whole-body loco-manipulation. The high dimensionality and interdependence of humanoid motions make it challenging for conventional single-stage VLA architectures to coordinate locomotion, waist posture, and dual-arm manipulation effectively. Moreover, policies trained through offline behavior cloning can remain suboptimal during real-world deployment. Although online reinforcement learning can refine…
+
+---
+
+### [Throwing a Tight Spiral American Football by a Humanoid Robot](https://arxiv.org/abs/2608.16642v1)
+
+- **arXiv**: `2608.16642v1`  |  **提交日期**: 2026-08-17
+- **作者**: Zaid Mahboob, Bowen Weng
+
+Accurate throwing of the American football requires precise regulation of release conditions, where coupled linear and angular momentum determine flight stability and targeting accuracy. While prior work on robotic object throwing has largely focused on generating dynamically feasible release velocities using open-gripper paradigms, explicit control of spin injection at detachment remains underexplored, particularly for aerodynamically anisotropic objects like the American football. In this paper, we present the spin-stabilized controlled tight spiral throw of an American football by a…
+
+---
+
+### [RoboStriker: Latent-Space Strategic Games for Autonomous Humanoid Boxing](https://arxiv.org/abs/2608.16195v1)
+
+- **arXiv**: `2608.16195v1`  |  **提交日期**: 2026-08-17
+- **作者**: Kangning Yin, Kaige Liu, Zhe Cao, Wentao Dong, Weishuai Zeng, Tianyi Zhang et al.
+
+Achieving human-level competitive intelligence and physical agility in humanoid robots remains a profound challenge, particularly in contact-rich and highly dynamic tasks such as boxing. While Multi-Agent Reinforcement Learning offers a principled framework for strategic interaction, its direct application to unstructured raw motor spaces inevitably leads to joint-level physical collapse, preventing the emergence of any viable combat tactics. To resolve this fundamental conflict between strategic exploration and physical feasibility, we formulate the humanoid combat task as a novel two-player…
+
+---
+
+### [Tac4Loco: Learning Spatiotemporal Plantar Pressure Representations for Humanoid Locomotion](https://arxiv.org/abs/2608.15766v1)
+
+- **arXiv**: `2608.15766v1`  |  **提交日期**: 2026-08-16
+- **作者**: Ziyun Liu, Sikai Guo, Zheng Li, Jiahang Cao, Haichao Liu, Pei Qu et al.
+
+Humanoid robots are expected to traverse complex terrains, where the plantar support may vary dramatically due to foot placement errors, ground properties, and transient dynamics. To achieve robust locomotion, the robots are required to adapt to uneven terrain and uncertain foot--ground interactions. Existing locomotion policies rely primarily on proprioception or exteroceptive terrain perception, where the former provides only indirect evidence of plantar support, while the latter predicts contact conditions before touchdown but cannot observe the actual support in real-time. Although some…
+
+---
+
 ## 📅 2026-08-17
 
 ### [THRIVE: Therapeutic Humanoid Robot In Virtual Environment](https://arxiv.org/abs/2608.14462v1)

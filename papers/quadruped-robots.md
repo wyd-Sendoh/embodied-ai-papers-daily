@@ -2,6 +2,26 @@
 
 _自动追踪 arXiv 最新论文，最新更新在最上方。_
 
+## 📅 2026-08-18
+
+### [Robot-Body-Aware Traversal Risk Graph Planning for Wheeled-Legged Robots in Complex Terrain](https://arxiv.org/abs/2608.16433v1)
+
+- **arXiv**: `2608.16433v1`  |  **提交日期**: 2026-08-17
+- **作者**: Zhiqiao Guo, Bichi Zhang, Sören Schwertfeger
+
+Traversal Risk Graphs (TRGs) provide a compact, terrain-aware representation for global navigation, but native TRG costs are computed over circular node neighborhoods and edge-aligned terrain regions rather than the robot's oriented body footprint. For wheeled-legged robots, this abstraction can miss partial support loss and body-terrain interference, especially during turns. We present Robot-Body-Aware TRG planning (RB-TRG), which builds on the sparse TRG representation and lifts edge-wise terrain-risk search to heading- and turn-aware body-risk transitions. An oriented rectangular footprint…
+
+---
+
+### [Trajectory-Level Automatic Curriculum Learning for Legged Locomotion on Unstructured Terrain](https://arxiv.org/abs/2608.16164v1)
+
+- **arXiv**: `2608.16164v1`  |  **提交日期**: 2026-08-17
+- **作者**: Rocky Liu, Tengyu Liu, Baoxiong Jia, Fangwei Zhong, Xinyi Tong, Hongzhao Xie et al.
+
+Training locomotion policies for complex unstructured terrain requires a curriculum to avoid early exploration failures. However, since unstructured terrain lacks explicit difficulty ordering for curriculum design, existing methods resort to heuristic curricula over parameterized terrains. This abstraction limits generalization, as policies can overadapt to near-fixed perceptual patterns. To address this, we propose \textbf{\ourname{}}, an \textbf{T}rajectory-level \textbf{A}utomatic \textbf{C}urriculum \textbf{L}earning framework that generates training tasks directly from unstructured…
+
+---
+
 ## 📅 2026-08-13
 
 ### [Learning Loco-Manipulation From SMPC Demonstrations With Sparse Offline-to-Online RL](https://arxiv.org/abs/2608.12063v1)

@@ -2,6 +2,89 @@
 
 _自动追踪 arXiv 最新论文，最新更新在最上方。_
 
+## 📅 2026-08-18
+
+### [Security of Foundation-Model-Powered Embodied Agents: Attack Surfaces, Attacks, Defenses, and Evaluation](https://arxiv.org/abs/2608.16843v1)
+
+- **arXiv**: `2608.16843v1`  |  **提交日期**: 2026-08-17
+- **作者**: Jiawei Liu, Jiacheng Guo, Tian Zhang, Yiwei Xu, Juan Wang, Jinlin Fan et al.
+
+Foundation models are increasingly used for perception, reasoning, planning, and action generation in embodied agents, creating security risks that can propagate from digital inputs to physical behavior. Existing surveys often organize threats by mechanisms such as jailbreaks, prompt injection, backdoors, poisoning, or adversarial examples, but these categories do not consistently identify where an adversary first enters the embodied control loop. We present a trust-boundary-centric survey of foundation-model-powered embodied-agent security. Using a first-compromised-trust-boundary principle,…
+
+---
+
+### [Neurosymbolic Embodied Agents](https://arxiv.org/abs/2608.16794v1)
+
+- **arXiv**: `2608.16794v1`  |  **提交日期**: 2026-08-17
+- **作者**: Mohammad Albinhassan, Yuming Feng, Alessandra Russo, Pranava Madhyastha
+
+Language and vision-language models generate plausible embodied plans but do not guarantee executability, as their outputs can violate environment dynamics or act on incorrectly grounded entities. We present a neurosymbolic agent that factors long-horizon household tasks into task-directed visual exploration and constrained symbolic planning. In the first phase, a vision-language model and exploration harness acquire goal-relevant predicates and instance bindings from egocentric observations and grounded interactions, producing a symbolic initial state. In the second, a PDDL transition model…
+
+---
+
+### [UniTAC: Universal Task-Aware Compression via Weighted Distortion Measures](https://arxiv.org/abs/2608.16696v1)
+
+- **arXiv**: `2608.16696v1`  |  **提交日期**: 2026-08-17
+- **作者**: Homa Esfahanizadeh, Matin Mortaheb, Jinfeng Du, Harish Viswanathan
+
+Physical AI systems such as autonomous vehicles and robots rely on timely exchange of high-dimensional sensory signals under tight bandwidth, latency, and energy budgets. Because the task driving downstream decisions evolves over time, a task-specific codec is brittle and retraining one per task is infeasible in the field. We propose UniTAC, a single learned image codec spanning universal (task-agnostic) to task-specialized operation, re-targeted at runtime without retraining. The task is abstracted as a per-component importance vector, derived, e.g., from gradient attribution of any…
+
+---
+
+### [Zetta $ζ$: An Efficient Closed-Loop Embodied Harness for Self-Evolving Physical Intelligence](https://arxiv.org/abs/2608.16590v1)
+
+- **arXiv**: `2608.16590v1`  |  **提交日期**: 2026-08-17
+- **作者**: Xin Ding, Liang Mi, Mingzhe Huang, Zixuan Wang, Chao Zhang, Zixu Hao et al.
+
+Embodied agents are increasingly used to close the gap left by end-to-end policy models. Yet the agentic path has not realized closed-loop learning in physical execution: existing harnesses remain largely open-loop, following fixed skills during rollout and reflecting only after an episode completes. Such post-hoc reflection cannot govern execution as it unfolds, because physical interaction requires decisions to track rapidly changing robot-environment states at a frequency beyond today's large agentic models. We present Zetta, a closed-loop embodied harness that evolves code-based runtime…
+
+---
+
+### [Co-design of Neural and Muscle Network based on Embodied Perceptron Representation](https://arxiv.org/abs/2608.16555v1)
+
+- **arXiv**: `2608.16555v1`  |  **提交日期**: 2026-08-17
+- **作者**: Siyuan Tao, Yoichi Masuda, Hiroyuki Nabae, Masato Ishikawa
+
+Recent advances in AI technologies have enabled the advanced design of complex control policies. In contrast, focusing on the body, many robots still employ simple bodies that can limit adaptability to environments. Studies in embodied robotics have shown that well-designed bodies can partially replace the role of control and computation with physical body-environment interactions, yet such designs still depend heavily on expert intuition. There is a need for a systematic theoretical framework for body design, as well as a method for joint optimization of the body and controller. To address…
+
+---
+
+### [HiPHI: A Large-Scale Benchmark for High-Precision Human Motion and Object-Interaction](https://arxiv.org/abs/2608.16222v1)
+
+- **arXiv**: `2608.16222v1`  |  **提交日期**: 2026-08-17
+- **作者**: Jiahao Ji, Ji Ma, Runhan Zhang, Runyi Yu, Wenjia Wang, Weiheng Chi et al.
+
+Humanoid intelligence requires learning over an extremely diverse space of whole-body motions and physically grounded interactions. However, existing embodied datasets remain fundamentally limited: internet-scale video data lack precise physical states and interaction grounding, while laboratory motion datasets provide high fidelity but only narrow behavioral coverage. This mismatch creates a critical bottleneck for scalable humanoid policy learning. We present HiPHI, a 600+ hour scale high-fidelity whole-body human motion dataset designed to systematically maximize coverage of the human…
+
+---
+
+### [AlloEgo-VLM: Disambiguating Allocentric and Egocentric Reference Frames in Vision-Language Models](https://arxiv.org/abs/2608.15605v1)
+
+- **arXiv**: `2608.15605v1`  |  **提交日期**: 2026-08-16
+- **作者**: Kuan-Lin Chen, Tzu-Ti Wei, Chao-Chi Liao, Yu-Chee Tseng, Jen-Jee Chen
+
+This study investigates the challenge of ambiguity faced by Vision-Language Models (VLMs) in understanding spatial semantics. Spatial cognition, shaped by cognitive psychology, spatial science, and cultural context, often assigns directionality to objects. However, natural language descriptions of spatial relations frequently omit explicit reference frames, leading to semantic ambiguity and potentially serious errors for embodied AI robots. Existing VLMs, due to insufficient training on reference frames and object orientations, often produce inconsistent responses. To address this issue, we…
+
+---
+
+### [FloodReasonBench: Benchmarking VLM Reasoning Segmentation for Embodied Flood Response at the Edge](https://arxiv.org/abs/2608.15410v1)
+
+- **arXiv**: `2608.15410v1`  |  **提交日期**: 2026-08-15
+- **作者**: Rajat Bhattacharjya, Yoomee Jung, Minwoo Kim, Sing-Yao Wu, Eli Bozorgzadeh, Nalini Venkatasubramanian et al.
+
+Reasoning segmentation enables vision-language models (VLMs) to translate mission-relevant language requests into pixel-level visual grounding, offering a natural perception interface for embodied agents. However, existing benchmarks largely focus on generic visual scenes and overlook the domain and resource constraints encountered in flood-response platforms. We present FloodReasonBench, a benchmark for VLM reasoning segmentation for embodied flood response at the edge. At its core, FloodReasonBench introduces FloodResponseSeg, a flood-specific reasoning-segmentation dataset constructed from…
+
+---
+
+### [Constitutive Priors for Machine Intelligence: A Legitimacy Theory of the Artificial Physical World](https://arxiv.org/abs/2608.15147v1)
+
+- **arXiv**: `2608.15147v1`  |  **提交日期**: 2026-08-15
+- **作者**: Jiang Jiang, Yifu Sun, Qi Shen
+
+Machine intelligence has conquered the symbolic world but stalled at the physical one. The stall is structural: physical AI faces a cold-start deadlock -- no intelligence without data, no data without deployed intelligence. Our thesis: the deadlock is real but unevenly distributed, and the exception has a name: the artificial physical world. Buildings, industrial facilities, and infrastructure are intentionally constituted and documented: designed artifacts ship with readable archives that precede and constitute their instances; here, norms are promulgated before instances, not averaged from…
+
+---
+
 ## 📅 2026-08-17
 
 ### [Rollplex: Cross-Phase GPU Spatial Sharing for Vision Language Model Post-Training](https://arxiv.org/abs/2608.14498v1)
