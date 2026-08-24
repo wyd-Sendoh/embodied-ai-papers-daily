@@ -2,6 +2,17 @@
 
 _自动追踪 arXiv 最新论文，最新更新在最上方。_
 
+## 📅 2026-08-24
+
+### [Natural Sit-to-Stand Motion Synthesis For Humanoids via Guided Assistance Curricula and Staged Rewards](https://arxiv.org/abs/2608.20823v1)
+
+- **arXiv**: `2608.20823v1`  |  **提交日期**: 2026-08-21
+- **作者**: Meet Pal Singh, Vyankatesh Ashtekar, Ashish Dutta
+
+A humanoid has infinitely many ways to stand up from sitting while maintaining balance, making sit-to-stand (STS) a challenging control problem. We synthesise natural humanoid STS motion from scratch using reinforcement learning, without demonstrations or reference trajectories. A single Proximal Policy Optimisation policy learns smooth, human-like rising driven by three complementary components. (i) A coupled force/chair-height curriculum is used. A vertical pelvis-assist force aids early trajectory exploration and decays over training. Taller chairs are unlocked with decaying assisting…
+
+---
+
 ## 📅 2026-08-21
 
 ### [Learning to Beat: Phenotype-Guided Latent Flow with Regional Motion Priors for Biventricular Motion Synthesis](https://arxiv.org/abs/2608.19738v1)
