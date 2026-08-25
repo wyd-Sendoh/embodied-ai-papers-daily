@@ -2,6 +2,53 @@
 
 _自动追踪 arXiv 最新论文，最新更新在最上方。_
 
+## 📅 2026-08-25
+
+### [Spatiotemporally Decoupled Autoregressive Diffusion Model for Human Motion Generation](https://arxiv.org/abs/2608.23279v1)
+
+- **arXiv**: `2608.23279v1`  |  **提交日期**: 2026-08-24
+- **作者**: Chengqun Yang, Liang Xu, Yanping Li, Fulong Liu, Jingnan Gao, Weili Zeng et al.
+
+Text-driven human motion synthesis has made substantial development with two core modules of motion representation and generative architecture. For representation, Vector Quantization (VQ)-based methods compress motion data into discrete tokens while latent-based models operate directly in continuous space. However, both of these representations exhibit significant limitations. VQ-based methods suffer from inherent information loss, which compromises the quality, diversity, and generalization of generated motions, while continuous representation on holistic whole-body motion hinders…
+
+---
+
+### [Progressively Learning Heterogeneous Skills in a Unified Latent Space](https://arxiv.org/abs/2608.23258v1)
+
+- **arXiv**: `2608.23258v1`  |  **提交日期**: 2026-08-24
+- **作者**: Yue-Yi Zhang, Ming Gong, Linpu He, Wei-Shi Zheng, Zhilin Zhao
+
+We propose HetSkills, a novel framework designed to progressively learn heterogeneous skills within a unified latent space for physics-based character control. The core idea is to treat this latent space as a shared executable interface, enabling seamless integration of skills learned from diverse data sources, supervision forms, and tasks. HetSkills begins by learning a tracking skill that establishes a strong foundation in motion control and creates a shared motion decoder, which can be reused across tasks without the need for retraining or separate controllers. To prevent the…
+
+---
+
+### [What is the effect of running-specific prostheses on long jumps? Optimization-based prediction and analysis using biomechanical models](https://arxiv.org/abs/2608.22507v1)
+
+- **arXiv**: `2608.22507v1`  |  **提交日期**: 2026-08-23
+- **作者**: Anna Lena Emonds, Johannes Funken, Wolfgang Potthast, Katja Mombaur
+
+Long jumpers with below the knee amputation (BKA) that take off from their running-specific prosthesis (RSP) improved performances significantly over the last years. The long jump biomechanics differs compared to athletes without BKA and the question arises whether the spring-like properties of the RSP facilitate achieving long jumping distances. The aim of this work is to propose a long jump model for athletes with and without BKA, to evaluate it and to apply it for comparing long jump motions with and without RSP. We establish rigid multi-body system models of one athlete with and one…
+
+---
+
+### [EMPIRE: Explicit Manipulation Planning as a Learnable Intermediate Representation for Egocentric Hand-Motion Forecasting](https://arxiv.org/abs/2608.22449v1)
+
+- **arXiv**: `2608.22449v1`  |  **提交日期**: 2026-08-23
+- **作者**: Wen Wang, Ruibing Hou, Hong Chang, Shiguang Shan, Xilin Chen
+
+Forecasting dexterous hand motions from egocentric observations is fundamental to intelligent interactive systems. Existing VLM-based methods typically map observations directly to future motions, overlooking the underlying manipulation process that governs hand-object interactions. Moreover, end-to-end optimization couples manipulation learning with motion synthesis, causing motion-generation gradients to interfere with the pre-learned manipulation-aware representations. To overcome these limitations, we propose EMPIRE, a two-stage framework that introduces Explicit Manipulation Planning as…
+
+---
+
+### [Emotion Intensity Matters: Generating Realistic Expressions in Virtual Humans with CVAEs](https://arxiv.org/abs/2608.21697v1)
+
+- **arXiv**: `2608.21697v1`  |  **提交日期**: 2026-08-22
+- **作者**: Vitor Miguel Xavier Peres, Lara Volpato, Gabriel Ferri Scnheider, Soraia Raupp Musse
+
+Generating expressive facial behavior in virtual humans (VHs) remains a central challenge in affective computing and character animation. This paper presents a novel approach based on Conditional Variational Autoencoders (CVAEs), trained on real human facial expression data, to synthesize controllable emotional expressions at varying intensities. Using a dataset comprising six basic emotions represented at two intensity levels (low and high), we train a CVAE model to generate synthetic facial expression data while preserving semantic consistency with real human expressions. Despite the…
+
+---
+
 ## 📅 2026-08-24
 
 ### [Natural Sit-to-Stand Motion Synthesis For Humanoids via Guided Assistance Curricula and Staged Rewards](https://arxiv.org/abs/2608.20823v1)

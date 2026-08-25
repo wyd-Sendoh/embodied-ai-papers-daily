@@ -2,6 +2,53 @@
 
 _自动追踪 arXiv 最新论文，最新更新在最上方。_
 
+## 📅 2026-08-25
+
+### [Guided Riemannian Optimization (GuRO): Bridging Model Predictive Control and Decision Transformers](https://arxiv.org/abs/2608.23204v1)
+
+- **arXiv**: `2608.23204v1`  |  **提交日期**: 2026-08-24
+- **作者**: Hossein Abdi, Satya Prakash Dash, Mingfei Sun
+
+Decision-making in high-dimensional, nonlinear systems remains a central challenge in robotics. While model-based methods like Model Predictive Control (MPC) offer sample efficiency and interpretability, their performance degrades when the dynamics model is inaccurate or long-horizon predictions are required. Conversely, model-free reinforcement learning (RL) learns policies directly from interaction but suffers from high sample complexity and unstable optimization. Recent advances in sequence modeling have inspired transformer-based decision-making frameworks that can unify MPC and RL, but…
+
+---
+
+### [Physics Filtering Favors the Generalization of Robot Learning](https://arxiv.org/abs/2608.22701v1)
+
+- **arXiv**: `2608.22701v1`  |  **提交日期**: 2026-08-24
+- **作者**: Jindou Jia, Shixuan Han, Meng Wang, Gen Li, Zihan Yang, Sicheng Zhou et al.
+
+Living organisms exhibit extraordinary adaptability to unseen environments through their intrinsic physical structures and lifelong feedback-driven learning. Endowing robots with comparable generalization is critical for reliable operation in the real world. While recent approaches attempt to improve generalization by scaling training data, such strategies remain impractical for robotics, where collecting real-world demonstrations at the scale of large language models is prohibitively costly and slow. Contrary to this reliance on massive datasets, we show that robots can generalize…
+
+---
+
+### [Physical Agentic AI: An Architecture for Orchestrating a Robot Crew with LLMs](https://arxiv.org/abs/2608.22657v1)
+
+- **arXiv**: `2608.22657v1`  |  **提交日期**: 2026-08-23
+- **作者**: Xinyuan Liu, Eren Sadikoglu, Riana Chatterjee, Ransalu Senanayake
+
+Agentic AI frameworks interpret open-ended task goals and decompose them into multi-step plans. Richer information about embodiment-specific capabilities, physical preconditions, and cross-robot coordination improves grounding, but does not eliminate infeasible, mistimed, or unsafe physical actions. Physical robot crews therefore require an explicit architectural interface between semantic planning and execution, where every planned action is verified against robot capabilities, system state, and workflow constraints before actuation. This paper introduces Physical Agentic AI, a framework for…
+
+---
+
+### [TONAV: Task-Oriented Navigation and Action-Velocity Chunk Learning for Articulated Object Quadrupedal Mobile Manipulation](https://arxiv.org/abs/2608.22296v1)
+
+- **arXiv**: `2608.22296v1`  |  **提交日期**: 2026-08-23
+- **作者**: Haoran Lin, Mingyu Yang, Pengfei Qi, Kehan Chen, Qiang Diao, Liangji Zeng et al.
+
+Quadruped mobile manipulation requires two tightly coupled capabilities: reaching manipulation-ready configurations and maintaining stable contact throughout articulated-object interaction. However, existing methods often terminate navigation near the target, leaving a gap between reachability and manipulation readiness, while tracking lag, motion jitter, and contact instability limit continuous interaction. To address these challenges, we present TONAV, a unified framework integrating task-oriented navigation with action-velocity chunk learning. First, we introduce a…
+
+---
+
+### [DELTA: Deformable Elevation-Based Local Terrain Attention Encoder for Sparse-Terrain Quadrupedal Locomotion](https://arxiv.org/abs/2608.22033v1)
+
+- **arXiv**: `2608.22033v1`  |  **提交日期**: 2026-08-22
+- **作者**: Sanghyun Park, Moonkyu Jung, Jemin Hwangbo
+
+Stable quadrupedal locomotion on sparse terrain requires selecting state-relevant terrain evidence for precise foot placement. Model-based foothold planners provide precise foothold selection but rely heavily on explicit model assumptions. Recent attention-based map encoding (AME) studies show that end-to-end reinforcement learning (RL) can learn implicit foothold guidance. However, the computational cost of dense AME encoding grows with map resolution, limiting its scalability to fine-grained sparse terrain. We propose DELTA, a Deformable Elevation-Based Local Terrain Attention encoder.…
+
+---
+
 ## 📅 2026-08-21
 
 ### [Learning Highly Dynamic Skills Transition for Quadruped Jumping Through Constrained Space](https://arxiv.org/abs/2608.19977v1)
