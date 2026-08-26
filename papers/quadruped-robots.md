@@ -2,6 +2,26 @@
 
 _自动追踪 arXiv 最新论文，最新更新在最上方。_
 
+## 📅 2026-08-26
+
+### [CARO: Contact-Agnostic Residual Observation for Zero-Shot Robust Quadruped Locomotion](https://arxiv.org/abs/2608.24217v1)
+
+- **arXiv**: `2608.24217v1`  |  **提交日期**: 2026-08-25
+- **作者**: Zihan Yang, Shixuan Han, Kexin Guo, Xiang Yu
+
+We propose CARO, a contact-agnostic residual observation framework for policy adaptation. CARO embeds a fixed-base Euler--Lagrange model into the reinforcement learning control loop and constructs a torque-level residual observation without requiring torque sensors, explicit contact estimation, or vision-based measurements of the floating-base position and linear velocity. A disturbance observer extracts a structured signal representing dynamics mismatch, while the policy learns to exploit this feedback for online adaptation. CARO is trained under the same terrain, command, and…
+
+---
+
+### [Guided Riemannian Optimization (GuRO): Bridging Model Predictive Control and Decision Transformers](https://arxiv.org/abs/2608.23204v2)
+
+- **arXiv**: `2608.23204v2`  |  **提交日期**: 2026-08-24
+- **作者**: Hossein Abdi, Satya Prakash Dash, Mingfei Sun
+
+Decision-making in high-dimensional, nonlinear systems remains a central challenge in robotics. While model-based methods like Model Predictive Control (MPC) offer sample efficiency and interpretability, their performance degrades when the dynamics model is inaccurate or long-horizon predictions are required. Conversely, model-free reinforcement learning (RL) learns policies directly from interaction but suffers from high sample complexity and unstable optimization. Recent advances in sequence modeling have inspired transformer-based decision-making frameworks that can unify MPC and RL, but…
+
+---
+
 ## 📅 2026-08-25
 
 ### [Guided Riemannian Optimization (GuRO): Bridging Model Predictive Control and Decision Transformers](https://arxiv.org/abs/2608.23204v1)
