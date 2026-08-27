@@ -2,6 +2,35 @@
 
 _自动追踪 arXiv 最新论文，最新更新在最上方。_
 
+## 📅 2026-08-27
+
+### [PRISM: Projection-Integrated Sampling-Based MPC with Bayesian Cost Tuning for Bimanual Manipulation](https://arxiv.org/abs/2608.25666v1)
+
+- **arXiv**: `2608.25666v1`  |  **提交日期**: 2026-08-26
+- **作者**: Alinjar Dan, Iryna Hurova, Karl Kruusamäe, Arun Kumar Singh
+
+Bimanual manipulation in cluttered, contact-rich environments remains challenging because it requires coordinated motion generation, interaction-aware planning, and reliable execution under tight kinematic constraints. We present PRISM, a projection-integrated sampling-based Model Predictive Control (MPC) framework that uses a GPU-accelerated physics simulator as an online world model for complex dual-arm manipulation. The main algorithmic contribution is a QP-guided control sampling strategy that decouples trajectory exploration from kinematic feasibility. At each MPC step, sampled…
+
+---
+
+### [Advantage-Driven Explicit Memory for Social Navigation](https://arxiv.org/abs/2608.25610v1)
+
+- **arXiv**: `2608.25610v1`  |  **提交日期**: 2026-08-26
+- **作者**: Yeonsoo Park, Mattia Racca, Guillaume Bono, Steeven Janny, Gianluca Monaci, Tomi Silander et al.
+
+Robot policies are predominantly learned with classical parametric variants of imitation learning or RL, where training stores the agent's behavior exclusively in the policy's network parameters, putting a heavy burden on the representation learning algorithm. We propose a new navigation agent equipped with non-parametric memory which explicitly indexes prior steps leading to critical events. The advantages are twofold: first, it allows the policy to outsource some of its behavior into an explicit memory; second, it encourages a form of continual learning by allowing an agent to collect data…
+
+---
+
+### [LAC: Linear and Angular Compliance for Humanoid Whole-body Control](https://arxiv.org/abs/2608.25405v1)
+
+- **arXiv**: `2608.25405v1`  |  **提交日期**: 2026-08-26
+- **作者**: Yang Liu, Zhongkai Gu, Wei Zhu, Mitsuhiro Hayashibe
+
+Real-world humanoid tasks involve physical interaction with objects and humans, yet current controllers either reject external forces as disturbances or restrict compliance to limited body links while ignoring angular effects. We present LAC, a general whole-body controller that simultaneously realizes commanded Linear and Angular Compliance for wrenches applied to the upper body. First, we synthesize whole-body compliant responses into a large-scale augmented dataset. Sampled force and couple events are imposed on contact frames extracted from human interaction data. At each contact link,…
+
+---
+
 ## 📅 2026-08-26
 
 ### [WarpSAC: Towards the Pinnacle of Scalable Off-policy RL by Rethinking Exploration and Exploitation](https://arxiv.org/abs/2608.24479v1)

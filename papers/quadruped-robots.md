@@ -2,6 +2,26 @@
 
 _自动追踪 arXiv 最新论文，最新更新在最上方。_
 
+## 📅 2026-08-27
+
+### [SUPER ODOMETRY 2.0: Resilient Odometry via Hierarchical Adaptation](https://arxiv.org/abs/2608.25427v1)
+
+- **arXiv**: `2608.25427v1`  |  **提交日期**: 2026-08-26
+- **作者**: Shibo Zhao, Sifan Zhou, Yuchen Zhang, Ji Zhang, Chen Wang, Wenshan Wang et al.
+
+Resilient and robust odometry is crucial for autonomous systems operating in complex and dynamic environments. Existing odometry systems often struggle with severe sensory degradations and extreme conditions such as smoke, sandstorms, snow, or low-light conditions, threatening both the safety and functionality of robots. To address these challenges, we present Super Odometry, a sensor fusion framework that dynamically adapts to varying levels of environmental degradation. Super Odometry employs a hierarchical structure to integrate four core modules from lower-level to higher-level…
+
+---
+
+### [RAEM: Robust Autonomous Exploration for Multi-Floor Environments with a Quadruped Robot](https://arxiv.org/abs/2608.25366v1)
+
+- **arXiv**: `2608.25366v1`  |  **提交日期**: 2026-08-26
+- **作者**: Zikang Yuan, Yuan Ren, Yian Wang, Yixue Wang, Enze Fang, Xuewei Zhang et al.
+
+In this paper, we propose RAEM, a robust autonomous exploration framework for quadruped robots operating in multi-floor environments. Most existing ground-robot exploration approaches rely on planar traversability representations, which cannot adequately represent the overlapping structures and cross-floor connectivity of multi-floor buildings. Although tomography-based representations provide effective traversability modeling for multi-floor navigation, maintaining a global tomography map incurs substantial computational overhead for online exploration with frequent replanning. Moreover,…
+
+---
+
 ## 📅 2026-08-26
 
 ### [CARO: Contact-Agnostic Residual Observation for Zero-Shot Robust Quadruped Locomotion](https://arxiv.org/abs/2608.24217v1)

@@ -2,6 +2,26 @@
 
 _自动追踪 arXiv 最新论文，最新更新在最上方。_
 
+## 📅 2026-08-27
+
+### [MyoMechanix: Biomechanically-Grounded Compositional Skilled Activity Understanding and Coaching](https://arxiv.org/abs/2608.26094v1)
+
+- **arXiv**: `2608.26094v1`  |  **提交日期**: 2026-08-26
+- **作者**: Hao Yin, Paritosh Parmar, Lijun Gu, Lin Xu, Tianxiao Guo, Xiujin Liu et al.
+
+Existing action quality assessment (AQA) datasets and methods rely primarily on visual inputs such as RGB and pose, overlooking physiological dynamics such as muscle mechanics and often modeling actions as monolithic patterns. These limitations hinder fine-grained, biomechanically grounded feedback. We introduce MyoMechanix, a multimodal ecosystem for weight-loaded actions that aligns motion with muscle activity. Expert-annotated, it contains 7,500+ samples of 20 actions from 38 subjects, with synchronized multiview RGB video, 3D pose, sEMG, and additional physiological signals, forming the…
+
+---
+
+### [A Statistical Audit of Physical AI Benchmark Redundancy](https://arxiv.org/abs/2608.25940v1)
+
+- **arXiv**: `2608.25940v1`  |  **提交日期**: 2026-08-26
+- **作者**: Zaruhi Navasardyan, Hrant Davtyan
+
+Physical AI models are evaluated on suites of benchmarks that differ across model reports, leaving the model-by-benchmark matrix sparse and the relationship between benchmarks unmeasured. We construct a matrix of 51 models on 12 physical AI benchmarks, selected from a registry of 51 benchmarks and 152 models by reporting density, combining scores from model cards and benchmark papers with our own evaluation runs under each benchmark's official protocol. We measure how much information the benchmarks share and show quantitative evidence of Redundancy. Redundancy affects reported rankings:…
+
+---
+
 ## 📅 2026-08-26
 
 ### [From Seeing to Acting: Smart Glasses as First-Person Intelligence Platforms](https://arxiv.org/abs/2608.24877v1)
