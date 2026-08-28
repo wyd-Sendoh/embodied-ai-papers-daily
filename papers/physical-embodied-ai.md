@@ -2,6 +2,53 @@
 
 _自动追踪 arXiv 最新论文，最新更新在最上方。_
 
+## 📅 2026-08-28
+
+### [Reconstructing Humans and Objects in Interaction using Large Reconstruction Models](https://arxiv.org/abs/2608.27407v1)
+
+- **arXiv**: `2608.27407v1`  |  **提交日期**: 2026-08-27
+- **作者**: Agniv Chatterjee, Georgios Pavlakos
+
+Estimation of Human-Object Interactions in 3D (3D HOI) is a fundamental problem in 3D computer vision with applications in AR/VR, robotics, and embodied AI. However, reconstructing these interactions in 3D remains challenging due to depth ambiguities, occlusions, and object shape variability. Existing approaches are primarily concerned with reprojection and contact constraints, fitting parametric human models and object templates to 2D images. In this paper, we explore a different avenue. We present MILO, a framework that leverages the visual capabilities of Large Reconstruction Models (LRMs)…
+
+---
+
+### [Embodied Scene Rearrangement Planning](https://arxiv.org/abs/2608.27371v1)
+
+- **arXiv**: `2608.27371v1`  |  **提交日期**: 2026-08-27
+- **作者**: Canzhi Chen, Zan Wang, Siqi Zhu, Qi Wu, Yixuan Li, Wei Liang
+
+This paper introduces Embodied Scene Rearrangement Planning (ESRP), a novel task requiring embodied agents to rearrange furniture in 3D scenes to match a target configuration using only egocentric observations and a top-down target layout. Unlike prior rearrangement tasks, ESRP precludes global state access and introduces mutual object occlusions, reflecting the practical constraints of real-world robotic deployment. These factors make aligning partial egocentric observations with the global target layout particularly challenging for long-horizon planning. To facilitate research, we present…
+
+---
+
+### [Riemann-1.0: An Embodied World Action Model for Physical AI](https://arxiv.org/abs/2608.27033v1)
+
+- **arXiv**: `2608.27033v1`  |  **提交日期**: 2026-08-27
+- **作者**: Haofeng Sun, Jiangbo Pei, Fei Kang, Zexiang Liu, Yaokun Li, Boyi Jiang et al.
+
+We introduce Riemann-1.0, a fully causal autoregressive World Action Model for embodied intelligence. Riemann-1.0 jointly models multi-view visual observations, robot states, and embodiment-specific actions within a unified causal autoregressive sequence, representing robot actions and world evolution as causal state transitions. Unlike existing WAMs based on joint generation, video-first prediction, or decoupled modeling paradigms, Riemann-1.0 unifies online robot policy execution and action-conditioned world simulation within a single model, enabling it to function as both an executable…
+
+---
+
+### [4DSynth: Controllable Procedural World Synthesis for Dynamic Embodied Simulation](https://arxiv.org/abs/2608.26947v1)
+
+- **arXiv**: `2608.26947v1`  |  **提交日期**: 2026-08-27
+- **作者**: Zehao Qi, Haochen Luo, Jia-Wang Bian, Zeyu Ma, Shuyang Sun
+
+Embodied agents need environments that are visually diverse, physically interactive, and changing over time. Procedural simulators can generate large interactive scene collections, and recent 4D generators produce compelling visual dynamics. Combining these properties in one environment, however, still demands extensive manual effort, and the result is rarely editable or controllable enough to reuse at scale. We present 4DSynth, a controllable procedural system that turns a natural-language description, a blueprint mask, or a single photograph into an editable 4D environment with explicit…
+
+---
+
+### [Redwood: A Frontier AI Accelerator Designed, Verified, and Deployed from Scratch in 2 Weeks by AI](https://arxiv.org/abs/2608.26418v1)
+
+- **arXiv**: `2608.26418v1`  |  **提交日期**: 2026-08-26
+- **作者**: Architect Labs
+
+Modern AI workloads and the hardware that runs them evolve on different timescales: architectural definition precedes volume silicon by years, while target workloads shift in months. Design decisions are therefore committed under deep uncertainty and paid for twice, once in the generality added as a hedge, and again when new workloads map poorly onto frozen silicon. As Moore's Law stagnates, specialization is the main remaining source of performance-per-watt and demands a design cycle that runs at the cadence of the workloads. We present an end-to-end AI system that collapses the…
+
+---
+
 ## 📅 2026-08-27
 
 ### [MyoMechanix: Biomechanically-Grounded Compositional Skilled Activity Understanding and Coaching](https://arxiv.org/abs/2608.26094v1)

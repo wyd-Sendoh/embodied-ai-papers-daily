@@ -2,6 +2,26 @@
 
 _自动追踪 arXiv 最新论文，最新更新在最上方。_
 
+## 📅 2026-08-28
+
+### [SOLO: Stable Omni-terrain Long-Horizon Perceptive Humanoid Locomotion](https://arxiv.org/abs/2608.26583v1)
+
+- **arXiv**: `2608.26583v1`  |  **提交日期**: 2026-08-27
+- **作者**: Pihai Sun, Gang Han, Jingkai Sun, Jiahao Ma, Zeran Su, Zelin Tao et al.
+
+Humans traverse complex terrain over long distances without losing balance, whereas perceptive humanoid policies become fragile as perception and control errors accumulate. We present SOLO, a unified framework addressing two compounding causes of this long-horizon fragility: dense terrain reconstruction smooths action-critical details, and pointwise imitation lacks temporal credit assignment. Its Query Reconstructor (QR) uses Fourier-encoded cell queries to retrieve spatially specific evidence from depth-proprioception tokens, preserving sharp terrain boundaries. Trajectory-Aware MSE (TA-MSE)…
+
+---
+
+### [Closing the Loop on the Poppy Humanoid: Bipedal Locomotion with Linear-Quadratic Control and Learned Cost Functions](https://arxiv.org/abs/2608.26505v1)
+
+- **arXiv**: `2608.26505v1`  |  **提交日期**: 2026-08-27
+- **作者**: Xulin Chen, Borui He, Ruipeng Liu, Naveed Tahir, Zhenyu Gan, Garrett E. Katz
+
+The Poppy Humanoid is an open-source, low-cost robot suitable for research and education in artificial intelligence. However, we are unaware of any published methodology that achieves reliable, unassisted bipedal locomotion on the standard Poppy hardware. This paper contributes a functional closed-loop walking controller for Poppy, based on the linear-quadratic regulator (LQR) framework for trajectory tracking. Starting with data collected from open-loop playback of a nominal walking trajectory, our proposed method learns a quadratic cost function for an LQR controller that substantially…
+
+---
+
 ## 📅 2026-08-27
 
 ### [EgoNav: Bridging Learned Waypoints and Geometry-Aware Local Control for Robust Indoor Navigation](https://arxiv.org/abs/2608.25642v1)
