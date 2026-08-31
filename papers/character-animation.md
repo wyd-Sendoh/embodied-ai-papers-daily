@@ -2,6 +2,17 @@
 
 _自动追踪 arXiv 最新论文，最新更新在最上方。_
 
+## 📅 2026-08-31
+
+### [RASA: Disentangled Spatial-Motional Priors for Cross-Identity Character Animation](https://arxiv.org/abs/2608.28219v1)
+
+- **arXiv**: `2608.28219v1`  |  **提交日期**: 2026-08-28
+- **作者**: Zhen Xiao, Zhen Shen, Zhaofan Qiu, Ting Yao, Xueliang Liu, Tao Mei
+
+Cross-identity character animation aims to drive a target identity from a reference image to follow the motion of a source character from a driving video. The core challenge lies in the inherent entanglement of two capabilities: cross-identity spatial mapping (aligning position, scale, and skeletal proportions) and motion control (refining joint articulation, volumetric consistency, and view coherence). We introduce Reference-Aware Structural Alignment (RASA), a framework that disentangles spatial mapping from motion control by injecting structured priors into a Diffusion Transformer (DiT).…
+
+---
+
 ## 📅 2026-08-25
 
 ### [Spatiotemporally Decoupled Autoregressive Diffusion Model for Human Motion Generation](https://arxiv.org/abs/2608.23279v1)

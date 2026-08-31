@@ -2,6 +2,26 @@
 
 _自动追踪 arXiv 最新论文，最新更新在最上方。_
 
+## 📅 2026-08-31
+
+### [Should I Use This Synthetic Dataset for Training? How to Test with Minimal Real Data](https://arxiv.org/abs/2608.27996v1)
+
+- **arXiv**: `2608.27996v1`  |  **提交日期**: 2026-08-28
+- **作者**: Zhenyu Tao, Wei Xu, Xiaohu You, Petar Popovski, Osvaldo Simeone
+
+Digital twins (DTs) and learned world models are increasingly used to generate synthetic data that augment the scarce real datasets available for training artificial intelligence (AI) models in engineering systems. Owing to the inevitable simulation-to-reality (sim-to-real) gap, however, augmentation may fail to improve the performance of the trained model on the real data distribution. This paper addresses the resulting decision problem: Given a real dataset, a candidate synthetic dataset, and a fixed learning algorithm, decide whether training on the augmented dataset improves the true,…
+
+---
+
+### [Low-Altitude Fluid Antenna Network with Multi-Agent Reinforcement Learning](https://arxiv.org/abs/2608.27909v1)
+
+- **arXiv**: `2608.27909v1`  |  **提交日期**: 2026-08-28
+- **作者**: Tong Zhang, Yanfei Su, Shuai Wang, Wanli Ni, Chengzhong Xu, Huseyin Arslan
+
+Low-altitude wireless networks (LAWNs) integrate terrestrial and aerial platforms to provide ubiquitous communication, sensing, and localization services for unmanned aerial vehicles (UAVs) and electric vertical takeoff and landing (eVTOL) aircraft. However, dynamic air-ground and air-air channels, abrupt blockages, and heterogeneous interference hinder the realization of this goal. Nevertheless, fluid antenna (FA), a cutting-edge multiple-input multiple-output (MIMO) technique, overcomes these challenges by reconfiguring antenna positions to unlock additional spatial degrees-of-freedom. In…
+
+---
+
 ## 📅 2026-08-27
 
 ### [PRISM: Projection-Integrated Sampling-Based MPC with Bayesian Cost Tuning for Bimanual Manipulation](https://arxiv.org/abs/2608.25666v1)
