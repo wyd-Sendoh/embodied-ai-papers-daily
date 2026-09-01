@@ -2,6 +2,44 @@
 
 _自动追踪 arXiv 最新论文，最新更新在最上方。_
 
+## 📅 2026-09-01
+
+### [Learning to infer and manipulate through distributed whole-arm interaction in a soft robot](https://arxiv.org/abs/2608.30773v1)
+
+- **arXiv**: `2608.30773v1`  |  **提交日期**: 2026-08-31
+- **作者**: Chuhan Zhang, Ebrahim Shahabi, Kseniia Khomenko, Wei Pan, Cosimo Della Santina
+
+In animals such as elephants and octopuses, acquiring non-visual information about an object and physically engaging with it are inseparable processes mediated by rich, large-area interactions between compliant appendages and the environment. Soft robots provide a natural platform for translating this principle into engineered systems. Yet current robotic intelligence makes limited use of physical interaction, treating it primarily as a disturbance to be rejected or, at best, as a means of compensating for object misalignment. Here, we introduce a physical intelligence framework in which…
+
+---
+
+### [Module Number Adaptive Visual Shape Control for Serial Modular Soft Robots](https://arxiv.org/abs/2608.29547v1)
+
+- **arXiv**: `2608.29547v1`  |  **提交日期**: 2026-08-30
+- **作者**: Kyohei Akamine, Takato Horii, Yusuke Sakaue, Hiroki Ishizuka
+
+Image based shape control provides a simple means of controlling the whole body configuration of soft robots. However, existing data driven approaches are typically developed for fixed robot structures and require new control data when the number of modules changes. This paper presents a module number adaptive visual shape control method for serial modular soft pneumatic robots. A controller trained only on single module actuation shape data is reused for robots with one to five modules by decomposing whole body camera images into local module patches. A single common module segmenter…
+
+---
+
+### [Task-Relevant Feature-Dynamics Fidelity Enables Zero-Shot Sim-to-Real Transfer for Robotic Ultrasound Scanning](https://arxiv.org/abs/2608.29516v1)
+
+- **arXiv**: `2608.29516v1`  |  **提交日期**: 2026-08-30
+- **作者**: Yizhao Qian, Jiayuan Luo, Wanyi Zhu, Yameng Zhang, Max Q. -H. Meng, Yixuan Yuan et al.
+
+Robotic ultrasound policies operating directly on B-mode images require extensive interaction data, whereas real-robot data collection is costly and safety-constrained. Simulation provides a scalable alternative, but zero-shot transfer depends not only on single-frame realism but also on whether simulated observations reproduce task-relevant feature changes induced by probe motion. We term this cross-domain consistency task-relevant feature-dynamics fidelity (TR-FDF). Under local regularity assumptions, our contraction analysis shows that greater sensitivity of TR-FDF mismatch to probe motion…
+
+---
+
+### [Agri-Sim: Agricultural Simulation Platform for Embodied Intelligence Evaluation in Greenhouse Robotics](https://arxiv.org/abs/2608.29100v1)
+
+- **arXiv**: `2608.29100v1`  |  **提交日期**: 2026-08-29
+- **作者**: Shuhan Shi, Zhenfeng Xue, Minghao Mei, Chao Zheng, Nan Li, Zhonghua Miao
+
+Agricultural-robot development requires simulation environments that can jointly support realistic scene construction, virtual sensing, autonomous navigation, motion planning, and manipulation-task execution. This paper presents Agri-Sim, a Unity and ROS2-based simulation platform for the closed-loop development and functional evaluation of agricultural robots. The platform contains a configurable tomato-greenhouse environment, a mobile dual-arm harvesting robot, virtual RGB-D, LiDAR, IMU, and joint sensors, and a bidirectional communication interface between Unity and ROS2. Unity is…
+
+---
+
 ## 📅 2026-08-31
 
 ### [Should I Use This Synthetic Dataset for Training? How to Test with Minimal Real Data](https://arxiv.org/abs/2608.27996v1)

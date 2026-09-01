@@ -2,6 +2,17 @@
 
 _自动追踪 arXiv 最新论文，最新更新在最上方。_
 
+## 📅 2026-09-01
+
+### [SleepWalking: Privileged Representation Shaping for End-to-End Blind Locomotion in Legged Robots](https://arxiv.org/abs/2608.30883v1)
+
+- **arXiv**: `2608.30883v1`  |  **提交日期**: 2026-08-31
+- **作者**: Zheng Pan, Tenghui Wang, Peilin Li, Shiyu Zhou, Hao Sun, Yan Ma et al.
+
+Partially observable locomotion requires a policy to act when task-relevant properties of the robot--environment state are not fully specified by instantaneous observations. Existing approaches often address this challenge by explicitly estimating missing physical variables or processing extended observation histories through structured architectures. We take a different view: partial observability is fundamentally an information-retention problem. The decisive question is not how task-relevant information enters the network, but whether the policy's internal state retains it. Guided by this…
+
+---
+
 ## 📅 2026-08-31
 
 ### [Contact-Guided Exploration for Non-Prehensile Locomanipulation with Multi-Critic RL](https://arxiv.org/abs/2608.28140v1)

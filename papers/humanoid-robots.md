@@ -2,6 +2,26 @@
 
 _自动追踪 arXiv 最新论文，最新更新在最上方。_
 
+## 📅 2026-09-01
+
+### [Learning Agile Perceptive Traversal of Sparse 3D Structures for Humanoids](https://arxiv.org/abs/2608.29769v1)
+
+- **arXiv**: `2608.29769v1`  |  **提交日期**: 2026-08-30
+- **作者**: Efe Ongan, Chong Zhang, Boyang Sun, Andrei Cramariuc, Cesar Cadena, Marco Hutter
+
+Traversing sparse 3D structures requires humanoid robots to perceive thin, overhanging geometry while executing agile, accurate whole-body motions. We study this problem through monkey-bar traversal, where the robot must jump to the structure, traverse it through sparse bar interactions, and land safely. For this task, we present a reinforcement-learning-based perceptive control system that operates directly on observations from a head-mounted solid-state lidar. To extract task-relevant geometry from the sparse returns, the policy consumes the raw lidar scan through an attention-based encoder…
+
+---
+
+### [AnyWorld: Factorized Egocentric World Models for Cross-Embodiment Generalization](https://arxiv.org/abs/2608.29242v1)
+
+- **arXiv**: `2608.29242v1`  |  **提交日期**: 2026-08-29
+- **作者**: Cheng Chen, Jerry Bai, Jiacheng Wei, Boyu Chen, Xiaoji Zheng, Fan Wu et al.
+
+Collecting contact-rich robot experiences at scale remains a major bottleneck for generalizable manipulation. Beyond data quantity, robot learning also requires diverse experiences across embodiments, viewpoints, and scenes. Human egocentric videos provide abundant physical interactions, but each video captures only a narrow slice of experience under a single body, camera trajectory, and environment. We propose AnyWorld, a cross-embodiment world modeling framework that expands a single human interaction into diverse robot-native rollouts without paired human-robot demonstrations. Our model…
+
+---
+
 ## 📅 2026-08-31
 
 ### [PAMoR: Parameterized Affective Motion Generation in Real Time for Humanoid Robots](https://arxiv.org/abs/2608.28213v1)
