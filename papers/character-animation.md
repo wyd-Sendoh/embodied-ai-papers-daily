@@ -2,6 +2,17 @@
 
 _自动追踪 arXiv 最新论文，最新更新在最上方。_
 
+## 📅 2026-09-02
+
+### [Inverse Rig Optimization from Line Drawings](https://arxiv.org/abs/2609.00732v1)
+
+- **arXiv**: `2609.00732v1`  |  **提交日期**: 2026-09-01
+- **作者**: Zihao Zhu, Yuki Koyama
+
+Stylized 3D character animation is largely hand-authored, with animators authoring rig parameters one keyframe at a time to find the best pose. Because stylized work reads chiefly through contour lines, drawing contours in the camera view is the most direct and precise way to express artistic intent. This mismatch between the rig controls and the artist's goal forces a laborious trial-and-error workflow, with animators repeatedly manipulating rig controls against the rendered view to match the desired contour. To address this, we propose a method that recovers rig parameters from screen-space…
+
+---
+
 ## 📅 2026-08-31
 
 ### [RASA: Disentangled Spatial-Motional Priors for Cross-Identity Character Animation](https://arxiv.org/abs/2608.28219v1)

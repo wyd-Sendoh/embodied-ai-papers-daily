@@ -2,6 +2,17 @@
 
 _自动追踪 arXiv 最新论文，最新更新在最上方。_
 
+## 📅 2026-09-02
+
+### [A System for Fast, Resilient, and Adaptable Loco-Manipulation Behaviors on Humanoid Robots](https://arxiv.org/abs/2609.01518v1)
+
+- **arXiv**: `2609.01518v1`  |  **提交日期**: 2026-09-01
+- **作者**: Duncan Calvert, Luigi Penco, Dexton Anderson, Tomasz Bialek, Arghya Chatterjee, Beomyeong Park et al.
+
+There is tremendous value in humanoid robots taking on physically demanding, hazardous, and repetitive work in spaces built for humans. However, a useful robot for these spaces must coordinate locomotion, whole-body motion, perception, contact, and operator supervision. We present a robot-local, runtime-editable behavior authoring and runtime system that addresses these challenges. We argue that behavior architecture can be a primary enabler of capability, speed, and reliability, and that runtime editability enables fast behavior creation, adaptation, extension, and combination. Our behavior…
+
+---
+
 ## 📅 2026-09-01
 
 ### [Learning Agile Perceptive Traversal of Sparse 3D Structures for Humanoids](https://arxiv.org/abs/2608.29769v1)

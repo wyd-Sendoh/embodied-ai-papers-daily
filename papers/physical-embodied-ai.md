@@ -2,6 +2,44 @@
 
 _自动追踪 arXiv 最新论文，最新更新在最上方。_
 
+## 📅 2026-09-02
+
+### [Retrieved but not ranked: surface-form bias in structural retrieval, from mathematics to agent trajectories](https://arxiv.org/abs/2609.01556v1)
+
+- **arXiv**: `2609.01556v1`  |  **提交日期**: 2026-09-01
+- **作者**: Nabira Rashid, Manolis Kellis
+
+We evaluate embedding retrieval where surface form and meaning are pulled apart on purpose: retrieving items that share underlying structure but not wording, in two unrelated domains under one protocol, competition mathematics (MathNet-Retrieve; 500 queries, 117,088-item corpus) and embodied-agent trajectories (ALFWorld-derived; 118 queries, 336 trajectories). In mathematics the failure is complete: strict Hit@1 at the heaviest disguise tier is 0.0% for both production embedders (bootstrap 95% CI [0.0, 0.0]) while the correct item sits in the top 10 nearly always, and in 95.2 to 99.8% of…
+
+---
+
+### [HitMem: Hierarchical Temporal 3D Memory with Multi-Modal Context-Aware Retrieval for Dynamic Environments](https://arxiv.org/abs/2609.00950v1)
+
+- **arXiv**: `2609.00950v1`  |  **提交日期**: 2026-09-01
+- **作者**: Ruijie Tang, Chenye Zou, Guoquan Wu, Jun Wei, Wei Chen, Jiaxin Zhu
+
+Executing long-term tasks in dynamic environments requires embodied agents to maintain robust and adaptive 3D scene representations. However, most existing 3D memory frameworks rely on static world assumptions. When objects are displaced by human activities or unobserved events, agents encounter memory-observation conflicts and often require costly geometric recomputations or inefficient global re-exploration. To address this, we propose HitMem, a hierarchical temporal 3D memory framework with a multi-modal context-aware retrieval mechanism. Through continuous perception, HitMem unifies…
+
+---
+
+### [Towards Generalizable Visually Grounded Exploration of Household Devices](https://arxiv.org/abs/2609.00845v1)
+
+- **arXiv**: `2609.00845v1`  |  **提交日期**: 2026-09-01
+- **作者**: Linhao Zheng, Zeming Liu, Wangke Chen, Li Zeng, Wanxiang Che, Heyan Huang et al.
+
+Recent advancements in Vision-Language Models (VLMs) have demonstrated impressive capabilities in static visual recognition and high-level semantic reasoning. However, current embodied exploration paradigms still heavily rely on imitation learning from human-annotated trajectories, which severely limits agents' generalization ability. The key bottleneck of realizing general autonomous embodied agents lies in Generalizable Visually Grounded Exploration: the ability to operate novel devices without manuals or specific training by actively grounding abstract world knowledge into fine-grained…
+
+---
+
+### [DSG: Dynamic 3D Scene Graph Construction for Embodied Agents in Changing Indoor Environments](https://arxiv.org/abs/2609.00619v1)
+
+- **arXiv**: `2609.00619v1`  |  **提交日期**: 2026-09-01
+- **作者**: Ming Liao, Chao Ye, Jianing Fei, Weiyang Lin
+
+In indoor environments, object positions frequently change due to human activities or embodied-agent interactions, causing previously constructed scene graphs to become inconsistent with the current scene. To address this issue, we propose DSG, a dynamic 3D scene graph construction framework that detects object changes and performs spatial relationship reasoning. First, we construct a semantic-aware 3D Gaussian scene representation and develop a dual-view rendering-based object change detection method to enable reliable scene graph node updates. Second, we propose a spatial relationship…
+
+---
+
 ## 📅 2026-09-01
 
 ### [Lucida: Parse, Generate, and Place for Composable Real-to-Sim Scene Modeling](https://arxiv.org/abs/2608.30821v1)

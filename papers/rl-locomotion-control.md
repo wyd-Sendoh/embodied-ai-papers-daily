@@ -2,6 +2,35 @@
 
 _自动追踪 arXiv 最新论文，最新更新在最上方。_
 
+## 📅 2026-09-02
+
+### [Provably Safe Sim-to-Real Transfer](https://arxiv.org/abs/2609.01418v1)
+
+- **arXiv**: `2609.01418v1`  |  **提交日期**: 2026-09-01
+- **作者**: Tingting Ni, Maryam Kamgarpour
+
+To mitigate the sample complexity of real-world reinforcement learning (RL), a common practice is to first train a policy in a simulator, where samples are cheap, and then deploy the learned policy in the real world with the hope that it generalizes effectively. Such direct sim-to-real transfer is not guaranteed to succeed: simulator-trained policies can be suboptimal in the real world due to sim-to-real mismatch. Correcting this mismatch requires collecting data from the real system, but in many applications, such as robotics and healthcare, this data-collection process is itself subject to…
+
+---
+
+### [Non-Prehensile Throwing: A Reinforcement Learning Perspective](https://arxiv.org/abs/2609.00771v1)
+
+- **arXiv**: `2609.00771v1`  |  **提交日期**: 2026-09-01
+- **作者**: Abdullah Mustafa, Ryo Hanai, Ixchel G. Ramirez-Alpizar, Floris Erich, Ryoichi Nakajo, Yukiyasu Domae et al.
+
+Robotic throwing enables fast object transport and extends a robot's reachable workspace beyond traditional pick-and-place. While prehensile (grasp-based) throwing works well for graspable items, non-prehensile (grasp-free) throwing is better suited for large, heavy, and/or deformable objects. Existing approaches rely on model-based optimization with simplified contact models (e.g., dynamic grasping) and low-dimensional trajectory parameterizations, which limit solution quality and reachable workspace. We propose a reinforcement learning approach that additionally leverages sliding and…
+
+---
+
+### [ADAPT: Agile Diffusion Action Priors for Robust and Steerable Online Text-Driven Humanoid Control](https://arxiv.org/abs/2609.00677v1)
+
+- **arXiv**: `2609.00677v1`  |  **提交日期**: 2026-09-01
+- **作者**: Yan Wu, Chenhao Li, Kaifeng Zhao, Gen Li, Marco Hutter, Siyu Tang
+
+We present ADAPT, an end-to-end framework for interactive, text-conditioned humanoid whole-body control. Unlike dominant text-to-motion pipelines that generate kinematic motions for a separate tracker, ADAPT solves language control with an end-to-end closed-loop control framework, where the robot must continuously respond to changing commands while maintaining balance, natural motion, and smooth transitions. ADAPT learns a diffusion-based action prior from text-labeled humanoid state-action trajectories, enabling diverse motion skills to be directly executed from language commands. To improve…
+
+---
+
 ## 📅 2026-09-01
 
 ### [Learning to infer and manipulate through distributed whole-arm interaction in a soft robot](https://arxiv.org/abs/2608.30773v1)

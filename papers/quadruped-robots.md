@@ -2,6 +2,17 @@
 
 _自动追踪 arXiv 最新论文，最新更新在最上方。_
 
+## 📅 2026-09-02
+
+### [Exploring Nonlinear Body Oscillations for Natural Quadruped Gaits](https://arxiv.org/abs/2609.00539v1)
+
+- **arXiv**: `2609.00539v1`  |  **提交日期**: 2026-09-01
+- **作者**: Annika Schmidt, Davide Calzolari, Florian Loeffl, Arne Sachtler, Daniel Seidel, Milan Herrmann et al.
+
+Animals' body morphology shapes the gait patterns they can perform, where mechanical resonance reduces the need for active control. By tuning posture and muscle stiffness, they leverage their embodied intelligence to achieve effective gaits for different speeds. In contrast, most quadruped robots are not specifically designed to exploit mechanical resonance due to the complexity of nonlinear dynamics and require dedicated locomotion controllers. To provide an alternative, we present a proof of concept framework making the nonlinear dynamics of a robot predictable in the design process and…
+
+---
+
 ## 📅 2026-09-01
 
 ### [SleepWalking: Privileged Representation Shaping for End-to-End Blind Locomotion in Legged Robots](https://arxiv.org/abs/2608.30883v1)
