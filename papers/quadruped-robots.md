@@ -2,6 +2,44 @@
 
 _自动追踪 arXiv 最新论文，最新更新在最上方。_
 
+## 📅 2026-09-09
+
+### [CAST: Alternating State-Value Targets and Expanded Policy Gradients for Model-Based Reinforcement Learning](https://arxiv.org/abs/2609.08853v1)
+
+- **arXiv**: `2609.08853v1`  |  **提交日期**: 2026-09-08
+- **作者**: Pietro Noah Crestaz, Mohamed Yassine Kabouri, Nicolas Mansard, Andrea Del Prete
+
+Model-based reinforcement learning (MBRL) is a family of RL methods that learn a model of the environment and use it for action selection, making it well suited to robotics due to its sample efficiency. Combining learned models with online planning can further improve action selection, as the planner can exploit the model to find better actions than the learned policy alone. Recent methods combining learned policies with online planning typically learn the value of the policy rather than the stronger planner-guided behavior. We present CAST (Critic with Alternating State-value Target), which…
+
+---
+
+### [Open-Set Ego-Noise Separation for Legged-Robot Audition via Annotation-Free Adaptation and Pretrained-Model Transfer](https://arxiv.org/abs/2609.07440v1)
+
+- **arXiv**: `2609.07440v1`  |  **提交日期**: 2026-09-07
+- **作者**: Koki Shoda, Jun Younes Louhi Kasahara, Aoba Koyanagi, Qi An, Atsushi Yamashita
+
+This paper proposes an open-set ego-noise separation framework for legged-robot audition via annotation-free adaptation and pretrained-model transfer. The framework removes robot-specific ego-noise while preserving environmental sounds whose classes are not specified in advance. Acoustic sensing provides cues about a robot's surroundings beyond the visual field, but walking-induced ego-noise from footstep impacts, joint-backlash rattling, and motor noise severely contaminates the recordings. The framework first uses RecurGraph to select ego-noise-dominant clips from the unlabeled recordings…
+
+---
+
+### [From LLM-Generated Specifications to Learned Quadruped Locomotion](https://arxiv.org/abs/2609.07111v1)
+
+- **arXiv**: `2609.07111v1`  |  **提交日期**: 2026-09-07
+- **作者**: Merve Atasever, Keyan Azbijari, Cagan Bakirci, Alfredo Reina Corona, Tolga Izdas, Richard Yang et al.
+
+Quadruped robot locomotion policies are often trained using reinforcement learning, which in turn relies heavily on hand-crafted reward functions. Designing reward functions requires substantial manual engineering, and it is often unclear which local rewards will induce the desired global behavior. Shaped rewards from formal specifications in languages like Signal Temporal Logic (STL) can make rewards more interpretable, but writing STL specifications itself still requires domain expertise. We study whether large language models (LLMs) can fill this gap by generating Parametric Signal…
+
+---
+
+### [Mind the Phase: Effective Rank and Representation Health in Legged Locomotion](https://arxiv.org/abs/2609.06958v1)
+
+- **arXiv**: `2609.06958v1`  |  **提交日期**: 2026-09-07
+- **作者**: Felipe Tommaselli, Thiago H. Segreto, Juliano D. Negri, Ricardo V. Godoy, Marcelo Becker
+
+Reinforcement learning has become the leading paradigm in legged locomotion, enabling complex behaviors from backflips to parkour through massively parallel simulation. Under PPO's non-stationarity, shallow networks remain the de facto architecture, supported by carefully staged curricula and environments, yet the representations these policies learn stay poorly understood, leaving no training-time signal of how they will behave on hardware. In this work, we empirically study locomotion policies through the effective rank of the policy Jacobian and show that conditioning rank on the gait…
+
+---
+
 ## 📅 2026-09-07
 
 ### [UniMate: One Unified Model to Animate Diverse Skeletons](https://arxiv.org/abs/2609.05415v1)

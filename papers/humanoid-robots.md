@@ -2,6 +2,62 @@
 
 _自动追踪 arXiv 最新论文，最新更新在最上方。_
 
+## 📅 2026-09-09
+
+### [TANGO: Humanoid Navigation in Cluttered Environments with a Whole-Body Vision-Language-Action Model](https://arxiv.org/abs/2609.09158v1)
+
+- **arXiv**: `2609.09158v1`  |  **提交日期**: 2026-09-08
+- **作者**: Anqi Li, Yuxin Chen, Zhaobo Li, Zhuo Cao, Junli Ren, Masayoshi Tomizuka et al.
+
+We study the problem of navigating cluttered indoor environments with a humanoid robot. Unlike conventional methods that model navigation as a 2D path planning problem, humanoid traversal in cluttered environments requires continuous geometry-aware whole-body adaptation, including coordinated arm placement, torso adjustment, and gait modulation for collision-free movement through complex 3D spaces. We introduce TANGO, the first whole-body vision-language navigation framework for language-conditioned humanoid traversal in cluttered environments. Given a natural-language instruction and…
+
+---
+
+### [PGMT: Perceptive General Motion Tracking for Humanoid Robots](https://arxiv.org/abs/2609.08511v1)
+
+- **arXiv**: `2609.08511v1`  |  **提交日期**: 2026-09-08
+- **作者**: Hongyi Li, Li Peizhuo, Yucheng Tao, Ze Wang, Fangzhou Xu, Jinyi Chen et al.
+
+Humanoid motion trackers can reproduce diverse whole-body motions, but their performance degrades on complex terrain where terrain-agnostic references become physically infeasible. We present PGMT, a Perceptive General Motion Tracking pipeline for humanoid robots that learns terrain adaptation from independently selected motion references and terrains. PGMT first learns a general tracking and recovery prior, then incorporates terrain perception through motion-conditioned terrain glimpses that selectively encode regions relevant to the current motion. Terrain-aware tracking relaxation allows…
+
+---
+
+### [SPOT: Spatial Perception-Oriented Long-Horizon Humanoid Teleoperation](https://arxiv.org/abs/2609.07933v1)
+
+- **arXiv**: `2609.07933v1`  |  **提交日期**: 2026-09-07
+- **作者**: Lixing Fang, Ziyan Xiong, Sunli Chen, Zhiyang Dou, Chuang Gan
+
+High-quality demonstration data is becoming a central bottleneck for training general-purpose humanoid robots. While recent humanoid teleoperation systems have made substantial progress in retargeting human motion to robot motion, long-horizon loco-manipulation requires another capability: operators must maintain task-relevant spatial awareness over time, e.g., object locations, surrounding environments, the robot's pose. We call the extent of this awareness the operator's perceptual horizon. However, existing methods often shorten this: narrow views miss peripheral events, robot-mounted…
+
+---
+
+### [A Multimodal Label Forecasting Method for Aperiodic Visuo-Motor Time Series](https://arxiv.org/abs/2609.07930v1)
+
+- **arXiv**: `2609.07930v1`  |  **提交日期**: 2026-09-07
+- **作者**: Borui He, Garrett E Katz
+
+Deep learning models have been increasingly applied to Time Series Forecasting (TSF) in recent years. Transformer-based and MLP-based models have both been used effectively on many real-world TSF regression benchmarks, and there is ongoing debate as to which family of methods is best. While these benchmarks have drawn much attention, it is also worth noting that many current datasets and methods assume approximate periodicity in the time series. In this work, we focus on a new TSF task without periodicity: anticipating falls during humanoid locomotion, on the basis of egocentric vision and…
+
+---
+
+### [Anti-Gravity Walking by a Flying Humanoid Robot via Thrust-Rate Input Whole-Body Model Predictive Control](https://arxiv.org/abs/2609.07544v1)
+
+- **arXiv**: `2609.07544v1`  |  **提交日期**: 2026-09-07
+- **作者**: Kazuki Sugihara, Kei Okada
+
+Flying humanoids are expected to perform tasks in diverse environments, while their existing locomotion is mainly limited to aerial flight and ground walking. The capability to move in complex three-dimensional space can greatly expand their application range. For such walking motion on ceilings and similar anti-gravity environments, whole-body MPC is effective. However, the discontinuous changes in dynamic structure accompanying contact switching during walking can induce thrust spikes, resulting in control instability. Therefore, in this work, we propose and implement a real-time whole-body…
+
+---
+
+### [RoboDreamer: Anticipatory Humanoid Locomotion with Predictive State-Space Models](https://arxiv.org/abs/2609.07096v1)
+
+- **arXiv**: `2609.07096v1`  |  **提交日期**: 2026-09-07
+- **作者**: Zhe Li, Yangyang Wei, Xichen Yuan, Zhenzhe Zhang, Weihao Yuan, Shanghang Zhang et al.
+
+Humanoid locomotion requires control policies that remain stable under imperfect sensing while exploiting temporal context for consistent motion. We present RoboDreamer, a two-stage teacher--student framework that combines next-observation consistency with randomized continuous temporal masking. A teacher is first trained on clean observations, and a student is then distilled under masked recent observations, encouraging the policy to infer missing current information from history. At inference, the same masking interface is reused for implicit closed-loop action refinement and optional…
+
+---
+
 ## 📅 2026-09-07
 
 ### [Development of a Humanoid Robot Prototype for Multimodal Human-Robot Interaction](https://arxiv.org/abs/2609.05361v1)

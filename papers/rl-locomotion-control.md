@@ -2,6 +2,89 @@
 
 _自动追踪 arXiv 最新论文，最新更新在最上方。_
 
+## 📅 2026-09-09
+
+### [Ostrich: Taking Large Strides Through Stiff Contact in Differentiable Dynamics](https://arxiv.org/abs/2609.08800v1)
+
+- **arXiv**: `2609.08800v1`  |  **提交日期**: 2026-09-08
+- **作者**: Aleš Kučera, Karel Zimmermann
+
+Three properties determine whether a differentiable simulator can drive gradient-based optimization through contact: simulation accuracy, gradient reliability, and per-iteration cost. Tape-based engines such as MJX and Newton Semi-Implicit require timesteps small enough to keep contacts numerically tractable, and their backpropagation memory grows linearly with the number of timesteps T. Surrogate models bound memory by approximating contact away, but the resulting gradients lose the geometry the optimization depends on. We present Ostrich, a GPU-accelerated rigid-body simulator that resolves…
+
+---
+
+### [RoboCousin: Build Your Own Simulation Playground for Robust Bimanual Robotic Manipulation](https://arxiv.org/abs/2609.08339v1)
+
+- **arXiv**: `2609.08339v1`  |  **提交日期**: 2026-09-08
+- **作者**: Jingxuan Zhu, Jingyi Li, LiangLiang Chen, Zhiyuan Jing, Jidong Zhang, Hongming Li
+
+Bimanual manipulation policies require large and diverse training datasets, yet collecting demonstrations on physical robots is expensive and difficult to scale. Simulation can generate data efficiently, but existing pipelines typically operate within closed asset libraries and predefined scenes: adding a newly observed object or environment still requires substantial effort to reconstruct geometry, specify physical and semantic properties, annotate interactions, and integrate the result into executable tasks. We present RoboCousin, an extensible simulation-based data-generation platform that…
+
+---
+
+### [FPicker: Topology-Guided Evolution for Filament Tracing in Low-SNR Microscopy](https://arxiv.org/abs/2609.08305v1)
+
+- **arXiv**: `2609.08305v1`  |  **提交日期**: 2026-09-08
+- **作者**: Tingyin Zhao, Mingtao Huang, Yuan Shen
+
+Automating filament tracing in Cryo-Electron Microscopy (Cryo-EM) is essential for 3D helical reconstruction but challenged by intersecting topologies and extremely low Signal-to-Noise Ratios ($\text{SNR} = σ_s^2/σ_n^2$ < 0.1 or -10 dB). Existing paradigms fail: pixel-wise segmenters suffer from severe topological fracturing, box-based detectors face ghost center drift, sequential trackers derail due to error accumulation, and traditional active contours collapse under artificial closed-curve constraints. To resolve these bottlenecks, we present FPicker, the first topology-guided framework…
+
+---
+
+### [Dex-X: Learning Visual-Tactile Dexterous Manipulation From Human Videos with Simulated Interaction](https://arxiv.org/abs/2609.07747v1)
+
+- **arXiv**: `2609.07747v1`  |  **提交日期**: 2026-09-07
+- **作者**: Ruoqu Chen, Feixiang Ruan, Liu Cao, Zihao Wang, Botian Xu, Shiqin Tong et al.
+
+Human videos are an abundant source of dexterous manipulation behaviors, but they lack tactile information that is crucial for contact-rich interaction. This raises a fundamental question: can robots learn deployable visual-tactile dexterous manipulation policies from human video demonstrations without robot-side data collection? We present DEX-X, a framework for learning visual-tactile dexterous manipulation from human videos through simulation. Our key insight is that simulation can serve as a tactile completion engine. Given monocular human demonstrations, DEX-X reconstructs hand-object…
+
+---
+
+### [Solution for UCF UrbanTwin V2X-Real Track: Sim-to-Real Urban LiDAR 3D Object Detection](https://arxiv.org/abs/2609.07608v1)
+
+- **arXiv**: `2609.07608v1`  |  **提交日期**: 2026-09-07
+- **作者**: Pu Luo, Cong Xu, Yumei Li, Kexin Zhang, Licheng Jiao, Wenping Ma et al.
+
+Bridging the simulation-to-reality gap in roadside LiDAR requires addressing several coupled discrepancies, including scene geometry, sampling density, return patterns, and pedestrian scale. This report presents a multi-source collaborative training and class-aware fusion framework for Sim2Real 3D detection. The method organizes digital-twin scans, diffusion-redrawn scans, density-stabilized scans, and pedestrian morphology-aligned samples into a unified training pool with complementary roles. Within a common DSVT detection formulation, source-specialized expert branches preserve those roles…
+
+---
+
+### [Solution for UCF UrbanTwin LUMPI Track: Sim-to-Real Urban LiDAR 3D Object Detection](https://arxiv.org/abs/2609.07590v1)
+
+- **arXiv**: `2609.07590v1`  |  **提交日期**: 2026-09-07
+- **作者**: Pu Luo, Cong Xu, Yumei Li, Kexin Zhang, Licheng Jiao, Wenping Ma et al.
+
+We present our solution to the LUMPI track of the UCF UrbanTwin Sim2Real LiDAR Challenge at the 6th DriveX Workshop, ECCV 2026. The detector must be trained only on synthetic data and is evaluated on 50 held-out real LiDAR frames; a separate 50-frame synthetic submission is evaluated for point-cloud realism. Our method addresses the Sim2Real gap at three levels. First, we align synthetic scans to the 50k-point test density and build a 30k-record training pool using UT-LUMPI geometry, RangeLDM-based sampling diversification, rare-class copy-paste, and pedestrian-oriented augmentation. Second,…
+
+---
+
+### [Zero-Shot Sim-to-Real Contact-Rich Assembly via Proprioception-Anchored Cross-Modal Pretraining](https://arxiv.org/abs/2609.07534v1)
+
+- **arXiv**: `2609.07534v1`  |  **提交日期**: 2026-09-07
+- **作者**: Yuhan Wang, Yurou Chen, Hongye Jiang, Wenzhao Lian
+
+Contact-rich assembly remains challenging because it requires submillimeter spatial accuracy and reliable interpretation of forces during sustained contact. Although simulation-based reinforcement learning offers a scalable training paradigm, discrepancies in visual observations, contact dynamics, and force/torque (F/T) measurements often limit policy transfer. We observe that proprioception is comparatively consistent across domains because calibrated joint positions and consistently computed joint velocities align closely between simulation and hardware. Based on this observation, we…
+
+---
+
+### [WM-Craftnet: World Synesthesia Model for Generalizable and Robust Dexterous In-Hand Manipulation](https://arxiv.org/abs/2609.07002v1)
+
+- **arXiv**: `2609.07002v1`  |  **提交日期**: 2026-09-07
+- **作者**: Jie Yin, Zeyuan Zhao, Xiaojing Tan, Yang Liu, Chiyu Wang, Xinyang Gu
+
+Generalizable and robust dexterous in-hand manipulation requires a policy to infer object pose, geometry, contact, and potential slip from partial and noisy observations. Although recent tactile and visuotactile RL methods achieve strong in-hand rotation in controlled settings, their robustness often degrades under pose shifts, force disturbances, and object variation. We propose WM-Craftnet, a world-model-conditioned framework that learns compact action-conditioned latent dynamics from proprioception, depth, tactile sensing, and actions, supervised by multimodal reconstruction and reward…
+
+---
+
+### [SkillX: Unified Multi-Skill Policy Learning for Humanoid Soccer](https://arxiv.org/abs/2609.06718v1)
+
+- **arXiv**: `2609.06718v1`  |  **提交日期**: 2026-09-06
+- **作者**: Zhangchen Ye, Enxuan Ruan, Yifei Bao, Runhan Huang, Jiankun Yang, Jiakang Jin et al.
+
+Humanoid soccer is a challenging testbed for dynamic whole-body control, requiring robots to coordinate balance, locomotion, object interaction, and skill switching over long horizons. Existing humanoid sports methods often rely on task-specific multi-stage pipelines, making it difficult to jointly learn and compose multiple object-interactive skills within a single deployable policy. To address this, we present SkillX, a unified reinforcement learning framework that learns and composes multiple atomic soccer skills through a single command-conditioned policy. SkillX integrates three core…
+
+---
+
 ## 📅 2026-09-04
 
 ### [A Low-Cost, Open Platform for End-to-End Autonomous Driving on a Miniature Ackermann Vehicle](https://arxiv.org/abs/2609.04147v1)

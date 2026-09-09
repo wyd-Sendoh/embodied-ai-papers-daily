@@ -2,6 +2,62 @@
 
 _自动追踪 arXiv 最新论文，最新更新在最上方。_
 
+## 📅 2026-09-09
+
+### [Safe Task Planning with Long-Term Graph Memory for Embodied Agents](https://arxiv.org/abs/2609.08444v1)
+
+- **arXiv**: `2609.08444v1`  |  **提交日期**: 2026-09-08
+- **作者**: Siyuan Li, Taiyan Lang, Aoqi Yan, Jia Yu, Feifan Liu, Yihan Du et al.
+
+Large language models (LLMs) and vision-language models (VLMs) have significantly advanced zero-shot task planning for embodied agents. However, most LLM- and VLM-driven methods struggle to generate safe high-level actions due to a lack of physical risk awareness, particularly under partial observability, where hazards lie outside the immediate field of view. To address this challenge, we propose a novel safe task-planning framework, SafeMem, which constructs and maintains a long-term semantic graph memory of the open and dynamic environment. Based on egocentric observations, the proposed…
+
+---
+
+### [EvoNav-Bench: Benchmarking Lifelong Navigation in Evolving Environments](https://arxiv.org/abs/2609.08292v1)
+
+- **arXiv**: `2609.08292v1`  |  **提交日期**: 2026-09-08
+- **作者**: Xilin Wang, Guoxi Zhang, Hongming Xu, Zhuofan Zhang, Tianxu Wang, Lifeng Fan
+
+Lifelong navigation (LN) requires an embodied agent to solve a sequence of navigation subtasks in the same environment. Since solving each subtask from scratch incurs redundant exploration, an LN agent must consolidate experience from earlier stages and reuse it in later stages, often through persistent scene representations such as scene graphs or visual snapshots. However, existing approaches typically assume a stationary environment, whereas in real-world LN settings, human activities can cause the environment to evolve. With the stationary assumption violated, existing methods may fuse…
+
+---
+
+### [NutriBench-Kitchen: Benchmarking Embodied AI for Nutrition Management](https://arxiv.org/abs/2609.07135v1)
+
+- **arXiv**: `2609.07135v1`  |  **提交日期**: 2026-09-07
+- **作者**: Yulin Wei, Xiangchen Wang, Jianhui Pan, Jinyu Xiao, Zheng Tan, Ruozai Tian et al.
+
+An embodied kitchen assistant must do more than recognize food in isolated frames. It must track ingredient states over time and integrate visual observations with recipe and nutritional knowledge to support constraint-aware decision-making. We formalize this capability as \emph{Embodied Nutrition Management}: perceiving nutrition-relevant events, maintaining a persistent food state, and using it for knowledge-grounded planning. Existing benchmarks evaluate static food understanding or embodied cooking actions, but do not measure whether an agent can continuously update and use…
+
+---
+
+### [CASCADE: A Spatio-Temporal-Causal Reasoning Representation and Dataset for Driving](https://arxiv.org/abs/2609.07094v1)
+
+- **arXiv**: `2609.07094v1`  |  **提交日期**: 2026-09-07
+- **作者**: Jenny Schmalfuss, Despoina Paschalidou, Simon Gerstenecker, German Ros, Jose M. Alvarez
+
+Reasoning is a promising route to the generalization that autonomous driving requires in the long tail, as it can infer how the elements of a scene depend on one another and traverse those dependencies to conclusions beyond what is observed. Yet it is hard to tell whether a model's conclusions follow the scene's dependencies, because no driving representation makes them explicit enough to test against. Text-based reasoning traces lack spatio-temporal grounding, spatio-temporal scene graphs lack causal links, and reasoning annotations at scale are increasingly model-generated and hard to…
+
+---
+
+### [One MLLM, One Call: Efficient Zero-Shot Vision-and-Language Navigation via Spatial-Aware Waypoints](https://arxiv.org/abs/2609.06476v1)
+
+- **arXiv**: `2609.06476v1`  |  **提交日期**: 2026-09-06
+- **作者**: Shiqi Pan, Qi Zheng, Hanqin Sun, Youjian Zhang, Daquan Feng, Xu Wang
+
+Vision-and-Language Navigation in Continuous Environments (VLN-CE) requires an embodied agent to navigate unseen environments by following natural language instructions. Current zero-shot VLN-CE methods either rely on pre-trained waypoint predictors or require multiple queries to large models per step. To address prohibitive inference latency and computational overhead, we propose O2C-Nav, an efficient zero-shot navigation framework that calls only a single large model once per decision step. Our approach introduces a training-free structured waypoint generator and a novel abstract…
+
+---
+
+### [Rethinking Safety for Generalist Robots](https://arxiv.org/abs/2609.06326v1)
+
+- **arXiv**: `2609.06326v1`  |  **提交日期**: 2026-09-06
+- **作者**: Rohan Sinha, Anushri Dixit, Ran Tian, Anirudha Majumdar, Andrea Bajcsy
+
+Generalist robots promise to transform our society: the same system that prepares a meal or folds laundry might also repair a car, inspect infrastructure, or care for a loved one. Yet this versatility introduces risks far beyond the collision- and force-based safety notions that have long dominated robotics. Notions of safety must now consider context (e.g., turning off a building's electricity is only safe during scheduled maintenance), user intent (e.g., asking the robot to ``clean the kitchen'' includes unspoken expectations that the robot should not mix dangerous but powerful cleaning…
+
+---
+
 ## 📅 2026-09-07
 
 ### [Linguistic Trajectory Encoding for Efficient Long-Horizon Spatial Memory in Embodied Agents](https://arxiv.org/abs/2609.04802v1)

@@ -2,6 +2,17 @@
 
 _自动追踪 arXiv 最新论文，最新更新在最上方。_
 
+## 📅 2026-09-09
+
+### [Flexible Motion Generation from Language and Style References](https://arxiv.org/abs/2609.08032v1)
+
+- **arXiv**: `2609.08032v1`  |  **提交日期**: 2026-09-07
+- **作者**: Kai Weixian Lan, Bodie Criswell, Briana Fedkiw, Zhan Zhang, Joseph Teran, Daniel Holden
+
+We introduce FlexMoGen, a novel framework for flexible human motion synthesis conditioned on both natural language descriptions and motion style references. Text prompts are effective at defining semantic content, but they are often limited in capturing fine-grained style details such as timing, limb articulation, and expressive dynamics. A style example clip supplements the text by conveying these nuanced motion characteristics directly, enabling the model to preserve high-level intent while reproducing the desired stylistic traits. Given a text prompt and a style example clip, FlexMoGen…
+
+---
+
 ## 📅 2026-09-02
 
 ### [Inverse Rig Optimization from Line Drawings](https://arxiv.org/abs/2609.00732v1)

@@ -2,6 +2,179 @@
 
 _自动追踪 arXiv 最新论文，最新更新在最上方。_
 
+## 📅 2026-09-09
+
+### [SyncWorld: Visual Calibration Enables World Models as Zero-Shot Simulators](https://arxiv.org/abs/2609.09155v1)
+
+- **arXiv**: `2609.09155v1`  |  **提交日期**: 2026-09-08
+- **作者**: Yuncong Yang, Zhengtao Han, Furkan Ozyurt, Zeyuan Yang, Han Yang, Junyi Cao et al.
+
+World models are increasingly used as policy-in-the-loop imagination environments, where reliable rollouts require fine-grained controllability with respect to low-level robot actions. A key obstacle to scaling such models in robotics is that actions are not a universal language in pixel space: changes in visual environment, camera view, robot placement, or embodiment alter how the same numerical action manifests visually, leading to conflicting supervision under mixed training and brittle generalization at deployment. We introduce SyncWorld, an action-conditioned world model that serves as a…
+
+---
+
+### [Earth System World Model for What-If Simulations: A Case Study for Terrestrial Ecosystems](https://arxiv.org/abs/2609.08855v1)
+
+- **arXiv**: `2609.08855v1`  |  **提交日期**: 2026-09-08
+- **作者**: Zhihao Wang, Ruichen Wang, Ruohan Li, Lei Ma, George Hurtt, Xiaowei Jia et al.
+
+Machine learning emulators have become essential for accelerating expensive Earth-system simulations, but most existing approaches remain passive forecasters: they reproduce simulator trajectories under prescribed forcings without an explicit interaction mechanism for user-specified interventions. This limits their use in interactive scientific workflows and Earth-system digital twins, where users often need to explore how a system would respond if selected state components were changed. We propose an action-conditioned world-modeling framework for Earth-system emulation that reformulates…
+
+---
+
+### [Hi-FLoop: Hierarchical State-Feedback Loops for Multi-Timescale World Modeling](https://arxiv.org/abs/2609.08796v1)
+
+- **arXiv**: `2609.08796v1`  |  **提交日期**: 2026-09-08
+- **作者**: Rx Fan, Zhan H
+
+Multi-agent traffic simulation seeks diverse, coordinated, and physically realistic futures from maps and observed history. Long-horizon closed-loop generation must reconcile multiple decision time scales while its context evolves with generated states. Existing methods often unfold long futures from the initial scene and resolve intent, interaction, and motion monolithically, weakening cross-scale consistency and adaptation. We present HI-FLOOP, a branch-consistent multi-timescale state-feedback framework. Eight scene-level Worlds represent joint hypotheses, and all agents share the selected…
+
+---
+
+### [A Two-Stage, Model-Based Reinforcement Learning Approach for Active Flow Control of Bluff Body Wakes](https://arxiv.org/abs/2609.08436v1)
+
+- **arXiv**: `2609.08436v1`  |  **提交日期**: 2026-09-08
+- **作者**: Aayushman Sharma, Suman Chakravorty
+
+This paper develops a data-driven, output-feedback approach to the infinite-horizon optimal control of high-dimensional nonlinear systems with unknown and unstable equilibria, using sparse partial observations. The approach builds on the transfer-plus-regulation decomposition of the infinite-horizon problem: a finite-horizon nonlinear transfer drives the system into a region where the dynamics are well-approximated by a linear model about the unknown operating point, and an infinite-horizon linear regulator identified within that region completes stabilization. We extend this framework to the…
+
+---
+
+### [VeriScene: Reconstructing Crime Scenes from Legal Evidence via World-Model Agent](https://arxiv.org/abs/2609.08342v1)
+
+- **arXiv**: `2609.08342v1`  |  **提交日期**: 2026-09-08
+- **作者**: Kevin Chuanpu Fu, Yongsen Zheng, Zee Kin Yeong, Kwok-Yan Lam
+
+World models take multimodal inputs like text, photos, and diagrams to generate dynamic scenes in accordance with the laws of physics, thus opening a compelling application: fusing multimodal legal evidence to re-create a crime scene and re-enact how an offence could have been committed. However, feeding the raw, unorganized evidence into a world model fails in forensic use: it silently drops evidence, glosses over contradictory testimony, and produces motion that violates the evidentiary record. This paper presents VeriScene, an agent that orchestrates the world model: it reconstructs crime…
+
+---
+
+### [CALIPER: Clean Scenes Cannot Rank Physical Inference in Pretrained Visual Representations](https://arxiv.org/abs/2609.08250v1)
+
+- **arXiv**: `2609.08250v1`  |  **提交日期**: 2026-09-08
+- **作者**: Aman Mehta, Riya Baviskar
+
+How far a pushed object slides depends on its mass and friction, which no single image reveals. Pretrained visual encoders are increasingly used as the perception front end of world models for manipulation, and their physical competence is assessed with perturbation benchmarks and linear probes, almost always in a clean, fixed-camera scene. We show that these assessments cannot distinguish an encoder that infers physics from one that does not. CALIPER (calibrate, then predict) is a direct test: an object of unknown mass and friction is struck twice at known speeds, a third strike is shown…
+
+---
+
+### [ActionSplice: In-Flight Action Editing for Interactive World Models](https://arxiv.org/abs/2609.08230v1)
+
+- **arXiv**: `2609.08230v1`  |  **提交日期**: 2026-09-08
+- **作者**: Pardis Taghavi, Tingyu Guo, Jonas Lossner, Gaurav Pandey, Reza Langari
+
+Chunk-autoregressive video world models typically condition each generated chunk on one action. An action received during sampling must therefore wait for the next chunk, condition future solver evaluations on a state produced under the previous action, or trigger rollback that repeats completed evaluations. We introduce ActionSplice, an inference framework that formulates this problem as Counterfactual State Transport (CST). A lightweight corrector transports the interrupted backbone-native representation toward the matched state induced by the revised action at the same solver step. The…
+
+---
+
+### [InfluenceField: A Differentiable Field with Interventionally Identifiable Causal Structure for Multimodal World Modeling](https://arxiv.org/abs/2609.07874v1)
+
+- **arXiv**: `2609.07874v1`  |  **提交日期**: 2026-09-07
+- **作者**: Zihao Yang, Zijia Wang, Zhiqiu Huang
+
+Multimodal large language models often capture visual-linguistic correlations but struggle to predict how local visual interventions propagate and affect downstream answers. We introduce InfluenceField, an intervention-aware latent field inserted between the visual encoder and language decoder. It lifts patch features into a continuous spatial representation, propagates directed influence over multiple steps, and predicts local intervention effects through a shared transition operator. Training jointly optimizes language modeling, cross-environment invariance, counterfactual rollout…
+
+---
+
+### [A radiographic world model for clinical reasoning and evidence generation](https://arxiv.org/abs/2609.07719v1)
+
+- **arXiv**: `2609.07719v1`  |  **提交日期**: 2026-09-07
+- **作者**: Suyang Xi, Songtao Hu, Shansong Wang, Mojtaba Safari, Luke del Balzo, Ehsan Ul Karim et al.
+
+Medical imaging artificial intelligence (AI) is commonly developed as separate mappings from radiographs to diagnostic outputs or from clinical descriptions to generated images, although both arise from the same underlying radiographic state. A world-model formulation instead seeks to learn an internal representation of this state that can support both clinical readout and conditional simulation of radiographic observations. Here we introduce MedDream, a radiographic world model that learns a shared continuous latent state from paired chest radiograph-text observations for diagnostic…
+
+---
+
+### [AgentIdeaBench: Benchmarking Scientific Ideation in the Agent Era](https://arxiv.org/abs/2609.07611v1)
+
+- **arXiv**: `2609.07611v1`  |  **提交日期**: 2026-09-07
+- **作者**: Yunxiang Mo, Tianshi Zheng, Yisen Gao, Rui Wang, Newt Nguyen Kim Hue Nam, Kelvin Kiu Wai Tam et al.
+
+Scientific ideation is the capacity to formulate novel and testable hypotheses from scientific evidence, and autonomous AI scientists depend on it. Existing evaluations largely assess it by asking models to generate ideas from a static, curated set of reference papers. That passive setup departs from the retrieval-and-reasoning workflow of modern AI scientists, and it becomes less discriminative as models improve. We introduce AgentIdeaBench, a multidisciplinary benchmark that evaluates scientific ideation under two matched settings, static observation and active exploration. We report…
+
+---
+
+### [PhysReal: Learning Real-World Deformable Object Physics via Hybrid Constitutive Modeling](https://arxiv.org/abs/2609.07532v1)
+
+- **arXiv**: `2609.07532v1`  |  **提交日期**: 2026-09-07
+- **作者**: Yinan Deng, Jianqiao Song, Yisi Zhang, Yuhan Wang, Jiahui Wang, Yufeng Yue
+
+Learning physically plausible dynamics from visual observations is essential for interactive world models and embodied agents. However, modeling real-world deformable objects remains challenging because their dynamics often arise from complex, spatially heterogeneous material responses. To address this challenge, we propose PhysReal, a video-driven framework for learning and simulating the underlying physics of real deformable objects. PhysReal integrates a spatially varying hybrid expert-neural constitutive model with a differentiable MPM simulator and 3DGS renderer. Analytical expert models…
+
+---
+
+### [PV-WM: A Heterogeneous Micro-Macro World Model for Articulated Pedestrian-Vehicle Co-Rollout](https://arxiv.org/abs/2609.07328v1)
+
+- **arXiv**: `2609.07328v1`  |  **提交日期**: 2026-09-07
+- **作者**: Haozhuang Chi, Jingsong Liang, Ziying Song, Lei Yang, Shihao Li, Haoruo Zhang et al.
+
+Local pedestrian-vehicle forecasting spans heterogeneous physical scales: pedestrians combine root locomotion with articulated motion, whereas vehicles are rigid bodies described by kinematic state and oriented extent. Existing road-agent forecasters typically omit pedestrian articulation, while pose forecasters leave vehicle futures outside the learned rollout. We introduce PV-WM, a history-only world model over structured post-perception tracks. It recurrently advances pedestrian root motion, 15-joint articulation, and learned vehicle states within a synchronized heterogeneous state. The…
+
+---
+
+### [World Models Under Asynchronous Sensor Observations](https://arxiv.org/abs/2609.07299v1)
+
+- **arXiv**: `2609.07299v1`  |  **提交日期**: 2026-09-07
+- **作者**: Akash Anand, Abhay Anand, Yash Vishe
+
+Learned world models typically assume that observations arrive synchronously, an abstraction inherited from simulators that return a complete state vector at each environment step. Physical sensing instead operates at heterogeneous rates, leaving most observation channels stale at any given instant. Interpolating stale channels introduces measurements that were never observed, while downsampling to the slowest sensor discards valid measurements. A natural alternative is to zero-order-hold the most recent reading and provide the known sampling schedule to the model through two features,…
+
+---
+
+### [Beyond Task Success: Stage-Wise Reliability of World Model Planning under Sensing Degradation](https://arxiv.org/abs/2609.07126v1)
+
+- **arXiv**: `2609.07126v1`  |  **提交日期**: 2026-09-07
+- **作者**: Geonmyeong Lee, Byoung-Tak Zhang
+
+In world model planning, sensing inputs pass through an encoder and predictor before affecting planner decisions, so final task success alone cannot reveal where sensing disturbances attenuate or persist in the pipeline. We apply 10 visual and temporal sensing degradations to a world model planner and track their effects across representation, future prediction, planner preference, and physical outcome using paired evaluation on the same 50 tasks. The relative impact of degradations was not preserved across stages: large representation shifts could attenuate downstream, while smaller initial…
+
+---
+
+### [TrojanWorld: Backdooring World-Model Agents via Imagination Steering](https://arxiv.org/abs/2609.07051v1)
+
+- **arXiv**: `2609.07051v1`  |  **提交日期**: 2026-09-07
+- **作者**: Wenkai Huang, Siyuan Liang, Gaolei Li, Yiming Li, Tianhao Peng, Jianhua Li et al.
+
+World models increasingly serve as the predictive core of model-based reinforcement learning agents, enabling them to simulate future dynamics and reason over imagined trajectories before acting. Their substantial training demands make pretrained world models attractive for distribution and reuse, exposing downstream systems to model supply chain threats. Backdoor attacks offer a targeted and stealthy means of exploiting such supply chains, yet their threat to interactive world-model agents remains largely unexplored. To fill this gap, we present TrojanWorld, a backdoor framework for…
+
+---
+
+### [BinauralVAE: Spatial Audio Reconstruction For World Models](https://arxiv.org/abs/2609.06837v1)
+
+- **arXiv**: `2609.06837v1`  |  **提交日期**: 2026-09-06
+- **作者**: Luis Vitor Zerkowski, Luiz Velho
+
+Embodied artificial intelligence has historically very much relied on visual perception, leading to a proliferation of multiple vision-centric world models. However, this reliance fails to capture spatial understanding in its entirety and can even present vulnerabilities in environments with visual occlusions, low-light conditions, or blackouts-scenarios, where acoustic information becomes a critical alternative for spatial awareness and navigation. Despite its potential, research into realistic spatial audio and particularly the development of audio-centric world models remains sparse. In…
+
+---
+
+### [Generalist Open-World Temporal Perception](https://arxiv.org/abs/2609.06823v1)
+
+- **arXiv**: `2609.06823v1`  |  **提交日期**: 2026-09-06
+- **作者**: Cristian Sminchisescu
+
+The next generation of artificial intelligence systems will likely be natively temporal and multimodal in both inputs and outputs: able to converse, perceive, predict, reason, and synthesize through a shared world representation. Realizing this requires a temporal perceptual substrate integrating sensory streams, language, and structured outputs within a multimodal world model. We seek a generalist open-world perceptual system that represents biological forms, natural physical structures, and artifacts, and their interactions, as a coherent, temporally persistent process. The model should…
+
+---
+
+### [Diagnosing and Dynamically Filtering Occupancy World Models for Active Mapping](https://arxiv.org/abs/2609.06820v1)
+
+- **arXiv**: `2609.06820v1`  |  **提交日期**: 2026-09-06
+- **作者**: Jiahui Zhang, Gongbo Liang, Yu Zhang
+
+Active mapping requires a robot to select camera viewpoints that efficiently reconstruct an unknown 3D scene. To reason about unobserved regions, recent systems use pretrained occupancy networks as world models that complete missing geometry. The predicted structure contributes to expected coverage gain and constrains feasible robot motion. Consequently, occupancy errors can change both what the robot chooses to explore and where it is able to move. We diagnose these effects by holding the planner fixed and varying only the occupancy representation provided to it. We consider planning without…
+
+---
+
+### [SerenAI: State-transition system inspired by text-based world AI models](https://arxiv.org/abs/2609.06647v1)
+
+- **arXiv**: `2609.06647v1`  |  **提交日期**: 2026-09-06
+- **作者**: Elvin Babayev, Artem Sinitsa, Arash Hajisharifi, Kabir Bakhshaei
+
+Although professional workflows leverage large language models widely, the interpretation for auditing unconstrained free-text generation is usually intractable if such generation demands legal, operational or financial workflow. We hereby demonstrate a text based system called SerenAI - inspired by world-models, it is a state transition system that outputs verifiable predictions rather than merely text: Provided with a description of the environment, state, and actions, the generated output contains 4 items: causal deltas that causally effect the given state, a next state that can logically…
+
+---
+
 ## 📅 2026-09-07
 
 ### [TourPhysics: Bringing Physics to World Models for Exploration and Manipulation from a Single Image](https://arxiv.org/abs/2609.04911v1)
