@@ -2,6 +2,17 @@
 
 _自动追踪 arXiv 最新论文，最新更新在最上方。_
 
+## 📅 2026-09-10
+
+### [InstantMimic: A High Performance System for Learning Physics-based Skills in Seconds](https://arxiv.org/abs/2609.09821v1)
+
+- **arXiv**: `2609.09821v1`  |  **提交日期**: 2026-09-09
+- **作者**: Ikjun Choi, Geonho Leem, Jungdam Won
+
+Physics-based character control is a long-standing challenge in computer graphics and robotics, requiring policies that satisfy complex dynamics while producing realistic motion. Recent Deep RL approaches, particularly imitation learning methods such as DeepMimic, have had broad impact beyond animation, influencing robotics by enabling agile and expressive behaviors. While these approaches achieve impressive results, they remain computationally inefficient to train in practice. Despite GPU-accelerated simulation, we find that end-to-end pipelines often underutilize hardware due to overheads…
+
+---
+
 ## 📅 2026-09-09
 
 ### [Flexible Motion Generation from Language and Style References](https://arxiv.org/abs/2609.08032v1)

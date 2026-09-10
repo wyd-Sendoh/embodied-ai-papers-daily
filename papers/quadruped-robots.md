@@ -2,6 +2,26 @@
 
 _自动追踪 arXiv 最新论文，最新更新在最上方。_
 
+## 📅 2026-09-10
+
+### [Frame-Coded Legged Locomotion over Noisy Terrain](https://arxiv.org/abs/2609.10273v1)
+
+- **arXiv**: `2609.10273v1`  |  **提交日期**: 2026-09-09
+- **作者**: Lav R. Varshney
+
+Open-loop multilegged locomotion over rough terrain has been interpreted as matter transport over a noisy channel: leg-ground interactions are discrete basic active contacts, terrain deletes or perturbs those contacts, and spatial redundancy concentrates the resulting thrust and arrival time. That construction is repetition-like because every module carries the same scalar locomotion task. It consequently provides neither a positive task rate nor a decoder that changes with the surviving contact set. Here we formulate locomotion instead as a quantized finite-frame expansion with erasures. A…
+
+---
+
+### [Actuator Dynamics Curricula for Narrow-Viability Tasks in Legged Robot Learning](https://arxiv.org/abs/2609.09492v1)
+
+- **arXiv**: `2609.09492v1`  |  **提交日期**: 2026-09-08
+- **作者**: Kousheek Chakraborty, Chandan K. Rajendra, Ayham Alharbat, Abeje Y. Mersha
+
+Reinforcement learning has produced capable controllers across a broad range of legged-robot tasks, but a subset of these tasks fail to converge under standard training: those for which most exploration trajectories terminate before producing useful gradient signal. To address such tasks we introduce the \emph{Actuator Dynamics Curriculum}, a procedure that initializes joint stiffness at a high value and anneals it toward the system-identified value as completed episode lengths grow. Using a cart-pole system as a representative example, we show that higher closed-loop joint natural frequency…
+
+---
+
 ## 📅 2026-09-09
 
 ### [CAST: Alternating State-Value Targets and Expanded Policy Gradients for Model-Based Reinforcement Learning](https://arxiv.org/abs/2609.08853v1)
