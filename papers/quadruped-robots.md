@@ -2,6 +2,26 @@
 
 _自动追踪 arXiv 最新论文，最新更新在最上方。_
 
+## 📅 2026-09-11
+
+### [Harness Robotic OS: A Unified Embodied-Agent Runtime for Closed-Loop Quadruped Inspection](https://arxiv.org/abs/2609.11225v1)
+
+- **arXiv**: `2609.11225v1`  |  **提交日期**: 2026-09-10
+- **作者**: Yaoyuan Yan, Zhiyou Heng, Haoxiang Jie, Gang Liu, Hongjie Yan, Wei Zhou
+
+Autonomous property inspection requires more than robust robot navigation: a deployable system must connect heterogeneous sensing, reusable autonomy capabilities, multimodal scene understanding, human interaction, and enterprise response within a traceable operational loop. Existing quadruped inspection systems commonly integrate these functions through task-specific interfaces, making contextual coordination, knowledge reuse, and controlled adaptation difficult. This paper presents \textit{Harness Robotic OS} (HROS), a unified embodied-agent runtime, and Argos, its realization for…
+
+---
+
+### [Gait-Dependent Effects on Quadruped Locomotion for Load-Carrying using Passive Mechanism](https://arxiv.org/abs/2609.11059v1)
+
+- **arXiv**: `2609.11059v1`  |  **提交日期**: 2026-09-10
+- **作者**: Giovanni B. Dessy, Claudio Semini, Victor Barasuol
+
+Passive mechanical interfaces offer a lightweight alternative to actuated manipulators for quadruped payload carrying, but their impedance directly couples the payload dynamics with the locomotion pattern. This paper analyzes how passive-arm stiffness-damping selection affects payload-carrying locomotion under different gait and payload conditions. We compare damped and underdamped passive-arm impedance configurations in simulation during flat-ground locomotion. For crawl gaits, where the support polygon remains well defined, the results show that underdamped impedance increases passive-joint…
+
+---
+
 ## 📅 2026-09-10
 
 ### [Frame-Coded Legged Locomotion over Noisy Terrain](https://arxiv.org/abs/2609.10273v1)

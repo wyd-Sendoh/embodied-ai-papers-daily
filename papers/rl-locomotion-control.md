@@ -2,6 +2,17 @@
 
 _自动追踪 arXiv 最新论文，最新更新在最上方。_
 
+## 📅 2026-09-11
+
+### [Quantifying the Reality Gap for RL-Based UAV Placement at mmWave and Sub-THz](https://arxiv.org/abs/2609.11121v1)
+
+- **arXiv**: `2609.11121v1`  |  **提交日期**: 2026-09-10
+- **作者**: Abdullateef Almohamad, Mostafa Ibrahim, Sabit Ekin, Khalid Qaraqe
+
+Reinforcement learning (RL) policies for unmanned aerial vehicle (UAV) placement in mmWave and sub-terahertz networks are typically trained on simplified analytical channels. We quantify the resulting sim-to-real gap on a real urban map of Doha, Qatar, at carriers {28, 140, 183, 300} GHz and altitudes {50, 75, 100, 125} m, evaluating three channel pipelines: an analytical model (FSPL + atmospheric absorption + cuboid LoS), full Monte-Carlo ray tracing in Sionna RT with ITU-R P.676-13 absorption, and a deterministic-LoS hybrid that reuses Sionna's mesh under a closed-form path-gain expression.…
+
+---
+
 ## 📅 2026-09-10
 
 ### [ViBe: Visual Behavior Adaptation for Perceptive Humanoid Whole-Body Control](https://arxiv.org/abs/2609.09918v1)
