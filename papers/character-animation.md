@@ -2,6 +2,35 @@
 
 _自动追踪 arXiv 最新论文，最新更新在最上方。_
 
+## 📅 2026-09-16
+
+### [ConGraspXL: Controllable Constraint-Conditioned Dexterous Grasping Motion Synthesis](https://arxiv.org/abs/2609.16319v1)
+
+- **arXiv**: `2609.16319v1`  |  **提交日期**: 2026-09-14
+- **作者**: Hui Zhang, Mirko Meboldt, Jie Song
+
+Dexterous grasping is usually conducted for specific tasks, leading to heterogeneous constraints such as specific approach directions, desired contact regions, specified wrist trajectories, and functional hand poses. Our previous work, GraspXL, achieves scalable grasping motion synthesis for diverse objects and hand morphologies, while lacking controllability for synthesis under such various task-driven constraints. In this paper, we propose ConGraspXL, which extends GraspXL with controllable constraint-conditioned grasp motion synthesis that accommodates diverse task-driven constraints and…
+
+---
+
+### [Assistance Torque Estimation via Dynamics-Aware Optimization for Lower-Limb Exoskeleton in Complex Environments](https://arxiv.org/abs/2609.15352v1)
+
+- **arXiv**: `2609.15352v1`  |  **提交日期**: 2026-09-14
+- **作者**: Xiao-Yin Liu, Guotao Li, Weiqun Wang, Zeng-Guang Hou
+
+Ground-truth human joint torque estimation relies on motion capture systems, which suffer from limited outdoor usability and significant deployment expenses. Furthermore, direct scaling of ground-truth joint torques to obtain motor torque commands is not necessarily the optimal strategy. To address the aforementioned limitations, inspired by the human motion generation process, this paper proposes a novel assistance torque estimation method based on the dynamic model. From an optimization perspective, the proposed method directly generates motor-assist torque and lowers the cost of data…
+
+---
+
+### [MoVT: Video-Augmented Motion Tokenizer for Text-to-Motion Generation](https://arxiv.org/abs/2609.14965v1)
+
+- **arXiv**: `2609.14965v1`  |  **提交日期**: 2026-09-14
+- **作者**: Beibei Jing, Tianle Guo, Youjia Zhang, Zikai Song, Yawei Luo, Junqing Yu et al.
+
+Text-driven 3D human motion generation models face significant challenges in responding to diverse and unconstrained textual prompts, primarily due to the limited availability of 3D motion training data. To address this, we introduce MoVT, a novel framework that effectively leverages the extensive range of human action videos to enhance text-to-motion generation. At the core of our approach is the cross-modal augmented motion tokenizer, which projects discrete 3D motion tokens into the 2D domain. This projection allows us to enrich the motion codebook with complex, real-world motion patterns…
+
+---
+
 ## 📅 2026-09-10
 
 ### [InstantMimic: A High Performance System for Learning Physics-based Skills in Seconds](https://arxiv.org/abs/2609.09821v1)

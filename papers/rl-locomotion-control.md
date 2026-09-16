@@ -2,6 +2,44 @@
 
 _自动追踪 arXiv 最新论文，最新更新在最上方。_
 
+## 📅 2026-09-16
+
+### [LCAP: Population-Informed Latent Chip Adaptation from Few Output Probes for Photonic Neural Networks](https://arxiv.org/abs/2609.16823v1)
+
+- **arXiv**: `2609.16823v1`  |  **提交日期**: 2026-09-15
+- **作者**: Tianyu Gao, Guantian Zheng
+
+Photonic neural networks (PNNs) offer efficient analog inference, but parameters optimized under ideal device models can degrade after fabrication, creating a persistent simulation-to-hardware (sim-to-real) gap. When many identically designed chips are deployed, calibrating each device from scratch compounds this cost. We propose Latent Chip Adaptation from Probes (LCAP), a population-informed framework that decomposes hardware adaptation into a transferable population correction and probe-inferred latent personalization. LCAP first learns a shared correction from 80 historical chips, then…
+
+---
+
+### [WholeBodyWAM: Generalizing Pre-trained World-Action Priors to Humanoid Loco-Manipulation via WBC-Grounded Coordination](https://arxiv.org/abs/2609.16644v1)
+
+- **arXiv**: `2609.16644v1`  |  **提交日期**: 2026-09-15
+- **作者**: Zhuo Li, Yiming Yao, Jim Tan, Mengjie Jing, Zhipeng Dong, Fei Chen
+
+World Action Models (WAMs) offer a promising approach to general-purpose robot manipulation by jointly modeling visual dynamics and actions. However, most WAM studies focus on tabletop or arm-centric manipulation, while humanoid loco-manipulation remains less explored. To address this gap, we introduce WholeBodyWAM, which jointly predicts future visual dynamics, manipulation actions, and whole-body control intents for generalizable humanoid loco-manipulation. It preserves pre-trained world-action priors while grounding heterogeneous whole-body controller (WBC) semantics and coordinating…
+
+---
+
+### [Policy Gradient over History-Dependent Policy Classes for LQR with Domain Randomization](https://arxiv.org/abs/2609.16300v1)
+
+- **arXiv**: `2609.16300v1`  |  **提交日期**: 2026-09-14
+- **作者**: Tesshu Fujinami, Bruce D. Lee, Anastasios Tsiamis, Nikolai Matni, George J. Pappas
+
+Domain Randomization (DR) has been widely used to overcome the sim-to-real gap by training a controller on a distribution of simulated environments via reinforcement learning. While DR can achieve robust performance simply using controllers synthesized via policy gradient (PG) methods, the optimization landscape is not well understood, even in the case of linear quadratic regulator (LQR) objectives. To this end, we first study PG of domain randomized LQR over history-dependent policy classes, such as finite impulse response controllers, as they can extend the possibilities of simultaneous…
+
+---
+
+### [X-WBC: A Cross-Embodiment Foundation Model for Humanoid Whole-Body Control](https://arxiv.org/abs/2609.15213v1)
+
+- **arXiv**: `2609.15213v1`  |  **提交日期**: 2026-09-14
+- **作者**: Juntong Zhang, Chun Gu, Li Zhang
+
+Scaling humanoid whole-body control toward general-purpose deployment requires large human motion corpora and training experience shared across robot bodies. Existing methods usually train one policy per robot, leaving motion experience isolated across embodiments. We introduce X-WBC, a cross-embodiment foundation framework that separates relatively shared human motion semantics from embodiment-specific physical execution. Human-centered command tokens align full human motion, robot reference motion, and sparse VR observations. A causal Transformer learns reusable temporal structure from…
+
+---
+
 ## 📅 2026-09-11
 
 ### [Quantifying the Reality Gap for RL-Based UAV Placement at mmWave and Sub-THz](https://arxiv.org/abs/2609.11121v1)

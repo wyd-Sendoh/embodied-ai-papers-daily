@@ -2,6 +2,62 @@
 
 _自动追踪 arXiv 最新论文，最新更新在最上方。_
 
+## 📅 2026-09-16
+
+### [Hamilton-Jacobi Reachability for Hybrid Systems: Unified Goal-Driven Control with Safety Guarantees](https://arxiv.org/abs/2609.17430v1)
+
+- **arXiv**: `2609.17430v1`  |  **提交日期**: 2026-09-15
+- **作者**: Javier Borquez, Shuang Peng, Somil Bansal
+
+Hybrid dynamical systems provide a powerful modeling framework for robotic systems, particularly in contact-rich environments. However, ensuring safety and performance in such systems remains challenging due to the intricate coupling between continuous dynamics and discrete mode transitions. In this work, we extend classical Hamilton-Jacobi (HJ) reachability analysis, a formal verification method for continuous-time nonlinear systems, to hybrid dynamical systems. Our framework characterizes safe sets for hybrid systems through a generalized value function defined over both discrete and…
+
+---
+
+### [Optimized Wrench Polytope Analysis for Real-Time Stability Control of Legged Robots in Complex Multi-Contact Configurations](https://arxiv.org/abs/2609.17405v1)
+
+- **arXiv**: `2609.17405v1`  |  **提交日期**: 2026-09-15
+- **作者**: Friedrich Graaf, Elias Birkefeld, Christian Eichmann, Elias Hofele, Tristan Schnell, Georg Heppner et al.
+
+Legged robots offer a variety of automation applications in real-world scenarios. But areas that are difficult to traverse, like slopes, caves, or scaffolding, still pose a great challenge for traversal. To tackle this problem, we propose an optimized algorithm for evaluating the full actuatable wrench polytope for arbitrary contact scenarios. With our improved analysis algorithm, the torques for each joint of the robot can be calculated within a control frequency of 49 Hz. The achieved speedup allows for deployment within a regular control loop for actuating robot poses for different contact…
+
+---
+
+### [Fingers as Legs: Learning Self-Supported Locomotion and Manipulation with an Anthropomorphic Hand](https://arxiv.org/abs/2609.17172v1)
+
+- **arXiv**: `2609.17172v1`  |  **提交日期**: 2026-09-15
+- **作者**: Amirhossein Kazemipour, Hehui Zheng, Robert Katzschmann
+
+A walking robotic hand must use the same fingers to move its body, support its weight, and interact with the environment. We show how an anthropomorphic hand can learn these skills while retaining its finger design and position controller. Onboard power and computation make the platform self-contained. Our reinforcement learning approach accounts for the hand's unequal fingers, with training in a simulator calibrated from hardware measurements. In simulation, the hand moves faster with our reward formulation than with tuned rewards originally designed for quadrupeds. On hardware,…
+
+---
+
+### [JEPLO: Joint-Embedding Predictive Learning for LiDAR-Based Legged Locomotion](https://arxiv.org/abs/2609.15770v1)
+
+- **arXiv**: `2609.15770v1`  |  **提交日期**: 2026-09-14
+- **作者**: Qihao Yuan, Yixuan Qiu, Ziyu Cao, Ming Cao, Kailai Li
+
+Light detection and ranging (LiDAR) remains less explored than RGB-D sensing for perceptive legged locomotion, and existing LiDAR-based approaches often rely on explicit mapping. We present JEPLO (Joint-Embedding Predictive learning for legged LOcomotion), a single-stage learning framework for mapping-free, LiDAR-based perceptive locomotion for legged robots. We introduce a proprio-exteroceptive JEPA (PE-JEPA) world model to learn predictive egocentric terrain representations from onboard observations, including raw LiDAR scans. A concurrent JEPA-teacher-student (CJTS) pipeline is further…
+
+---
+
+### [Dynamics-Informed Reinforcement Learning for Agile and Energy-Efficient Locomotion of a Monopedal Hopping Quadcopter](https://arxiv.org/abs/2609.15399v1)
+
+- **arXiv**: `2609.15399v1`  |  **提交日期**: 2026-09-14
+- **作者**: Ruigang Chen, Qi Zhang, Zhicheng Zhong, Zhuorui Yun, Yizhar Or, Mingyi Liu
+
+Although aerial-legged robots offer combined agility and efficiency, controlling high-speed hopping under complex hybrid dynamics is challenging. Reinforcement Learning (RL) is promising but prone to energy-inefficient "reward hacking". We propose a Dynamics-Informed RL framework for a monopedal hopping quadcopter. By embedding a target Specific Energy into the reward, we constrain the optimization to a physically viable energy manifold, ensuring stable hopping behaviour. By rewarding the phase-consistent behavior, it can encourage bio-inspired stance-phase impulse. Furthermore, penalizing…
+
+---
+
+### [Understanding User Preferences of a Slope-Aware Variable-Admittance Filter for a Robot Guide Dog](https://arxiv.org/abs/2609.15362v1)
+
+- **arXiv**: `2609.15362v1`  |  **提交日期**: 2026-09-14
+- **作者**: Federico Esposito, Mario Selvaggio, Aaron Link, Fabio Ruggiero
+
+This letter investigates how the parameters of a slope-aware variable-admittance filter influence user preferences in force-based interaction with a robotic guide dog for visually impaired individuals. The proposed system consists of a quadruped robot equipped with a sensor-free rigid handle for physical guidance. The framework combines path following, momentum-based interaction-wrench estimation, and a variable-admittance filter whose stiffness and damping are adapted online from slope information extracted by the robot's depth camera. The adaptation policies are evaluated through…
+
+---
+
 ## 📅 2026-09-11
 
 ### [Harness Robotic OS: A Unified Embodied-Agent Runtime for Closed-Loop Quadruped Inspection](https://arxiv.org/abs/2609.11225v1)

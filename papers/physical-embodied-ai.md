@@ -2,6 +2,53 @@
 
 _自动追踪 arXiv 最新论文，最新更新在最上方。_
 
+## 📅 2026-09-16
+
+### [Exploring 2D backbone effects for indoor semantic occupancy prediction](https://arxiv.org/abs/2609.17257v1)
+
+- **arXiv**: `2609.17257v1`  |  **提交日期**: 2026-09-15
+- **作者**: Shizhang Fanga, Wanling Yea, Qi Zheng
+
+Semantic occupancy prediction gives an embodied agent a voxel-level account of where space is free, occupied, and semantically meaningful. In RGB-D pipelines such as EmbodiedScan, the image encoder is often left as a default module, even though its features are the visual evidence later sampled into the 3D grid. We study this design choice directly. A central finding is that changing the 2D backbone improves occupancy accuracy more than several carefully designed occupancy architectures or modules. We keep the main RGB-D projection, depth branch, and occupancy head fixed, and replace only the…
+
+---
+
+### [Semantic-Aware Neural Video Codec for Error-Resilient Low-Latency Transmission](https://arxiv.org/abs/2609.16279v1)
+
+- **arXiv**: `2609.16279v1`  |  **提交日期**: 2026-09-14
+- **作者**: Matin Mortaheb, Homa Esfahanizadeh, Jinfeng Du, Harish Viswanathan
+
+Emerging physical AI systems require low-latency, task-oriented video communication over unreliable channels. We propose a semantic-aware multi-level neural video coding method for robust low-latency video transmission over unreliable channels that are abstracted as multi-level packet erasure channels. Built upon the real-time DCVC-RT neural video codec, the proposed framework introduces a semantic- and feature-aware coding strategy that partitions encoded representations into packets carrying different levels of semantic and latent-feature importance and assigns these packets to different…
+
+---
+
+### [Goal-Oriented Communications for Physical AI: Design and Testbed](https://arxiv.org/abs/2609.15895v1)
+
+- **arXiv**: `2609.15895v1`  |  **提交日期**: 2026-09-14
+- **作者**: Shutong Chen, Wenkai Zhang, Adnan Aijaz, Miao Guo, Yansha Deng
+
+Physical AI relies on frequently-updated, latency-sensitive video stream to perceive, reason, and interact with the physical world, resulting in strict latency requirements with much higher data volumes that existing 5G networks cannot support. Goal-oriented communication (GoC) offers as a promising approach to solve this challenge by transmitting only task-relevant semantic representations. However, existing GoC frameworks were mainly evaluated in the simulations while their effectiveness has never been validated in a practical deployment of physical AI application. In this work, we develop…
+
+---
+
+### [Open-UniMo: Towards Unified Motion-Language Understanding and Generation in the Open World](https://arxiv.org/abs/2609.14615v1)
+
+- **arXiv**: `2609.14615v1`  |  **提交日期**: 2026-09-13
+- **作者**: Guocun Wang, Kenkun Liu, Guorui Song, Jing Lin, Zhe Huang, Luyuan Zhang et al.
+
+Unified motion generation and understanding is crucial for embodied AI systems that can both synthesize and interpret human actions in open-world environments. Existing motion-language models often treat motion as an auxiliary modality of a language model, leading to text-dominated representations and limited cross-modal interaction. Moreover, the next-token prediction paradigm is not naturally suited to long motion sequences, where autoregressive generation may accumulate prediction errors. To address these challenges, we propose Open-UniMo, a unified Large Motion-Language Model (LMLM)…
+
+---
+
+### [Managing Action Preconditions in Neuro-Symbolic RL: Three Placement Strategies for Embodied Agents](https://arxiv.org/abs/2609.16056v1)
+
+- **arXiv**: `2609.16056v1`  |  **提交日期**: 2026-09-13
+- **作者**: Norbert Oswald, Fabian Deuser, Thomas Bräunl
+
+Humans carry behaviour knowledge of how to act in familiar situations into every new task rather than relearning it from scratch. There is no reason a Reinforcement Learning (RL) agent shouldn't do the same: known behaviour patterns need not be learned, only applied. Neuro-symbolic RL bridges prior knowledge and RL by injecting symbolic knowledge alongside a learned policy. The point at which this knowledge is integrated is critical: a poor choice can produce, for instance, hallucinated preconditions, which surface as safety and reliability problems in agents acting in changing environments.…
+
+---
+
 ## 📅 2026-09-11
 
 ### [The Last AI Built by Humans: Toward Genuine Recursive Self-Improvement](https://arxiv.org/abs/2609.11873v1)
