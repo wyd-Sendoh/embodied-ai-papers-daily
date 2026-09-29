@@ -2,6 +2,71 @@
 
 _自动追踪 arXiv 最新论文，最新更新在最上方。_
 
+## 📅 2026-09-29
+
+### [X-Reset: Scaling Object-Centric Reinforcement Learning via Cross-Embodiment Resets](https://arxiv.org/abs/2609.35715v1)
+
+- **arXiv**: `2609.35715v1`  |  **提交日期**: 2026-09-28
+- **作者**: Prithwish Dan, Chenyang Ma, Wei Zhan
+
+Reinforcement learning (RL) in simulation can train dexterous manipulation policies without robot demonstrations, but training a single generalist policy with task-agnostic rewards faces a severe exploration problem: approaching, grasping, and reorienting diverse objects with many degrees of freedom is difficult to discover from scratch. Prior works make exploration tractable with high-quality robot demonstrations, per-task reward shaping, or by restricting policies to narrow modes of behavior. We propose X-Reset, a framework that instead resolves exploration with human hand-object…
+
+---
+
+### [F4R: Failure-Driven Recognition, Reconstruction, Refinement, and Redeployment for Continual Robot Self-Improvement](https://arxiv.org/abs/2609.35575v1)
+
+- **arXiv**: `2609.35575v1`  |  **提交日期**: 2026-09-28
+- **作者**: Zhuoyuan Yu, Jiacheng Wang, Tianle Liu, Yihua Ren, Peng Yu, Chen Bai et al.
+
+The real-world performance of current vision-language-action models is fundamentally constrained by the limited coverage of expert demonstrations and their insufficient understanding of physical interactions. A common remedy is to collect additional real-world demonstrations of newly encountered failures. However, this process is costly, inefficient, potentially unsafe, and difficult to scale. To address this challenge, we propose Failure for Rising (F4R), a failure-driven real-to-sim-to-real closed-loop learning framework that converts real-world failures into targeted policy improvement.…
+
+---
+
+### [DexAgent: An Agentic Human2Sim2Robot Framework for Dexterous Manipulation with Self-Evolving Tool Library](https://arxiv.org/abs/2609.35318v1)
+
+- **arXiv**: `2609.35318v1`  |  **提交日期**: 2026-09-28
+- **作者**: Youhui Wang, Yunzhu Li, Li Fei-Fei, Jiajun Wu, Huang Huang
+
+Human videos offer a scalable source of demonstrations for dexterous robot manipulation. However, existing human-to-simulation-to-robot (Human2Sim2Robot) pipelines rely on predefined procedures that struggle to accommodate diverse object properties and interactions, particularly those involving articulated and deformable objects. We introduce DexAgent, an agentic Human2Sim2Robot framework that converts a single egocentric human video and a task prompt into physically grounded robot trajectories for policy training. It operates through four stages: semantic understanding of human videos,…
+
+---
+
+### [Estimate, Don't Imitate: Reusing Differentiable State-Based Policies for Visuomotor Control](https://arxiv.org/abs/2609.34018v1)
+
+- **arXiv**: `2609.34018v1`  |  **提交日期**: 2026-09-27
+- **作者**: Denis Shcherba, Adrian Abel, Eckart Cobo-Briesewitz, Wojciech Samek, Marc Toussaint
+
+Simulation-trained manipulation policies can exploit privileged state information to learn effective contact-rich behaviours, but deployment requires acting from partial observations such as noisy camera images. A common solution is teacher-student distillation, in which a visuomotor policy is trained to reproduce the actions of the privileged expert. This requires the student to jointly infer the task-relevant state and relearn the expert's action mapping that is already available. An alternative is to reuse the state-based expert and learn only a perceptual interface that reconstructs its…
+
+---
+
+### [Test-Time Spatial Reasoning for Robot Manipulation Using Generative Real-to-Sim](https://arxiv.org/abs/2609.33982v1)
+
+- **arXiv**: `2609.33982v1`  |  **提交日期**: 2026-09-27
+- **作者**: Ivan Kapelyukh, Yafei Hu, Ran Gong, Brandon May, Tushar Kusnur, Laura Herlant et al.
+
+Spatial reasoning is fundamental to general robot intelligence, as it enables robots to complete long-horizon tasks involving multi-object interaction. We introduce Simify, a training-free, test-time framework that performs explicit spatial reasoning via massively parallel physics simulation. From a single RGB-D image of a scene, Simify reconstructs simulation-ready assets leveraging 3D generative models and vision-language models. Then given a task specified by a reward function (e.g., build the tallest tower), Simify launches thousands of parallel rollouts in simulation and performs an…
+
+---
+
+### [SV2V-RSim: A Comprehensive Benchmark for Self-Selective V2V Cooperative Perception with Near-Realistic Data](https://arxiv.org/abs/2609.32863v1)
+
+- **arXiv**: `2609.32863v1`  |  **提交日期**: 2026-09-26
+- **作者**: Yulu Wu, Chao Wei, Jujun Cheng, Zhangkai Ni, Haowen Wang, Dengyang Suo et al.
+
+Vehicle-to-Vehicle (V2V) cooperative perception enhances autonomous driving by enabling vehicles to share information beyond their direct line of sight. However, existing V2V datasets are limited by a small number of participating agents, static collaborator selection strategies, and a significant domain gap between simulated and real-world environments. To overcome these challenges, we introduce SV2V-RSim, a large-scale, multi-modal, near-realistic simulation dataset engineered to elevate agent diversity and realism. Additionally, we present the Select Vehicles Adaptively (SVA) module, which…
+
+---
+
+### [Uncertainty-Aware Selection of Online Algorithms with Simulator Ensembles](https://arxiv.org/abs/2609.32170v1)
+
+- **arXiv**: `2609.32170v1`  |  **提交日期**: 2026-09-26
+- **作者**: Yongyi Guo, Zifan Xu, Ziping Xu, Kelly W. Zhang
+
+The performance of online reinforcement learning depends critically on design choices, especially those that affect exploration. These choices are often selected by fitting a simulator to offline data, evaluating candidate algorithms in that simulator, and deploying the best-performing one. The simplest Plug-In selection rule simply selects the best performing algorithm on the fitted simulator, making evaluations unreliable when the offline data used to fit the simulator are limited. We investigate Uncertainty-Aware selection, which forms an ensemble of simulators---for example, obtained by…
+
+---
+
 ## 📅 2026-09-16
 
 ### [LCAP: Population-Informed Latent Chip Adaptation from Few Output Probes for Photonic Neural Networks](https://arxiv.org/abs/2609.16823v1)

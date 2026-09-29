@@ -2,6 +2,134 @@
 
 _自动追踪 arXiv 最新论文，最新更新在最上方。_
 
+## 📅 2026-09-29
+
+### [LLMs are General Asynchronous Agents](https://arxiv.org/abs/2609.35427v1)
+
+- **arXiv**: `2609.35427v1`  |  **提交日期**: 2026-09-28
+- **作者**: George Yakushev, Denis Mazur, Vladimir Bartenev, Vyacheslav Zhdanovskiy, Timofey Byzov, Vladimir Kaurkin et al.
+
+Modern LLMs are increasingly capable as autonomous agents, but they follow sequential interaction cycles: read, think, reply or call tools, repeat. Many real-world use cases are not sequential: voice assistants, embodied agents, and monitoring systems receive new inputs while they think or perform another task. Modern LLMs address this with specialized architectures for voice interaction and video streams, VLAs for robot control, asynchronous tool calling for API usage, and others. In this work, we generalize from different asynchronous tasks to general asynchronous agents that can adapt to…
+
+---
+
+### [NavJev: Efficient Vision-Language Navigation via Action-Centric Visual Compression and Discriminative Action-Semantic Memory](https://arxiv.org/abs/2609.34969v1)
+
+- **arXiv**: `2609.34969v1`  |  **提交日期**: 2026-09-28
+- **作者**: Kai Sheng, Liuyi Wang, Jinlong Li, Haojie Dai, Chengju Liu, Qijun Chen
+
+Recent zero-shot Vision-and-Language Navigation (VLN) methods increasingly rely on multimodal large language models (MLLMs) to reason over visual observations, navigation instructions, and candidate actions. Although effective, repeatedly invoking autoregressive multimodal reasoning at every navigation step introduces substantial inference latency, limiting the responsiveness of embodied agents. We propose NavJev, an efficient VLN framework that reformulates online navigation from repeated multimodal generation into compact visual compression followed by lightweight typed action selection.…
+
+---
+
+### [SOR-Nav: Search or Relocate? Context-Gated Exploration and Cross-Region Relocation for Object Navigation](https://arxiv.org/abs/2609.34707v1)
+
+- **arXiv**: `2609.34707v1`  |  **提交日期**: 2026-09-28
+- **作者**: Yuan Ji, Zirui Li, Yuxin Cai, Shuge Wu, Boon Siew Han, Chen Lv
+
+Object navigation requires an embodied agent to find an object in an unseen environment under partial observability and a limited motion budget. Existing methods primarily optimize where the robot should go next by ranking candidate destinations. In contrast to these methods, we present SOR-Nav, a hierarchical navigation system that explicitly arbitrates between continuing to explore the current context and abandoning it for a more promising reachable region. First, an autonomous semantic exploration system is built that accumulates persistent 3D object clusters and organizes reachable…
+
+---
+
+### [VCN-Bench: A Video-Contextualized Navigation Benchmark for Spatial Reasoning over Prior Visual Experience](https://arxiv.org/abs/2609.34687v1)
+
+- **arXiv**: `2609.34687v1`  |  **提交日期**: 2026-09-28
+- **作者**: Siqi Zhang, Meng Wei, Chenyang Wan, Shaohao Zhu, Shufan Shen, Xihui Liu et al.
+
+Spatial reasoning is fundamental to embodied agents, yet it remains unclear whether spatial understanding can be carried forward to guide sequential interactions. Existing spatial-reasoning benchmarks typically terminate at offline predictions, while navigation benchmarks evaluate spatial reasoning as part of instruction following and exploration. We introduce VCN-Bench, a \textbf{V}ideo-\textbf{C}ontextualized \textbf{N}avigation benchmark for probing closed-loop spatial reasoning over prior visual experience in MLLMs. Given a prior video covering both the initial location and destination,…
+
+---
+
+### [SAIL: Spatial Audio Intelligence with Large Language Models via Disentangled Acoustic-Spatial Encoding and Dual-Stream Q-Former](https://arxiv.org/abs/2609.34347v1)
+
+- **arXiv**: `2609.34347v1`  |  **提交日期**: 2026-09-28
+- **作者**: Zhengding Luo, Jinyang Wu, Haozhe Ma, Yanghao Zhou, Woon-Seng Gan, Wenwu Wang
+
+Spatial audio large language models (LLMs) enable embodied agents, wearable assistants, and immersive systems to recognize sound events, localize sources, and reason about their spatial relationships. However, existing spatial audio LLMs often rely on early fusion of acoustic and spatial features and source-agnostic token representations. These designs make it difficult to preserve the correspondence between individual sound events and their spatial attributes, particularly in multi-source scenes. To address this limitation, we propose SAIL, a Spatial Audio Intelligence framework with LLMs…
+
+---
+
+### [SphMind: Towards Robust, Training-Free VLM-based Spatial Reasoning with a 360 Camera](https://arxiv.org/abs/2609.33462v1)
+
+- **arXiv**: `2609.33462v1`  |  **提交日期**: 2026-09-27
+- **作者**: Shriram Damodaran, Soumyaratna Debnath, Cheston Tan, Lin Wang
+
+Omnidirectional or 360 cameras provide embodied AI agents with a holistic, wide field-of-view (FoV) view of their surroundings, motivating the use of Multi-modal Large Language Models (MLLMs) for omnidirectional spatial reasoning. However, most MLLMs are trained on conventional 2D perspective images and struggle with the severe distortions and wrap-around discontinuities induced by spherical geometry. Enabling them to generalize to non-Euclidean 3D spaces without retraining therefore remains challenging. We propose SphMind, a training-free, plug-and-play framework that decouples semantic…
+
+---
+
+### [AquaWAM: A Dynamics-aware World Action Model for Underwater Embodied Agents](https://arxiv.org/abs/2609.33299v1)
+
+- **arXiv**: `2609.33299v1`  |  **提交日期**: 2026-09-27
+- **作者**: Cunhao Zhu, Yifeng Wang, Dongliang Xu, Yunzhong Hou, Yue Yao, Chi Harold Liu
+
+World Action Models (WAMs) are becoming increasingly important and useful for embodied intelligence, as they enable robots to anticipate the consequences of candidate actions before interacting with the physical environment. However, underwater robots are usually subject to passive dynamics, such as inertia, buoyancy, hydrodynamic drag, and persistent drift, which can continue to affect the vehicle even after an action is completed. Existing WAMs, which primarily predict action-conditioned visual observations, are not explicitly designed to capture such passive motion dynamics. In this paper,…
+
+---
+
+### [Beyond Tasks: A Vision for Reproducing an Animal-like Behavioral Substrate Using Modern Robot Learning Techniques](https://arxiv.org/abs/2609.33165v1)
+
+- **arXiv**: `2609.33165v1`  |  **提交日期**: 2026-09-27
+- **作者**: Samiyuru Menik, Hemadri Jayalath
+
+Recent advances in robot learning have produced increasingly capable embodied agents. Yet comparatively less attention has been given to a more basic form of competence that animals exhibit continuously: the ability to remain situated, responsive, and behaviorally coherent as physical, environmental, and social demands change over time. We propose the ethological behavioral substrate as a conceptual lens for studying this form of competence in artificial agents. Rather than treating these behaviors that animals exhibit as a set of isolated skills, we argue that their continual coordination…
+
+---
+
+### [RoboFoundry: System-as-Policy Evolution for Self-Learning Embodied Agents](https://arxiv.org/abs/2609.32862v1)
+
+- **arXiv**: `2609.32862v1`  |  **提交日期**: 2026-09-26
+- **作者**: Jingsong Liang, Shuhao Liao, Shizhe Zhang, Diyuan Hou, Yuxin Cai, Xinjian Deng et al.
+
+A foundation model should not act in isolation as an embodied agent. Yet, existing methods often optimize individual components of the agent stack, such as memory, context, skills, or action interfaces, rather than treating the supporting system itself as a unified policy. Moreover, interaction alone does not yield self-improvement unless execution experience is converted into persistent, validated system changes. We therefore propose RoboFoundry, the first embodied agentic framework that formulates this process as Self-Evolving System-as-Policy. RoboFoundry diagnoses capability gaps in…
+
+---
+
+### [Nutri-ATLAS: Embodied Agent for Tabulated Lookup and Assistance for Smarter nutrition](https://arxiv.org/abs/2609.32803v1)
+
+- **arXiv**: `2609.32803v1`  |  **提交日期**: 2026-09-26
+- **作者**: Uttej Kallakuri, Boxun Hu, Ankur A. Butala, Najim Dehak, Tinoosh Mohsenin
+
+Generative and Agentic IoT systems offer a promising foundation for digital healthcare applications that combine sensing, personalized reasoning, and autonomous interaction in real-world environments. Nutrition assistance is a natural use case, but existing Large Language Model (LLM)-based systems are often limited to passive text interaction and static context, making them unreliable when food descriptions are ambiguous or nutritional evidence is missing. We propose Nutri-ATLAS, an Embodied Agent for Tabulated Lookup and Assistance for smarter nutrition in the real world. It integrates…
+
+---
+
+### [PlanGuard: A Guardrail for Multi-Step Plan Safety in Embodied Agents](https://arxiv.org/abs/2609.32801v1)
+
+- **arXiv**: `2609.32801v1`  |  **提交日期**: 2026-09-26
+- **作者**: Junchi Chen, Changtao Miao, Yuxiao Xiang, Zhenchao Jin, Haojie Yuan, Qi Chu et al.
+
+Embodied task planners may produce multi-step plans whose subtask dependencies and interactions with the environment create physical risks during execution. Yet existing safeguards overlook such compositional risks, as general-purpose guardrails focus on semantic harm and embodied safety detectors assess subtasks in isolation. To address this gap, we introduce PlanGuard, the first pre-execution detector that evaluates the physical safety of a complete multi-step plan in its current environment. For training and evaluation, we construct a Multi-Step Plan Safety (MSP-Safe) dataset through…
+
+---
+
+### [MemTransfer: Benchmarking Memory Beyond Matched Experience in Embodied Decision-Making](https://arxiv.org/abs/2609.32313v1)
+
+- **arXiv**: `2609.32313v1`  |  **提交日期**: 2026-09-26
+- **作者**: Haiming Tang, Xianjie Dai, Gujie Shao, Zuyi Guo, Jingguang Li, Kailang Ma et al.
+
+Memory lets an embodied agent reuse past experience, yet retaining useful information does not ensure that the agent can apply it when conditions change. We present MemTransfer, a benchmark comparing six memory representations, a working-memory baseline and five representations of past experience, under a shared frozen vision-language-model policy. It comprises 100 navigation cases across ten task types in a simulated warehouse, with expert demonstrations supplying the history. Three comparisons vary the starting pose, route availability, and amount and task relevance of history. With one…
+
+---
+
+### [DS-VLA: A Dendritic-inspired Vision-Language-Action Model for Robust Action Control](https://arxiv.org/abs/2609.32253v1)
+
+- **arXiv**: `2609.32253v1`  |  **提交日期**: 2026-09-26
+- **作者**: Yaxing Lyu, Jingyi Li, Mingkun Xu, Yujie Wu
+
+Vision-language-action (VLA) models have achieved strong performance in language-conditioned manipulation, yet success under nominal evaluation does not necessarily translate into robust closed-loop behavior when executed actions are transiently corrupted. We introduce DS-VLA, a dendritic-inspired action architecture that incorporates dendritic spiking dynamics into VLA control to address this limitation. Specifically, to enable modularized feature processing and temporal information integration, DS-VLA equips action neurons with multiple sparsely connected dendritic branches, each featuring…
+
+---
+
+### [RAO-Nav: Probing Omni-Language Models for Zero-shot Semantic Audio-Visual Navigation](https://arxiv.org/abs/2609.32224v1)
+
+- **arXiv**: `2609.32224v1`  |  **提交日期**: 2026-09-26
+- **作者**: Qilang Ye, Meng Liu, Yu Zhou
+
+We explore whether Omni-Language Models (OLMs) can be directly applied to zero-shot Semantic Audio-Visual Navigation (SAVN). Recent work demonstrates that even state-of-the-art specialized models still struggle to achieve generalist multimodal navigation, despite extensive task-specific training. In this paper, we introduce RAO-Nav, short for Reasoning All-in-One OLM, a deployment pipeline for zero-shot SAVN. By leveraging the rich implicit audio-visual knowledge encoded in OLMs, the embodied agent is enabled to ``hear'', ``see'', ``reason'', and ``act'' in the environment. To further elicit…
+
+---
+
 ## 📅 2026-09-16
 
 ### [Exploring 2D backbone effects for indoor semantic occupancy prediction](https://arxiv.org/abs/2609.17257v1)

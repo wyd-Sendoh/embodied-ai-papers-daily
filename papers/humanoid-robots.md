@@ -2,6 +2,71 @@
 
 _自动追踪 arXiv 最新论文，最新更新在最上方。_
 
+## 📅 2026-09-29
+
+### [HOI-Retarget: Contact-Centric Retargeting for Human-Object Interaction](https://arxiv.org/abs/2609.34674v1)
+
+- **arXiv**: `2609.34674v1`  |  **提交日期**: 2026-09-28
+- **作者**: Jihwan Shin, Adrià López Escoriza, Junzhe He, Matthias Heyrman, Marco Hutter
+
+Learning from demonstration (LfD) has enabled humanoid robots to acquire diverse whole-body skills, but extending this paradigm to human-object interaction (HOI) is limited by the availability of robot-compatible interaction references. We present HOI-Retarget, a contact-centric retargeting method that transfers HOI onto a humanoid robot for large-scale motion-data generation. Its windowed trajectory optimization uses every labeled contact as a target in the object frame, balancing body tracking, foot support and smoothness under the robot's kinematic limits. The method can augment a single…
+
+---
+
+### [Model-Informed Safe Reinforcement Learning for Bipedal Locomotion via Step-to-Step Prediction](https://arxiv.org/abs/2609.34486v1)
+
+- **arXiv**: `2609.34486v1`  |  **提交日期**: 2026-09-28
+- **作者**: Victor Paredes, Ayonga Hereid
+
+Humanoid robots promise versatile mobility in cluttered, human-centric environments, but real deployment demands principled safety. Classical model-based gait generators yield interpretable motions but often lack the robustness and adaptability of modern reinforcement learning (RL) based approaches. We propose a model-informed reinforcement learning framework anchored to the analytical Angular Momentum Linear Inverted Pendulum (ALIP) template. We provide a step-to-step safety certificate for ALIP stepping via a discrete exponential control barrier function (DECBF) and use it as (i) a…
+
+---
+
+### [SocialHumanoid: Towards Expressive Humanoid Behavior via One-Step Co-Speech Motion Generation](https://arxiv.org/abs/2609.33311v1)
+
+- **arXiv**: `2609.33311v1`  |  **提交日期**: 2026-09-27
+- **作者**: Chengqun Yang, Tengjie Zhu, Liang Xu, Fulong Liu, Guanzhu Ren, Yitong Xing et al.
+
+Humanoid robots are increasingly expected to serve as embodied social agents that communicate naturally with humans through face-to-face interaction. During such communication, humanoid robots require body behaviors that are synchronized with speech, affectively expressive, and suitable for real-time execution. However, existing co-speech methods are primarily developed for digital humans and lack joint support for affective control and low-latency continuous generation on physical embodiments. To bridge this gap, we present SocialHumanoid, a system for expressive humanoid behavior via…
+
+---
+
+### [Multi-Terrain Mastery: A Comprehensive Controller for Bipedal Locomotion](https://arxiv.org/abs/2609.33174v1)
+
+- **arXiv**: `2609.33174v1`  |  **提交日期**: 2026-09-27
+- **作者**: Oluwami Dosunmu-Ogunbi, Aayushi Shrivastava
+
+Advancing bipedal robots to navigate diverse terrains remains a significant challenge in robotics. Traditional locomotion controllers excel on specific surfaces but struggle across varied environments, limiting their practical applications. Given the unpredictable nature of real-world environments, a single controller capable of handling multiple terrains is ideal, eliminating the need for multiple specialized controllers. We propose a multi-terrain controller to enhance the versatility and robustness of bipedal locomotion. Building on previous work with a stance ankle motor for stability on…
+
+---
+
+### [Humanoids for Robot-Assisted Surgery: Bimanual Base Placement and Tool-Mount Optimization via Capability Maps](https://arxiv.org/abs/2609.33096v1)
+
+- **arXiv**: `2609.33096v1`  |  **提交日期**: 2026-09-27
+- **作者**: Peihan Zhang, Zekai Liang, Florian Richter, Nikita Thareja, Ryan Broderick, Shanglei Liu et al.
+
+Rapid advances in humanoid robotics have motivated growing interest in the application of humanoids for healthcare and clinical tasks. However, it remains unclear how close contemporary humanoids are to meeting the kinematic demands of robot-assisted laparoscopic surgery. In this work, we address the question of optimal robot positioning through a quantitative analysis of workspace and robot setup configurations. We present a capability-map-based robot setup framework that optimizes humanoid base placement and tool mounting orientation to maximize bimanual humanoid reachability while…
+
+---
+
+### [REALM: A Coarse-to-Fine Generative Framework for Embodied Reactive Listening](https://arxiv.org/abs/2609.33095v1)
+
+- **arXiv**: `2609.33095v1`  |  **提交日期**: 2026-09-27
+- **作者**: Peizhen Li, Longbing Cao, Yang Zhang
+
+Generating responsive listener facial motion is an important task for embodied conversational AI. Two modeling challenges are central: accounting for the timing of speaker cues while maintaining continuity with the listener's ongoing motion, and capturing locally variable facial events alongside the overall motion trajectory. Listener responses may follow preceding cues with a temporal lag, while brief expressions and blinks introduce variation that is difficult to predict deterministically. These challenges motivate a framework that combines history-aware temporal alignment with stochastic…
+
+---
+
+### [RoboSTAR: Next-Scale Autoregressive Sign Language Translation for Humanoid Robots](https://arxiv.org/abs/2609.32250v1)
+
+- **arXiv**: `2609.32250v1`  |  **提交日期**: 2026-09-26
+- **作者**: Yujia Zeng, Chensheng Peng, Yuxin Chen, Alex Shao, Nathan Jew, Masayoshi Tomizuka
+
+Sign-language interpretation in public communication relies on qualified professional interpreters and can be difficult to scale, motivating robotic signing as a complementary accessibility interface. We present RoBoSTAR, a text-conditioned sign language production (SLP) framework for generating human-centric sign motion that can be retargeted for robotic execution, with speech supported optionally through an external ASR front end. Conventional autoregressive approaches flatten motion into a single full-resolution token sequence, forcing long-range and local dependencies to be modeled at a…
+
+---
+
 ## 📅 2026-09-16
 
 ### [XPACE: Joint World and Action Modeling from Heterogeneous Experience](https://arxiv.org/abs/2609.17372v1)

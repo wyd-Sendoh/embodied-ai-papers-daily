@@ -2,6 +2,71 @@
 
 _自动追踪 arXiv 最新论文，最新更新在最上方。_
 
+## 📅 2026-09-29
+
+### [Terrain-Aware Autonomous Planetary Exploration for Exteroceptive-Proprioceptive Mapping with Quadruped Scouts](https://arxiv.org/abs/2609.35493v1)
+
+- **arXiv**: `2609.35493v1`  |  **提交日期**: 2026-09-28
+- **作者**: Alberto Sanchez-Delgado, João Carlos Virgolino Soares, Victor Barasuol, Claudio Semini
+
+Autonomous planetary exploration requires robots to navigate unknown, uneven terrain while assessing risk, traversability, and energetic cost. Quadruped scouts are well suited for this task because they can traverse irregular surfaces and gather mobility-relevant information during locomotion. This paper presents a terrain-aware exploration framework that combines exteroceptive and proprioceptive mapping for a quadruped robot in lunar-like environments. An onboard RGB-D camera builds robot-centered elevation maps, estimates geometric traversability, and derives navigation costs for autonomous…
+
+---
+
+### [PanoVLN: Towards Effective Panoramic Vision-and-Language Navigation](https://arxiv.org/abs/2609.34759v1)
+
+- **arXiv**: `2609.34759v1`  |  **提交日期**: 2026-09-28
+- **作者**: Zhen Wang, Changpeng Wang, Zhe Liu, Zhangyang Qi, Yuxiang Lu, Zimo Zeng et al.
+
+Recent vision-language models (VLMs) have advanced vision-and-language navigation (VLN), enabling models to predict navigation actions from visual observations and language instructions. In this work, we explore VLN with panoramic observations and introduce PanoVLN. The motivation is straightforward: more complete visual context should enable better-informed navigation decisions. For example, a panorama can reveal a passage outside a perspective camera's field of view, allowing the model to identify the intended route without additional exploration. However, we find that simply replacing…
+
+---
+
+### [Proprioceptive Force Estimation for Quadruped Locomotion and Human-Robot Interaction](https://arxiv.org/abs/2609.34222v1)
+
+- **arXiv**: `2609.34222v1`  |  **提交日期**: 2026-09-28
+- **作者**: Run Wang, Xu Yang, Alapati Tuerxun, Yilin Mo
+
+Payload forces must be accommodated during locomotion, while leash forces can specify desired motion. We investigate whether a shared three-dimensional force estimate in newtons, inferred from proprioceptive history under sustained loading, can support both tasks. An estimator and locomotion policy are jointly trained with supervised force and velocity outputs and learned latent context. The estimated force conditions locomotion and additionally generates planar-velocity and yaw-rate commands for leash guidance through an analytical map. In sustained-force simulation sweeps, temporal means of…
+
+---
+
+### [InfraVLA: Extending Vision-Language-Action Navigation with Infrastructure Cameras](https://arxiv.org/abs/2609.33647v1)
+
+- **arXiv**: `2609.33647v1`  |  **提交日期**: 2026-09-27
+- **作者**: Lukas Vierling, Benjamin Ramtoula, Luke Robinson, Ronald Clark, Daniele De Martini
+
+Many indoor environments in which robots operate, such as warehouses, offices, and hospitals, already have cameras installed. They observe parts of the building that the robot cannot see from where it stands, yet navigation policies, including recent vision-language-action (VLA) models, do not use them. We propose InfraVLA, an end-to-end method that adapts a pretrained navigation VLA to such static infrastructure views: a closed-circuit television (CCTV) encoder turns each external view into tokens of the input sequence. Because the views matter only at rare decision points, fine-tuning alone…
+
+---
+
+### [RECAST: Recasting Vision-Language Semantics into an Actionable Cost Map for Robot Navigation](https://arxiv.org/abs/2609.32595v1)
+
+- **arXiv**: `2609.32595v1`  |  **提交日期**: 2026-09-26
+- **作者**: Incheol Cho, Jintae Park, Jinkyu Kim, Jungbeom Lee, Jaegul Choo, Seokha Moon
+
+Safe and robust robot navigation across diverse environments requires a high-level understanding of complex scenes and the ability to carry it into stable motion. Recent works tackle this with learning-based models trained at scale and with approaches built on vision-language models (VLMs). However, learning-based models break down outside their training distribution, while VLM-based approaches bring that understanding but rarely ground it in the scene or align the action with it. To address these limitations, we present RECAST, a robot navigation framework that combines the reasoning of a…
+
+---
+
+### [FutureRay: Control-Aligned Future Range for Agile Quadruped Navigation](https://arxiv.org/abs/2609.32158v1)
+
+- **arXiv**: `2609.32158v1`  |  **提交日期**: 2026-09-26
+- **作者**: Tianhao Zang, Shanze Wang, Ziqian Wang, Liyou Luo, Zihan Liu, Xingjian Xie et al.
+
+Moving obstacles can block a previously clear route while a quadruped robot executes a motion command. We investigate whether predicting changing clearance improves navigation when motion selection accounts for the robot footprint and the time needed to react and brake. We present FutureRay, which predicts ranges across viewing directions and future times, together with encounter risk, from depth-derived range history and observable robot motion. Training emphasizes near-term clearance and penalizes errors that overstate available space. A local planner queries the same forecast for candidate…
+
+---
+
+### [GAUGE: Planner-Conditioned Active Calibration of Opaque Quadruped Velocity Interfaces](https://arxiv.org/abs/2609.32154v1)
+
+- **arXiv**: `2609.32154v1`  |  **提交日期**: 2026-09-26
+- **作者**: Tianhao Zang, Zihan Liu, Shanze Wang, Liyou Luo, Xingjian Xie, Chengtai Li et al.
+
+In this paper, we present a Goal-Aware Uncertainty-Guided Exploration (GAUGE) framework for planner-conditioned active calibration of opaque quadruped velocity interfaces. Commercial quadrupeds commonly expose planar-velocity commands, but the underlying locomotion controller remains inaccessible and can produce systematic discrepancies between commanded and realized motion. A navigation planner typically uses a structured subset of the command envelope. GAUGE maintains a Bayesian command-to-motion model and selects authorized trials according to their expected reduction of posterior…
+
+---
+
 ## 📅 2026-09-16
 
 ### [Hamilton-Jacobi Reachability for Hybrid Systems: Unified Goal-Driven Control with Safety Guarantees](https://arxiv.org/abs/2609.17430v1)
