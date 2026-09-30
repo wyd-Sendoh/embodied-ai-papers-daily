@@ -2,6 +2,152 @@
 
 _自动追踪 arXiv 最新论文，最新更新在最上方。_
 
+## 📅 2026-09-30
+
+### [Counterfactual Video Generation Enables Scalable Humanoid Loco-Manipulation](https://arxiv.org/abs/2609.38172v1)
+
+- **arXiv**: `2609.38172v1`  |  **提交日期**: 2026-09-29
+- **作者**: Zihan Wang, Zhen Wu, Pieter Abbeel, Rocky Duan, Jitendra Malik, Carmelo Sferrazza et al.
+
+Teaching humanoids loco-manipulation skills, such as carrying diverse objects, via visual imitation is a promising path toward generalist robots. However, collecting diverse, high-quality interaction videos, such as clips that clearly show a person's full body and unoccluded interactions with objects, poses a practical barrier to scaling this approach. We propose PRISM, a real-to-sim-to-real framework that overcomes this limitation by amplifying a handful of real videos into a large, diverse training set. PRISM first generates hundreds of diverse "counterfactual" human-object interaction…
+
+---
+
+### [CrossBFM: Distilling a Shared Latent Behavior Space Across Humanoid Embodiments](https://arxiv.org/abs/2609.38087v1)
+
+- **arXiv**: `2609.38087v1`  |  **提交日期**: 2026-09-29
+- **作者**: Tan-Dzung Do, Tuan Dat Phuong, Nico Bohlinger, Cuc T. Trinh, Siwei Ju, Vien Anh Ngo et al.
+
+Behavior Foundation Models (BFMs) give humanoids a promptable policy over a latent behavior space, enabling one single vector to represent a motion to imitate, a pose to reach, or a reward to maximize. Forward-Backward representations successfully produce such spaces, but at the cost of hundreds of GPU-hours for a single robot. Moreover, when the training process is repeated for a second robot, it produces a second space unrelated to the first, resulting in embodiment-specific latents that do not unify or transfer. We address these problems with CrossBFM, treating the latent space as the…
+
+---
+
+### [EgoAlign: Bridging the Human-Humanoid Gap for Long-Range Loco-Manipulation](https://arxiv.org/abs/2609.38046v1)
+
+- **arXiv**: `2609.38046v1`  |  **提交日期**: 2026-09-29
+- **作者**: Yiming Jiang, Chen Jin, Chongyang Xu, Yilun Chen, Aimin Hao, Yisheng He
+
+Egocentric human demonstrations offer an accessible source of task experience, but differences in body scale and controller response, together with missing robot states, limit their value as humanoid training supervision. We present EgoAlign, a data-construction framework that converts these demonstrations into action and state supervision compatible with a general-purpose, continuous whole-body controller, without collecting physical-robot demonstrations. Using the target-robot model and simulator, EgoAlign guides demonstration collection through execution feedback. It preserves locomotion…
+
+---
+
+### [Exemplar2VQA: A Scalable Exemplar-Driven Visual Question Answering Generation Framework via Multi-Agent Coding](https://arxiv.org/abs/2609.37655v1)
+
+- **arXiv**: `2609.37655v1`  |  **提交日期**: 2026-09-29
+- **作者**: Jiayu Ying, Qijian Tian, Ruijie Xu, Xinnan Zhu, Daoguo Dong, Jiachen Xu et al.
+
+Advancing spatial intelligence in Multimodal Large Language Models (MLLMs) is bottlenecked by the scarcity of complex, scalable 3D question-answer (QA) data. While manual annotation is labor-intensive, directly utilizing LLMs to synthesize these QA pairs often fails due to their inherent deficiencies in spatial and geometric computation. We introduce Exemplar2VQA, a scalable exemplar-driven visual question answering generation framework that rapidly synthesizes large-scale spatial QA pairs in simulated environments via multi-agent coding. By equipping collaborative agents with a meticulously…
+
+---
+
+### [Credit-Guided Policy Improvement for Test-time Adaptive Vision-Language Navigation](https://arxiv.org/abs/2609.37591v1)
+
+- **arXiv**: `2609.37591v1`  |  **提交日期**: 2026-09-29
+- **作者**: Yang Li, Sijia Zhang, Yihan Li, Aming WU, Zihao Zhang, Ziju Han et al.
+
+Test-time adaptation for vision-language navigation (TTA-VLN) enables pretrained policies to adapt online to unseen environments using only test-time observations and interaction history. However, distribution shifts can distort local action preferences and lead to off-course decisions. Existing methods rely on predictive uncertainty, trajectory-level feedback, or accumulated adaptation experience to correct such deviations. These signals, however, do not directly reveal whether an executed action supports instruction-guided progress toward the goal. Moreover, a plausible corrective signal…
+
+---
+
+### [RoboFin3D: A Sim-to-Real Platform for Robotic Surface Finishing](https://arxiv.org/abs/2609.37560v1)
+
+- **arXiv**: `2609.37560v1`  |  **提交日期**: 2026-09-29
+- **作者**: Haowei Wen, Shangtao Li, Vaibhav Sanjay, Philip Huang, Jiaoyang Li, Changliu Liu
+
+Grinding and sanding are fundamental processes in industrial robotic surface finishing. However, physical trials are expensive and consume workpieces, making reproducible experiments difficult. We present RoboFin3D, a sim-to-real platform built on Isaac Sim and the Newton physics engine, that provides physics-based grinding and sanding simulation for cheap and repeatable robotic surface finishing experiments. RoboFin3D utilizes a signed distance field (SDF) to model the changing geometry of the workpiece, enabling contact computation, live updates and rendering without an intermediate mesh.…
+
+---
+
+### [The Domain Is a Residue: Adapting Self-Supervised Features, Not Generators](https://arxiv.org/abs/2609.37330v1)
+
+- **arXiv**: `2609.37330v1`  |  **提交日期**: 2026-09-29
+- **作者**: Thomas Deixelberger, Markus Steinberger
+
+Clearing fog, rain or snow from footage, or turning renders into photographs, must remove the source domain and keep the scene. Unpaired translators carry it through because their generator sees the source appearance (pixels, a near-invertible latent or a control map) and keeps it. A DINO feature map fixes what is in the scene and carries weather, lighting and rendering style as a residue of 13 to 14% of the feature norm. We propose the Representation Feature Adapter (RFA), a 2.9M-parameter network that moves this residue. We train only the adapter and its discriminators; the encoder and a…
+
+---
+
+### [Differentiating Bisimulation Metrics: A Framework for Parametric Markov Chain Fitting via Bicausal Optimal Transport](https://arxiv.org/abs/2609.37239v1)
+
+- **arXiv**: `2609.37239v1`  |  **提交日期**: 2026-09-29
+- **作者**: Sergio Calo, Amy Zhang, Javier Segovia-Aguas, Anders Jonsson
+
+Many problems in sequential decision-making, such as imitation learning from observations, state-space compression, world-model learning, and sim-to-real transfer, can be reduced to learning a model such that a notion of distance with respect to the target process is minimized. We consider this general framework and consider the bisimulation metric, equivalently Bicausal Optimal Transport (BOT), as the notion of distance to minimize. We show that BOT, since it can be formulated as a linear program (LP), is differentiable with respect to the model dynamics. We then derive an exact closed-form…
+
+---
+
+### [All You Need Is Low Fidelity: Zero-Shot Sim-to-Real of Learned Robotic Fish Control](https://arxiv.org/abs/2609.36993v1)
+
+- **arXiv**: `2609.36993v1`  |  **提交日期**: 2026-09-29
+- **作者**: Liam Maloney, Simon Ramchandani, Mike Y. Michelis, Ronan Hinchet, Robert K. Katzschmann
+
+Complex tasks for underwater robots remain limited by the capabilities of their controllers. Learning a better one for a soft, underactuated robotic fish trades simulator cost against fidelity. We show that an intentionally low-fidelity simulator is enough: a stateless, quasi-steady fluid model with no wake and no added-mass history suffices to learn a \emph{general}, closed-loop controller that transfers to hardware without tuning. Our platform is a soft, single-motor, tendon-driven fish whose policy observes only what the hardware can measure. A staged pipeline grounds the simulator in two…
+
+---
+
+### [VidAct: Learning Manipulation from In-the-Wild Videos with Object-Centric 3D Awareness](https://arxiv.org/abs/2609.36870v1)
+
+- **arXiv**: `2609.36870v1`  |  **提交日期**: 2026-09-29
+- **作者**: Hang Li, Mingxin Zhang, Zihan Wu, Yang Tian, Dong Chen, Fengyi Shen et al.
+
+Video demonstrations offer a scalable alternative to costly robot data for learning manipulation, yet existing reconstruction-based approaches often rely on constrained camera viewpoints or human-to-robot retargeting, while the reconstructed trajectories are difficult to adapt to new objects configurations without distorting the trajectory shape. Another key limitation is that the resulting policies often lack precise object-level 3D geometry awareness, limiting object grounding and object shape awareness critical for precise manipulation. To bridge these gaps, we propose VidAct, an efficient…
+
+---
+
+### [RoXDrive: Closed-Loop Reinforcement Learning for End-to-End Autonomous Driving via Action-Faithful Rollouts](https://arxiv.org/abs/2609.36851v1)
+
+- **arXiv**: `2609.36851v1`  |  **提交日期**: 2026-09-29
+- **作者**: Hongbin Lin, Chaoda Zheng, Yiming Yang, Xiangyu Li, Shijia Chen, Jinhao Deng et al.
+
+End-to-end autonomous driving policies are commonly trained via imitation learning on logged demonstrations without observing the consequences of their own actions, leading to causal confusion in closed-loop real-world deployment. To address this issue, reinforcement learning (RL) post-training offers a promising alternative by leveraging world models as interactive training environments to enable future scene generation for policy improvement. Nevertheless, existing approaches either rely on reconstruction-based simulators, offering limited counterfactual interaction, or adopt synthetic…
+
+---
+
+### [EquivDP3: A SIM(3)-Invariant Point-Cloud Encoder for Data-Efficient Humanoid Loco-Manipulation](https://arxiv.org/abs/2609.36575v1)
+
+- **arXiv**: `2609.36575v1`  |  **提交日期**: 2026-09-29
+- **作者**: Abu Hanif Muhammad Syarubany, Chang D. Yoo
+
+Visuomotor policies for humanoid loco-manipulation must generalize across object poses and lighting from only a handful of demonstrations. 3D Diffusion Policy (DP3) conditions a diffusion-based action generator on point-cloud features, but its PointNet-style encoder has no built-in equivariance to the rotations, translations, and scalings (SIM(3)) that manipulation tasks respect. EquiBot closed this gap for wheeled manipulators with a SIM(3)-equivariant Vector Neuron Network (VNN) encoder. We extend this to a substantially more complex embodiment, the 43-joint Unitree G1 humanoid, and propose…
+
+---
+
+### [DQ-MPCC: Dual-Quaternion MPCC for Quadrotor Racing](https://arxiv.org/abs/2609.36482v1)
+
+- **arXiv**: `2609.36482v1`  |  **提交日期**: 2026-09-29
+- **作者**: Bryan S. Guevara, Luis F. Recalde, Guanrui Li, Tiago Nascimento
+
+Quadrotor racing demands aggressive attitude and progress control while passing through every gate, and conventional quadrotor MPCC formulations state the prediction model in inertial coordinates and the attitude error in the body frame. We present a Dual-Quaternion Model Predictive Contouring Control (DQ-MPCC) for quadrotor racing in which the pose is a unit dual quaternion and the contouring errors are projected onto the tangent space of the dual quaternion manifold, expressed in the desired body frame: the same rigid-body dynamics as the conventional model, in unified pose-twist…
+
+---
+
+### [SkillWeaver: Agentic Exploration over Neural Interaction Skills for Scalable Robot Data Generation](https://arxiv.org/abs/2609.36171v1)
+
+- **arXiv**: `2609.36171v1`  |  **提交日期**: 2026-09-28
+- **作者**: He Zhu, Lusen Zhao, Kwan Man Cheng, Su Li, Katerina Fragkiadaki
+
+Large-scale demonstrations have driven unprecedented progress in robot learning, yet collecting robot data through teleoperation is expensive and difficult to scale to diverse environments and long-horizon tasks. Simulation offers a scalable alternative, but existing data-generation pipelines often rely on open-loop controllers, scripted skill sequences, or task-specific programs. We introduce SkillWeaver, an agentic framework that autonomously generates robot experience by exploring over Neural Interaction Skills (NIS): reusable, parameterized, closed-loop policies that expose learned…
+
+---
+
+### [Scouting the Dynamics Gap: Test-Time Policy Adaptation via Action-Outcome Feedback](https://arxiv.org/abs/2609.36107v1)
+
+- **arXiv**: `2609.36107v1`  |  **提交日期**: 2026-09-28
+- **作者**: Yishu Li, Liyuan Geng, Xinyi Mao, Amber Li, David Held
+
+While pretrained robotic policies exhibit impressive capabilities in controlled environments, unobserved physical properties and dynamics require these policies to rapidly adapt during deployment. Existing test-time adaptation methods typically rely on sparse scalar rewards, failing to exploit the rich geometric and dynamic feedback from the environment during physical interaction. To address this challenge, we propose SCOUT, a dynamics-aware meta-learning framework that enables manipulation policies to rapidly adapt by continuously revising their internal beliefs about environment dynamics.…
+
+---
+
+### [F4R: Failure-Driven Recognition, Reconstruction, Refinement, and Redeployment for Continual Robot Self-Improvement](https://arxiv.org/abs/2609.35575v2)
+
+- **arXiv**: `2609.35575v2`  |  **提交日期**: 2026-09-28
+- **作者**: Zhuoyuan Yu, Jiacheng Wang, Tianle Liu, Yihua Ren, Peng Yu, Chen Bai et al.
+
+The real-world performance of current vision-language-action models is fundamentally constrained by the limited coverage of expert demonstrations and their insufficient understanding of physical interactions. A common remedy is to collect additional real-world demonstrations of newly encountered failures. However, this process is costly, inefficient, potentially unsafe, and difficult to scale. To address this challenge, we propose Failure for Rising (F4R), a failure-driven real-to-sim-to-real closed-loop learning framework that converts real-world failures into targeted policy improvement.…
+
+---
+
 ## 📅 2026-09-29
 
 ### [X-Reset: Scaling Object-Centric Reinforcement Learning via Cross-Embodiment Resets](https://arxiv.org/abs/2609.35715v1)

@@ -2,6 +2,44 @@
 
 _自动追踪 arXiv 最新论文，最新更新在最上方。_
 
+## 📅 2026-09-30
+
+### [Learning Expressive and Compositional Motion Representation via Spectral Skills](https://arxiv.org/abs/2609.37677v1)
+
+- **arXiv**: `2609.37677v1`  |  **提交日期**: 2026-09-29
+- **作者**: Feiyang Wu, Chenxiao Gao, Chen Yang, Ye Zhao, Bo Dai, Anqi Wu
+
+Robotic foundation models offer a promising path toward general-purpose humanoid robot control, often through hierarchical architectures. However, their effectiveness depends on the command interface between the planner and the controller, which must support accurate execution while remaining easy to predict, and ideally allow new behaviors to be composed from prior ones. In this work, we introduce spectral skills, a latent representation of this interface that meets these requirements through predictive representation learning. By design, spectral skills compactly encode short motion…
+
+---
+
+### [OTRetarget: Joint Robot and Object Motion Retargeting via Optimal Transport](https://arxiv.org/abs/2609.36602v1)
+
+- **arXiv**: `2609.36602v1`  |  **提交日期**: 2026-09-29
+- **作者**: Guillaume Besset, Erwann Carn, Timothée Carecchio, Valentin Tordjman-Levavasseur, Fabian Schramm, Yann de Mont-Marin et al.
+
+Transferring human motion to humanoid robots requires adapting the demonstrated motion to the robot morphology while preserving interactions with the environment. This is particularly challenging for loco-manipulation tasks, where contacts with the ground and manipulated objects must remain consistent despite differences in body proportions. Yet, skeletal motion alone does not fully describe these interactions, and fixing object trajectories limits the adaptation to a new embodiment. In this paper, we introduce OTR ETARGET, a unified approach to jointly retarget robot and multi-object motion…
+
+---
+
+### [A robust single-sensing-element tactile sensor for concurrent pressure and tackiness detection with real-time signal decoupling capability](https://arxiv.org/abs/2609.36558v1)
+
+- **arXiv**: `2609.36558v1`  |  **提交日期**: 2026-09-29
+- **作者**: Ying Yang, Mingwei Gu, Jia-Sen Xie, Xingyu Ma, Yan-Na Lu, Lin Zheng et al.
+
+Integrating tackiness sensation into the artificial skin of humanoid robots significantly enhances their cognitive and operational capabilities. However existing tactile sensors face challenges in decoupling of the multimodal signal and stability. Here we present a surface-soft tactile sensor that incorporates a Hall effect sensor and a soft magnetic composite within a robust elastic framework. The sensor surface indents under pressure and bulges prominently when retracted from sticky surfaces dynamically altering the Hall sensor-magnet distance. This generates whole-process-traceable and…
+
+---
+
+### [Passive-Dynamic-Walking-Inspired Dynamics Guidance for Energy-Efficient Humanoid Locomotion](https://arxiv.org/abs/2609.35935v1)
+
+- **arXiv**: `2609.35935v1`  |  **提交日期**: 2026-09-28
+- **作者**: Hyeonjin Choi, Joongheon Kim, Daekyum Kim
+
+Learning energy-efficient humanoid locomotion requires discovering mechanically economical gait coordination, not merely reducing actuator effort. Reinforcement learning promotes efficiency through effort-related reward penalties, which guide the step-to-step mechanics of walking only indirectly. This article proposes a framework inspired by passive dynamic walking (PDW) that temporarily creates slope-equivalent conditions favorable to economical gait discovery and removes all PDW-specific guidance before nominal-dynamics optimization. During early training, a tilted-gravity field assists…
+
+---
+
 ## 📅 2026-09-29
 
 ### [HOI-Retarget: Contact-Centric Retargeting for Human-Object Interaction](https://arxiv.org/abs/2609.34674v1)

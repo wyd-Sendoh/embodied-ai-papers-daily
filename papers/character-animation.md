@@ -2,6 +2,17 @@
 
 _自动追踪 arXiv 最新论文，最新更新在最上方。_
 
+## 📅 2026-09-30
+
+### [Length-varying Neural Motion Stitching via Cluster Transition Graph](https://arxiv.org/abs/2609.37167v1)
+
+- **arXiv**: `2609.37167v1`  |  **提交日期**: 2026-09-29
+- **作者**: Haemin Kim, Junghyun Nam, Seokhyeon Hong, Vanessa Tan, Junyong Noh
+
+Motion stitching aims to create new character animations by seamlessly combining existing motion sequences. Existing approaches often require manual selection of transition range or assume fixed transition length, restricting the types of motions that can be connected. To broaden the diversity of motions that can be synthesized, it is essential to generate transitions of varying lengths, allowing the character sufficient time to adapt its pose when the input motions differ significantly. To this end, we propose a length-varying neural motion stitching method based on a cluster transition…
+
+---
+
 ## 📅 2026-09-29
 
 ### [MotionSpaceFlow: Representation-Aware Flow Matching in Direct Motion Space](https://arxiv.org/abs/2609.34190v1)

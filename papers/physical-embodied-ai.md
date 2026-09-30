@@ -2,6 +2,89 @@
 
 _自动追踪 arXiv 最新论文，最新更新在最上方。_
 
+## 📅 2026-09-30
+
+### [Generative Interactions: Weaving Multiparty Human Motion with Bilevel Latent Dynamics](https://arxiv.org/abs/2609.37708v1)
+
+- **arXiv**: `2609.37708v1`  |  **提交日期**: 2026-09-29
+- **作者**: Ojas Shirekar, Yash Surange, Agustinas Jučas, Chirag Raman
+
+Human social behaviour is not a collection of independent motions, but a jointly organised process in which group dynamics and individual variation continuously shape one another. Yet existing social motion models often prioritise plausible trajectories while leaving interaction state implicit, limiting their ability to transfer across groups, tasks, and partial-observation regimes. To address this gap, we introduce Bilevel Representations for Agent Interaction Dynamics (BRAID), a hierarchical sequential latent-variable model for generative multi-person interaction. BRAID explicitly…
+
+---
+
+### [CoRe-VLA: Preserving Cross-View Coordination in VLAs under Camera Shifts](https://arxiv.org/abs/2609.37150v1)
+
+- **arXiv**: `2609.37150v1`  |  **提交日期**: 2026-09-29
+- **作者**: Tianhang Pan, Xuanhao Wang, Yiwen Pang, Bo Zhou, Jun Yang, Min-Ling Zhang et al.
+
+VLAs combine pretrained vision-language representations with action generation to enable language-guided control across diverse tasks, becoming a mainstream paradigm in embodied intelligence. However, multiple studies have reported VLA's substantial declines in task success under camera shifts, revealing a key vulnerability that limits reliable deployment. To address this vulnerability, existing methods collect paired observations of the same scene from different viewpoints to fine-tune the VLA or train visual adaptation modules. Unfortunately, they require additional data collection and VLA…
+
+---
+
+### [All Roads Lead to Rome: Flow-driven Multi-Anchor Exploration for Open-Environment Active 3D Mapping](https://arxiv.org/abs/2609.36889v1)
+
+- **arXiv**: `2609.36889v1`  |  **提交日期**: 2026-09-29
+- **作者**: Yang Li, Aming Wu, Zihao Zhang, Ziju Han, Sijia Zhang, Yahong Han
+
+To advance the development of embodied intelligence, Open-Environment Active 3D Mapping has attracted increasing attention, aiming to perform a long-horizon and shortest trajectory exploration for reconstructing unseen scenarios. Since only limited information about unseen environments is available, methods built on the closed-set assumption, i.e., assuming that the test environments are similar to those seen during training, cannot generalize satisfactorily. In existing active mapping methods, long-horizon exploration is often guided by predicting a coarse long-range goal and then converting…
+
+---
+
+### [IronLLM: Forging Compact Edge-Native Language Models for Real-Time Embodied Intelligence](https://arxiv.org/abs/2609.36860v1)
+
+- **arXiv**: `2609.36860v1`  |  **提交日期**: 2026-09-29
+- **作者**: Changdi Yang, Fengquan Jiao, Haochih Lin, Haoran Yang, Jing Xiao, Liangyu Huo et al.
+
+We present IronLLM-0.6B, a 654M-parameter language model designed for efficient on-device inference. IronLLM-0.6B combines a hybrid attention architecture with X-MTP, a lightweight shared-KV multi-token prediction design that eliminates per-depth KV-cache replay and employs a lightweight verification head for rollback-free drafting, achieving a 1.48x decoding speedup. The model is pretrained on approximately 6.2 trillion tokens using a quality-oriented data pipeline and is further post-trained with Multi-Domain On-Policy Distillation to integrate capabilities from domain-specialized teachers.…
+
+---
+
+### [Scene Retargeting: Learning Object Placement with Analogical Transfer](https://arxiv.org/abs/2609.36801v1)
+
+- **arXiv**: `2609.36801v1`  |  **提交日期**: 2026-09-29
+- **作者**: Minkwan Kim, Junho Kim, Seungmin Lee, Changwoon Choi, Young Min Kim
+
+Interactive simulations of embodied AI or spatial computing applications build on realistic 3D scenes that support daily activities. However, sparse, irregular layout structures impose scene-specific physical constraints, making it hard to define a generalizable framework for generating similar functional context. We formalize Scene Retargeting as stably transferring the semantically coherent spatial organization across layouts, rather than relying on textual descriptions or pairwise relationships. Our cluster-wise transfer flexibly handles mismatched object instances and adapts to…
+
+---
+
+### [HEIR: Learning Human-Entity Interactions with Functional Roles](https://arxiv.org/abs/2609.35955v1)
+
+- **arXiv**: `2609.35955v1`  |  **提交日期**: 2026-09-28
+- **作者**: Di Wen, Wenhao Guo, Yuedong Tan, Yun Huang, Minheng Wu, Zhihang Chen et al.
+
+Understanding human-entity interactions requires recovering each person-action event's participants, roles, and shared identities. This structure can support embodied agents by clarifying who acts on which entities and how, informing anticipation and coordination in shared environments. Standard HOI metrics score individual links, leaving complete event composition undermeasured. We introduce HEIR (Human-Entity Interactions with Functional Roles), an image benchmark for complete grounded participant-role sets across object, interpersonal, and self-directed interactions. It contains 18,730…
+
+---
+
+### [VehicleArena: A Realistic Urban Environment for Multi-Agent Driving](https://arxiv.org/abs/2609.35916v1)
+
+- **arXiv**: `2609.35916v1`  |  **提交日期**: 2026-09-28
+- **作者**: Jie Yang, Jiajun Chen, Jiazheng Zhou, Mianqiu Huang, Yining Zheng, Yuxin Wang et al.
+
+Real-world embodied agents often pursue independent objectives within a shared physical environment, where their actions can alter the conditions faced by others. Existing benchmarks, however, typically assume shared goals or explicitly prescribed interaction protocols, leaving such emergent physical coupling underexplored. We introduce VehicleArena, a 3D urban-driving benchmark for studying independently operating agents in a dynamic shared world. In VehicleArena, LLM-controlled agents must fulfill evolving passenger requests while navigating complex traffic, and each agent's driving…
+
+---
+
+### [SphMind: Towards Robust, Training-Free VLM-based Spatial Reasoning with a 360 Camera](https://arxiv.org/abs/2609.33462v2)
+
+- **arXiv**: `2609.33462v2`  |  **提交日期**: 2026-09-27
+- **作者**: Shriram Damodaran, Soumyaratna Debnath, Cheston Tan, Lin Wang
+
+Omnidirectional or 360 cameras provide embodied AI agents with a holistic, wide field-of-view (FoV) view of their surroundings, motivating the use of Multi-modal Large Language Models (MLLMs) for omnidirectional spatial reasoning. However, most MLLMs are trained on conventional 2D perspective images and struggle with the severe distortions and wrap-around discontinuities induced by spherical geometry. Enabling them to generalize to non-Euclidean 3D spaces without retraining therefore remains challenging. We propose SphMind, a training-free, plug-and-play framework that decouples semantic…
+
+---
+
+### [AquaWAM: A Dynamics-aware World Action Model for Underwater Embodied Agents](https://arxiv.org/abs/2609.33299v2)
+
+- **arXiv**: `2609.33299v2`  |  **提交日期**: 2026-09-27
+- **作者**: Cunhao Zhu, Yifeng Wang, Dongliang Xu, Yunzhong Hou, Yue Yao, Chi Harold Liu
+
+World Action Models (WAMs) are becoming increasingly important and useful for embodied intelligence, as they enable robots to anticipate the consequences of candidate actions before interacting with the physical environment. However, underwater robots are usually subject to passive dynamics, such as inertia, buoyancy, hydrodynamic drag, and persistent drift, which can continue to affect the vehicle even after an action is completed. Existing WAMs, which primarily predict action-conditioned visual observations, are not explicitly designed to capture such passive motion dynamics. In this paper,…
+
+---
+
 ## 📅 2026-09-29
 
 ### [LLMs are General Asynchronous Agents](https://arxiv.org/abs/2609.35427v1)
