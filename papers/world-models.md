@@ -2,6 +2,224 @@
 
 _自动追踪 arXiv 最新论文，最新更新在最上方。_
 
+## 📅 2026-10-01
+
+### [Physis-Lang: Self-Evolving Language as a Physical Representation for Video World Model](https://arxiv.org/abs/2609.40358v1)
+
+- **arXiv**: `2609.40358v1`  |  **提交日期**: 2026-09-30
+- **作者**: Liming Lu, Xianzheng Ma, Wenkun He, Guanqi Zhan, Yilin Zhao, Junyu Chen et al.
+
+Video world models are expected to predict how the physical world evolves, yet they often produce visually plausible videos that violate basic physical principles. Existing approaches commonly assume that natural language is insufficient to represent the physical knowledge required for reliable generation, and therefore introduce additional visual, latent, numerical, or planning-based signals. We revisit this assumption and introduce Physis-Lang, a self-evolving framework that treats physical language as a shared and optimizable representation across data curation, model training, and video…
+
+---
+
+### [LOCI: Spatial Linear Memory for Streaming World Models](https://arxiv.org/abs/2609.40222v1)
+
+- **arXiv**: `2609.40222v1`  |  **提交日期**: 2026-09-30
+- **作者**: Ji Xia, Tingting Liao, Xuezhi Liang, Hao Li, Guangyi Liu
+
+When a camera revisits a previously observed region, a video world model should reproduce what was there before. This requires both remembering past observations and retrieving the right one for the current viewpoint. Key-value caches preserve visual detail but grow with video length; recurrent memory is compact but compresses history into a fixed-size state, so individual past observations are no longer directly accessible. We introduce LOCI, a hybrid spatial-memory architecture that keeps both representations. In half of the transformer blocks, main attention keeps a key-value cache of past…
+
+---
+
+### [Social-WM: Safety-Aware Latent World Models for Robot Social Navigation](https://arxiv.org/abs/2609.40177v1)
+
+- **arXiv**: `2609.40177v1`  |  **提交日期**: 2026-09-30
+- **作者**: Zhihao Zheng, Mooi Choo Chuah
+
+Safe social navigation requires a robot to anticipate not only the future consequences of its actions, but also whether a nominal action can actually be executed under surrounding physical and social constraints. We present Social-WM, an efficient latent world-model planning framework trained from egocentric RGB video sequences. Our key observation is that social-navigation experience contains a systematic discrepancy between the nominal action and the realizable action: a nominal forward action may be fully executed in free space, but needs to be constrained when heading towards a pedestrian…
+
+---
+
+### [Dream4ACT: A Shared Visual Action Interface for Multi-Embodiment Video-Action Modeling](https://arxiv.org/abs/2609.40153v1)
+
+- **arXiv**: `2609.40153v1`  |  **提交日期**: 2026-09-30
+- **作者**: Xiangyu Zhu, Jin Xu, Yue Guo, Xin Wu, Yifan Sun, Xiancong Ren et al.
+
+Video generation models (VGMs) offer strong spatiotemporal priors for embodied observation--action modeling. However, joint-space action vectors lack explicit image-space structure and vary in dimensionality and semantics across embodiments, making it challenging to directly leverage the rich spatiotemporal priors of VGMs. End-effector visualizations provide an alternative but do not specify the full articulated configuration needed for robot execution. We present Dream4ACT, a world model built for joint video-action modeling across embodiments. To unify action representations across…
+
+---
+
+### [DashVMC: Real-Time Discrete World Model Control in Geometry Dash](https://arxiv.org/abs/2609.40003v1)
+
+- **arXiv**: `2609.40003v1`  |  **提交日期**: 2026-09-30
+- **作者**: Florent Tariolle, Florian Yger
+
+World-model agents are usually evaluated in simulators that can wait for the policy; live games impose the opposite constraint, requiring capture, prediction, and action before the next frame. We present DashVMC, which learns a compact, action-conditioned world model from approximately two hours of recorded Geometry Dash gameplay. To test whether the learned dynamics are actionable, a controller is initialized by behavioural cloning (BC) and refined with Proximal Policy Optimization (PPO) entirely in frozen-model rollouts, without further interaction with the live game. Across three…
+
+---
+
+### [OverForge: Reasoning Through Strategies and Tactics Helps Cooperative Lifelong Adaptation](https://arxiv.org/abs/2609.39727v1)
+
+- **arXiv**: `2609.39727v1`  |  **提交日期**: 2026-09-30
+- **作者**: Oana Madalina Fron, Ojas Shirekar, Chirag Raman
+
+Cooperative language-model agents must coordinate over long horizons and adapt to changing environments and to partners with unfamiliar conventions, yet existing agents map observations to actions without separating persistent coordination strategies from their tactical execution. We introduce OverForge, a training-free hierarchical architecture that separates strategic reasoning over roles and divisions of labour from tactical reasoning over actions within each agent's private, partner-conditioned world model. A metacognitive Prefrontal Cortex Module couples the two levels by forming…
+
+---
+
+### [RoboCoach: World Models as Active Coaches for Compositional Robot Skills](https://arxiv.org/abs/2609.39685v1)
+
+- **arXiv**: `2609.39685v1`  |  **提交日期**: 2026-09-30
+- **作者**: Jiajun Liu, Yifan Chen, Yichao Liu, Jiayi Zhang, Ruoqu Chen, Shaoxuan Xie et al.
+
+Long-horizon robot manipulation reuses skills across many task compositions, but improving these compositions with additional end-to-end demonstrations is costly. A practical self-improving system must decide both what to teach next and where to apply that supervision. We present ROBOCOACH, a world-model-guided coaching framework that uses imagined failures to guide demonstration requests and expert updates. Its Route-Imagine-Diagnose-Improve (RIDI) loop executes reusable skill experts inside COACHWORLD, our shared action-conditioned world model, and uses a progress judge to record the first…
+
+---
+
+### [Why Do Conventional World Models Fail to Learn Cellular Automata?](https://arxiv.org/abs/2609.39604v1)
+
+- **arXiv**: `2609.39604v1`  |  **提交日期**: 2026-09-30
+- **作者**: Shaoyang Guo, Ziming Liu
+
+Although conventional world models - auto-regressive or diffusion models based on transformers or convolutional networks - may learn surface statistics of world dynamics, can they learn the exact world dynamics from its observed history? Leveraging cellular automata as a simple testbed, we find the answer to be no in many cases. Conventional architectures predict most pixels correctly yet rarely complete a rollout: a CNN predicts 96.3% of cells but completes 18.9% of rollouts; a joint diffusion model completes none. We trace the gap to three failure modes of these world models - namely, they…
+
+---
+
+### [ReWAM: Reciprocal World Action Models for Interactive Autonomous Driving](https://arxiv.org/abs/2609.39245v1)
+
+- **arXiv**: `2609.39245v1`  |  **提交日期**: 2026-09-30
+- **作者**: Benshan Ma, Pei Liu, Ruiguo Zhong, Lang Zhang, Mingyue Feng, Yaonong Wang et al.
+
+In interactive scenarios, an autonomous driving system is required to generate ego actions under the influence of other agents' behaviors. Existing World Action Models (WAMs) typically model other agents as components of the world model rather than as decision-makers that fundamentally shape the action of the ego agent, which impairs their performance in dense interaction scenarios. We introduce Reciprocal World Action Models (ReWAM), a game-theoretic world action modeling framework that captures the reciprocal influence between the ego agent and other agents by representing them as…
+
+---
+
+### [MEND: Label-Free Detection, Localisation, and Correction of Latent Hallucination in World Models](https://arxiv.org/abs/2609.39182v1)
+
+- **arXiv**: `2609.39182v1`  |  **提交日期**: 2026-09-30
+- **作者**: Ali J Alrasheed, Aryan Yazdan Parast, Basim Azam, James Bailey, Naveed Akhtar
+
+World Models are appearing as the next major frontier in computer vision. However, their robustness is currently largely unexplored. We identify the phenomenon of hallucination in latent World Models: given a state and an action, the predicted next latent can decode to a scene that never occurs. Because the prediction is statistically ordinary and is fed back autoregressively by the model, the error is both silent and compounding. We study whether such latent hallucination can be detected, localised, and corrected at inference time, on a frozen self-supervised world model in the absence of…
+
+---
+
+### [LocoWM: High-Precision Locomotion through World-Model-Guided Residual Adaptation](https://arxiv.org/abs/2609.39179v1)
+
+- **arXiv**: `2609.39179v1`  |  **提交日期**: 2026-09-30
+- **作者**: Zijie Zhao, Shengqian Chen, Xiaoxu Wang, Han Jiang, Yuanheng Zhu, Dongbin Zhao
+
+High-precision locomotion combines motion-command tracking with precise regulation of task-relevant physical states, enabling robots to interact reliably with their surroundings during motion. Joint end-to-end optimization can leave precision objectives insufficiently optimized, while reactive residual control adjusts actions only after deviations become observable. We present \textbf{LocoWM}, a world-model-guided preactive residual adaptation framework for high-precision locomotion. A base policy provides command-following locomotion, while an action-conditioned world model predicts a…
+
+---
+
+### [Linear Recurrent Memory Suffices to Distil a World-Model Policy for Robot Air Hockey](https://arxiv.org/abs/2609.39151v1)
+
+- **arXiv**: `2609.39151v1`  |  **提交日期**: 2026-09-30
+- **作者**: F. Olivia Fan, Oliver Obst
+
+Does memory-dependent control need nonlinear recurrent dynamics? We study simulated air-hockey defence under temporary loss of puck tracking. A DreamerV3 teacher outperforms a memoryless policy under tracking loss, while resetting the teacher's recurrent state sharply reduces performance, which demonstrates that the task requires memory. We distil this teacher into compact recurrent policies with a 64 dimensional state, with a combination of a diagonal linear recurrence and an optional rank-$k$ nonlinear innovation while retaining nonlinear observation encoders and action heads. Across five…
+
+---
+
+### [Asking the World: Generalist Physical Reasoning through Agentic World Modeling and Probing](https://arxiv.org/abs/2609.39135v1)
+
+- **arXiv**: `2609.39135v1`  |  **提交日期**: 2026-09-30
+- **作者**: Shenxiang Zeng, Chen Yang, Peiyao Chen, Guohui Zhang, Jiansheng Fan, Chen Wang
+
+Physical reasoning from video requires inferring latent physical properties and dynamics beyond direct observation. Direct VLM inference remains unreliable on complex physical tasks without explicit modeling and validation, while predefined tool pipelines rely on task- and domain-specific priors that limit generalization across materials, dynamics, and reasoning tasks. We introduce Asking the World (ATW), a generalist agent that constructs and interrogates task-relevant executable worlds through two adaptive stages: World Modeling calibrates a world from video, while World Probing queries,…
+
+---
+
+### [Beyond Prediction: Steering VLM Agents with Retrospective World Modeling](https://arxiv.org/abs/2609.39101v1)
+
+- **arXiv**: `2609.39101v1`  |  **提交日期**: 2026-09-30
+- **作者**: Yongjiang Liu, Jie Zhang, Haoyue Zhang, Jingcai Guo, Deze Zeng, Song Guo
+
+Equipping VLM agents with world modeling capabilities has shown strong potential for complex reasoning and long-horizon planning, while reducing the dependence of policy learning on costly real-world interactions. Existing methods mainly rely on prospective simulation to predict the consequences of candidate actions. However, this forward-only paradigm focuses on what will happen next and provides limited constraints for verifying whether an action is causally consistent with the observed state transition, which can lead to plausible-looking but physically incoherent behaviors. In this paper,…
+
+---
+
+### [World-as-Graph: Relational World Modeling Through Latent Space Graphs](https://arxiv.org/abs/2609.38927v1)
+
+- **arXiv**: `2609.38927v1`  |  **提交日期**: 2026-09-30
+- **作者**: Yaqi Yang, Shuo Huang, Yujin Huang, Fucai Ke, Jiatong Han, Xin Zheng
+
+World models aim to learn representations of real-world environments and predict their future evolution. Recent object-centric world models have made expressive progress by representing visual scenes as sets of object-level latent states, but object-object relations are often captured only implicitly, which limits explicit relational and temporal structure modeling and object-centric dynamic memory modeling. To address such challenges, we propose World-As-Graph (WAG), a graph-based object-centric world model that introduces relational inductive bias into JEPA-style predictive representation…
+
+---
+
+### [FrameMorrow: Future-guided Frame Selection with Prospective Tokens for Long-Horizon Video Generation](https://arxiv.org/abs/2609.38839v1)
+
+- **arXiv**: `2609.38839v1`  |  **提交日期**: 2026-09-30
+- **作者**: Bo Yin, Xiaobin Hu, Jiaqi Zhao, Shuicheng Yan
+
+Long-horizon video generation requires models to effectively leverage an increasingly long generation history. As the generated history grows, retaining all previous content becomes increasingly expensive and redundant, making effective historical selection essential. Existing approaches often determine historical relevance based on the current content. However, information relevant to the present is not necessarily useful for future generation, while seemingly less relevant history may become important later. Our key insight is that historical information should be selected according to its…
+
+---
+
+### [Code to Control: Synthesizing Parameterized Reactive Controllers](https://arxiv.org/abs/2609.38733v1)
+
+- **arXiv**: `2609.38733v1`  |  **提交日期**: 2026-09-30
+- **作者**: Zergham Ahmed, Joshua B. Tenenbaum, Chris Bates, Samuel J. Gershman
+
+Recent LLM-based approaches to control either invoke a language model to select actions or synthesize world models that require planning at every decision, introducing latency that can limit real-time use. We introduce Code to Control, an approach that synthesizes Python controllers which execute directly as policies. Code to Control separates program structure from parameters. An LLM synthesizes the controller structure, while derivative-free search fits its parameters for continuous control using feedback from the environment. Once learned, the resulting controllers require neither LLM…
+
+---
+
+### [After a Decade: Bringing Shadow Removal into the Real World with Agentic Training Data](https://arxiv.org/abs/2609.38607v1)
+
+- **arXiv**: `2609.38607v1`  |  **提交日期**: 2026-09-29
+- **作者**: Shilin Hu, Jingyi Xu, Dimitris Samaras, Hieu Le
+
+Shadow removal looks nearly solved on established benchmarks, yet remains brittle in the real world. Models have advanced; the paired training data they rely on have barely changed in nearly a decade. The reason is simple: obtaining a shadow-free target requires removing the occluder while keeping the scene, camera, and illumination otherwise unchanged, making diverse paired data difficult to capture. Meanwhile, large shadow detection datasets already contain diverse real-world images and masks, but no shadow-free targets. To turn this abundant but incomplete data into paired supervision, we…
+
+---
+
+### [LongTake: Learning to Sustain Dynamics in Long-Horizon Video Generation](https://arxiv.org/abs/2609.38562v1)
+
+- **arXiv**: `2609.38562v1`  |  **提交日期**: 2026-09-29
+- **作者**: Byoungwoo Park, Jaemoo Choi, Juho Lee, Yongxin Chen
+
+World models, game simulators, and long-take video creation require coherent scene evolution and sustained dynamics over extended durations. Autoregressive (AR) video diffusion provides a natural framework for long-horizon generation, yet extended rollouts often become near-static or lose visual quality. We hypothesize that these failures reflect the limited guidance provided by short-video supervision on how ongoing scene dynamics develops over longer durations. This motivates us to introduce LongTake, a two-stage training pipeline built around Long-Horizon Teacher Forcing (TF) on curated…
+
+---
+
+### [An Empirical Study of Architectural Shift from Traditional to AI-Enabled Simulink Controllers](https://arxiv.org/abs/2609.38504v1)
+
+- **arXiv**: `2609.38504v1`  |  **提交日期**: 2026-09-29
+- **作者**: Hadiza Umar Yusuf, Khouloud Gaaloul
+
+Effective AI adoption in cyber-physical systems (CPS) depends on embedding design knowledge into engineering practice. Yet as AI-enabled components increasingly replace analytically derived control laws, this occurs without a systematic understanding of how controller architectures differ or remain similar across paradigms. We address this gap with an empirical study of traditional and AI-enabled Simulink controllers, guided by a literature-derived taxonomy of ten structural categories and nine functional roles. The study analyzes 62 real-world models spanning 8 controller types and 10…
+
+---
+
+### [Audible World Models: Spatially Aware Sound Generation for 3D Worlds](https://arxiv.org/abs/2609.38444v1)
+
+- **arXiv**: `2609.38444v1`  |  **提交日期**: 2026-09-29
+- **作者**: Duowen Chen, Jinjin He, Gouthaman KV, Sandeep Bangalore Venkatesh, Bo Zhu
+
+Text- and image-conditioned world generators can create visually rich 3D environments, yet these worlds often remain silent or rely on soundtracks synthesized solely from text or rendered video. Although such audio can convey what should be heard, it lacks an explicit representation of where sound sources are located and how their perceived sound should vary with listener movement. We introduce Audible World Models, a training-free framework that incorporates sound into the generated world state. Starting from a text prompt, our system constructs a panoramic 3D proxy, separates it into…
+
+---
+
+### [Masked Swingers: Harnessing Data Augmentation to Advance Autoencoders for Self-Supervised Learning](https://arxiv.org/abs/2609.38278v1)
+
+- **arXiv**: `2609.38278v1`  |  **提交日期**: 2026-09-29
+- **作者**: Anthony Fuller, Scott C. Lowe, Daniel G. Kyrollos, Graham W. Taylor, Evan Shelhamer, James R. Green
+
+Self-supervised learning (SSL) removes the need for annotations and makes models that are capable across more domains than supervised learning. The autoencoder SSL framework learns by reconstructing its own input after information loss through a bottleneck or noise injection. Masked autoencoders (MAE) are the most successful instantiation of this framework: they encode a random subset of patches, then decode the masked-out patches. In this work, we introduce key modifications to improve MAEs. Our method augments an image in two different ways, then masks and encodes each view separately. It…
+
+---
+
+### [Waypoint-1.5: A Real-Time Video World Model for Consumer Hardware](https://arxiv.org/abs/2609.37107v2)
+
+- **arXiv**: `2609.37107v2`  |  **提交日期**: 2026-09-29
+- **作者**: Rajit Rajpal, Shahbuland Matiana, Liew Wei Pyn, Anmol Agarwal, Ryan Craig, Andrew Lapp et al.
+
+We present Waypoint 1.5, a real-time diffusion world model for interactive video generation on consumer-grade hardware. Unlike general video diffusion models, interactive world models (iWMs) must respond to dense user controls under strict latency and throughput constraints. Waypoint 1.5 is pre-trained on 100,000 hours of diverse, control-aligned video game data across hundreds of games, and generates playable video conditioned on full keyboard and mouse input. The model includes two resolution variants that run across a wide spectrum of consumer hardware. To characterize this unique setting,…
+
+---
+
+### [World2Motion: Turning Video World Models into 3D Human Motion Generators](https://arxiv.org/abs/2609.37004v2)
+
+- **arXiv**: `2609.37004v2`  |  **提交日期**: 2026-09-29
+- **作者**: Fangyuan Tu, Xiangyue Zhang, Yiyi Cai, Yichen Peng, Kunhang Li, Bo Zheng et al.
+
+We present World2Motion, a framework that generates scene-aware 3D human motion and corresponding video from a single image and a text prompt. While existing 3D motion generators learn from motion datasets, their generalization is constrained by limited coverage of environments. In contrast, video world models such as Cosmos 3 offer broader environmental priors but are not designed for full-body motion generation; recovering motion from their generated videos requires costly two-stage inference. To address these, we turn Cosmos 3 into a single-stage 3D motion generator. This adaptation has…
+
+---
+
 ## 📅 2026-09-30
 
 ### [Rethinking Representations for World-Action Modeling](https://arxiv.org/abs/2609.38163v1)

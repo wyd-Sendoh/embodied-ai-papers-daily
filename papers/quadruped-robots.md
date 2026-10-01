@@ -2,6 +2,35 @@
 
 _自动追踪 arXiv 最新论文，最新更新在最上方。_
 
+## 📅 2026-10-01
+
+### [Experience-Driven Continual Learning of Terrain Traversability for Quadruped Robots](https://arxiv.org/abs/2609.39755v1)
+
+- **arXiv**: `2609.39755v1`  |  **提交日期**: 2026-09-30
+- **作者**: Luca Bricarello, João Carlos Virgolino Soares, Alberto Sanchez-Delgado, Fulvio Mastrogiovanni, Claudio Semini
+
+Safe and efficient quadruped navigation over unfamiliar terrain requires predicting terrain-robot interaction before contact: geometry and visual appearance alone cannot reveal how the robot will slip, load its feet, or expend energy. This paper presents a continual learning pipeline that uses locomotion experience to learn these interaction outcomes from pre-contact images and continually updates the predictions as new contacts are observed. Pre-contact descriptors, produced by a DINOv3 backbone model frozen during training, are mapped to five proprioceptive indicators weighted according to…
+
+---
+
+### [Local-Minimum Escaper: Programmatic Subgoal Generation for Robust Navigation in Unknown Environments](https://arxiv.org/abs/2609.38928v1)
+
+- **arXiv**: `2609.38928v1`  |  **提交日期**: 2026-09-30
+- **作者**: Yin Gu, Xinming Zhang, Shanze Wang, Siwei Cheng, Wei Zhang
+
+Mapless navigation in unknown and partially observable environments remains challenging for mobile robots, particularly when local minima prevent the robot from making progress toward its goal. Existing local navigation methods often lack an explicit mechanism for escaping such situations, while deep reinforcement learning (DRL) approaches typically learn recovery behaviors implicitly through reward design and policy optimization. In this work, we propose \textbf{LME} (Local-Minimum Escaper), a programmatic hierarchical framework that explicitly generates and reasons subgoals to guide robots…
+
+---
+
+### [Draft: A Parametric Tool for Robot Design Exploration](https://arxiv.org/abs/2609.38405v1)
+
+- **arXiv**: `2609.38405v1`  |  **提交日期**: 2026-09-29
+- **作者**: David Nguyen, Marcelo Coelho, Sangbae Kim
+
+Robot performance is often limited by the cost of iterating on morphology and control together, since every computer-aided design (CAD) change has to be carried into a simulation-ready model before control work begins. Co-design methods attempt to close this gap, but each uses a model generator written for a single platform or lack the use of real-world data to suggest that designs are plausible. We present Draft, a parametric generation tool whose generalized engine compiles any parametric tree of serial chains into a simulation-ready MJCF model, without CAD. It allows engineers to explore…
+
+---
+
 ## 📅 2026-09-30
 
 ### [ORMA: Optimization-based Monocular 4D Reconstruction of Articulated Animals](https://arxiv.org/abs/2609.37986v1)

@@ -2,6 +2,89 @@
 
 _自动追踪 arXiv 最新论文，最新更新在最上方。_
 
+## 📅 2026-10-01
+
+### [AIMS: An Agentic AI Framework for Sim-to-Real Multi-Modal ISAC](https://arxiv.org/abs/2609.39964v1)
+
+- **arXiv**: `2609.39964v1`  |  **提交日期**: 2026-09-30
+- **作者**: Yijie Bian, Kai Zhang, Wei Guo, Zixin Wang, Shenghui Song, Jun Zhang et al.
+
+Multi-modal integrated sensing and communication (ISAC) enables environmental perception and reliable connectivity for intelligent wireless networks. Data-driven multi-modal ISAC models depend heavily on annotated real-world data to learn relationships across sensing and wireless observations, thereby constraining scalable deployment. Although synthetic data generation reduces the burden, adapting existing simulation pipelines to a target deployment requires consistent scene, sensing, wireless, and learning configurations, while mismatches among these coupled components impair sim-to-real…
+
+---
+
+### [Beyond Policy Alignment: Closing the Planning-Learning Loop for Robot Control with Learned World Models](https://arxiv.org/abs/2609.39751v1)
+
+- **arXiv**: `2609.39751v1`  |  **提交日期**: 2026-09-30
+- **作者**: Kowndinya Boyalakuntla, Yuhan Liu, Abdeslam Boularias
+
+Planning with learned world models combines online trajectory optimization with learned value and policy functions for high-dimensional control. Because the planner determines the experience used for learning, while the learned critic and actor in turn score and propose future plans, planning and learning form a closed feedback loop. TD-MPC is a prominent instance of this design. Recent policy-constrained variants strengthen one part of the loop by aligning the learned policy with planner behavior. We introduce PL-MPC (Planning-Learning MPC), which additionally modifies critic supervision and…
+
+---
+
+### [OccluDex: Hierarchical 3D Visuo-Tactile Representation Learning for Egocentric Dexterous Manipulation under Self-Occlusion](https://arxiv.org/abs/2609.39017v1)
+
+- **arXiv**: `2609.39017v1`  |  **提交日期**: 2026-09-30
+- **作者**: Ziheng Xu, Yueyuan Chen, Xinyuan He, Guoxing Liu, Yuanshuo Tan, Huiming Pan et al.
+
+Reliable dexterous manipulation requires continuous estimation of object geometry and hand-object contact throughout interaction. With egocentric sensing, however, the manipulating hand frequently occludes task-relevant object surfaces and contact regions, reducing the visual evidence available for state estimation and thereby making robust closed-loop control and generalization to unseen object geometries particularly challenging. To address this, we present OccluDex, a hierarchical 3D visuo-tactile representation learning framework that integrates global geometric structure with local…
+
+---
+
+### [EmbodiRSI: Recursive Self-Improvement for Data-Efficient Robot Adaptation](https://arxiv.org/abs/2609.38905v1)
+
+- **arXiv**: `2609.38905v1`  |  **提交日期**: 2026-09-30
+- **作者**: Haoran Lang, Haotao Lu, Shiyu Sang, Haoyang Luo, Guo Chen, Qun Li et al.
+
+Adapting robot manipulation policies to new tasks and environments remains highly data-intensive, while the data needed for further improvement depends on the policy's current capabilities and failure modes. We introduce EmbodiRSI, an agentic system for recursive self-improvement (RSI) in a real-to-sim-to-real setting, where task-specific simulations are constructed from target deployment scenarios and used as low-cost environments for iterative policy improvement before transfer back to the physical world. EmbodiRSI uses policy execution feedback to guide subsequent experience acquisition…
+
+---
+
+### [Locomotion-Grounded Humanoid Soccer: Task-Gated Reinforcement Learning of a Multi-Directional Kicking Library](https://arxiv.org/abs/2609.38852v1)
+
+- **arXiv**: `2609.38852v1`  |  **提交日期**: 2026-09-30
+- **作者**: Abu Hanif Muhammad Syarubany, Jaehyun Jang, Hwanhee Kim, Kyuwon Kim, Seungyeon Ryu, Chang D. Yoo
+
+Recent humanoid soccer systems make motion tracking the substrate and derive locomotion from it, typically by steering a motion-reference anchor toward the ball. This yields strong shooting results, but locomotion is trained only on the narrow, deterministic command distribution ball approach induces, never evaluated as a capability in its own right. We invert the stack: a general, command-conditioned locomotion policy is trained first as the substrate, and N motion-guided kicking skills are added on top as task-gated layers, so the reachable gait space is set by the locomotion curriculum…
+
+---
+
+### [Systematically Exploring the Capabilities of GPT-6 Astra as Embodied Policies](https://arxiv.org/abs/2609.38537v1)
+
+- **arXiv**: `2609.38537v1`  |  **提交日期**: 2026-09-29
+- **作者**:  Galbot Team, Xuchuan Chen, Xiaoqian Cheng, Yu Deng, Lihe Ding, Shaocong Dong et al.
+
+GPT-6 Astra exhibits a remarkable ability to generate numerical robot actions, extending its role beyond high-level planning. To assess Astra's capabilities as general-purpose embodied policies, we conduct comprehensive evaluations across six domains, examining direct control, cooperation with learned policies, and feedback-driven adaptation. In gripper manipulation, Astra can correct task targets and prepare contact conditions for subsequent policy execution; hybrid control with π0.5 achieves 48% success on the evaluated RoboDojo subset. In dexterous manipulation, hybrid control achieves 50%…
+
+---
+
+### [Curating Synthetic Data for Task-Specific Visual Perception](https://arxiv.org/abs/2609.38476v1)
+
+- **arXiv**: `2609.38476v1`  |  **提交日期**: 2026-09-29
+- **作者**: Saptarshi Neil Sinha, Paul Julius Kühn, Michael Weinmann
+
+Synthetic data are most valuable where general-purpose datasets cannot provide the domain-specific priors a task requires, and where manual annotation is expensive, imprecise, or infeasible. In this article we argue that the central question for specialized vision systems is not how to generate more data, but which data to generate. We therefore discuss curated synthetic data, whose scene content, appearance variations, sensing characteristics, and annotations are deliberately designed around a given task. We examine three complementary curation paradigms. Procedural rendering offers explicit…
+
+---
+
+### [EgoAlign: Bridging the Human-Humanoid Gap for Long-Range Loco-Manipulation](https://arxiv.org/abs/2609.38046v2)
+
+- **arXiv**: `2609.38046v2`  |  **提交日期**: 2026-09-29
+- **作者**: Yiming Jiang, Jin Chen, Chongyang Xu, Yilun Chen, Aimin Hao, Yisheng He
+
+Egocentric human demonstrations offer an accessible source of task experience, but differences in body scale and controller response, together with missing robot states, limit their value as humanoid training supervision. We present EgoAlign, a data-construction framework that converts these demonstrations into action and state supervision compatible with a general-purpose, continuous whole-body controller, without collecting physical-robot demonstrations. Using the target-robot model and simulator, EgoAlign guides demonstration collection through execution feedback. It preserves locomotion…
+
+---
+
+### [RoXDrive: Closed-Loop Reinforcement Learning for End-to-End Autonomous Driving via Action-Faithful Rollouts](https://arxiv.org/abs/2609.36851v2)
+
+- **arXiv**: `2609.36851v2`  |  **提交日期**: 2026-09-29
+- **作者**: Hongbin Lin, Chaoda Zheng, Yiming Yang, Xiangyu Li, Shijia Chen, Jinhao Deng et al.
+
+End-to-end autonomous driving policies are commonly trained via imitation learning on logged demonstrations without observing the consequences of their own actions, leading to causal confusion in closed-loop real-world deployment. To address this issue, reinforcement learning (RL) post-training offers a promising alternative by leveraging world models as interactive training environments to enable future scene generation for policy improvement. Nevertheless, existing approaches either rely on reconstruction-based simulators, offering limited counterfactual interaction, or adopt synthetic…
+
+---
+
 ## 📅 2026-09-30
 
 ### [Counterfactual Video Generation Enables Scalable Humanoid Loco-Manipulation](https://arxiv.org/abs/2609.38172v1)
