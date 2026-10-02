@@ -2,6 +2,80 @@
 
 _自动追踪 arXiv 最新论文，最新更新在最上方。_
 
+## 📅 2026-10-02
+
+### [Continue, Abort, or Fall: Viability-Aware Policy Selection (VAPS) for Safe Humanoid Acrobatics](https://arxiv.org/abs/2610.01397v1)
+
+- **arXiv**: `2610.01397v1`  |  **提交日期**: 2026-10-01
+- **作者**: Siwei Ju, Lu Liu, Jan Peters, Oleg Arenz
+
+Dynamic humanoid motions such as flips risk hardware damage due to suboptimal policies, disturbances or sim-to-real gaps. A motion tracking policy offers no way out once the maneuver leaves its reference, and a backup policy needs to take over to protect the hardware for a minimum-damage landing. Which backup to use matters as much as when to switch. We present Viability-Aware Policy Selection (VAPS), which treats safety as a policy-conditioned, receding-horizon decision. Besides a protective fall policy, we also train an abort policy which can abort the motion at any time, landing on its…
+
+---
+
+### [ColoACT: Multi-Cue Action Chunking for Smooth Autonomous Colon Navigation on a Self-Propelled Endoscopic Robot](https://arxiv.org/abs/2610.01258v1)
+
+- **arXiv**: `2610.01258v1`  |  **提交日期**: 2026-10-01
+- **作者**: Jian Hu, Shujing He, Leixin Chang, Zongze Li, Ding Huang, Chaoyang Shi et al.
+
+Autonomous colonoscopic navigation can reduce operator burden and the risk of loop formation or tissue trauma, but remains challenging due to deformable anatomy, weak-texture and specular endoscopic visuals, and contact-rich viscoelastic interactions. Existing methods either rely on geometry-driven pipelines, which are efficient and interpretable yet brittle due to manually engineered features and switching logic, or adopt learning-based policies, whose inferred depth/geometry can become temporally inconsistent or overly smooth under weak texture and specular highlights while…
+
+---
+
+### [EIDA: Execution-Interface Dynamics Adaptation for Real-to-Sim-to-Real Robot Navigation](https://arxiv.org/abs/2610.01219v1)
+
+- **arXiv**: `2610.01219v1`  |  **提交日期**: 2026-10-01
+- **作者**: Yiwei Qian, Shanze Wang, Qingyuan Hu, Xinming Zhang, Wei Zhang
+
+Simulation-to-robot transfer can fail when velocity commands produce motion and feedback that differ from those modeled during policy training. We present execution-interface dynamics adaptation (EIDA), which fits these responses from target-platform execution data without reconstructing actuator dynamics. A model of body-frame pose increments updates simulator geometry, while a separate model predicts the velocity feedback observed by the policy; a short history of velocity feedback is included in the policy input. The fitted models are used within a lightweight GPU-parallel simulator. On…
+
+---
+
+### [MASkillBlender: Decentralized Whole-Body Coordination for Multi-Humanoid Loco-Manipulation via Skill Blending](https://arxiv.org/abs/2610.01102v1)
+
+- **arXiv**: `2610.01102v1`  |  **提交日期**: 2026-10-01
+- **作者**: Yifan Hu, Luhang Hong, Mingkang Long, Danning Wang, Chengfeng Jia, Rong Su et al.
+
+Coordinated multi-humanoid loco-manipulation is promising yet challenging due to high-dimensional whole-body control, decentralized decision making, and scalability. While recent reinforcement learning methods have improved single-humanoid whole-body control, extending them to the multi-humanoid setting remains nontrivial and often requires substantial reward engineering or task-specific design. We propose MASkillBlender, a general multi-agent reinforcement learning framework to achieve decentralized multi-humanoid whole-body coordination. By learning a shared decentralized high-level policy…
+
+---
+
+### [Crossing the Cyber Divide: Sim-to-Sim and Sim-to-Real Transfer for RL Agents](https://arxiv.org/abs/2610.00759v1)
+
+- **arXiv**: `2610.00759v1`  |  **提交日期**: 2026-09-30
+- **作者**: Sabrina Saika, Yinuo Du, Aritran Piplai
+
+Cyber attack agents are typically trained and evaluated within a single simulator, making it unclear whether learned policies transfer beyond the environments in which they were developed. This limitation hinders both deployment and fair comparison, as cyber simulators differ substantially in their state representations, observation models, and action spaces. In this paper, we study policy transfer across cyber environments and argue that simulator-to-simulator and simulator-to-real transfer can be viewed as instances of the same underlying alignment problem. We propose a framework that…
+
+---
+
+### [Measuring Asset and Scene Reconstruction Effects in Real-to-Sim Robot Evaluation](https://arxiv.org/abs/2610.00731v1)
+
+- **arXiv**: `2610.00731v1`  |  **提交日期**: 2026-09-30
+- **作者**: Sanya Verma, Luca Cilio, Velissarios Christodoulou
+
+Simulated evaluation is increasingly used alongside real-world evaluation of robot policies because it is cheaper and easier to repeat; however, its value depends on how closely its outcomes track the real robot's. We test whether our reconstruction pipeline, combining metrically scaled object geometry, authored physical parameters and scene reconstruction, reduces disagreement between simulated and real robot scores relative to a default open-source recipe. We constructed two simulated versions of one bimanual robot cell: an authored reconstruction, using object geometry at estimated metric…
+
+---
+
+### [AIMS: An Agentic AI Framework for Sim-to-Real Multi-Modal ISAC](https://arxiv.org/abs/2609.39964v2)
+
+- **arXiv**: `2609.39964v2`  |  **提交日期**: 2026-09-30
+- **作者**: Yijie Bian, Kai Zhang, Wei Guo, Zixin Wang, Shenghui Song, Jun Zhang et al.
+
+Multi-modal integrated sensing and communication (ISAC) enables environmental perception and reliable connectivity for intelligent wireless networks. Data-driven multi-modal ISAC models depend heavily on annotated real-world data to learn relationships across sensing and wireless observations, thereby constraining scalable deployment. Although synthetic data generation reduces the burden, adapting existing simulation pipelines to a target deployment requires consistent scene, sensing, wireless, and learning configurations, while mismatches among these coupled components impair sim-to-real…
+
+---
+
+### [EmbodiRSI: Recursive Self-Improvement for Data-Efficient Robot Adaptation](https://arxiv.org/abs/2609.38905v2)
+
+- **arXiv**: `2609.38905v2`  |  **提交日期**: 2026-09-30
+- **作者**: Haoran Lang, Haotao Lu, Shiyu Sang, Haoyang Luo, Guo Chen, Qun Li et al.
+
+Adapting robot manipulation policies to new tasks and environments remains highly data-intensive, while the data needed for further improvement depends on the policy's current capabilities and failure modes. We introduce EmbodiRSI, an agentic system for recursive self-improvement (RSI) in a real-to-sim-to-real setting, where task-specific simulations are constructed from target deployment scenarios and used as low-cost environments for iterative policy improvement before transfer back to the physical world. EmbodiRSI uses policy execution feedback to guide subsequent experience acquisition…
+
+---
+
 ## 📅 2026-10-01
 
 ### [AIMS: An Agentic AI Framework for Sim-to-Real Multi-Modal ISAC](https://arxiv.org/abs/2609.39964v1)

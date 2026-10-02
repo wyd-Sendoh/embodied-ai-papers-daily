@@ -2,6 +2,26 @@
 
 _自动追踪 arXiv 最新论文，最新更新在最上方。_
 
+## 📅 2026-10-02
+
+### [PROMO: Preference-conditioned Multi-Objective Reinforcement Learning for Quadrupedal Robots](https://arxiv.org/abs/2610.01260v1)
+
+- **arXiv**: `2610.01260v1`  |  **提交日期**: 2026-10-01
+- **作者**: Amr Mousa, Rifny Rachman, Neil Karavis, Michele Caprio, Richard Allmendinger
+
+Quadrupedal locomotion requires balancing conflicting objectives such as command tracking, stability, and energy efficiency, yet conventional reinforcement learning (RL) hardcodes these priorities into a fixed scalar reward at training time. We present PROMO (Preference-Conditioned Multi-Objective Reinforcement Learning), a semantic multi-objective approach that makes this trade-off an explicit runtime input to a single locomotion policy. PROMO conditions the policy on deployment facing preferences while keeping embodiment-specific locomotion priors fixed, thereby separating operator intent…
+
+---
+
+### [Experience-Based Feasibility-Aware Generative Adversarial Imitation from Observation under Embodiment Mismatch](https://arxiv.org/abs/2610.01171v1)
+
+- **arXiv**: `2610.01171v1`  |  **提交日期**: 2026-10-01
+- **作者**: Yoshiki Takebayashi, Giovanni Perantoni, Hikaru Sasaki, Matteo Saveriano, Takamitsu Matsubara
+
+With the increasing use of robot-free demonstration interfaces that provide state trajectories without action labels, imitation from observation has become a promising approach for learning robot behaviors from human demonstrations. However, due to differences in embodiment and dynamics between humans and robots, demonstrated human motions may not be feasible for the robot, potentially degrading policy performance. In this study, we propose Experience-Based Feasibility-Aware Generative Adversarial Imitation from Observation (EF-GAIfO), which estimates the feasibility of state-only…
+
+---
+
 ## 📅 2026-10-01
 
 ### [Experience-Driven Continual Learning of Terrain Traversability for Quadruped Robots](https://arxiv.org/abs/2609.39755v1)
