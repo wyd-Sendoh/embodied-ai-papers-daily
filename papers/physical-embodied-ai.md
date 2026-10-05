@@ -2,6 +2,44 @@
 
 _自动追踪 arXiv 最新论文，最新更新在最上方。_
 
+## 📅 2026-10-05
+
+### [OmniAct3D: Leveraging Foundation Geometry and Evidence-Grounded Reasoning for Panoramic 3D Detection](https://arxiv.org/abs/2610.03015v1)
+
+- **arXiv**: `2610.03015v1`  |  **提交日期**: 2026-10-02
+- **作者**: Runtong Wu, Fei Teng, Di Wen, Guoqiang Zhao, Kunyu Peng, Kailun Yang
+
+Accurate 3D detection is essential for mobile embodied agents, while Vision Foundation Models (VFMs) offer transferable visual and geometric priors. Yet existing VFM-based 3D detectors rely on narrow-view monocular images or discrete perspective views, limiting coherent surround perception; equirectangular projection (ERP) instead encodes a continuous 360 scene in a single image. Direct transfer remains difficult because ERP organizes geometry and visual information differently, making object-relevant cues hard to model, localize, and preserve. We propose OmniAct3D, a framework that adapts…
+
+---
+
+### [On Representational Alignment among Embodied Agents](https://arxiv.org/abs/2610.02985v1)
+
+- **arXiv**: `2610.02985v1`  |  **提交日期**: 2026-10-02
+- **作者**: Fulvio Mastrogiovanni
+
+Embodied agents interacting with the same physical process may maintain heterogeneous, asynchronous, and observer-relative representations. Rather than assuming that such representations should always be globally aligned, we investigate which distinctions among them must actually be resolved for coherent interaction. We formalize this question through relational sufficiency: an interaction-specific relational-evidence map defines the representational ambiguity left unresolved by comparison, and sufficiency holds when each residual ambiguity fiber lies within an interaction-equivalence class.…
+
+---
+
+### [RoboChemGym: A Protocol-Driven Generative Simulation Framework for Long-Horizon Chemical Manipulation](https://arxiv.org/abs/2610.02708v1)
+
+- **arXiv**: `2610.02708v1`  |  **提交日期**: 2026-10-02
+- **作者**: Chenxi Li, Haiyuan Wan, Rui Li, Jingyuan Li, Sha Zhang, Bohan Feng et al.
+
+Wet-lab experimentation serves as the gold standard for hypothesis verification in scientific discovery; yet it is inherently labor-intensive, costly, and safety-critical. Embodied agents hold the promise of automating these tedious workflows, but their development is hindered by the scarcity of real-world training data. While simulation offers a scalable alternative for producing demonstrations, current methods primarily target relatively short-horizon tasks with loosely structured interactions, failing to meet the strict procedural constraints and fine-grained manipulation demands of…
+
+---
+
+### [Mind the Refinement Gap: When Safe High-Level Robot Plans Produce Unsafe Executions](https://arxiv.org/abs/2610.02662v1)
+
+- **arXiv**: `2610.02662v1`  |  **提交日期**: 2026-10-02
+- **作者**: Stabak Das, Priyesh Ranjan, Xiangfang Li, Lijun Qian
+
+Language-enabled robot systems increasingly combine semantic-graph planning with temporal-logic safety monitors. We investigate a trace-completeness assumption in these systems: whether the high-level action sequence checked by a monitor represents the navigation and implicit action effects induced during execution. We audit this assumption in RoboGuard by comparing its verdict on a surface plan with its verdict on a graph-refined trace under the same Linear Temporal Logic (LTL) specification. Our evaluation comprises 28 controlled cases spanning five action-abstraction families and 14…
+
+---
+
 ## 📅 2026-10-02
 
 ### [Reconstruct, Practice, Go Real: Guided Self-Improvement for Embodied Agents](https://arxiv.org/abs/2610.02204v1)

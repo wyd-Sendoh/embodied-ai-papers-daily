@@ -2,6 +2,53 @@
 
 _自动追踪 arXiv 最新论文，最新更新在最上方。_
 
+## 📅 2026-10-05
+
+### [Bidirectional Voronoi-biased Exploration Curriculum for Reinforcement Learning](https://arxiv.org/abs/2610.03395v1)
+
+- **arXiv**: `2610.03395v1`  |  **提交日期**: 2026-10-02
+- **作者**: Juri Pfammatter, Kaixian Qu, Clemens Schwarke, Victor Klemm, Marco Hutter
+
+Long-horizon tasks with sparse rewards pose an exploration bottleneck for goal-conditioned reinforcement learning: a policy started from the initial state rarely reaches the goal and receives no learning signal. Reference motions, hand-designed curricula, and shaped rewards supply this signal but require demonstrations or task-specific engineering; automatic start-state and goal curricula avoid this but typically expand from one side only, so the full distance to the target must be covered from that side. We propose the Bidirectional Voronoi-biased Exploration curriculum for Reinforcement…
+
+---
+
+### [EmbPASS: Towards Cross-Embodiment Open Panoramic Segmentation](https://arxiv.org/abs/2610.03248v1)
+
+- **arXiv**: `2610.03248v1`  |  **提交日期**: 2026-10-02
+- **作者**: Pujun Guo, Yuanfan Zheng, Fei Teng, Mengfei Duan, Guoqiang Zhao, Yuheng Zhang et al.
+
+Panoramic images provide a complete 360-degree field of view, enabling comprehensive scene understanding for embodied perception. However, heterogeneous embodied platforms exhibit substantial differences in observation viewpoints and spatial layouts, giving rise to cross-embodiment observation shifts that pose additional challenges to consistent and reliable panoramic perception, while systematic studies of this problem remain limited. To bridge this gap, we introduce a new task, termed Cross-Embodiment Open Panoramic Segmentation. Meanwhile, we establish EmbPASS, a multi-platform panoramic…
+
+---
+
+### [Beyond Reward Hacking: Proxy Divergence Across Four Layers of a Staged Humanoid Learning Pipeline](https://arxiv.org/abs/2610.03196v1)
+
+- **arXiv**: `2610.03196v1`  |  **提交日期**: 2026-10-02
+- **作者**: Arunabh Bora
+
+A reinforcement-learning (RL) pipeline for a legged robot is assembled from proxies. A reward stands in for intended behaviour, a curriculum gate stands in for competence, an evaluation statistic stands in for robustness, and a reference motion stands in for an achievable skill. The traditional view treats only the first of these as optimised against, and so locates specification failure (reward hacking) in the reward alone. I argue that all four are proxies in the same formal sense, that each has a characteristic divergence mechanism, and that each admits a reformulation that closes it. For…
+
+---
+
+### [CrowdOcc: Monocular Semantic Scene Completion for Quadruped Robots in Crowded Indoor Environments](https://arxiv.org/abs/2610.03031v1)
+
+- **arXiv**: `2610.03031v1`  |  **提交日期**: 2026-10-02
+- **作者**: Feiyang Chen, Jincheng Hu, Yiduo Chen, Jihao Li, Yue Liang, Bingzhao Gao et al.
+
+Monocular semantic scene completion (SSC) for quadruped robots remains underexplored in real crowded indoor environments, where human-scene occlusion disrupts static geometry and human occupancy predictions are often incomplete or spatially misplaced. We present CrowdOcc, an RGB-D dataset and monocular SSC framework for this setting. CrowdOcc contains 25.1K frames from 11 indoor scenes, with semantic occupancy annotations constructed through static dynamic decoupling. Our framework combines: (i) Normal Guided Scene Geometry Fusion (NGSGF) to complement depth-aware lifting with surface-normal…
+
+---
+
+### [Around the World: Unified Learned Locomotion on a 270 g Continuous-Rotation Quadruped](https://arxiv.org/abs/2610.02728v1)
+
+- **arXiv**: `2610.02728v1`  |  **提交日期**: 2026-10-02
+- **作者**: Arturo Flores Alvarez, Nathan Lintu, Dennis Hong
+
+Closed-loop learned locomotion is established on commercial quadrupeds but remains uncommon at the sub-kilogram scale. Continuous-rotation legs give MiNI-Q, a 270 g quadruped, access to supporting configurations on either side of the body. We exploit this range with a single posture-conditioned reinforcement-learning policy that runs entirely onboard. A continuous joint-space reference on the torus $T^8$ and its gravity-conditioned transformation connect upright walking, inverted walking, and landing recovery without state machines or phase switching. Coordinated posture and release curricula…
+
+---
+
 ## 📅 2026-10-02
 
 ### [PROMO: Preference-conditioned Multi-Objective Reinforcement Learning for Quadrupedal Robots](https://arxiv.org/abs/2610.01260v1)

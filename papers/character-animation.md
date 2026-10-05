@@ -2,6 +2,26 @@
 
 _自动追踪 arXiv 最新论文，最新更新在最上方。_
 
+## 📅 2026-10-05
+
+### [Parasitic Co-Denoising: Unlocking 3D Human Motion Generation in a Frozen Video Diffusion Model](https://arxiv.org/abs/2610.03047v1)
+
+- **arXiv**: `2610.03047v1`  |  **提交日期**: 2026-10-02
+- **作者**: Yunjiao Zhou, Junlang Qian, Lihua Xie, Jianfei Yang
+
+Despite never being supervised on explicit 3D motion, large-scale text-to-video diffusion models synthesize realistic human motion in their generated videos. We ask whether this implicit knowledge can be turned into explicit 3D motion generation, without training a separate motion model. Probing a frozen Wan2.1 reveals that a recoverable motion signal is present in its intermediate states across the entire denoising schedule, not confined to the clean output. Motivated by this, we introduce parasitic co-denoising, a paradigm in which motion is decoded from the host model along its denoising…
+
+---
+
+### [Rethinking Fixed Temporal Grids: Frequency-Disentangled Motion Generation](https://arxiv.org/abs/2610.03012v1)
+
+- **arXiv**: `2610.03012v1`  |  **提交日期**: 2026-10-02
+- **作者**: Yunjiao Zhou, Junlang Qian, Gen Li, Xinying Guo, Lihua Xie, Jianfei Yang
+
+Most human motion generation methods encode motion as tokens on a uniform temporal grid, where every token spans the same fixed time window. Human motion, however, is temporally heterogeneous: slowly evolving global trajectories coexist with rapid transient events such as foot contacts and joint impulses. Forcing such multi-scale dynamics onto tokens of identical temporal resolution entangles motion frequencies, leaving slow regions redundant while smoothing out the rapid details that distinguish realistic motion. We propose \textbf{FreqMo}, a scale-adaptive motion representation that…
+
+---
+
 ## 📅 2026-09-30
 
 ### [Length-varying Neural Motion Stitching via Cluster Transition Graph](https://arxiv.org/abs/2609.37167v1)
