@@ -2,6 +2,80 @@
 
 _自动追踪 arXiv 最新论文，最新更新在最上方。_
 
+## 📅 2026-10-06
+
+### [InterMimicGen: Scaling Humanoid Loco-Manipulation through Self-Evolving Motion Imitation](https://arxiv.org/abs/2610.06850v1)
+
+- **arXiv**: `2610.06850v1`  |  **提交日期**: 2026-10-05
+- **作者**: Yucheng Zhang, Sirui Xu, Jinhong Li, Liuyu Bian, Anatulya Nandi, Derek Zhang et al.
+
+Captured human-object interactions provide rich supervision for humanoid loco-manipulation, but they are sparse, heterogeneous, and not directly executable by robots. We introduce InterMimicGen, a self-evolving motion-imitation framework in which robot motion data and a tracking policy improve each other. First, we consolidate motion-captured human-object interaction datasets and retarget them into humanoid robot references while preserving whole-body coordination and dexterous hand-object relationships. This produces a large and diverse humanoid robot reference collection for dexterous…
+
+---
+
+### [Talk, Render, Act: Integrating Social Gesture and Digital Face with Synchronized Speech for Conversational Humanoid Robot](https://arxiv.org/abs/2610.06153v1)
+
+- **arXiv**: `2610.06153v1`  |  **提交日期**: 2026-10-05
+- **作者**: Jin Jiang, Kun Li, Jiancong Ma, Shengcai Liao
+
+Expressive humanoid interaction requires speech, facial animation, and body gestures to form a coherent response. However, many full-body humanoid robots produce speech and gestures without a visually expressive face, while talking-face animation and robot gesture generation are typically developed separately. We present Talk, Render, Act (TRABot), an agent-based framework comprising specialized agents for motion-atom construction, dialogue generation, motion planning, and facial animation. First, to produce natural and semantically meaningful gestures, we construct Robot-Ready Semantic…
+
+---
+
+### [From Social Reasoning to Embodied Interaction: An Agentic Framework for Social Robots](https://arxiv.org/abs/2610.05964v1)
+
+- **arXiv**: `2610.05964v1`  |  **提交日期**: 2026-10-05
+- **作者**: Ziyu Cheng, Yuewen Guo, Zhirui Liu, Dong Zhang, Haotao Lu, Jingyi Yu et al.
+
+Natural face-to-face human--robot interaction requires a robot to understand an evolving social situation, decide when to engage, and express its intent through coordinated physical behavior. Yet existing approaches rarely close this loop: foundation-model agents provide increasingly capable multimodal reasoning and memory but remain largely disembodied, while expressive virtual agents do not face the physical constraints of real robots, and physical social robots typically address social reasoning and embodied expression only partially. We present ARISE, a unified framework that bridges…
+
+---
+
+### [Hierarchical Reinforcement Learning for Collision-Free Locomotion of an Underactuated Biped](https://arxiv.org/abs/2610.05855v1)
+
+- **arXiv**: `2610.05855v1`  |  **提交日期**: 2026-10-05
+- **作者**: Jagannath Prasad Sahoo, Saurabh Kumar, Surya Prakash S. K., Samiran Datta, Abhay Dwivedi, Amit Shukla
+
+A bipedal robot cannot deviate from its path to avoid an obstacle without disturbing its balance, and this coupling is most severe on underactuated platforms such as the biped considered here, which has four actuated joints per leg and no hip or ankle roll. This paper presents a Hierarchical Reinforcement Learning (HRL) framework in which a High-Level (HL) policy observes the robot pose, 36 raycast proximity measurements, moving-obstacle states, and a receding-horizon local goal, and outputs a body-velocity command $(v_x, v_y, ω_{yaw})$ every ten control steps, while a velocity-conditioned…
+
+---
+
+### [DASH: A da Vinci Adapter for Serial-link and Humanoid Robots as an Accessible Platform for Surgical Robotics Research](https://arxiv.org/abs/2610.05792v1)
+
+- **arXiv**: `2610.05792v1`  |  **提交日期**: 2026-10-05
+- **作者**: Sara Wickenhiser, Junrong Zhou, Zekai Liang, Lizzie Peiros, Michael C. Yip
+
+Robotic minimally invasive surgery offers well-documented clinical benefits, but the cost and infrastructure requirements of purpose-built platforms limit access in rural and lower-resourced facilities. Recent work has teleoperated general-purpose robots for laparoscopic tasks and in vivo procedures, but relied on handheld instruments coupled through passive linkages rather than native robotic actuation. Instead, we adapt da Vinci Classic and Xi instruments onto general-purpose robots that can integrate in clinical workflows. We present DASH, a da Vinci Adapter for Serial-link and Humanoid…
+
+---
+
+### [Virtual model control for compliant reaching under uncertainties](https://arxiv.org/abs/2610.05695v1)
+
+- **arXiv**: `2610.05695v1`  |  **提交日期**: 2026-10-05
+- **作者**: Yi Zhang, Daniel Larby, Fumiya Iida, Fulvio Forni
+
+Virtual Model Control (VMC) is an approach to design a controller for force-controlled robots in complex uncertain environments. While this method was primarily investigated for legged robot locomotion in the past, it can be more generally applicable to other types of robotic systems. This paper investigates the VMC framework for reaching tasks in a force-controlled robotic arm. We propose six different approaches to designing virtual models in order to achieve reaching tasks in environments with obstacles and uncertainties. A force-controlled 8 degree-of-freedom humanoid robot was used to…
+
+---
+
+### [Real-Time Conformal-Seeded Hybrid Inverse Kinematics for Offset Redundant Manipulators](https://arxiv.org/abs/2610.04266v1)
+
+- **arXiv**: `2610.04266v1`  |  **提交日期**: 2026-10-03
+- **作者**: Duc Cuong Vu, Van Tung Nguyen, Duc Hai Nguyen, Manh Cuong Nguyen, Vu Trung Tran, Minh Nhat Vu
+
+This paper presents a conformal-seeded hybrid strategy for solving inverse kinematics of offset, redundant 7-DoF robot arms of the humanoid class. Analytical inverse kinematics (AIK) provides closed-form solutions with very low computational cost. However, for offset kinematic structures, the exact closed-form solution is generally unavailable, and practical AIK must rely on an approximate or simplified kinematic model. In contrast, numerical inverse kinematics (NIK) can achieve high-precision solutions on the full kinematic model. However, its convergence is highly sensitive to…
+
+---
+
+### [Humanoid Rickshaw Pulling: Whole-Body Locomotion under Coupled Wheeled Loads](https://arxiv.org/abs/2610.04238v1)
+
+- **arXiv**: `2610.04238v1`  |  **提交日期**: 2026-10-03
+- **作者**: Yangzhi Yang, Xiansheng Lin, Zhaoming Xie, Xiaobin Xiong
+
+Humanoid robots could transport payloads substantially heavier than themselves by pulling passive wheeled vehicles instead of carrying the load. This capability, however, creates a coupled locomotion problem: the robot must maintain persistent upper-body contact while adapting to unknown, configuration-dependent forces arising from the payload, vehicle, and terrain. We present a whole-body control framework for humanoid rickshaw pulling that tracks commanded vehicle motion while preserving balance and stable grasps under uncertain load dynamics. During training, a privileged teacher exploits…
+
+---
+
 ## 📅 2026-10-05
 
 ### [KungfuAthleteBot: learning high-dynamic humanoid motion from video with unified robust recovery](https://arxiv.org/abs/2610.03388v1)

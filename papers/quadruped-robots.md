@@ -2,6 +2,35 @@
 
 _自动追踪 arXiv 最新论文，最新更新在最上方。_
 
+## 📅 2026-10-06
+
+### [Towards Quadruped-Provided Localization and Active Tracking for Micro-UAVs](https://arxiv.org/abs/2610.06215v1)
+
+- **arXiv**: `2610.06215v1`  |  **提交日期**: 2026-10-05
+- **作者**: Alejandro Lorite Mora, Andrés Faíña
+
+Micro unmanned aerial vehicles (micro-UAVs) are small enough to reach confined spaces that larger robots cannot access, but too small to carry the sensing and computing power required for autonomous flight. We move the localization stack entirely off the aerial platform onto a quadruped robot with a 7-degree-of-freedom (DOF) arm, which supplies the micro-UAV (27 g bare, 42 g with fiducial markers) its full 6-DOF pose. A camera at the arm's end-effector detects AprilTag fiducial markers on the drone and composes that observation with the quadruped's own self-localization to place the drone in…
+
+---
+
+### [Transporting Unsecured Stacked Payloads with a Quadrupedal Robot via Multi-Objective Reinforcement Learning](https://arxiv.org/abs/2610.05819v1)
+
+- **arXiv**: `2610.05819v1`  |  **提交日期**: 2026-10-05
+- **作者**: Nobuo Namura, Masayuki Hiromoto, Kento Uemura, Hironobu Sasaki, Kanata Suzuki
+
+Transporting unsecured payloads with legged robots over uneven terrain requires balancing locomotion performance and payload stability, since aggressive motion can destabilize the payload even when the robot remains stable. We study quadrupedal transportation of unsecured stacked boxes on an edgeless torso-mounted board without dedicated payload sensors or active carrier mechanisms. To address this trade-off, we propose Payload-Adaptive Multi-Objective Reinforcement learning for Transportation (PAMORT). PAMORT trains a multi-objective base policy conditioned on a preference vector that…
+
+---
+
+### [Nudge Before You Push: Physics-Aware Navigation via Tactile Probing](https://arxiv.org/abs/2610.04924v1)
+
+- **arXiv**: `2610.04924v1`  |  **提交日期**: 2026-10-04
+- **作者**: Xianyao Li, Fang Xu, Ruitong Tian, Bowen Sun, Xiao Hu, Yang Ye et al.
+
+Visually identical containers can conceal loads that require different handling decisions. We present TANav, which uses a brief nudge to measure push resistance for navigation under a site-defined handling boundary. TacPhys reads the force sequence, with optional RGB-D and kinematics, into a mass estimate for push authorization. A repeated-patrol planner weighs probe and route costs, requests a second contact when useful, and reuses observations across visits. In simulation, TacPhys approaches a resistance-only Bayes reference and reduces missed pushes from 28.7% to 5.5% relative to…
+
+---
+
 ## 📅 2026-10-05
 
 ### [Bidirectional Voronoi-biased Exploration Curriculum for Reinforcement Learning](https://arxiv.org/abs/2610.03395v1)
