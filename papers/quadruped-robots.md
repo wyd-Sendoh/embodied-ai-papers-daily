@@ -2,6 +2,62 @@
 
 _自动追踪 arXiv 最新论文，最新更新在最上方。_
 
+## 📅 2026-10-07
+
+### [Magnet-Aware Control of Legged Robots](https://arxiv.org/abs/2610.08653v1)
+
+- **arXiv**: `2610.08653v1`  |  **提交日期**: 2026-10-06
+- **作者**: J. Playan Garai, S. B. Djuve, C. McGreavy, M. Khadiv
+
+Autonomous robots can increase uptime and reduce human exposure in Big Science facilities, but strong magnetic fields needed for their operation corrupt sensors and induce pose-dependent mechanical wrenches that destabilize robots and challenge conventional reactive controllers. This paper presents a control framework for modeling, estimating, and dynamically compensating for spatially varying magnetic wrenches acting on legged robots to improve robustness in these fields. We introduce a custom physics plugin for the MuJoCo simulator to model magnetic forces on rigid-body elements, alongside…
+
+---
+
+### [Feeling Through the Load: Compliant Quadruped Locomotion under Payload Interactions](https://arxiv.org/abs/2610.08637v1)
+
+- **arXiv**: `2610.08637v1`  |  **提交日期**: 2026-10-06
+- **作者**: Shaunak A. Mehta, Mayank Mishra, Prajit KrisshnaKumar, Sebastian Scherer, Koichiro Niinuma
+
+Quadruped robots are increasingly expected to carry objects while moving through human environments. But what happens when a person interacts directly with the payload rather than with the robot? If the payload is unrestrained, the robot must distinguish intentional external interactions from ordinary payload motion, while still keeping the load balanced and maintaining stable locomotion. How can a quadruped infer and compliantly respond to such interactions using only onboard measurements? In this work, we develop a force-aware locomotion framework that treats payload interactions as…
+
+---
+
+### [Safe Multi-Robot Collaborative Transport Using Density Functions](https://arxiv.org/abs/2610.08441v1)
+
+- **arXiv**: `2610.08441v1`  |  **提交日期**: 2026-10-06
+- **作者**: Jagannath Prasad Sahoo, Sriram S. K. S. Narayanan, Umesh Vaidya
+
+This paper presents a hierarchical density-based model predictive control framework for safe collaborative manipulation by multiple quadrupedal robots. The framework enables a team of robots to push a shared object to a desired pose using only the initial and goal poses, without requiring a precomputed reference trajectory. A centralized box-level MPC optimizes contact forces while enforcing a control-density constraint for goal convergence and obstacle avoidance. Each robot then solves its own distributed robot-level whole-body MPC, under a stated shared-information assumption, to track its…
+
+---
+
+### [From Legs to Wheels: Embodiment-Aware Human Motion Retargeting for Mobile-Base Humanoids](https://arxiv.org/abs/2610.08381v1)
+
+- **arXiv**: `2610.08381v1`  |  **提交日期**: 2026-10-06
+- **作者**: Jiyeon Koo, Eunseom Pyo, Jeonghee Seo, Taehwa Kim, Andrew Jaeyong Choi
+
+Human video offers a scalable source of robot demonstrations, yet most human-to-humanoid retargeting methods assume a legged robot with human-like kinematics. This assumption does not hold for mobile-base humanoids equipped with a wheeled base, vertical lift, and two arms. Human walking must be expressed through base motion, while torso bending may require coordinated lift and arm motion. We address this mismatch with a task-conditioned framework that assigns reconstructed human motion to base, lift, and arm responsibilities before robot-specific realization. The allocator preserves the…
+
+---
+
+### [RACER: Residual-Adaptive Closed-Loop Estimation for Sampling-Based Planning in Wheeled-Quadruped Racing](https://arxiv.org/abs/2610.07409v1)
+
+- **arXiv**: `2610.07409v1`  |  **提交日期**: 2026-10-05
+- **作者**: Yuxiang Liu, Marla Eisman, Lizhi Yang, Aaron Ames, Francesco Borrelli
+
+We present RACER, a hierarchical control framework for wheel-based quadruped racing that combines an MPPI planner with a learned residual dynamics model and a low-level RL velocity tracker. The planner augments a nominal unicycle kinematic model with a neural residual term to capture the closed-loop tracking behavior of the RL policy. To train this residual model under limited real-world data, we propose Low-Rank Residual Adaptation (LoRRA), a two-stage approach that pre-trains on large-scale simulation data for broad coverage and then fine-tunes on a small real-world dataset with a low-rank…
+
+---
+
+### [Robust Nonprehensile Object Transport with Quadruped Robots](https://arxiv.org/abs/2610.07245v1)
+
+- **arXiv**: `2610.07245v1`  |  **提交日期**: 2026-10-05
+- **作者**: Ainoor Teimoorzadeh, Riccardo Pretto, Mario Selvaggio, Gokhan Alcan, Sami Haddadin
+
+In this paper, we present a robust nonprehensile object transportation framework for quadruped robots. An uncertainty-aware trajectory optimization method generates object motions with minimal closed-loop sensitivity to uncertain parameters. The resulting reference trajectory is tracked using a coupled convex model predictive controller that jointly predicts the CoM dynamics of the quadruped and the payload followed by a whole-body QP that enforces ground reaction constraints. The approach is evaluated through extensive simulations and real-world experiments under variations in the object's…
+
+---
+
 ## 📅 2026-10-06
 
 ### [Towards Quadruped-Provided Localization and Active Tracking for Micro-UAVs](https://arxiv.org/abs/2610.06215v1)

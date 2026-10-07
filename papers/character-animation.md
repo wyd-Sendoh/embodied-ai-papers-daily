@@ -2,6 +2,17 @@
 
 _自动追踪 arXiv 最新论文，最新更新在最上方。_
 
+## 📅 2026-10-07
+
+### [How Does Geometry Enter Generated Motion?](https://arxiv.org/abs/2610.05135v1)
+
+- **arXiv**: `2610.05135v1`  |  **提交日期**: 2026-10-04
+- **作者**: Weihan Li, Junhao Wu, Yuhan Song, Xiaofeng Lin, Xinlei Chen
+
+Under a fixed physical law, the visible geometry of a scene determines how motion must change. We ask how video generators realize this relationship. We fix the law and the initial state and change only the geometry drawn in the first frame, within matched families of tracks and deflectors, and compare each generated trajectory with the simulator prediction for that geometry. Paired interventions change one thing at a time: a local bump, the height of a barrier, the words of the prompt, the length of the clip. Across nine image-to-video models, geometry is preserved and shapes the motion: the…
+
+---
+
 ## 📅 2026-10-05
 
 ### [Parasitic Co-Denoising: Unlocking 3D Human Motion Generation in a Frozen Video Diffusion Model](https://arxiv.org/abs/2610.03047v1)
