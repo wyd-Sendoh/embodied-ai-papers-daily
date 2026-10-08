@@ -2,6 +2,53 @@
 
 _自动追踪 arXiv 最新论文，最新更新在最上方。_
 
+## 📅 2026-10-08
+
+### [CMP-IRRT*: A Perception-Assisted Height-Adaptive Planner for Quadruped Robots](https://arxiv.org/abs/2610.10470v1)
+
+- **arXiv**: `2610.10470v1`  |  **提交日期**: 2026-10-07
+- **作者**: Mingfan Zhao, Wendong Mao, Zhongfeng Wang
+
+Quadruped robots can traverse low obstacles, but many 2D planning pipelines still model obstacles as binary occupied regions and rely on sampling-based search that can be inefficient under a limited budget. We propose a perception-assisted height-adaptive planning framework based on CMP-IRRT*, a Channel Mamba PointNet-guided Informed RRT* planner. Given a calibrated top-view RGB observation, the perception module estimates obstacle regions and converts depth predictions into a ground-relative height map. The planner then performs height-conditioned collision checking, treating high obstacles…
+
+---
+
+### [LLA-MPPI: Rapidly Adaptive Whole-body Control of Legged Robots with GPU-Accelerated Parallel Simulations](https://arxiv.org/abs/2610.10465v1)
+
+- **arXiv**: `2610.10465v1`  |  **提交日期**: 2026-10-07
+- **作者**: Sebin Jung, Maitham F. AL-Sunni, Juan Alvarez-Padilla, Zachary Manchester, Changliu Liu, John M. Dolan
+
+Real-time whole-body controllers for legged robots typically plan through a fixed nominal model and degrade when the deployed dynamics change. Adaptive methods typically require a model structure that contact dynamics do not provide, or they need offline training for each anticipated condition. We present Look-back and Look-ahead Adaptive Model Predictive Path Integral control (LLA-MPPI). The method converts whole-body adaptation into selection over a bank of GPU-batched contact simulators with different physical or structural parameters. Windowed prediction errors select the simulator that…
+
+---
+
+### [Energy-Efficient Gait Adaptation via Hierarchical Reinforcement Learning for Quadrupedal Locomotion Across Diverse Terrains](https://arxiv.org/abs/2610.10297v1)
+
+- **arXiv**: `2610.10297v1`  |  **提交日期**: 2026-10-07
+- **作者**: Ammar Issa, Anubhav Singh, Anton Tsaritsin, Sergey Kolyubin
+
+While energy efficiency is a critical objective for legged-robot locomotion control, achieving low energy consumption while maintaining robust performance across different velocity ranges and terrain conditions remains a key challenge. This is particularly true for end-to-end RL policies, where gait generation, motion execution, and energy optimization are tightly coupled, leading to high sensitivity to reward design. In this work, we propose a hierarchical reinforcement learning (HRL) framework that separates a high-frequency policy for stable and robust joint-level motion execution from…
+
+---
+
+### [Borrowed Eyes: Markerless Nano-UAV Flight with an Active Quadruped Observer](https://arxiv.org/abs/2610.09967v1)
+
+- **arXiv**: `2610.09967v1`  |  **提交日期**: 2026-10-07
+- **作者**: Alejandro Lorite Mora, Dimitrios Arapis, Andrés Faíña
+
+Nano unmanned aerial vehicles (nano-UAVs) can navigate confined spaces that larger robots cannot, but their payload capacity severely limits the sensors and compute available for self-localization in global navigation satellite system (GNSS)-denied environments. We present a vision-based system that localizes a nano-UAV from a quadruped robot with an arm-mounted camera. The quadruped tracks the drone, estimates its position in its own coordinate system using segmentation masks and depth, and transmits that position over a real-time radio link. To ensure continuous tracking, we developed a…
+
+---
+
+### [ClimbLab: MATLAB Simulation Platform for Legged Climbing Robotics](https://arxiv.org/abs/2610.09315v1)
+
+- **arXiv**: `2610.09315v1`  |  **提交日期**: 2026-10-07
+- **作者**: Kentaro Uno, Warley F. R. Ribeiro, Yusuke Koizumi, Keigo Haji, Koki Kurihara, William Jones et al.
+
+This paper presents an open-sourced MATLAB simulation and analysis platform dedicated to legged climbing robots. This simulator enables the design of any limbed robotic system as an articulated multi-body with a floating base and simulates it walking and climbing in an arbitrary environment. The main variable environmental parameters are inclination, gravity, and ground stiffness, and any point cloud can be installed as the terrain map. Furthermore, the simulator employs a rigid body dynamics engine. This paper first describes the simulator structure, and the computational flow and next…
+
+---
+
 ## 📅 2026-10-07
 
 ### [Magnet-Aware Control of Legged Robots](https://arxiv.org/abs/2610.08653v1)

@@ -2,6 +2,161 @@
 
 _自动追踪 arXiv 最新论文，最新更新在最上方。_
 
+## 📅 2026-10-08
+
+### [RoboJEPA: Scaling Robotic Latent World Models](https://arxiv.org/abs/2610.10515v1)
+
+- **arXiv**: `2610.10515v1`  |  **提交日期**: 2026-10-07
+- **作者**: Artem Zholus, Nicolas Beltran-Velez, Jianhao Yuan, Sarath Chandar, Tushar Nagarajan, Daniel Severo et al.
+
+Latent world models have shown a remarkable ability to predict future states and to plan in the real world. In practice, however, we lack a principled way to estimate how their capabilities scale with model size, data, and compute, an open problem that slows progress in the field. In this work we present RoboJEPA, a world model based on the Joint Embedding Predictive Architecture (JEPA) and trained on a large-scale dataset spanning 12 robotic embodiments. We show that RoboJEPA's imagination error, the error of its latent rollouts, follows a second-order power law in compute, allowing us to…
+
+---
+
+### [Sparse Planning in Visual World Models via Cost Gradients](https://arxiv.org/abs/2610.10274v1)
+
+- **arXiv**: `2610.10274v1`  |  **提交日期**: 2026-10-07
+- **作者**: Yingchen Xu, Edward Grefenstette
+
+Token-based world models enable fine-grained latent planning, but repeatedly processing large spatial token grids makes action search expensive. We introduce COSTGRAD, a training-free, goal-conditioned selector that ranks spatial tokens by the gradient norm of the planning cost with respect to each input token. By deriving importance from the downstream control objective, COSTGRAD targets tokens that matter for planning rather than merely for prediction. On AdaLN-conditioned predictors at $50\%$ sparsity, COSTGRAD matches or exceeds full-token planning on three of four continuous-control…
+
+---
+
+### [UltraWorld: Learning Interactive Ultrasound World Models from Untracked Clinical Videos with Acoustic Sampling Map](https://arxiv.org/abs/2610.09785v1)
+
+- **arXiv**: `2610.09785v1`  |  **提交日期**: 2026-10-07
+- **作者**: Keke Yang, Erqi Wang, Sainan Guan, Hongliang Ren
+
+World models can enable autonomous ultrasound scanning by predicting the outcomes of probe motions from local observations. Learning this action--observation relationship typically relies on synchronized video--pose pairs, which are costly to collect at scale and largely unavailable in routine clinical recordings. Reliable action following further requires modeling ultrasound's cross-sectional sampling geometry. We present UltraWorld, a self-distillation recipe that transfers priors from clinical ultrasound videos into interactive world models without real action annotations. Starting from…
+
+---
+
+### [Beyond Policy Support: Interaction Constrained Offline Reinforcement Learning for Autonomous Driving](https://arxiv.org/abs/2610.09763v1)
+
+- **arXiv**: `2610.09763v1`  |  **提交日期**: 2026-10-07
+- **作者**: Mahmoud Selim, Cristina Cipriani, Karl Henrik Johansson
+
+Offline reinforcement learning enables reward-driven policy improvement from fixed datasets without requiring online exploration, making it particularly attractive in safety-critical domains. A central challenge, however, is distribution shift: policy optimization may favor actions that are weakly supported by the offline data, rendering value estimates unreliable. Existing approaches primarily control this shift in the policy's own action space. In interactive environments such as autonomous driving, this can be insufficient: a candidate ego trajectory may remain well supported under the…
+
+---
+
+### [ΔWAM: Distilling Action Tangent Fields into World Action Models](https://arxiv.org/abs/2610.09734v1)
+
+- **arXiv**: `2610.09734v1`  |  **提交日期**: 2026-10-07
+- **作者**: Ke Wu, Hanwen Huang, Bo Gu, Kaizhao Zhang, Xiangting Meng, Yupeng Zheng et al.
+
+World Action Models (WAM) improve robot policies by augmenting sparse action supervision with dense future prediction. However, much of the predictable future is dominated by appearance and scene persistence rather than action-dependent dynamics. We observe that several recent WAM designs, including optical flow, motion-centric representations, and latent actions, can be understood from a common perspective in which world supervision becomes more efficient as it contains a higher proportion of action-relevant variation. Based on this insight, we introduce Action Tangent Fields, which…
+
+---
+
+### [STRIKE: Learning Visual State Transitions for Physical World Modeling](https://arxiv.org/abs/2610.09514v1)
+
+- **arXiv**: `2610.09514v1`  |  **提交日期**: 2026-10-07
+- **作者**: Wenbin Teng, Tianshuo Xu, Depu Meng, Yuelei Li, Quentin Herau, Yihan Hu et al.
+
+Physical world modeling requires predicting how interactions change a scene, not merely generating coherent motion. We propose STRIKE, a framework that separates visual state transition learning from dense video generation. We construct event-aligned supervision by extracting observed states from training videos and pairing them with transition descriptions and temporal offsets. An image-based transition model learns to predict the next scene configuration from the current image, a local transition specification, and elapsed time. At inference, a pretrained vision-language planner predicts…
+
+---
+
+### [DSReg: Provably Recovering Individual World Latents without Reconstruction](https://arxiv.org/abs/2610.09457v1)
+
+- **arXiv**: `2610.09457v1`  |  **提交日期**: 2026-10-07
+- **作者**: Yujia Zheng, David Klindt, Randall Balestriero, Bernhard Schölkopf
+
+Methods that recover individual latent variables of the world, from nonlinear ICA to dictionary learning and causal representation learning, anchor the latents to observations through reconstruction, auxiliary supervision, or distributional asymmetries such as non-Gaussianity. Methods without these anchors, including joint-embedding predictive architectures (JEPAs), identify the latent state only up to a linear transformation, so individual latents remain mixed. We close this gap: individual world latents can be provably recovered with no reconstruction, no decoder, and no labels. The key…
+
+---
+
+### [Controllable Crowd Generation through World-Model Planning](https://arxiv.org/abs/2610.09438v1)
+
+- **arXiv**: `2610.09438v1`  |  **提交日期**: 2026-10-07
+- **作者**: JunGyu Lee, Jisu Shin, Seunghyun Shin, Hae-Gon Jeon
+
+Crowd simulation plays a central role in robot navigation, autonomous driving, and urban planning. For these applications, realistic simulation requires crowds to adapt their behavior to environmental changes and user objectives. However, existing methods that rely on predefined control settings have limited flexibility in accommodating new user-specified objectives. To address this limitation, we propose Ctrl-CWM, a multi-agent Controllable Crowd World Model that integrates crowd generation and run-time control. Our key idea is to adapt the world-model principle of planning using imagined…
+
+---
+
+### [SearchWorld: Spatial Value-Grounded Imagination for UAV Object Search via World Models](https://arxiv.org/abs/2610.09335v1)
+
+- **arXiv**: `2610.09335v1`  |  **提交日期**: 2026-10-07
+- **作者**: Yatai Ji, Zhengqiu Zhu, Yong Zhao, Yue Hu, Fanglong Yao, Chen Gao et al.
+
+Autonomous unmanned aerial vehicle (UAV) object search involves a closed loop of perception, decision-making, and action under partial observability. Urban environments pose several challenges: large search areas and narrow egocentric views limit coverage, dense 3D geometry constrains safe motion, and open-world instructions require identifying a specific target among distractors. Many existing methods mitigate partial observability through explicit maps or memory representations, yet remain largely reactive, reasoning over past observations without explicitly predicting future states. World…
+
+---
+
+### [Predicted Futures Are Not Enough: Learning Executable Goals for Robot Manipulation](https://arxiv.org/abs/2610.09309v1)
+
+- **arXiv**: `2610.09309v1`  |  **提交日期**: 2026-10-07
+- **作者**: Tzu-Yu Chuang, Ching-Hsiang Chang, Yi-Hsiu Lee, Yi-Ting Chen, Min Sun, YuanFu Yang
+
+Generative world models provide rich predictions of how manipulation scenes may evolve toward task objectives, yet those futures do not directly expose the compact task variables required by control. When training supervises future prediction alone, terminal goal accuracy is not an explicit learning objective, even when geometric recovery is available. We present Entity-Level Goal Readout, a learned prediction-to-execution interface that makes the executable terminal goal an explicit output of a 3D trace world model. It combines object-centric pose prediction with translation grounded in…
+
+---
+
+### [Kuration SDK: Addressing the Virtual2Real Gap via Data Curation](https://arxiv.org/abs/2610.09305v1)
+
+- **arXiv**: `2610.09305v1`  |  **提交日期**: 2026-10-07
+- **作者**: Nirmit Desai, Eric Song, Mayank Sengupta, Tejal Bedmutha, Siri Reddy, Sahiti Dharmavaram et al.
+
+Benchmarks for measuring the quality of action-conditioned world models are still evolving and shifting away from visual similarity-based metrics to action-semantic and physically-grounded metrics. However, for domain and task-agnostic action-conditioned world model training, existing benchmarks provide a limited signal. By training and evaluating diffusion world models on CounterStrike gameplay data, we confirm that qualitative playability does not correspond with metrics such as FVD, LPIPS, and JEDi. We term this the Virtual2Real gap. We posit that, in lieu of reliable benchmarks, curating…
+
+---
+
+### [LeCuration: A Tiny World Model as a Data Curation Multi-Tool](https://arxiv.org/abs/2610.09285v1)
+
+- **arXiv**: `2610.09285v1`  |  **提交日期**: 2026-10-07
+- **作者**: Mayank Sengupta, Nirmit Desai, Eric Song, Kunal Sawarkar
+
+Many applications of physical AI run within finite or closed physical worlds with a limited set of physical laws governing object behavior. Examples include robots working in a warehouse and agents moving around in a video game. In order to better organize, filter, and curate data for physical AI applications, we propose a new approach centered on the unique settings and physical laws of individual datasets. We train LeCuration, a small world model intended to serve as a data curation tool for a separate, larger downstream model. To build this model, we choose LeWorldModel (LeWM)as our latent…
+
+---
+
+### [Patient, Place, Prior (P$^3$): What Counts as Personalization in Medical World Models?](https://arxiv.org/abs/2610.09194v1)
+
+- **arXiv**: `2610.09194v1`  |  **提交日期**: 2026-10-06
+- **作者**: Xingrui Gu, Hanxue Gu, Yuxiang Zhang, Yang Yang
+
+Longitudinal models forecast how a patient's imaging state evolves, but accuracy does not show whether the patient's observed trajectory drives the prediction. A population-average forecast may be useful but cannot establish a patient-specific world-model claim. We introduce Patient, Place, Prior (P$^3$), an audit asking whether a forecast benefits from the patient's longitudinal imaging history (Patient), benefits from patient-matched externally supplied spatial support (Place), and gains predictive value beyond a population-average prediction under matched support and context (Prior). We…
+
+---
+
+### [World Models Dream of Success: Diagnosing and Repairing Failure Insensitivity in Robot World Models](https://arxiv.org/abs/2610.09134v1)
+
+- **arXiv**: `2610.09134v1`  |  **提交日期**: 2026-10-06
+- **作者**: Jiuyi Xu, Xiao Hu, Meida Chen, Peng Gao, Yang Ye, Yangming Shi
+
+Robot world models support policy evaluation, planning, and synthetic data generation, but these applications require predictions that distinguish successful actions from failures. Across four released checkpoints from two architecture families, we observe weak sensitivity to action changes and success-like predictions on verified failures. Although recent work incorporates failures into model training, which data can repair released checkpoints without changing their architecture or training objective still remains underexplored. To this end, we introduce CureWM, which constructs alternative…
+
+---
+
+### [Towards Financial World Modeling](https://arxiv.org/abs/2610.09048v1)
+
+- **arXiv**: `2610.09048v1`  |  **提交日期**: 2026-10-06
+- **作者**: Humzah Merchant, Alec Guthrie, Simon Mahns, Randall Balestriero, Bradford Levy
+
+Building a world model requires a state representation useful for planning and decision-making---potentially over tasks unknown at training time. In the context of financial markets, planning and decision-making may require a model to reason about market-wide conditions, asset-specific expected returns, liquidity, volatility, and cross-asset relationships. Yet financial representation learning has largely been evaluated on individual predictive tasks, oftentimes on a single time period using comparatively narrow datasets. We address this through three primary contributions. First, we…
+
+---
+
+### [Directed Temporal Representations for Offline Visual Control](https://arxiv.org/abs/2610.08960v1)
+
+- **arXiv**: `2610.08960v1`  |  **提交日期**: 2026-10-06
+- **作者**: Chenyang Yuan, Haoyu Wang, Zhuo Sun, Xiaoyuan Cheng
+
+Predictive world models provide compact visual representations for control. Control requires a latent geometry aligned with temporal reachability rather than predictive similarity alone. We introduce Directed Temporal Representations for Control (DTRC), which learns such a geometry from offline visual trajectories on top of frozen LeWorldModel (LeWM) features. DTRC constructs a directed temporal quasimetric over the learned control representation. Short-range temporal offsets calibrate the distance scale. Bootstrapped targets extend temporal reachability across longer horizons.…
+
+---
+
+### [SPW-Nav: A Streaming Panoramic World Model for Language-Guided Navigation](https://arxiv.org/abs/2610.08941v1)
+
+- **arXiv**: `2610.08941v1`  |  **提交日期**: 2026-10-06
+- **作者**: Yunheng Liu, Ziqi Cai, Siqi Yang, Yimu Wang, Minggui Teng, Jiaming Tan et al.
+
+Language-guided panoramic video generation benefits various downstream applications, such as interactive 3D scene exploration, virtual reality experiences, and embodied agent training. Existing panoramic generators follow predefined trajectories, and interactive world models act through low-level actions in perspective views. We propose SPW-Nav, a streaming panoramic world model that understands movement instructions and streams one minute of 2K 360-degree video in real time from a single panorama. SPW-Nav interprets each instruction in the previously generated panorama as camera motion.…
+
+---
+
 ## 📅 2026-10-07
 
 ### [World Models' Last Exam in Physics](https://arxiv.org/abs/2610.08791v1)
