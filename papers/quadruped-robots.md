@@ -2,6 +2,80 @@
 
 _自动追踪 arXiv 最新论文，最新更新在最上方。_
 
+## 📅 2026-10-09
+
+### [A Balanced Data Diet: Addressing the Exploration Bottleneck in Mega-Scale RL for Robot Control](https://arxiv.org/abs/2610.12465v1)
+
+- **arXiv**: `2610.12465v1`  |  **提交日期**: 2026-10-08
+- **作者**: Octi Zhang, Mateo Guaman Castro, Patrick Yin, Ignacio Dagnino, Abhishek Gupta, Rosario Scalise et al.
+
+General-purpose robots must perform a wide range of tasks from agile locomotion to dexterous manipulation. While sim-to-real reinforcement learning (RL) has proven to be a useful tool for this goal, current RL pipelines depend on engineering-heavy, per-task structural priors such as shaped rewards and demonstrations. Recent work has shown that diverse simulator resets, combined with massively parallel simulation, can alleviate much of this engineering burden on several manipulation problems. However, we find that naively scaling this paradigm to more precise or dynamic problems remains…
+
+---
+
+### [Toward Lunar Legged Robots: Field Deployment Lessons at LUNA](https://arxiv.org/abs/2610.12276v1)
+
+- **arXiv**: `2610.12276v1`  |  **提交日期**: 2026-10-08
+- **作者**: Adrian Fuhrer, Joseph Church, Oliver Fischer, William Talbot, Nicolas Faesch, Yannic Hofmann et al.
+
+Legged robots are promising candidates for future lunar surface missions because they can traverse steep, loose, and obstacle-rich terrain that challenges conventional wheeled rovers. However, readiness for lunar deployment is limited by uncertainties in foot-regolith interaction, dust generation, illumination-driven perception degradation, and operational constraints. This paper reports lessons from the 2025 LUNA analogue campaign, where ANYmal-D and Magnecko traversed loose regolith simulant and crater-like terrain and collected long-horizon navigation and visual-inertial data under…
+
+---
+
+### [Walking on Roofs: Exploring the Potential of Walking Robots for Construction Work on Roofs](https://arxiv.org/abs/2610.12272v1)
+
+- **arXiv**: `2610.12272v1`  |  **提交日期**: 2026-10-08
+- **作者**: Bjoern-Felix Dettmar, Arne Roennau
+
+This paper investigates the feasibility of deploying quadruped walking robots for the automation of work in roof environments. While quadrupeds have demonstrated versatility across various domains, their large-scale deployment remains limited, partly due to lack of application-specific designs. Roof environments represent a novel and unexplored use case, combining high safety risks for human workers with repetitive, strenuous tasks that could benefit from robotic assistance. A dedicated test rig of a roof's surface was designed to evaluate the baseline performance of a commercial quadruped,…
+
+---
+
+### [SuperNav: An Agentic Navigation System for Any Task in Any Scene](https://arxiv.org/abs/2610.12126v1)
+
+- **arXiv**: `2610.12126v1`  |  **提交日期**: 2026-10-08
+- **作者**: Jinkai Zhang, Jingyi Xu, Yuanhong Yu, Jiarui Guo, Ruizhen Hu, Hujun Bao et al.
+
+General-purpose service robots need navigation systems that can handle diverse human requests in unfamiliar environments, combining task generality with scene generality. Some existing methods fine-tune multimodal large language models (MLLMs) to predict navigation actions, making their behavior dependent on the coverage of navigation training data and potentially limiting generalization to new requests and environments. Our key insight is to let the MLLM focus on interpreting requests, understanding scenes, and making decisions while preserving its general-purpose capabilities and delegating…
+
+---
+
+### [RAGNAROK: Radar-Aided Gravity-Normalized Alignment for Robust Open Keyframe-based Radar-Visual-Kinematic-Inertial SLAM](https://arxiv.org/abs/2610.11531v1)
+
+- **arXiv**: `2610.11531v1`  |  **提交日期**: 2026-10-08
+- **作者**: Hanjun Kim, Chiyun Noh, Sangwoo Jung, Jaehyung Jung, Simon Boche, Cedric Le Gentil et al.
+
+Legged robots offer superior mobility in unstructured environments, but reliable operation in such conditions requires robust state estimation. To address the vulnerability of proprioceptive estimators in rough terrain, recent methods have incorporated radar to provide velocity measurements. However, their limited yaw observability still leads to drift, and failure-aware fusion for adverse environments remains underexplored. In this letter, we present RAGNAROK, the first radar-visual-kinematic-inertial SLAM designed for robust operation in challenging environments. It integrates slip- and…
+
+---
+
+### [Higher-Order Morphology Priors for Quadruped Reinforcement Learning Under Actuator Degradation](https://arxiv.org/abs/2610.10934v1)
+
+- **arXiv**: `2610.10934v1`  |  **提交日期**: 2026-10-07
+- **作者**: Derek You, Zafir Shamsi, Keqin Wang, Christine Allen-Blanchette
+
+Actuator degradation turns quadruped locomotion into a coordination problem requiring joints to compensate for lost actuation. Prior work suggests that morphology-aware graph policies improve learning and generalization under body perturbations. We ask whether these benefits can be strengthened by explicitly modeling higher-order mechanical structure. We represent the Unitree Go1 as a cell complex with limb- and body-level rank-2 cells and apply Hodge-based message passing. Under degradation training, the node-edge-face Hodge actor achieves the highest return on unseen actuator degradations,…
+
+---
+
+### [Informationally Decoupled Trajectory Design for Sim-to-Real System Identification](https://arxiv.org/abs/2610.10905v1)
+
+- **arXiv**: `2610.10905v1`  |  **提交日期**: 2026-10-07
+- **作者**: Sangwoo Shin, Ashvin Anilkumar, Ryan Gao, Josiah P. Hanna
+
+Sampling-based system identification estimates physically meaningful parameters by tuning a simulator to reproduce the target system dynamics, providing an interpretable approach to improving sim-to-real transfer. Yet when the collected trajectories do not distinguish the effects of different parameters, multiple parameter combinations can reproduce those trajectories, leading to unreliable parameter estimates. To address this challenge, we introduce an Informationally Decoupled Trajectory Design framework (IDTD), which formulates the objective for the exploration policy built on the Schur…
+
+---
+
+### [Teaching a Robot Dog New Tricks: Diverse Quadruped Skills via Combined Reinforcement and Imitation Learning with Adversarial Task Selection](https://arxiv.org/abs/2610.10601v1)
+
+- **arXiv**: `2610.10601v1`  |  **提交日期**: 2026-10-06
+- **作者**: Lemon Foxmere, Anthony Furman, Yizheng Du, Oliver Chang, Leilani Gilpin, Steve McGuire
+
+Reinforcement Learning (RL) has enabled legged robots to perform a range of skills in single-task settings. However, applications such as farm robotics or space exploration require diverse skills such as locomotion, digging, or close-range surveying. Training an end-to-end policy to address this problem remains difficult due to challenges such as sample inefficiency and gradient conflict between tasks in multi-task learning. We propose a three-stage method that trains a single policy to perform distinct tasks such as walking, digging, and hopping, and compose them into novel behaviors such as…
+
+---
+
 ## 📅 2026-10-08
 
 ### [CMP-IRRT*: A Perception-Assisted Height-Adaptive Planner for Quadruped Robots](https://arxiv.org/abs/2610.10470v1)
