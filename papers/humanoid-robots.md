@@ -2,6 +2,35 @@
 
 _自动追踪 arXiv 最新论文，最新更新在最上方。_
 
+## 📅 2026-10-12
+
+### [ATHLETE: Learning Reactive Humanoid Tennis via Trajectory-Guided Motion Matching](https://arxiv.org/abs/2610.13572v1)
+
+- **arXiv**: `2610.13572v1`  |  **提交日期**: 2026-10-09
+- **作者**: Zhihao Tian, Zifan Wang, Enzheng Zhu, Xun Yang, Jialong Qin, Mengbo Wang et al.
+
+Humanoid tennis requires reactive whole-body coordination under rapidly changing ball dynamics, yet collecting task-specific motion-capture demonstrations that cover diverse approach states, contact locations, and timing conditions is costly. Inspired by how humans acquire new skills by combining reusable motor experience with task-specific demonstrations, we present ATHLETE, a framework for learning reactive humanoid tennis from generic locomotion data and ordinary tennis videos. ATHLETE combines LAFAN1 locomotion with video-derived striking motions and uses Trajectory-Guided Motion Matching…
+
+---
+
+### [PATACON: GPU-Parallel Tangent-Bundle RRT-Connect for Constrained Motion Planning](https://arxiv.org/abs/2610.13195v1)
+
+- **arXiv**: `2610.13195v1`  |  **提交日期**: 2026-10-09
+- **作者**: Gahyun Oh, Junho An, Suhyun Jeon, Suhan Park
+
+Fast whole-body motion planning enables continuous replanning for humanoid robots in dynamic environments while satisfying collision avoidance and kinematic constraints. However, constrained motion planning incurs substantial computational cost due to repeated constraint projection in addition to collision checking and nearest-neighbor search. Recently, GPU-based massively parallel planners have been proposed to reduce computational cost. Nevertheless, these planners still steer in the ambient configuration space, so projecting candidates that deviate from the manifold remains a significant…
+
+---
+
+### [Adaptive Whole-Body MPC with Optimal Posture Planning for Humanoid Robots under Unknown Payloads](https://arxiv.org/abs/2610.12972v1)
+
+- **arXiv**: `2610.12972v1`  |  **提交日期**: 2026-10-09
+- **作者**: Manh Cuong Nguyen, Duc Cuong Vu, Viet Anh Vu, Duc Tuan Pham, Toan Nguyen, Minh Hiep Phung et al.
+
+Humanoid robots performing lifting and material-handling tasks must maintain balance despite unknown and varying payloads. However, payload uncertainty significantly affects whole-body dynamics and may destabilize conventional controllers. We propose an adaptive whole-body control architecture that integrates three components: (i) a centroidal model predictive controller (MPC) that generates dynamically feasible reference motions, (ii) an adaptive fuzzy balance controller that compensates for payload-induced model mismatch by generating corrective torques distributed across the supporting-leg…
+
+---
+
 ## 📅 2026-10-09
 
 ### [Humanoid World Action Model With Joint State--Action Generation](https://arxiv.org/abs/2610.12026v1)
