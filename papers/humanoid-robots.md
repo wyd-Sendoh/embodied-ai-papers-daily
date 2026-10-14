@@ -2,6 +2,44 @@
 
 _自动追踪 arXiv 最新论文，最新更新在最上方。_
 
+## 📅 2026-10-14
+
+### [LiDAR-based Humanoid Navigation in Dynamic, Non-Convex Environments via Spatio-Temporal Safe Corridors](https://arxiv.org/abs/2610.17232v1)
+
+- **arXiv**: `2610.17232v1`  |  **提交日期**: 2026-10-12
+- **作者**: Shubham S. Kumbhar, Panagiotis Artemiadis
+
+Navigating humanoid robots through dynamic, non-convex environments requires tightly coupling onboard perception with footstep planning and dynamic locomotion control. Existing methods frequently discard complex free space through simplified convex obstacle bounds and fail to account for real-time dynamic occupancy predictions. This paper presents a real-time framework for humanoid navigation that directly constructs spatio-temporal safe corridors from LiDAR-based particle representations and couples them with Linear Inverted Pendulum (LIP)-based planning and Whole Body Control (WBC) to…
+
+---
+
+### [Design and Analysis of a Nonlinear Parallel Mechanism Coupling for Dynamic Humanoid Legs](https://arxiv.org/abs/2610.16604v1)
+
+- **arXiv**: `2610.16604v1`  |  **提交日期**: 2026-10-12
+- **作者**: Rohit Kumar, Heiner Peters, Felix Wiebe, Franek Stark, Janne Janzen, Dennis Mronga et al.
+
+Humanoids increasingly demand lightweight leg mechanisms for agile, dynamic, and energy-efficient locomotion. Reducing distal inertia through proximal actuation has thus become a common design goal. Yet, compact transmissions that preserve torque capability and efficient force transmission remain hard to achieve. This paper presents a novel series-parallel leg design combining a knee parallel mechanism, an ankle parallel mechanism, and a nonlinear knee-ankle coupling where all actuators placed closer to the hip. As the knee flexes, the coupling passively assists ankle dorsiflexion for foot…
+
+---
+
+### [Geometry-Aware Predictive Control for Walk-to-Run Bipedal Obstacle Crossing](https://arxiv.org/abs/2610.15735v1)
+
+- **arXiv**: `2610.15735v1`  |  **提交日期**: 2026-10-11
+- **作者**: Aashish Sahu, R. Prasanth Kumar
+
+This paper presents a geometry-aware predictive control framework for bipedal obstacle crossing across walking and running regimes. The proposed approach integrates a phase-structured trajectory generator with a constrained model predictive control (MPC) tracking layer to generate coordinated pelvis and swing-foot motions during obstacle traversal. The crossing process is represented through five interpretable phases: pre-crossing, leading-leg clearance, straddle, trailing-leg clearance, and recovery. Within this structure, swing-foot elevation is adapted as a function of obstacle height,…
+
+---
+
+### [Embodiment-Aware Inference-Time Search for Human Reaction Selection in Humanoid Retargeting](https://arxiv.org/abs/2610.15274v1)
+
+- **arXiv**: `2610.15274v1`  |  **提交日期**: 2026-10-11
+- **作者**: Yongpeng Cao, Masahiro Hirano, Yuji Yamakawa
+
+Training humanoid robots to learn human behaviors requires expensive data collection, and human-robot interaction data can be even more difficult and costly to collect. Training a specialized reaction model for each humanoid embodiment can also be time-consuming and resource-intensive. Human-to-humanoid motion retargeting provides a more scalable alternative, allowing human-human reaction data to serve as a common motion representation for different humanoid embodiments. However, due to morphological and kinematic differences between humans and humanoid robots, a reaction preferred in human…
+
+---
+
 ## 📅 2026-10-12
 
 ### [ATHLETE: Learning Reactive Humanoid Tennis via Trajectory-Guided Motion Matching](https://arxiv.org/abs/2610.13572v1)

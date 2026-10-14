@@ -2,6 +2,98 @@
 
 _自动追踪 arXiv 最新论文，最新更新在最上方。_
 
+## 📅 2026-10-14
+
+### [Plan-Bench: Can Existing VLMs Go Well Beyond Perception to Reason and Plan in Embodied Worlds?](https://arxiv.org/abs/2610.18836v1)
+
+- **arXiv**: `2610.18836v1`  |  **提交日期**: 2026-10-13
+- **作者**: Juntong Feng, Qingan Liu, Jingru Dong, Yue Zhu, Weiming Zheng, Yujie Cheng et al.
+
+Vision-Language Models (VLMs) have achieved strong performance in visual perception and spatial reasoning, leading to growing interest in using them as high-level planners for embodied AI. However, physical tasks require models to integrate spatial information, reason over temporal states, and generate multi-step plans under various constraints, raising the question of whether current VLMs can reliably support such reasoning and planning independently of execution. We introduce Plan-Bench, a benchmark for evaluating the high-level reasoning and multi-step planning capabilities of VLMs…
+
+---
+
+### [Two Routes to Interoceptive Prioritisation: Dissociating Likelihood Precision and Preference Reweighting in Active Inference](https://arxiv.org/abs/2610.18617v1)
+
+- **arXiv**: `2610.18617v1`  |  **提交日期**: 2026-10-13
+- **作者**: St John Grimbly, Nicolas Kuske, Evert A. Boonstra, Charel van Hoof, Rowan Hodson, Benjamin Rosman et al.
+
+An embodied agent must prioritise among competing bodily needs. In active inference, it can respond to an urgent need by increasing the precision of information about that need or by increasing its preference for outcomes that relieve it. We compare these two interventions, separately and together, in a foraging gridworld with three lethal needs, and ask how each changes survival, perception and the body model the agent learns. Precision sharpens interoceptive posteriors and improves survival. Preference reweighting keeps bodily states further from their lethal boundaries and changes the…
+
+---
+
+### [ABot-ER: Unified Embodied Reasoning through Agentic Data-Model Co-Evolution](https://arxiv.org/abs/2610.18355v1)
+
+- **arXiv**: `2610.18355v1`  |  **提交日期**: 2026-10-13
+- **作者**: Qiuyu Ding, Heng-Da Xu, Changda Xia, Jiajun Shen, Zihao Guan, Zhengchen Yuan et al.
+
+We introduce \textbf{ABot Embodied Reasoning (ABot-ER)}, a unified embodied reasoning foundation model that breaks the tension between breadth and depth in embodied reasoning. Embodied intelligence demands the joint mastery of perception, planning, and execution, yet reconciling generality with specialization across this spectrum remains an open challenge. Within a single unified model, ABot-ER commands specialist-level depth across all three competencies, spanning spatial, scene, and temporal reasoning in perception; long-horizon action organization in planning; and point grounding and…
+
+---
+
+### [HelpMeOut: A Neuropsychology-Grounded Benchmark for Error-Aware Monitoring of Household Task Execution](https://arxiv.org/abs/2610.17694v1)
+
+- **arXiv**: `2610.17694v1`  |  **提交日期**: 2026-10-13
+- **作者**: Haoran Wang, Jingwei Huang, Anqing Duan, Ho Seok Ahn, Bruce Macdonald
+
+We introduce HelpMeOut, an embodied AI benchmark for error-aware monitoring of household task execution. Existing embodied household benchmarks typically assume that humans execute tasks correctly, but this assumption does not hold for cognitively impaired persons or older adults whose everyday activities produce structured execution errors. To address this gap, HelpMeOut operationalizes research on everyday action errors into 20000 paired activity episodes, covering nine neuropsychologically motivated error categories. In each episode, agents observe a streaming human activity trajectory and…
+
+---
+
+### [MemAct: Streaming Spatial Understanding with Memory and Active Exploration](https://arxiv.org/abs/2610.17640v1)
+
+- **arXiv**: `2610.17640v1`  |  **提交日期**: 2026-10-13
+- **作者**: Yuxi Wei, Wei Huang, Qirui Chen, Lu Hou, Xiaojuan Qi
+
+Spatial understanding is essential for embodied agents navigating and interacting with the physical world. As observations arrive incrementally, agents must reason in a streaming manner. Yet streaming understanding must also be closed-loop: task-relevant evidence may require both recalling past observations and actively acquiring new views. Existing streaming approaches largely emphasize processing incoming observations, leaving task-driven active exploration underexplored. We introduce MemAct, a framework for streaming spatial understanding with memory and action. A shared vision--language…
+
+---
+
+### [MARS: Systematic Multi-Level Acceleration for World Action Models](https://arxiv.org/abs/2610.17141v1)
+
+- **arXiv**: `2610.17141v1`  |  **提交日期**: 2026-10-12
+- **作者**: Zengyuan Zuo, Yongchang Zhang, Guangyu Zhao, Tianze Zhang, Biao Wu, Meng Fang et al.
+
+World Action Models (WAMs) have emerged as a promising alternative for embodied intelligence by jointly predicting future world states and robot actions. However, their heavy visual encoding and iterative generative inference incur substantial latency, limiting their applicability to high-frequency closed-loop control. Existing training-free acceleration methods typically optimize a single stage, yielding limited speedups or degraded control under aggressive reuse. In this work, we systematically profile the inference overhead of WAMs and observe abundant redundancy across Transformer…
+
+---
+
+### [Proactive Physical AI through Continuous Observation and Timely Intervention](https://arxiv.org/abs/2610.16967v1)
+
+- **arXiv**: `2610.16967v1`  |  **提交日期**: 2026-10-12
+- **作者**: Zhenhua Yang, Jiafeng Liang, Xingyu Zhou, Yi Jiang, Xiayu Cao, Zui Chen et al.
+
+Physical AI is commonly formulated around an explicitly specified task: given a goal or instruction, a system perceives, reasons, and acts. In many real-world settings, however, important tasks emerge from continuously changing world states before a person explicitly formulates them. We study this complementary problem as Proactive Physical AI, where an AI system continuously observes the physical world, identifies situations that warrant intervention, and initiates appropriate actions at the right time. We develop ProAgent, an end-to-end system built around two components: a Jev-style…
+
+---
+
+### [Observe, Share, or Predict? Disentangling Partner Information in Embodied Multi-Agent Collaboration](https://arxiv.org/abs/2610.16895v1)
+
+- **arXiv**: `2610.16895v1`  |  **提交日期**: 2026-10-12
+- **作者**: Adrián Szlatincsán, Filippo Ziliotto, Bruno Lepri, Luciano Serafini, Massimiliano Luca, Tommaso Campari
+
+LLMs are used as high-level controllers for embodied agents, but it remains unclear whether they support collaborative reasoning, such as anticipating a collaborator's actions in real-time teamwork without dialogue. We ask if observing the partner's state, exchanging object knowledge, and predicting the partner's next action, shape task outcomes and coordination when agents can share percepts but never intentions, plans, or task-level messages, and whether the two agents occupy symmetric roles. Using the Habitat-based PARTNR benchmark, we introduce a Decoupled Partial Observability regime…
+
+---
+
+### [Mobility Helps Learning: Unsupervised Model Adaptation for Object Recognition via Movement](https://arxiv.org/abs/2610.15846v1)
+
+- **arXiv**: `2610.15846v1`  |  **提交日期**: 2026-10-11
+- **作者**: Yanan Ma, Yihang Tao, Zhengru Fang, Senkang Hu, Xianhao Chen, Yuguang Fang
+
+Movable agents, such as autonomous vehicles and robots, should be able to autonomously adapt their pre-trained object recognition models to new environments without human annotations. While existing test-time adaptation (TTA) methods address label-free model adaptation, they typically treat test data as independent snapshots, without constructively exploiting a rich, unique source of supervision: the significant variance in prediction quality as an agent observes the same object from different distances and viewpoints. To capitalize on this, we propose \texttt{MoCaFe}, a model-agnostic and…
+
+---
+
+### [LERR-Nav: Learning to Coordinate Exploration, Recovery, and Reminiscing for Object Navigation](https://arxiv.org/abs/2610.15362v1)
+
+- **arXiv**: `2610.15362v1`  |  **提交日期**: 2026-10-11
+- **作者**: Jingzhi Huang, Junkai Huang, Yuhang Peng, Keyu Mu, Hailong Huang, Haoyang Yang et al.
+
+Object Navigation in unseen environments remains a fundamental challenge in embodied AI, as it requires agents to generalize visual and spatial reasoning to novel layouts. While recent advances in large language model (LLM) and vision-language model (VLM) have enhanced semantic mapping, spatial memory, and waypoint selecting for navigation, successful navigation requires more than selecting the next promising waypoint. A robot must also recognize stalled progress, escape unproductive behaviors, and revisit overlooked target cues. Addressing these challenges requires both specialized…
+
+---
+
 ## 📅 2026-10-12
 
 ### [MAGMA-Bench: Evaluating Long-Horizon Embodied Agents under Dynamic Tasks and Execution Failures](https://arxiv.org/abs/2610.13534v1)

@@ -2,6 +2,134 @@
 
 _自动追踪 arXiv 最新论文，最新更新在最上方。_
 
+## 📅 2026-10-14
+
+### [DR-VLA: Learning Human-Like Quadruped Navigation from Egocentric Web Videos via Domain-Invariant Scene Representations](https://arxiv.org/abs/2610.18373v1)
+
+- **arXiv**: `2610.18373v1`  |  **提交日期**: 2026-10-13
+- **作者**: Jun Tian, Yingjie Niu, Ruo Chen, Hongyi Lin, Chao Li
+
+Quadruped robots performing outdoor deliveries must interpret complex scenes, anticipate changes, and navigate in socially compliant ways. Robot demonstrations are costly to collect at the scale needed for generalization. Egocentric web videos offer abundant human navigation experience, but differences in viewpoint and motion make this experience difficult to transfer to robots. We introduce DR-VLA, a Mixture-of-Transformers framework that transfers human navigation experience through a domain-invariant scene representation (DISR). The framework combines vision-language understanding and…
+
+---
+
+### [CoSMO: Conformal Semantic Mapping for Open-World Safe Robot Navigation](https://arxiv.org/abs/2610.18321v1)
+
+- **arXiv**: `2610.18321v1`  |  **提交日期**: 2026-10-13
+- **作者**: Shuqi Wang, Yiwei Zheng, Pingrui Zhang, Yue Gao, Xiang Yin
+
+Safe autonomous navigation requires not only geometric obstacle avoidance but also semantic awareness. Different object categories demand different safety clearances, and the set of relevant categories may expand as the robot explores novel environments. Vision-language models (VLMs) offer rich semantic representations for building maps of unknown scenes, yet their confidence scores are poorly calibrated, making raw predictions unreliable for safety-critical planning. Conformal prediction (CP) can provide coverage guarantees, but existing methods assume a fixed label set and stationary data,…
+
+---
+
+### [Walk Like This: Stylized Locomotion for Physics-Based Characters through Example-Driven Diffusion](https://arxiv.org/abs/2610.18147v1)
+
+- **arXiv**: `2610.18147v1`  |  **提交日期**: 2026-10-13
+- **作者**: Joshua Aurand, Agon Serifi, Sammy Christen, Ruben Grandia, Espen Knoop, Marco Hutter et al.
+
+We present a real-time framework for expressive legged locomotion that enables independent control over velocity and style. Unlike existing data-driven controllers, which typically require explicit style labels for training, our method efficiently leverages large-scale unstructured motion data and generalizes to unseen styles. We disentangle style from functional locomotion through a tailored sampling strategy used to train a style encoder whose output conditions an autoregressive diffusion model. During inference, the user provides a style reference clip and a joystick velocity command. The…
+
+---
+
+### [LynxScenes: A Large-Scale Real-World Benchmark for Outdoor Wheel-Legged Robot Perception, Navigation, Imagination and Reconstruction](https://arxiv.org/abs/2610.18093v1)
+
+- **arXiv**: `2610.18093v1`  |  **提交日期**: 2026-10-13
+- **作者**: Jun Tian, Hao Wu, Ruo Chen, Yili Liao, Hongyi Lin, Jincheng Yu et al.
+
+Wheel-legged robots operating in outdoor spaces shared with humans require accurate perception, socially compliant navigation, future-scene reasoning, and scene reconstruction. However, existing datasets typically support these capabilities in isolation and rarely provide dense spatial and behavior-level supervision on real wheel-legged platforms. We introduce LynxScenes, a large-scale real-world dataset and benchmark collected with a LYNX M20 wheel-legged robot. It contains approximately 100K 30-s navigation clips spanning 833.6 h and 3,294.7 km, with 3.0M annotated frames. The synchronized…
+
+---
+
+### [GLST: Global-Local Spatio-Temporal Memory Decomposition Framework for Online Chained-Goal Navigation](https://arxiv.org/abs/2610.17927v1)
+
+- **arXiv**: `2610.17927v1`  |  **提交日期**: 2026-10-13
+- **作者**: Yousef Liang, Ryan Ardalan, Yarden Goraly, Chenhao Zhu, Yue Yin, Jonas Frey et al.
+
+Autonomous navigation in real-world environments often requires long-horizon operation under partial observability and evolving goals. Existing mapless navigation approaches predominantly assume fixed goals throughout an episode, limiting applicability to practical scenarios where goals change online during execution. We study online chained-goal navigation, where goals evolve through existing-goal redirection or new-goal emergence without explicit transition signals. Under this setting, we find navigation may require either continued exploration or strategic revisitation, creating…
+
+---
+
+### [LAG-IO: Multi-IMU State Estimation for Legged Robots Using Factor Graphs](https://arxiv.org/abs/2610.17870v1)
+
+- **arXiv**: `2610.17870v1`  |  **提交日期**: 2026-10-13
+- **作者**: Yicheng Zhou, Longwen Chen, Qinghua Yu, Junhao Xiao, Huimin Lu, Xieyuanli Chen
+
+Robust proprioceptive state estimation is crucial for legged robots, particularly in challenging environments where exteroceptive sensors are unreliable. While traditional leg odometry typically relies on a single body-mounted inertial measurement unit (IMU) fused with leg kinematics via an extended Kalman filter (EKF), such methods are vulnerable to linearization errors and hard-contact assumptions, leading to severe drift during slippage or dynamic locomotion.In this paper, we propose LAG-IO, a factor graph-based multi-IMU state estimation framework that tightly couples measurements from a…
+
+---
+
+### [From Pixels to Executable Physics: Behavior-Grounded World Models for Embodied Action Consequence Prediction](https://arxiv.org/abs/2610.17630v1)
+
+- **arXiv**: `2610.17630v1`  |  **提交日期**: 2026-10-13
+- **作者**: Ruo Chen, Jiahua Pang, Yingjie Niu, Hongyi Lin, Jun Tian, Yang Zhu et al.
+
+In outdoor environments, varying terrain and contact conditions can cause identical action commands to produce different motion outcomes for quadruped robots. Predicting these outcomes is essential for reliable navigation and informed path selection. Existing video world models can generate visually plausible futures, yet often struggle to capture robot dynamics and terrain interactions, leading to overly optimistic predictions of action outcomes. We present DR-WM, a physically consistent world model that incorporates robot-terrain contact dynamics to predict the consequences of quadruped…
+
+---
+
+### [Task-Space Motion-Force Nonlinear Model Predictive Control for Precise and Compliant Control under Uncertainties](https://arxiv.org/abs/2610.17069v1)
+
+- **arXiv**: `2610.17069v1`  |  **提交日期**: 2026-10-12
+- **作者**: Quang-Nam Nguyen, Ludovic Righetti
+
+In Nonlinear Model Predictive Control (NMPC), the control law is implicitly determined by the solution of an Optimal Control Problem (OCP). Consequently, OCP design is often tailored to specific platforms and tasks, demanding extensive expert knowledge and tuning effort. To address this, we propose a unified NMPC framework that directly plans and controls the robot joints subject to task-space motion and force requirements and is capable of seamlessly generalizing across multiple robotic platforms and diverse tasks. Furthermore, optimization-based methods often treat interactions as rigid…
+
+---
+
+### [CopyQuad: Quadrupedal Skill Transfer from a Single Side-View Video Without a Depth Model](https://arxiv.org/abs/2610.16737v1)
+
+- **arXiv**: `2610.16737v1`  |  **提交日期**: 2026-10-12
+- **作者**: Mohamad H. Danesh, Raina Hu, Mengxue Xu, Hsiu-Chin Lin
+
+Video-to-robot pipelines for quadrupedal imitation insert a learned lifting stage, either a monocular depth model or a per-clip 3D reconstruction, to recover the one axis a side-view camera cannot see. We present CopyQuad, which omits that stage and pins the missing axis to the robot's own stance width instead. The setting is side-view footage of sagittally dominated motion, where limb motion is almost entirely in the image plane. A frozen 2D keypoint detector and a fixed analytic retargeting then turn a single uncalibrated clip into a robot reference whose foot targets are reachable by…
+
+---
+
+### [SHOES: Sim-to-real Hardware-adaptation via On-policy Expansion of Skills for Legged Robots](https://arxiv.org/abs/2610.16457v1)
+
+- **arXiv**: `2610.16457v1`  |  **提交日期**: 2026-10-12
+- **作者**: Kota Tsuruhara, Tsung-Yuan Chen, Kento Kawaharazuka
+
+Humans expand their locomotion capability by wearing appropriate footwear, such as hiking boots for mountains or skates for ice. Footwear changes the ground-contact interface and enables traversal of otherwise difficult terrain. In contrast, locomotion controllers are typically trained for a fixed morphology, and their performance can degrade when shoes alter foot geometry, mass, and friction. We propose SHOES, a sample-efficient framework for adapting locomotion policies to footwear-induced morphology changes. SHOES freezes a simulation-trained nominal policy and fine-tunes only lightweight,…
+
+---
+
+### [Analytic Robot Self-Model: Learning Screw-Axis Kinematics for Rendering and Model-Based Control](https://arxiv.org/abs/2610.15558v1)
+
+- **arXiv**: `2610.15558v1`  |  **提交日期**: 2026-10-11
+- **作者**: Chen Xu, Ning Tan
+
+Visual self-modelling lets robots learn body models from observations, but such models usually encode kinematics implicitly rather than exposing metric joint parameters for computation and control. Moreover, a good fit to images does not by itself establish accurate kinematics. Here we present an explicit analytic robot self-model that requires neither deformation networks nor URDF/CAD templates. Multi-view images and joint readings establish Gaussian appearance and provide motion evidence for rigid link assignments, whereas sparse end-effector poses independently identify metric screw axes.…
+
+---
+
+### [PointWalker: Mapless Quadruped Locomotion Directly From Raw LiDAR Point Clouds](https://arxiv.org/abs/2610.15548v1)
+
+- **arXiv**: `2610.15548v1`  |  **提交日期**: 2026-10-11
+- **作者**: Sicen Li, Zhen Chu, Chao Li, Jun Zheng, Qiuguo Zhu, Jun Wu
+
+Quadruped robots deployed for inspection and field missions must cross heterogeneous terrain, from stairs, slopes, and gaps to high platforms, stepping stones, and balance beams, where safe support is sparse or see-through. Existing methods interpose a terrain map or a depth image between sensing and control. Maps are costly to maintain, corrupted by odometry drift and outliers, and misled by see-through gratings, while depth cameras degrade with lighting and surface material. In this paper, we present PointWalker, a mapless framework whose single reinforcement learning policy directly…
+
+---
+
+### [Learning Safety-Constrained Whole-Body Loco-Manipulation for Lunar Surface Operations](https://arxiv.org/abs/2610.15486v1)
+
+- **arXiv**: `2610.15486v1`  |  **提交日期**: 2026-10-11
+- **作者**: Alvaro Belmonte-Baeza, Miguel Cazorla, Gabriel J. García, Carlos J. Pérez-Del-Pulgar, Jorge Pomares
+
+Robotic systems for lunar surface operations must act autonomously and preserve their own integrity in an environment where failures are unrecoverable and continuous supervision is impossible. This paper presents a Constrained Reinforcement Learning framework for quadrupedal mobile manipulators that learns a single whole-body policy for tracking a 6D end-effector pose specified in task space, with operational limits enforced during learning through a constrained learning mechanism. We introduce a reward formulation in which the transition between locomotion and manipulation emerges from the…
+
+---
+
+### [Have You Seen It Clearly? Uncertainty-Guided Belief Refinement for Zero-Shot Object Navigation](https://arxiv.org/abs/2610.15375v1)
+
+- **arXiv**: `2610.15375v1`  |  **提交日期**: 2026-10-11
+- **作者**: Jingzhi Huang, Junkai Huang, Yuhang Peng, Keyu Mu, Jiaru Zhong, Yi Wang et al.
+
+Zero-Shot Object Navigation (ZSON) requires an agent to locate target objects in unfamiliar environments without additional training for the test categories or environments. Recent approaches leverage large language models and vision-language models to construct spatial representations and guide exploration. However, whether the available evidence sufficiently supports a navigation choice, and how new evidence changes the search value of previously visited locations, remain insufficiently addressed. We propose RefBeliefMap, an uncertainty-guided mapping framework that distinguishes…
+
+---
+
 ## 📅 2026-10-12
 
 ### [BT-Agent: Deploying Onboard Robot Agents with Behavior Trees and Multi-Fidelity Evaluation](https://arxiv.org/abs/2610.13862v1)

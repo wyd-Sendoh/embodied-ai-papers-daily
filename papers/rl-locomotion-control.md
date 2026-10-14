@@ -2,6 +2,98 @@
 
 _自动追踪 arXiv 最新论文，最新更新在最上方。_
 
+## 📅 2026-10-14
+
+### [EgoExplorer: A Vision-Motion-Touch Observatory for Human Loco-Manipulation In Situ](https://arxiv.org/abs/2610.18872v1)
+
+- **arXiv**: `2610.18872v1`  |  **提交日期**: 2026-10-13
+- **作者**: Yunsong Zhou, Xuekun Jiang, Haiqi Shen, Hangxu Liu, Chaojian Shi, Yujie Liu et al.
+
+Learning humanoid loco-manipulation from human demonstrations rests on observing how locomotion, posture, and object interaction evolve together as tasks unfold. Scaling collection across diverse environments, in turn, favors lightweight, portable capture systems. Yet, existing datasets provide only partial views of this coordination. Thus, we introduce EgoExplorer, a 100-hour vision-motion-touch observatory of human loco-manipulation built with a wearable system. With an emphasis on professional activities, its continuous recordings align egocentric video with reconstructed whole-body…
+
+---
+
+### [WorldRecon: Generative Multi-View Mesh Reconstruction for Large-Scale 3D World](https://arxiv.org/abs/2610.18846v1)
+
+- **arXiv**: `2610.18846v1`  |  **提交日期**: 2026-10-13
+- **作者**: Mengchen Zhang, Yang Li, Chunshi Wang, Tong Wu, Chunchao Guo
+
+Reconstructing complete, high-quality meshes of large-scale scenes from unposed multi-view images requires faithful geometric grounding while plausibly completing surfaces that are unobserved or only sparsely captured. We present WorldRecon, a generative multi-view reconstruction framework for recovering complete, large-scale 3D scene meshes from unposed RGB images. WorldRecon uses a coarse, noisy global point cloud and camera poses estimated from the input images by a reconstruction model as a global scaffold for whole-scene generation and partitions it into overlapping spatial blocks. To…
+
+---
+
+### [TRACE: Efficient Transfer Learning for Neural Whole-Body Control Across Humanoid Embodiments](https://arxiv.org/abs/2610.17999v1)
+
+- **arXiv**: `2610.17999v1`  |  **提交日期**: 2026-10-13
+- **作者**: Qingyu Lan, Zhihao Tian, Zifan Wang, Junwei Liang
+
+Humanoid behavior foundation models (BFMs) enable diverse whole-body control, but adapting a pretrained controller to a new embodiment remains challenging because of kinematic and dynamic mismatch. We present TRACE, a framework for efficient cross-embodiment adaptation that preserves pretrained motion representations while specializing feedback control to the target robot.TRACE first injects kinematic priors into input and output projection layers and aligns nominal joint dynamics to reduce embodiment mismatch and support stable fine-tuning. It then combines encoder distillation with low-rank…
+
+---
+
+### [Learning Robot Policies for Whole-Body Mobility Assistance via Dynamic Human Motion Generation](https://arxiv.org/abs/2610.17750v1)
+
+- **arXiv**: `2610.17750v1`  |  **提交日期**: 2026-10-13
+- **作者**: Shikun Ban, Shohei Nagai, Qingyang Song, Hanxi Wan, Eric Zhao, Thomas Wang et al.
+
+Robotic assistance for human mobility could benefit care recipients and reduce caregiver burden during physically demanding tasks such as Sit-to-Stand (STS) and Lift-and-Transfer (L&T). Learning robot policies for these whole-body assistive tasks is challenging: real-world data collection for human-robot interaction is costly and safety-critical, making simulation an attractive alternative. Prior work, however, typically treats the human as static or minimally responsive and thus fails to capture the cooperative nature of mobility assistance. We present a simulation-based framework for…
+
+---
+
+### [DexNinja: Learning Robust Dexterous Cutting Policy with a Real-to-Sim-to-Real Data Engine](https://arxiv.org/abs/2610.17208v1)
+
+- **arXiv**: `2610.17208v1`  |  **提交日期**: 2026-10-12
+- **作者**: Haozhe Lou, Runyi Yang, Wanqi Zhong, Caiyun Liu, Yicheng Liu, Wenhao Liu et al.
+
+Cutting a piece of food looks effortless in human hands. For a robot, however, every cut is a high-contact interaction with a deformable, elasto-plastic object whose behavior changes with pose, contact mode, and cutting stage. Collecting real-world data is expensive and wasteful: each trial typically contaminates or damages the food, so obtaining scalable real world data for dexterous cutting is expensive and difficult. Simulation is an appealing alternative, but a large sim-to-real gap exists in both physics and perception. This gap is especially severe for topology-changing interactions…
+
+---
+
+### [D-World: An Explicit World-Language-Action Model with Recursive Self-Improvement under Dual Control](https://arxiv.org/abs/2610.17114v1)
+
+- **arXiv**: `2610.17114v1`  |  **提交日期**: 2026-10-12
+- **作者**: Xuan Wen, Baichao Wang
+
+Frontier large language models (LLMs) now reason about space well enough to program robots, yet the world models behind robot policies are implicit, held in network weights or predicted video, and cannot be inspected or corrected directly. We present D-World, an explicit world-language-action model built on the Sense, Plan and Act decomposition. A perception agent writes the scene as an executable digital twin using generated vision and geometry code. A planning agent searches for actions in simulation and, after each executed action chunk, revises the twin's object states and named physical…
+
+---
+
+### [FEM-Validated Real-Time Modelling of Soft Tactile Deformation](https://arxiv.org/abs/2610.16667v1)
+
+- **arXiv**: `2610.16667v1`  |  **提交日期**: 2026-10-12
+- **作者**: Silvia Terrile, Kaichen Shi, Taejun Kwon, Jiseok Lee, Nathan Lepora, Yeejin Lee et al.
+
+Accurate modelling of soft tactile sensors remains difficult because finite element methods (FEM) are computa- tionally expensive, while real-time simulators often lack fidelity for hyperelastic deformation. Large physical datasets are also impractical to collect because repeated testing can damage fragile sensors. We present a data-efficient framework that combines limited real-world validation, high-fidelity FEM, and graph neural networks (GNNs) for accurate real-time prediction of two-dimensional tactile deformation in a planar soft tactile structure. The key idea is to decouple validation…
+
+---
+
+### [XAI-Guided Fourier Domain Generalisation for Pure-Simulation Sim-to-Real Deep Reinforcement Learning](https://arxiv.org/abs/2610.16478v1)
+
+- **arXiv**: `2610.16478v1`  |  **提交日期**: 2026-10-12
+- **作者**: Wei Yao, Chuyao Wang, Ziwei Wang, Nabil Aouf
+
+Deep reinforcement learning has shown strong potential for vision-based autonomous driving, but policies trained in simulation often suffer severe performance degradation when deployed in the real world. Existing sim-to-real methods commonly address this gap through image-transfer-based domain adaptation or policy-agnostic domain randomisation. However, the former requires laborious acquisition of target-domain data and is often limited to the deployment domain, whereas the latter introduces unguided perturbations that may not reflect the underlying sim-to-real discrepancy, leading to…
+
+---
+
+### [MSC: Multi-Stage Caster-aware Control Framework with Uncertainty-Aware NMPC and RL-based Execution Layer](https://arxiv.org/abs/2610.16199v1)
+
+- **arXiv**: `2610.16199v1`  |  **提交日期**: 2026-10-12
+- **作者**: Jinho Park, Jeongtae Lee, Jeonghyeok Lim, Keun Ha Choi, Kyung-Soo Kim
+
+Freely swiveling casters are widely adopted in industrial AMRs/SDVs for their mechanical simplicity and load capacity. However, caster misalignment during low-speed or high-curvature maneuvers induces strong contact nonlinearities, widening the planning-execution gap between commanded $(v, ω)$ and realized motion. Existing caster-aware strategies are highly sensitive to state-estimation reliability, causing unstable execution in uncertain transition regimes. To address this, we present Multi-Stage Caster-aware Control (MSC), a planning-execution integrated hierarchical framework featuring two…
+
+---
+
+### [Stereo-Planner: Learning Stereo-to-Trajectory Planning for Zero-Shot Sim-to-Real Quadrotor Navigation](https://arxiv.org/abs/2610.15560v1)
+
+- **arXiv**: `2610.15560v1`  |  **提交日期**: 2026-10-11
+- **作者**: Hongming Shen, Junjie Lu, Xun Chen, Wei Wang, Xinhang Xu, Bailing Tian et al.
+
+Existing navigation systems commonly rely on dedicated depth sensors or explicit depth reconstruction, while learning to generate trajectories directly from RGB images remains challenging due to the sim-to-real domain gap. In this work, we propose Stereo-Planner, an end-to-end vision-to-trajectory framework that enables zero-shot sim-to-real planning from stereo RGB observations. The key idea is to formulate trajectory generation as state- and scale-conditioned querying of latent stereo geometry. A Scene Representor incorporates a pretrained vision grounding foundation model to extract…
+
+---
+
 ## 📅 2026-10-12
 
 ### [Splat2Act: From Captured Scenes to Personalized VLA Manipulation](https://arxiv.org/abs/2610.13945v1)
