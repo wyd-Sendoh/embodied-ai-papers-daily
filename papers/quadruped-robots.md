@@ -2,6 +2,35 @@
 
 _自动追踪 arXiv 最新论文，最新更新在最上方。_
 
+## 📅 2026-10-15
+
+### [Safe Reinforcement Learning with Receding-Horizon Safety Critic and Differentiable Action Shields](https://arxiv.org/abs/2610.20255v1)
+
+- **arXiv**: `2610.20255v1`  |  **提交日期**: 2026-10-14
+- **作者**: Siwei Ju, Jan Peters, Oleg Arenz
+
+Despite the Markov assumption, safety failures in robot reinforcement learning rarely occur instantaneously; they typically emerge over several steps as the policy enters unfamiliar states under disturbances and domain shift. We address this limitation by learning a receding-horizon safety critic that predicts whether a state will remain non-terminating over the next receding horizon, enabling anticipatory detection of impending locomotion failures. The critic is trained from rollout-derived horizon labels with a composite objective that combines horizon classification,…
+
+---
+
+### [E2DRL: End-to-End Differentiable Reinforcement Learning for 3D Obstacle Avoidance in Quadruped Robots](https://arxiv.org/abs/2610.19627v1)
+
+- **arXiv**: `2610.19627v1`  |  **提交日期**: 2026-10-14
+- **作者**: Cheng Fan, Bingyang Zhou, Gang Yang, Zixuan Zhuang, Aoqian Zhang, Pengzhi Yang et al.
+
+Differentiable reinforcement learning shows strong promise for robot policy learning, but its application to legged locomotion has remained limited to blind walking or simulated 2D tasks. Extending it to end-to-end visual obstacle avoidance is challenging because hard collision constraints and early termination upon contact corrupt first-order gradients, trapping optimizers in local minima. We present E2DRL, which addresses this with a soft differentiable obstacle-interaction formulation: penetration penalties across multiple body keypoints with velocity-conditioned stop-gradient shaping to…
+
+---
+
+### [PolyMorph: Learning Locomotion Policy for Cross-Embodiment Adaptation](https://arxiv.org/abs/2610.19615v1)
+
+- **arXiv**: `2610.19615v1`  |  **提交日期**: 2026-10-14
+- **作者**: Hyunsik Oh, Seunghun Jeon, Donghoon Youm, Jungwoo Hur, Hyeongjun Kim, Jeong Hyun Lee et al.
+
+Reinforcement learning has enabled robust locomotion for legged robots, but learned policies are typically tied to a specific robot morphology and require additional engineering when the number of legs, actuators, or mechanical properties change. We present PolyMorph, a morphology-conditioned framework that learns a single locomotion policy for heterogeneous legged robots. PolyMorph converts each robot's URDF into joint-link modules and combines a recurrent encoder, graph-based Transformer, and per-joint decoder to generate actions across variable leg counts and joint configurations. To…
+
+---
+
 ## 📅 2026-10-14
 
 ### [DR-VLA: Learning Human-Like Quadruped Navigation from Egocentric Web Videos via Domain-Invariant Scene Representations](https://arxiv.org/abs/2610.18373v1)

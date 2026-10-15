@@ -2,6 +2,53 @@
 
 _自动追踪 arXiv 最新论文，最新更新在最上方。_
 
+## 📅 2026-10-15
+
+### [AutoRSR: Automated Real-to-Sim-to-Real Data Generation for Scalable Robot Learning](https://arxiv.org/abs/2610.20336v1)
+
+- **arXiv**: `2610.20336v1`  |  **提交日期**: 2026-10-14
+- **作者**: Jiawei Zhang, Chang Liu, Litao Deng, Tao Zhang, Qin Jin
+
+Scaling embodied robot learning requires large and diverse manipulation datasets, but collecting real-world demonstrations remains expensive in human effort and robot time. Simulation provides a scalable alternative, yet converting a real workspace into a robot-learning-ready environment still requires substantial manual effort for object extraction, asset processing, coordinate calibration, and trajectory specification. We present AutoRSR, a highly automated real-to-sim-to real framework that converts scanned real-world workspaces into reusable embodied simulation assets and scalable…
+
+---
+
+### [Runtime Monitoring of Supermartingale Certificates](https://arxiv.org/abs/2610.19701v1)
+
+- **arXiv**: `2610.19701v1`  |  **提交日期**: 2026-10-14
+- **作者**: Mirco Giacobbe, Thomas A. Henzinger, Konstantin Kueffner, Emily Yu, Đorđe Žikelić
+
+Supermartingale certificates formally guarantee temporal properties of discrete and continuous-time stochastic dynamical systems. However, these guarantees rely on a mathematical model of the world, leaving a sim-to-real gap that can invalidate them for the deployed system. We formulate the runtime monitoring problem for supermartingale certificates, in which a monitor observes a single system trajectory and raises an alarm when there is sufficient statistical evidence that the supermartingale certificate has been violated during execution. We present an algorithm to automatically construct a…
+
+---
+
+### [Active Generative Simulation: Meta-Learning What to Simulate for Sim-and-Real Policy Co-Training](https://arxiv.org/abs/2610.19479v1)
+
+- **arXiv**: `2610.19479v1`  |  **提交日期**: 2026-10-14
+- **作者**: Liqian Ma, Vaibhav Saxena, Utkarsh Aashu Mishra, Shuo Cheng, Yongxin Chen, Danfei Xu
+
+Sim-and-real co-training is an effective way to scale robot learning by augmenting limited real-world demonstrations with simulation data. However, existing approaches typically treat simulators as fixed data sources, relying on uniform generation, offline retrieval, or manual parameter alignment by domain experts. We formulate \textit{Active Generative Simulation}: optimizing a simulator's data-generation distribution to maximize downstream real-world performance. To solve this problem, we propose MetaGenSim, a meta-learning framework that trains an auxiliary rater network via meta-gradients…
+
+---
+
+### [Collective Learning for Unified Robotic Manipulation via Predictive Dynamics Adaptation](https://arxiv.org/abs/2610.19141v1)
+
+- **arXiv**: `2610.19141v1`  |  **提交日期**: 2026-10-13
+- **作者**: Shaocheng Liu, Yuan Meng, Zhenshan Bing, Alois Knoll
+
+Learning a collective policy for state-based Cartesian manipulation across diverse robotic embodiments presents a fundamental challenge due to embodiment-dependent transition dynamics. Collective learning aggregates multi-robot experience to discover shared task structure, yet naive aggregation can average incompatible action modes when different embodiments realize the same Cartesian command through different transition behavior. This leads to strategy ambiguity and performance collapse on dynamically outlying embodiments. To address this, we propose PACE, a two-stage collective learning…
+
+---
+
+### [Contact-UAN: Unsupervised Actuator Networks as a Residual World Model for Humanoid Control](https://arxiv.org/abs/2610.18991v1)
+
+- **arXiv**: `2610.18991v1`  |  **提交日期**: 2026-10-13
+- **作者**: Nolan Fey, Khai Nguyen, Yash Prabhu, Gabriel B. Margolis, Pulkit Agrawal
+
+Humanoid policies trained in simulation can transfer qualitatively to hardware while failing to transfer the force interactions learned during training, compromising torque efficiency, load regulation, and robustness to impacts. This failure can arise from actuator sim-to-real gaps because forces depend on actuator torques. We introduce Contact-UAN, a residual world model that preserves a simulator's physics priors while correcting actuator dynamics to align simulated rollouts with recorded hardware rollouts. For humanoid motion with contact, this requires contact-consistent replay: if…
+
+---
+
 ## 📅 2026-10-14
 
 ### [EgoExplorer: A Vision-Motion-Touch Observatory for Human Loco-Manipulation In Situ](https://arxiv.org/abs/2610.18872v1)
