@@ -2,6 +2,44 @@
 
 _自动追踪 arXiv 最新论文，最新更新在最上方。_
 
+## 📅 2026-10-16
+
+### [Training-Free Target-Aware Refinement of 3D Gaussian Language Map](https://arxiv.org/abs/2610.21619v1)
+
+- **arXiv**: `2610.21619v1`  |  **提交日期**: 2026-10-15
+- **作者**: Sibaek Lee, Kyeongsu Kang, Seongbo Ha, Yewon Jeon, Joonyeol Choi, Daegeol Ko et al.
+
+Distilling vision-language features into 3D Gaussian Splatting yields a language map that can be queried with arbitrary text. In deployment, however, a small set of user-specified targets must be reliably located, which current distilled maps often miss, while open-vocabulary queryability for other words must remain intact. We propose a training-free, target-aware refinement of an already-distilled language map. Guided by a text-promptable segmenter, the visual embedding inside each detected target region is blended with the target text embedding, a convex combination whose coefficient sets…
+
+---
+
+### [When a robot can trust reversing wind to find an odour source](https://arxiv.org/abs/2610.20970v1)
+
+- **arXiv**: `2610.20970v1`  |  **提交日期**: 2026-10-14
+- **作者**: Junlong Shen, Shunsuke Shigaki
+
+A wind-derived heading can guide a robot towards an odour source even after the wind reverses, but its reliability depends on the plume's transport history. On a quadruped initially facing the source, holding the initial heading reached it in every reversing-wind trial, whereas comparison controllers never settled there. An exact geometric condition links heading correctness to net odour transport, and simulations separate sensing error from departures from nominal flow. Where the alternating wind directions are too close for reversal alone to produce wrong-side headings, the wrong-side rate…
+
+---
+
+### [SOMA: Stack-of-Objects Manipulation using a Quadruped Robot](https://arxiv.org/abs/2610.20968v1)
+
+- **arXiv**: `2610.20968v1`  |  **提交日期**: 2026-10-14
+- **作者**: Stergios E. Bachoumas, Panagiotis Artemiadis
+
+Executing heavy-duty physical manipulation in unpredictable environments remains a major challenge for quadrupedal robots lacking dedicated manipulators. This paper presents SOMA, a hierarchical reinforcement learning framework for whole-body non-prehensile manipulation of multi-object stacks using a quadruped robot. Unlike traditional methods restricted to two-dimensional planar pushing, SOMA integrates explicit robot base-height control, unlocking full three-dimensional pushing strategies. This capability enables the quadruped to manipulate complex payload stacks as a unified system while…
+
+---
+
+### [Planning to Learn: Real-Time Robust Adaptive Control on the GPU with Guaranteed Future Learning](https://arxiv.org/abs/2610.20925v1)
+
+- **arXiv**: `2610.20925v1`  |  **提交日期**: 2026-10-14
+- **作者**: Anutam Srinivasan, Siddhant Panse, Glen Chou
+
+Robust adaptive control is vital for keeping robots safe while actively reducing uncertainty in unfamiliar settings. However, traditional methods are often conservative since they fail to account for guaranteed future parameter learning during planning and struggle to scale to high-dimensional systems. In this work, we present A-SLS, a learning-aware robust adaptive model predictive control (RAMPC) framework based on system-level synthesis. A-SLS forecasts future parameter uncertainty and preserves correlations between process disturbances, parameter error, and estimate updates to construct…
+
+---
+
 ## 📅 2026-10-15
 
 ### [Safe Reinforcement Learning with Receding-Horizon Safety Critic and Differentiable Action Shields](https://arxiv.org/abs/2610.20255v1)

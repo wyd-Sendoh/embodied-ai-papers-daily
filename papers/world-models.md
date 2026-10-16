@@ -2,6 +2,161 @@
 
 _自动追踪 arXiv 最新论文，最新更新在最上方。_
 
+## 📅 2026-10-16
+
+### [T2-z: Test-Time Optimization of Environment Latents for Robotic World Models](https://arxiv.org/abs/2610.22364v1)
+
+- **arXiv**: `2610.22364v1`  |  **提交日期**: 2026-10-15
+- **作者**: Chenyuan Zhou, Yining Hong, Huang Huang, Yunfan Jiang, Wenlong Huang, David Held et al.
+
+Predicting how the world responds to an action requires more than what can be seen: robots must account for environmental factors that are neither directly observable nor explicitly specified, from physical properties such as friction and mass to human-defined environmental rules. We introduce T2-Z for test-time optimization of environment latents, which augments a robotic world model with a learnable environment latent to condition world predictions. This compact latent captures underlying environmental variation without supervision of what environmental factors exist or what values they…
+
+---
+
+### [GeoState: Learning View-Decoupled Geometry States for 3D World Modeling](https://arxiv.org/abs/2610.22343v1)
+
+- **arXiv**: `2610.22343v1`  |  **提交日期**: 2026-10-15
+- **作者**: Hongchang Liu, Jian Liu, Yujuan Ding, Liang Peng, Xun Jiang, Fei Ma et al.
+
+Recent 3D world models increasingly use features from geometry foundation models (GFMs) as predictive world states, benefiting from their rich geometric priors. However, the view dependence of these features entangles scene dynamics with camera-induced variation, making the resulting state evolution harder to predict. We propose GeoState, a view-decoupled geometry representation for predictive 3D world modeling that separates scene-state evolution from camera-dependent observation. Specifically, a scene tokenizer aggregates multi-view GFM features into a view-decoupled scene state, which a…
+
+---
+
+### [Velox: Spatial Memory Makes World Models Efficient](https://arxiv.org/abs/2610.22311v1)
+
+- **arXiv**: `2610.22311v1`  |  **提交日期**: 2026-10-15
+- **作者**: Qiuhong Shen, Shizun Wang, Xinchao Wang
+
+Video world models turn actions and camera motion into long visual rollouts, making video a natural interface for interactive simulation. Such interaction requires responsive generation, yet coherent rollouts must retain visual memory of what has already been generated. Chunked video diffusion models usually keep this context in growing KV caches, so later chunks become progressively slower. To address this bottleneck, we introduce Velox, a training-free attention router for region-level context selection using frustum slab correspondences from streaming geometry. Velox represents historical…
+
+---
+
+### [Plans Are Not Executions: Adapting Frozen World-Model Planners to Controller-Induced Execution Shift](https://arxiv.org/abs/2610.22041v1)
+
+- **arXiv**: `2610.22041v1`  |  **提交日期**: 2026-10-15
+- **作者**: Danqi Zhao, Keyu Chen, Wenchao Sun, Minglei Huang, Jianhe Zhang, Yan Zhu et al.
+
+World-model planners evaluate candidate trajectories by predicting their future consequences, implicitly relying on the plan-to-motion relationship learned during training. At deployment, a different downstream controller may execute the same planned trajectory differently, creating a planning-execution gap between the frozen model's imagined future and actual execution. A natural remedy is to replace the planned trajectory with its predicted or observed execution. However, we find that better execution fidelity does not necessarily yield better decisions: directly substituting predicted…
+
+---
+
+### [CoWorld Reasoner: Agentic Multimodal Reasoning with the Evolving Video World Model-Driven Harness](https://arxiv.org/abs/2610.21910v1)
+
+- **arXiv**: `2610.21910v1`  |  **提交日期**: 2026-10-15
+- **作者**: Dongjie Cheng, Ruifeng Yuan, Ran Wei, Ning Song, Yongqi Li, Wenjie Li
+
+As Vision-Language Models (VLMs) advance, they are increasingly expected to perform spatiotemporal reasoning over motion, actions, and view changes beyond what the input images show. Video World Models (VWMs) provide a natural unified engine for visual imagination by generating task-relevant visual content as additional evidence. However, existing approaches typically invoke a VWM through fixed pipelines centered on a predefined form of visual imagination, such as novel-view synthesis. To support flexible visual imagination for diverse reasoning tasks, we introduce CoWorld Reasoner, an…
+
+---
+
+### [Single-stage joint diffusion of sky images and clear-sky index for ultra-short-term irradiance forecasting: what the frame-to-irradiance stage discards](https://arxiv.org/abs/2610.21795v1)
+
+- **arXiv**: `2610.21795v1`  |  **提交日期**: 2026-10-15
+- **作者**: Kanawut Suwandee, Suwichaya Suwanwimolkul
+
+Sky-image irradiance forecasting is dominated by a two-stage design: a video-prediction model forecasts future sky frames, and a separately trained regressor maps those frames to irradiance. We propose a single-stage alternative that co-denoises the future sky-image and clear-sky-index sequences in one diffusion process, with an irradiance head that reads a denoised preview of the future sky rather than the noised diffusion state. The forecaster needs no regression stage and runs from sky images and deterministic covariates alone, with no measured irradiance at its input --- the situation at…
+
+---
+
+### [MAIA: Anticipating Interaction Anomalies in Contact-Rich Manipulation via Multimodal World Models](https://arxiv.org/abs/2610.21686v1)
+
+- **arXiv**: `2610.21686v1`  |  **提交日期**: 2026-10-15
+- **作者**: Yi Qiao, Maolin Zheng, Haoran Sun, Lujia Dong, Wenzhao Lian
+
+Reliable contact-rich manipulation requires detecting execution deviations early enough for corrective action. Yet most monitoring methods are reactive, identifying anomalies only after they become observable. Anticipating such anomalies is challenging because visual observations only partially reveal physical interaction, while planned actions describe intended motion rather than their actual physical consequences. We address this problem with MAIA, a multimodal framework for anomaly anticipation. Its vision-action-force world model learns nominal interaction dynamics and predicts the visual…
+
+---
+
+### [Learning Intrinsic Dynamics in Latent World Models](https://arxiv.org/abs/2610.21612v1)
+
+- **arXiv**: `2610.21612v1`  |  **提交日期**: 2026-10-15
+- **作者**: Jiamin Shi, Yuanhong Zhang, Zhiyang Liu, Jiawei Sun, Jingwen Fu
+
+Learning intrinsic dynamics---the relationship between actions and their consequences---is essential for world models. However, visual variations unrelated to the underlying control process can obscure this relationship in learned representations. We investigate the connection between action predictability, defined as the ability to reconstruct an action from consecutive latent states, and the preservation of intrinsic dynamics. Our central hypothesis is that encouraging action predictability discourages representations from discarding the distinctions between different actions and their…
+
+---
+
+### [From Optical Flow to Safety: Visual Safety Certification via Scale-Free Relative Motion](https://arxiv.org/abs/2610.21374v1)
+
+- **arXiv**: `2610.21374v1`  |  **提交日期**: 2026-10-15
+- **作者**: Bazeela Banday, Jishnu Keshavan
+
+Safe autonomous navigation using monocular vision remains challenging because explicit obstacle states are not directly observable. This letter introduces a visual safety-certification paradigm that uses scale-free, depth-normalized relative motion encoded by monocular optical flow as the representation for collision-risk certification, without reconstructing obstacle position, velocity, geometry, or a metric world model. Unlike conventional optical-flow-based navigation approaches that rely on image motion to shape avoidance behavior, the proposed framework directly encodes collision-cone…
+
+---
+
+### [Constrained Multi-Agent Reinforcement Learning in Imagination](https://arxiv.org/abs/2610.21319v1)
+
+- **arXiv**: `2610.21319v1`  |  **提交日期**: 2026-10-15
+- **作者**: Raz Shmueli, Shahaf S. Shperberg
+
+Predicting cost in a multi-agent world model moves most constrained policy updates into imagination: the stronger model-free baseline needs $10$ to $20$ times CA-MAMBA's interactions on the median SMAC configuration, and CA-MAMBA earns $2.8$ to $12$ times the baselines' MAMuJoCo reward at equal budget. In controlled tests on one task per benchmark, pricing the model's cost advantages at parity more than halves a cost-blind learner's cost and meets a tight continuous-control limit the learned multiplier misses, suggesting the model's cost estimates are not the bottleneck.
+
+---
+
+### [Mallea: Building, Steering, and Memorizing Worlds with Coding Agent](https://arxiv.org/abs/2610.21283v1)
+
+- **arXiv**: `2610.21283v1`  |  **提交日期**: 2026-10-15
+- **作者**: Xuanyi Liu, Ruiqi Li, Siwei Ma
+
+Code world models represent world dynamics through explicit state and executable rules. We investigate how to coordinate object representations, behavioral revisions, and visual memory within this formulation. We present Mallea, a system for building, steering, and memorizing worlds from text. A coding agent infers object interaction requirements from the prompt and jointly plans object structure, properties, and rules, favoring compact representations that support those requirements. The world evolves under the planned rules; optional user actions steer it, while text requests can edit…
+
+---
+
+### [Can World and Action Modeling Benefit Each Other under Unified Causal Training?](https://arxiv.org/abs/2610.21095v1)
+
+- **arXiv**: `2610.21095v1`  |  **提交日期**: 2026-10-15
+- **作者**: Yue Su, Bokai Lin, Xinkai Wang, Chubin Zhang, Xiangnan Wu, Kuan Zhang et al.
+
+World and action modeling are closely related, yet their reciprocal benefits under unified causal training remain unclear. We introduce OneWM, a simple framework for unified causal training that treats actions as both conditions for world prediction and targets for policy learning within a shared video-action architecture. Using this framework, we investigate whether learning forward dynamics conditioned on specified actions improves action learning, and whether learning to generate actions in turn improves action-conditioned world modeling. We use LIBERO, LIBERO-Plus, and RoboCasa365 as…
+
+---
+
+### [EgoJEPA: Beyond Retargeting for Dexterous Manipulation from Egocentric Videos](https://arxiv.org/abs/2610.20904v1)
+
+- **arXiv**: `2610.20904v1`  |  **提交日期**: 2026-10-14
+- **作者**: Meng Cao, Can Zhao, Jinjie Wei, Haonan Zhao, Yulong Zhang, Duo Han et al.
+
+Egocentric human videos offer a scalable alternative to costly robot demonstra- tions, yet transferring their manipulation priors to robot control remains chal- lenging. The commonly adopted retargeting-based approaches convert human wrist and finger poses into embodiment-specific action commands through hand- crafted geometric mappings. However, such mappings require meticulous recal- ibration across different embodiments and risk propagating hand-tracking errors into downstream robot control pipelines. To this end, we propose EgoJEPA, a three-stage framework that learns embodiment-agnostic…
+
+---
+
+### [Sign Betting for Misspecified Regression: Variance Adaptivity and Optimal Approximation](https://arxiv.org/abs/2610.20903v1)
+
+- **arXiv**: `2610.20903v1`  |  **提交日期**: 2026-10-14
+- **作者**: Yinan Li, Han Han, Kwang-Sung Jun
+
+We study bounded regression under model misspecification, evaluating a function $f$ by its $L_1(P_X)$ distance to the conditional mean $η(x)=\mathbb{E}[Y\mid X=x]$, rather than the standard $L_2(P_X)$. This $L_1$ metric is natural for downstream decision problems such as bandits and reinforcement learning. We analyze the min--max estimator of Baraud & Maillard (2025), which we call \emph{sign-betting regression}. Our main results show that sign-betting regression achieves high-probability $L_1$ oracle inequalities under misspecification. Under realizability, our bound adapts to the average…
+
+---
+
+### [When Reality Outpaces Cognition: A New Scaling Principle for Reliable Intelligence](https://arxiv.org/abs/2610.20764v1)
+
+- **arXiv**: `2610.20764v1`  |  **提交日期**: 2026-10-14
+- **作者**: Ahsan Adeel, Talha Bin Riaz
+
+This paper challenges the understanding capabilities of existing AI paradigms and emerging world models by asking a fundamental question: How quickly can reality change before an intelligent system can no longer reliably perceive, reason, and act? We formulate this as a theory- and model-agnostic challenge in which systems must infer reliable actions for increasingly distant future states across a growing observation--reality gap. We operationalize this challenge through the effective Speed of Coherent Cognition (\(S_C^{\mathrm{eff}}\)), defined as the highest tested Speed of Reality…
+
+---
+
+### [WorldCast: Exploring Intelligent Visual Generation in World State Prediction](https://arxiv.org/abs/2610.20731v1)
+
+- **arXiv**: `2610.20731v1`  |  **提交日期**: 2026-10-14
+- **作者**: Wenhao Yan, Haodong Li, Xiaotong Li, Yaxin Luo, Zhengrong Yue, Jialv Zou et al.
+
+Humans interpret multimodal observations of the world and forecast how it will evolve. Recent multimodal generative systems have demonstrated similar capabilities: they can integrate multimodal context and synthesize visual outputs that depict changes in the world. To characterize this emerging trajectory, we organize model capabilities into a four-level hierarchy and discover that higher-level tasks remain relatively underexplored despite model progress. To bridge this gap, we explore model performance on multi-step world state prediction, a high-level task that requires models to forecast…
+
+---
+
+### [Orbia: Do Generated Videos Form a Consistent 3D World?](https://arxiv.org/abs/2610.20693v1)
+
+- **arXiv**: `2610.20693v1`  |  **提交日期**: 2026-10-14
+- **作者**: Dongyue Lu, Guian Fang, Hur Lim, Yonggang Wu, Yanrong Wang, Hongshan Chen et al.
+
+Video generators serve as interactive worlds for exploration and simulation, yet realistic and visually appealing frames do not necessarily depict a consistent 3D world. Existing benchmarks assess selected geometric properties or use vision-language models to judge memory and consistency, leaving systematic 3D evaluation underexplored. We introduce Orbia, the first benchmark dedicated to a systematic and comprehensive evaluation of 3D consistency in interactive world models. Through controlled exploration and revisit, we organize the evaluation into three dimensions: input preservation,…
+
+---
+
 ## 📅 2026-10-15
 
 ### [Look Before You Restore: Learning to Predict Before Acting for Agentic Image Restoration](https://arxiv.org/abs/2610.20384v1)

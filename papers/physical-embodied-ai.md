@@ -2,6 +2,26 @@
 
 _自动追踪 arXiv 最新论文，最新更新在最上方。_
 
+## 📅 2026-10-16
+
+### [LIBERO-PeRM: Benchmarking Personalized Robotic Manipulation](https://arxiv.org/abs/2610.22372v1)
+
+- **arXiv**: `2610.22372v1`  |  **提交日期**: 2026-10-15
+- **作者**: Zhixu Li, Keqian Tang, Litian Gong, Jingyu Yao, Wenqian Zhang, Tianze Xu et al.
+
+Personalization is essential for general-purpose robots to transition into household environments and achieve true practicality. While general robotic manipulation has been extensively studied, personalized robotic manipulation (PeRM) lacks a controlled benchmark for separating task completion from preference satisfaction. We introduce LIBERO-PeRM, a benchmark for preference learning in embodied agents. LIBERO-PeRM studies five questions: 1) how policies follow preferences in zero-shot settings; 2) how they learn single preferences from demonstrations; 3) how efficiently they acquire…
+
+---
+
+### [Physical AI: A Survey of Models, Learning, Systems, and Open Challenges](https://arxiv.org/abs/2610.21171v1)
+
+- **arXiv**: `2610.21171v1`  |  **提交日期**: 2026-10-15
+- **作者**: Bin Gao, Anuj Gautam, Aritra Bagchi, Yunkai Liang, Wentao Li, Ronghui Li et al.
+
+Physical AI aims to enable intelligent systems to perceive, reason, act, and learn through interaction with the physical world. Unlike purely digital intelligence, physical agents must operate under partial observability, uncertain dynamics, embodiment constraints, and real-time requirements, while their actions continuously reshape the environment and subsequent observations. Recent advances in foundation models and robot learning have expanded the capabilities of physical agents, yet achieving reliable autonomy requires more than improvements in individual models. This survey presents a…
+
+---
+
 ## 📅 2026-10-15
 
 ### [F2A-ObjectNav: An Adaptive Agentic Architecture for Object-Goal Navigation](https://arxiv.org/abs/2610.19618v1)

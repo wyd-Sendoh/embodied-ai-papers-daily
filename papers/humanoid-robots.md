@@ -2,6 +2,35 @@
 
 _自动追踪 arXiv 最新论文，最新更新在最上方。_
 
+## 📅 2026-10-16
+
+### [Inertially Significant Humanoid Teleoperation via Whole Body Model Predictive Control and Online Parameter Estimation](https://arxiv.org/abs/2610.22176v1)
+
+- **arXiv**: `2610.22176v1`  |  **提交日期**: 2026-10-15
+- **作者**: James Foster, Beomyeong Park, Luigi Penco, Robert Griffin
+
+The effective deployment of humanoid robots in practical tasks of interest will require a capability of sensing and adapting to variations in inertial parameters, as occurs during heavy tool use or when carrying significant payload. Such payloads constitute a significant proportion of the combined payload-robot system, the effects of which cannot be ignored by delegating to feedback control. This paper showcases a general solution to this problem by integrating a whole body model predictive controller (WB-MPC) with an extended Kalman filter (EKF) for online estimation of fully physically…
+
+---
+
+### [Compliant GMT: Making General Motion Tracking Compliant via Residual Reference Adaptation](https://arxiv.org/abs/2610.22119v1)
+
+- **arXiv**: `2610.22119v1`  |  **提交日期**: 2026-10-15
+- **作者**: Venki Parsuram, Michelle Wang, Jin-Hyuk Hong, Pulkit Agrawal
+
+We propose Compliant GMT (C-GMT), a modular framework for full-body compliant responses in general motion tracking. As humanoid robots move into real world deployment, they not only need to perform any motion but also respond safely and robustly to interaction forces. Existing general motion tracking policies can imitate diverse motions but are trained to be stiff, leading to unexpected and unsafe behaviors under disturbance. Prior work in compliant humanoid control trades off compliance and generality. There exist examples of full-body compliant responses, but these are heavily curated to…
+
+---
+
+### [TRACE: Typed Reference-Aware Conversational Editing for Humanoid Motion Diffusion](https://arxiv.org/abs/2610.21515v1)
+
+- **arXiv**: `2610.21515v1`  |  **提交日期**: 2026-10-15
+- **作者**: Zejian Kang, Yifu Luo, Boyang Shen, Jingxuan Li, Zekai Chen, Zekun Shi et al.
+
+Language-conditioned humanoid motion generation enables users to create and refine robot movements through natural language. The central challenge is to connect an underspecified request to concrete motion structure that can subsequently be revised relative to an accepted reference. We present TRACE, a generation and editing framework for the Unitree G1 humanoid robot built around typed, measurable kinematic quantities. Our insight is to ground generation conditions in paired training motions and editing goals in the current motion. A language model learns to predict support, root, and hand…
+
+---
+
 ## 📅 2026-10-15
 
 ### [Learning Navigation from Multimodal Demonstrations with Geometric Candidate Modes](https://arxiv.org/abs/2610.20241v1)
