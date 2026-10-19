@@ -2,6 +2,35 @@
 
 _自动追踪 arXiv 最新论文，最新更新在最上方。_
 
+## 📅 2026-10-19
+
+### [Quality-of-Transmission Estimation in Quantum Networks: Compute, Simulate, or Learn?](https://arxiv.org/abs/2610.23827v1)
+
+- **arXiv**: `2610.23827v1`  |  **提交日期**: 2026-10-16
+- **作者**: Anis Bekri, Amar Abane, Van Sy Mai, Abdella Battou, Saddek Bensalem
+
+Future quantum networks will rely on control-plane decisions such as routing, scheduling, entanglement provisioning, purification, and memory allocation. Each decision depends on a timely and reliable estimate of the quality of the entanglement that a candidate path can deliver, with end-to-end fidelity as a central metric. Inspired by the optical-networking experience with quality-of-transmission (QoT) estimation, this article asks when a quantum controller should compute fidelity analytically, simulate it, or learn a surrogate model. The optical analogy is useful but incomplete: optical QoT…
+
+---
+
+### [No Eyes, No Problem: What Does Touch Contribute to Blind Baoding Ball Manipulation?](https://arxiv.org/abs/2610.23438v1)
+
+- **arXiv**: `2610.23438v1`  |  **提交日期**: 2026-10-16
+- **作者**: Ayush Deshmukh, Nalin Agarwal, Elle Miller, Sethu Vijayakumar
+
+Humans manipulate objects within their hands through touch alone with remarkable ease, but for robots, achieving sustained real-world manipulation without vision remains an open challenge. Although reinforcement learning (RL) can generate sophisticated blind manipulation policies in simulation, transferring them to a real dexterous hand remains hindered by continuously changing contacts, motion-induced tactile information drift, and the gap between simulated and physical dynamics. We study this problem through Baoding ball rotation on the Shadow Dexterous Hand Lite, using only proprioception…
+
+---
+
+### [PASS: A Trustworthy Precision Approach Simulation System for CAT III Integrity Algorithm Development](https://arxiv.org/abs/2610.23019v1)
+
+- **arXiv**: `2610.23019v1`  |  **提交日期**: 2026-10-16
+- **作者**: Lang Zhu, Xin Zhang, Yulong Sun, Nan Liu, Jiahe Shen, Xiaodong Zhang et al.
+
+For fixed-wing aircraft, reliable localization during approach and landing is critical to flight safety. Visual--inertial navigation is promising, but aircraft navigation also requires integrity: trustworthy outputs and timely warnings when they should not be used. Real approach data are costly to collect, while many visual errors and failures required for integrity algorithm development are difficult to reproduce safely. We present PASS, a trustworthy Precision Approach Simulation System for CAT III integrity algorithm development. In a unified temporal and geometric framework, PASS…
+
+---
+
 ## 📅 2026-10-16
 
 ### [Dexterity from Supervised Play](https://arxiv.org/abs/2610.22340v1)
