@@ -2,6 +2,89 @@
 
 _自动追踪 arXiv 最新论文，最新更新在最上方。_
 
+## 📅 2026-10-20
+
+### [Bio-inspired Thrust-Assisted Trotting on a legged-Aerial Robot via Real-Time QP-MPC](https://arxiv.org/abs/2610.26810v1)
+
+- **arXiv**: `2610.26810v1`  |  **提交日期**: 2026-10-19
+- **作者**: Shreyansh Pitroda, Eric Sihite, Alireza Ramezani, Morteza Gharib
+
+This paper presents the hardware implementation of a quadratic program-based controller on Harpy: thruster-assisted bipedal robot to perform thruster-assisted trotting. This is inspired by wing-assisted locomotion observed in birds such as the chukar partridge, which employ thrust vectoring to manipulate the ground reaction force. The proposed controller formulates the thruster-assisted spring-loaded inverted pendulum dynamics as a condensed QP-based model predictive control problem, enabling simultaneous regulation of ground contact force and active thrust vectoring at 500 Hz. A decoupled…
+
+---
+
+### [HAF-VLA: Hierarchical Action Flow Framework for Humanoid Vision-Language-Action Control](https://arxiv.org/abs/2610.26584v1)
+
+- **arXiv**: `2610.26584v1`  |  **提交日期**: 2026-10-19
+- **作者**: Langzhe Gu, Chengkai Hou, Meng Li, Xinhua Wang, Xinyuan Lv, Shuanghao Bai et al.
+
+Humanoid robots hold great promise as general-purpose agents in human-centered environments, yet adapting generalist vision-language-action (VLA) policies to real-world humanoid loco-manipulation remains challenging. Unlike fixed-base or wheeled manipulators, humanoids must coordinate locomotion, posture, gaze, and dual-arm manipulation over a high-dimensional whole-body action space, where inaccurate base or waist motions can easily induce unstable and aggressive upper-body compensation. We propose HAF-VLA, a hierarchical action-flow framework for humanoid VLA control. Built upon a…
+
+---
+
+### [RoboMMT: Learning Stable Tracking of Modulated Expressive and Interactive Robot Motion](https://arxiv.org/abs/2610.26414v1)
+
+- **arXiv**: `2610.26414v1`  |  **提交日期**: 2026-10-19
+- **作者**: Till Hielscher, Kai O. Arras
+
+Expressive robot motion can improve naturalness, effectiveness, and perceived likability in human-robot interaction. When deployed on dynamically unstable platforms, however, reactive execution of expressive body motion may bring the robot to its stability limits, especially when expressivity is decoupled from physical control. In this paper, we present RoboMMT (Robot Modulated Motion Tracking), a modular control architecture that couples parameterized expressive motion synthesis, physics-based character control, and reactive adaptation to spatial interaction goals. Our approach trains a…
+
+---
+
+### [Data-Efficient Learning from Demonstration for Humanoid Robots via Feature-Level Perception and Prompt-Based Object Detection](https://arxiv.org/abs/2610.26170v1)
+
+- **arXiv**: `2610.26170v1`  |  **提交日期**: 2026-10-19
+- **作者**: Keyhan Rayati, AliReza Beigy, Anoosheh Saadati, Pourya Shahverdi, Mehdi Tale Masouleh, Ahmad Kalhor et al.
+
+Learning from Demonstration (LfD) allows robots to learn new skills from human examples; however, many vision-based methods require large datasets and resource-intensive end-to-end training. This paper introduces a data-efficient LfD framework for humanoid robots that learns manipulation skills from compact, task-specific features instead of raw images. The proposed approach integrates layered visual preprocessing, Kinect-based human joint estimation, prompt-based object detection, and depth information to extract human motion features and three-dimensional object locations from demonstration…
+
+---
+
+### [SWAP: Test-Time Steerable Humanoid Whole-Body Collision Avoidance](https://arxiv.org/abs/2610.25711v1)
+
+- **arXiv**: `2610.25711v1`  |  **提交日期**: 2026-10-19
+- **作者**: Zeji Yi, Guanqi He, Xiaofeng Guo, Guannan Qu, Pieter Abbeel, Yan Duan et al.
+
+Humanoid robots operating in human-centric environments must coordinate the entire body to traverse tight, cluttered spaces while maintaining balance. Existing methods often struggle to jointly consider dynamic stability and collision avoidance from high-dimensional perceptual inputs. Moreover, for humanoids, safe behavior is inherently multimodal: the same obstacle may admit multiple valid traversals, which is difficult to represent with a single deterministic policy. To address these challenges, we propose SWAP (Steerable Whole-body Avoidance Policy), a hierarchical framework that separates…
+
+---
+
+### [Validation of Human Motor Development Scales with Humanoid Robots](https://arxiv.org/abs/2610.25701v1)
+
+- **arXiv**: `2610.25701v1`  |  **提交日期**: 2026-10-19
+- **作者**: Fanxing Meng, Jing Xiao
+
+We investigate how humanoid robots can learn a series of motor skills defined by human infant motor development scales, and we evaluate which scales are comprehensive enough to serve as self-contained guides for developing gross motor skills up to standing and walking. We represent each motor development scale as a developmental graph that guides the training of a humanoid robot. We then apply this graph within a reinforcement learning framework so that the robot learns skills following the natural phases of human motor development described by the scale. Our work demonstrates that graphs…
+
+---
+
+### [Humanoid SRL: Augmenting Humanoids with Supernumerary Limbs for Coordinated Loco-Manipulation](https://arxiv.org/abs/2610.25628v1)
+
+- **arXiv**: `2610.25628v1`  |  **提交日期**: 2026-10-19
+- **作者**: Fukang Liu, Feiyang Wu, Paul Barsa, Jaehwi Jang, Akshat Jain, Zhigen Zhao et al.
+
+Humanoid robots are envisioned to perform diverse human-level tasks through their anthropomorphic morphology. Their dual-arm configuration enables a broad range of everyday actions. Yet, as in humans, this morphology can constrain loco-manipulation when both arms are occupied or additional contacts are required beyond their reach. Supernumerary robotic limbs (SRLs) offer a way to extend these capabilities, but their integration requires the added limb to be coordinated with whole-body motion and balance. In this study, we develop and integrate a supernumerary arm into a humanoid platform to…
+
+---
+
+### [Vision as Proprioception: Estimating Humanoid Robot Pose from Video](https://arxiv.org/abs/2610.25288v1)
+
+- **arXiv**: `2610.25288v1`  |  **提交日期**: 2026-10-18
+- **作者**: Jiaxi Jiang, Matthias Heyrman, René Zurbrügg, Marco Hutter, Christian Holz
+
+Estimating a humanoid robot's internal state from video has a wide range of real-world applications but remains unexplored. During interactions with a robot, its onboard state information may be unavailable due to privacy, ownership, or communication constraints. Meanwhile, online and AI-generated robot videos provide rich sources of data but typically lack corresponding joint configurations, limiting their direct use in robot learning. To address these issues, we present HumanoidPose, a new framework that treats vision as proprioception to recover full-body joint configurations in world…
+
+---
+
+### [SocialCoAct: Enabling and Benchmarking Egocentric Social Co-Action for VLM-Based Humanoid Robots](https://arxiv.org/abs/2610.24559v1)
+
+- **arXiv**: `2610.24559v1`  |  **提交日期**: 2026-10-17
+- **作者**: Jiancong Ma, Kun Li, Jin Jiang, Shengcai Liao
+
+Enabling humanoid robots to participate effectively in social interactions is important for their integration into human-centered environments. Existing methods, however, typically map pre-generated speech directly to continuous motion trajectories but have limited awareness of complex social environments and lack explicit high-level semantic action planning. We introduce SocialCoAct, a unified agent-centered framework for VLM-based egocentric social co-action. We formulate egocentric social co-action as an end-to-end agent task and develop SocialCoAct-Agent, which transforms egocentric…
+
+---
+
 ## 📅 2026-10-19
 
 ### [CoEvolve: Self-Evolving Code Policies from Skills to Strategies for Humanoid Robots](https://arxiv.org/abs/2610.23288v1)

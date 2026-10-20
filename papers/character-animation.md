@@ -2,6 +2,17 @@
 
 _自动追踪 arXiv 最新论文，最新更新在最上方。_
 
+## 📅 2026-10-20
+
+### [MOMO: Human Motion from Moving Sounds](https://arxiv.org/abs/2610.24522v1)
+
+- **arXiv**: `2610.24522v1`  |  **提交日期**: 2026-10-17
+- **作者**: Deli Cai, Shuyang Xu, Zhiyang Dou, Zitong Lan, Mingmin Zhao, Changxing Ding et al.
+
+Human responses to sound depend not only on its semantic content, but also on the evolving spatial relationship between source and listener, conveyed through spatial audio and its temporal dynamics. Modeling human reactions to such dynamic spatial audio is important for character animation, human behavior analysis, and robotics. As of yet, existing audio-driven motion generation methods primarily focus on non-spatial or static acoustic conditions, leaving this important problem largely underexplored. To bridge this gap, we formulate the novel task of dynamic spatial-audio-driven human motion…
+
+---
+
 ## 📅 2026-10-12
 
 ### [ELMA: Benchmarking Anaphoric Compositions for Long-Term Text-to-Motion Generation](https://arxiv.org/abs/2610.13549v1)

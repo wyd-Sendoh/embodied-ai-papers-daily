@@ -2,6 +2,53 @@
 
 _自动追踪 arXiv 最新论文，最新更新在最上方。_
 
+## 📅 2026-10-20
+
+### [HandsOn: A Large-Scale Simulation Benchmark for Generalizable Dexterous Manipulation](https://arxiv.org/abs/2610.26765v1)
+
+- **arXiv**: `2610.26765v1`  |  **提交日期**: 2026-10-19
+- **作者**: Tianwei Luo, Yiming He, Hongjin Wu, Ting Pan, Debin Ren, Haorui Guo et al.
+
+General-purpose manipulation requires reliable behavior across embodiments, objects, and task demands. We introduce HandsOn, a composable simulation platform and benchmark for cross-embodiment dexterous manipulation. It supports five robotic arms, six dexterous hands, and approximately 200 rigid, articulated, and deformable assets in randomized scenes. The benchmark pairs 18,000 curated human demonstrations with 66 human-verified tasks: Core-50 supports demonstration-based learning and execution tests, while Transfer-16 evaluates asset and relation transfer, skill composition, and deformable…
+
+---
+
+### [RoboValue: A Fine-Grained Sim-and-Real Benchmark for Unified Evaluation of Robotic Value Models](https://arxiv.org/abs/2610.26663v1)
+
+- **arXiv**: `2610.26663v1`  |  **提交日期**: 2026-10-19
+- **作者**: Shengbang Liu, Zhengye Du, Zhilong Wan, Honghao Su, Chenxiang Xia, Chang Ge et al.
+
+Robotic value models assess task execution from visual observations and instructions, providing feedback for policy learning and execution monitoring. However, existing evaluations cover only selected aspects of execution understanding, leaving the reliability of value feedback insufficiently tested. We introduce RoboValue, a fine-grained sim-and-real benchmark for unified evaluation of robotic value models. Its framework evaluates four complementary capability dimensions through shared interfaces: task-state understanding, temporal progress monitoring, failure and recovery reasoning, and…
+
+---
+
+### [ReDOA: Real-World Distillation via Observation Alignment for Image-Based Manipulation Policy Learning](https://arxiv.org/abs/2610.25691v1)
+
+- **arXiv**: `2610.25691v1`  |  **提交日期**: 2026-10-19
+- **作者**: Kotaro Kajitsuka, Masaki Murooka, Fumio Kanehiro
+
+Data-driven learning for general-purpose robotic manipulation presents a fundamental trade-off between data-collection cost and adaptability to real-world environments. Imitation learning (IL) requires costly human demonstrations, whereas simulation-based learning is vulnerable to sim-to-real gaps in dynamics and sensor observations. We propose ReDOA (Real-World Distillation via Observation Alignment), a framework that decouples control learning from perception learning to learn image-based policies in the real world. A state-based teacher policy trained in simulation is executed on a real…
+
+---
+
+### [Action-Aligned Latent Planning for Versatile Humanoid Loco-Manipulation](https://arxiv.org/abs/2610.24675v1)
+
+- **arXiv**: `2610.24675v1`  |  **提交日期**: 2026-10-17
+- **作者**: Yutang Lin, Guanya Shi, C. Karen Liu
+
+Learning a single perceptive policy for diverse humanoid loco-manipulation requires unifying high-level task decisions without losing the state-dependent physical responses that make each interaction succeed. This makes the representation between high-level planning and whole-body control critical: kinematic or contact targets provide compact abstractions but do not directly encode interaction-specific control responses, while directly predicting low-level actions requires the planner to model high-frequency closed-loop feedback. We propose FIBER, a framework that uses the executable latent…
+
+---
+
+### [BodyBridge: Grounded Body Layers for Sim-to-Real Translation of Vulnerable Road Users](https://arxiv.org/abs/2610.24436v1)
+
+- **arXiv**: `2610.24436v1`  |  **提交日期**: 2026-10-17
+- **作者**: Mark Azer, Fabian B. Flohr
+
+Simulation-to-real driving video diffusion models can translate photorealistic scenes, but they typically represent pedestrians and cyclists, vulnerable road users (VRUs), as generic object classes. This is insufficient for vulnerable road users whose safety-relevant appearance depends on articulated pose and identity. We present BodyBridge and Grounded Body Layers (GBL), a simulator-derived, pixel-aligned representation that combines scene geometry, canonical per-pixel body correspondence, and exact VRU masks. GBL provides explicit articulation to the video diffusion model, emphasizes VRU…
+
+---
+
 ## 📅 2026-10-19
 
 ### [Quality-of-Transmission Estimation in Quantum Networks: Compute, Simulate, or Learn?](https://arxiv.org/abs/2610.23827v1)

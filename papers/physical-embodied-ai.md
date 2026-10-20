@@ -2,6 +2,89 @@
 
 _自动追踪 arXiv 最新论文，最新更新在最上方。_
 
+## 📅 2026-10-20
+
+### [BetaMem: Learning to Remember a Changing World for Embodied Agents](https://arxiv.org/abs/2610.26554v1)
+
+- **arXiv**: `2610.26554v1`  |  **提交日期**: 2026-10-19
+- **作者**: Mai Liu, He Sun, Siru Zhong, Kerun Chen, Hao Yan, Xiaohui Lv et al.
+
+Long-horizon embodied agents face temporal confusion and incomplete or distorted records, recurring errors from fixed memory rules, and growing storage and retrieval costs. We present BetaMem, a framework for building and evolving traceable long-term memory through six linked layers: working, spatial, entity, episodic, experiential, and procedural memory. A dual-level write contract constrains operation executability and source support for content: supervised fine-tuning learns compliant memory operations, while reinforcement learning combines repeated sampling with teacher verification of…
+
+---
+
+### [ForagerSim: Evaluating Embodied Map-Based Reasoning in Large-Scale Dynamic Worlds](https://arxiv.org/abs/2610.26395v1)
+
+- **arXiv**: `2610.26395v1`  |  **提交日期**: 2026-10-19
+- **作者**: Tomáš Musil, Martin Kotík, Michal Vavrečka, Karla Štěpánová, Sebastian Scherer, Martin Saska
+
+Animals build cognitive maps of vast environments, use them to perform map-based navigation, and might even be reusing the same circuitry used in spatial reasoning for creating and using maps of arbitrary task-spaces. In contrast, current embodied AI systems either rely on hand-engineered mapping pipelines, which break in the presence of unmodeled dynamics and are restricted to metric space, or on learned policies that rarely form map-like representations at all. Developing architectures that could learn to build and use map-like representations as flexibly as animals is, however, difficult…
+
+---
+
+### [Mobile Embodied Agent Network (MEAN): Integrated Framework, Enabling Technologies, and Task-Driven Deployment](https://arxiv.org/abs/2610.26297v1)
+
+- **arXiv**: `2610.26297v1`  |  **提交日期**: 2026-10-19
+- **作者**: Zhaoyang Zhang, Lingxiao Sun, Weijie Zhou, Chunhui Feng, Zhaohui Yang, Xuan Cheng et al.
+
+Mobile networks are evolving from human-centered, data-oriented communication infrastructures toward machine- and/or agent-dominant, task-oriented platforms that are to serve the rapidly increasing networked machines and embodied agents. In order to fulfill the newly arose complex task objectives, the framework of future mobile network is to be innovated to reflect and facilitate the intrinsic interplay and integration of the underlying processes of perception, communication, computation, decision, action, and feedback, etc. This survey establishes the mobile embodied agent network (MEAN) as…
+
+---
+
+### [Motor compound fault diagnosis using an attention-based cross-talk architecture](https://arxiv.org/abs/2610.25893v1)
+
+- **arXiv**: `2610.25893v1`  |  **提交日期**: 2026-10-19
+- **作者**: Wonjun Yi, Wonho Jung, Junho Kim, Rismaya Kumar Mishra, Yong-Hwa Park
+
+As physical AI increasingly relies on sensing to understand physical systems, reliable condition monitoring of industrial machinery has become more important. Motors are ubiquitous in industrial systems, and increasing system complexity raises the likelihood of simultaneous faults. Accordingly, compound fault diagnosis that identifies multiple fault components and their severities is increasingly required. Because different fault components jointly affect the same vibration signal, their severity classification can be formulated as related tasks, making multi-task learning (MTL) suitable for…
+
+---
+
+### [Adaptive Bendpoint Formation in Octopus-Inspired Soft Continuum Arms](https://arxiv.org/abs/2610.25585v1)
+
+- **arXiv**: `2610.25585v1`  |  **提交日期**: 2026-10-18
+- **作者**: Jessica Gumowski, Julian Finn, Krishna Manaswi Digumarti, David Howard
+
+Octopuses exhibit a powerful form of embodied intelligence from a highly adaptable soft body. One key mechanism is the ability to instantiate bending points at any location along the arm, which enables performant and dexterous behaviours. Taking inspiration from the octopus for its dexterity, this study focuses on changing the curvature of a tendon-actuated arm by adaptively changing the anchoring end-point along the arm. An array of inflatable shells is integrated into the arm, where inflating a shell causes an increase in friction at the location, jamming the tendon and creating a temporary…
+
+---
+
+### [LateMatch: Breaking the Interaction Bottleneck via Cacheable Matching for Efficient Visual Localization](https://arxiv.org/abs/2610.25358v1)
+
+- **arXiv**: `2610.25358v1`  |  **提交日期**: 2026-10-18
+- **作者**: Mohammad Omama, Aeyan Ashraf, Sandeep Chinchali
+
+Visual localization is critical for embodied agents, but deploying state-of-the-art deep feature matchers on edge devices is fundamentally limited by their massive computational cost. Standard deep matchers tightly interleave intra-image context building and inter-image matching at every layer, creating a severe interaction bottleneck. Localizing a single query against K database images forces the system to execute the full network K independent times with no capacity for caching. To break this bottleneck, we advocate for a paradigm shift toward cacheable image matching. We realize this…
+
+---
+
+### [Compile Once, Run Cheap: Frozen, Portable Skills for Embodied Agents, and What Recursive Self-Improvement Adds](https://arxiv.org/abs/2610.25114v1)
+
+- **arXiv**: `2610.25114v1`  |  **提交日期**: 2026-10-18
+- **作者**: Jingwen Bai, Guochao Bai, Canbo Zhang, Shuangqi Li, Minchao Hu, Weichun Huang et al.
+
+Embodied AI lacks the data-rich pretraining that gave language models their agents and skills, so new manipulation capability costs demonstrations per task or a frontier model in every episode. We study a third route: a strong general model acts only as an offline author that writes, runs, diagnoses and repairs a manipulation skill in simulation until it passes an exam on layouts drawn after freezing; the frozen skill then runs as code alone or under a cheap caller that reads only its description. We call this skill-level recursive self-improvement Skill-RSI and specify a compile protocol…
+
+---
+
+### [DialogMem: Evaluating Dialogue-Grounded Embodied Memory in 3D Environments](https://arxiv.org/abs/2610.24767v1)
+
+- **arXiv**: `2610.24767v1`  |  **提交日期**: 2026-10-17
+- **作者**: SeongJun Jeong, Junghyun Kim, Gi-Cheon Kang, Byoung-Tak Zhang
+
+Embodied agents in human-centered environments require memory that integrates what they observe with what humans tell them over time. However, existing embodied memories are built primarily from visual experience, leaving open how dialogue with humans can be grounded in the objects encountered throughout that experience. We introduce DialogMem, a two-phase benchmark in which agents build memory from time-aligned streams of posed RGB-D observations and dialogue, and later use it for instance-level object navigation and question answering (QA). DialogMem provides 142 episodes across 27…
+
+---
+
+### [Refuse the Harm, Complete the Task via Graph-of-Rules Planning for LLM-Enabled Robots](https://arxiv.org/abs/2610.24603v1)
+
+- **arXiv**: `2610.24603v1`  |  **提交日期**: 2026-10-17
+- **作者**: Ali Taheri, Alireza Taban, Qizhou Wang, Wanhua Li
+
+Large Language Models (LLMs) are increasingly used in embodied AI for robotic manipulation and planning, but their deployment in physical systems exposes vulnerabilities such as jailbreak attacks that induce unsafe behavior. Existing inference-time defenses are mainly evaluated on short instructions containing a single hazard, whereas realistic tasks may interleave safe and unsafe sub-tasks, conceal hazardous steps, or combine individually safe actions into unsafe outcomes. Such compound instructions make it harder for a single safety decision to distinguish hazardous sub-tasks from…
+
+---
+
 ## 📅 2026-10-19
 
 ### [LonGaussian: Tracking Foundation Priors for Long-Context Feedforward Gaussian Reconstruction](https://arxiv.org/abs/2610.23250v1)

@@ -2,6 +2,107 @@
 
 _自动追踪 arXiv 最新论文，最新更新在最上方。_
 
+## 📅 2026-10-20
+
+### [PVBench: Quantifying Physical Plausibility in Video Generation with Object-Level Physical Measurements](https://arxiv.org/abs/2610.26711v1)
+
+- **arXiv**: `2610.26711v1`  |  **提交日期**: 2026-10-19
+- **作者**: Kaiwei Chen, Moran Li, Zhenye Gan, Yabiao Wang, Chengjie Wang, Kexin Zhang et al.
+
+Recent video generation models produce visually compelling outputs, yet their physical plausibility remains poorly measured. Physical plausibility asks whether generated objects obey geometry, kinematics, dynamics, and conservation laws. Existing benchmarks rely on coarse visual-language model judgments or target embodied world models rather than video generation itself. We introduce PVBench, a physical video benchmark that quantitatively measures the plausibility of generated videos across 46 dimensions organized into seven domains, spanning: i) instruction and semantic fidelity, ii)…
+
+---
+
+### [Learning Wheel Motion Uncertainty for Degeneracy-Aware LiDAR-Inertial Odometry on Quadrupedal Wheel-Legged Robots](https://arxiv.org/abs/2610.26550v1)
+
+- **arXiv**: `2610.26550v1`  |  **提交日期**: 2026-10-19
+- **作者**: Hairuo Wei, Yunfan Ren, Renda Yang, Qiangsheng Huang, Zhongyu Li
+
+Wheel kinematics can support odometry for quadrupedal wheel-legged robots when LiDAR geometry provides weak motion constraints. However, slip and contact loss make rolling predictions unreliable, and contact state alone cannot determine their reliability across motion directions. We propose a tightly coupled LiDAR-inertial-kinematic odometry framework that retains analytical rolling predictions and learns per-wheel, direction-dependent process covariances from proprioceptive history. The estimator maintains moving wheel-center states, allowing the learned uncertainty to regulate the influence…
+
+---
+
+### [ReInsVLN: Revisiting Historical Evidence for Training-Free Vision-and-Language Navigation](https://arxiv.org/abs/2610.26545v1)
+
+- **arXiv**: `2610.26545v1`  |  **提交日期**: 2026-10-19
+- **作者**: Siwei Cheng, Hao Wu, Zitong Qi, Xinming Zhang, Haoyu Xi, Peiran Yin et al.
+
+Vision-and-language navigation (VLN) relies on retaining and using relevant observations. Yet growing histories introduce redundancy, and retained information may remain underused. We introduce ReInsBench, a diagnostic benchmark that examines history utilization through controlled continuation trials. Its results show that history-review reinstruction can recover navigation failures using the existing task context. Motivated by this finding, we propose ReInsVLN, a training-free framework supporting memory construction and utilization in frozen navigators. Coverage- and Instruction-Aware…
+
+---
+
+### [Self-Supervised Inertial Odometry](https://arxiv.org/abs/2610.25988v1)
+
+- **arXiv**: `2610.25988v1`  |  **提交日期**: 2026-10-19
+- **作者**: Yuheng Qiu, Yutian Chen, Carlton Cort, Weison Huang, Shibo Zhao, Pieter Abbeel et al.
+
+Learning inertial odometry for a new platform usually requires ground-truth trajectories. We show that an inertial odometry model can instead be trained from scratch by a myopic teacher that integrates the IMU over each short window independently, a scheme we call integration self-supervision.Interestingly, although supervised only by short-window velocity changes, the student learns to directly predict velocity, and does so more accurately than its integration teacher. Pose graph distillation then refines the model with sequence-consistent targets from a pose graph over many windows.…
+
+---
+
+### [SkateNav: Learning Energy-Efficient Navigation through Adaptive Skating on Passive-Wheel Quadrupedal Robots](https://arxiv.org/abs/2610.25962v1)
+
+- **arXiv**: `2610.25962v1`  |  **提交日期**: 2026-10-19
+- **作者**: Jeil Jeong, Taeyun Kim, Sangjin Kim, Jinyoung Choi, Sung-Eui Yoon
+
+Passive-wheel quadrupedal robots offer energy-efficient locomotion through leg-driven propulsion and momentum-driven gliding. However, navigation requires coordinating steering with intermittent propulsion and adapting push-glide timing to task demands. Velocity-tracking objectives may suppress the speed variations inherent in skating, discouraging efficient gliding. To address these challenges, we propose SkateNav, a unified skating-navigation framework based on reinforcement learning. A time-budgeted goal-reaching objective allows the policy to jointly learn steering, propulsion, and their…
+
+---
+
+### [ScaleNav: Scalable Internet Video Pretraining for Language-Conditioned Local Navigation](https://arxiv.org/abs/2610.25690v1)
+
+- **arXiv**: `2610.25690v1`  |  **提交日期**: 2026-10-19
+- **作者**: Yihui Yang, Yuanhong Yu, Jiawei Wang, Zhongrui Yu, Jia Shi, Kun Zhan et al.
+
+We study language-conditioned local navigation, where a robot must navigate to a text-specified target visible in its initial observation and stop at the described location. End-to-end navigation policies require diverse training data to generalize across scenes, yet real-robot data is costly to collect and simulated data leaves a sim-to-real gap. Internet egocentric videos offer a scalable source of real-world navigation experience. Our key insight is to learn goal-directed visual dynamics from Internet egocentric videos, and use these dynamics to support robot action generation. To this…
+
+---
+
+### [CusADi2: Latency-Optimized Batch Computation of Robot Kinematics, Jacobians, and Hessians on the GPU](https://arxiv.org/abs/2610.25476v1)
+
+- **arXiv**: `2610.25476v1`  |  **提交日期**: 2026-10-18
+- **作者**: John Viljoen, Lasse Peters, Masayoshi Tomizuka, Negar Mehr
+
+Trajectory optimization methods, from sampling-based zero-order to gradient-based first- and second-order approaches, require many evaluations of dynamical system functions, i.e., functions derived from a robot's dynamical model, such as forward kinematics and their Jacobians and Hessians. These evaluations are largely independent, e.g., across sampled trajectories or time steps, and can thus be evaluated in parallel as a batch. When used to make decisions online, these methods require low latency, i.e., each batch must complete in as little wall-clock time as possible. Existing frameworks…
+
+---
+
+### [Structure over Reasoning: Unified Zero-Shot Navigation with a Small Vision-Language Model](https://arxiv.org/abs/2610.25130v1)
+
+- **arXiv**: `2610.25130v1`  |  **提交日期**: 2026-10-18
+- **作者**: Zeqi Li, Xunyi Zhao, Zerui Li, Sihao Lin, Qi Wu, ShiJie Li
+
+Vision-language navigation is moving into photorealistic, physically simulated scenes, where the leading zero-shot agents put a vision-language model in the control loop to choose every move and stop. Robots favour small models, whose abilities are uneven: Qwen3-VL-4B can judge whether a single view looks like the goal, but its route reasoning is at chance, its distance estimates nearly constant, its stop votes unreliable. Our agent therefore asks it two perceptual questions per step, which direction looks like the goal and whether the view justifies stopping, plus one gated frontier query on…
+
+---
+
+### [Anticipatory Gait Switching for Quadrupeds via Look-Ahead MDP Planning](https://arxiv.org/abs/2610.24895v1)
+
+- **arXiv**: `2610.24895v1`  |  **提交日期**: 2026-10-17
+- **作者**: Kelvin Aladum, Justin Peel, Nisar Ahmed
+
+Quadruped robots often switch gaits to traverse mixed terrain safely. Many practical supervisors enforce hardware constraints (e.g., dwell or guard intervals) using a transition handler. However, the switch decision itself is often driven by near-field thresholds, which can delay commitment when rough terrain is only detected shortly before contact in the local height map. We propose a lightweight height-map-only gait supervisor that unifies look-ahead and locomotion constraints in a single decision policy. A robot-centered height map is partitioned into near-, mid-, and far-field bands, each…
+
+---
+
+### [Learning Structured Locomotion References for Optimization-Based Whole-Body Control](https://arxiv.org/abs/2610.24779v1)
+
+- **arXiv**: `2610.24779v1`  |  **提交日期**: 2026-10-17
+- **作者**: Ömer Tarık Banuş, Uluç Saranlı, M. Mert Ankaralı
+
+Quadruped locomotion requires coordinating body motion,contact forces, foothold placement, and gait timing. We present a hierarchical controller in which reinforcement learning adapts these structured locomotion references while a gait scheduler, reactive footstep planner, and whole-body impulse controller retain responsibility for high-frequency execution. The model-based backbone can sustain a nominal trot independently, allowing the policy to focus on when and how to modify an already functional locomotion controller. We train the complete hierarchy in a vectorized controller-in-the-loop…
+
+---
+
+### [Solving a Giant Rubik's Cube with a Quadruped Robot](https://arxiv.org/abs/2610.24610v1)
+
+- **arXiv**: `2610.24610v1`  |  **提交日期**: 2026-10-17
+- **作者**: Lukas Amiet, Gabriel Sánchez-Blanco Repgen, Mayank Mittal, Victor Klemm, Andrei Cramariuc, Marco Hutter et al.
+
+Pedipulating a freestanding articulated object requires controlling its pose and internal configuration while maintaining balance. We demonstrate this capability by autonomously solving a giant Rubik's Cube with a quadruped using only its feet. The task demands repeated precise interactions, since unintended layer motion can invalidate subsequent operations. We develop an onboard RGB-D perception pipeline that estimates the cube's metric pose and its full color state from partial views acquired through locomotion and flipping. A planner converts the computed solve into robot-executable skill…
+
+---
+
 ## 📅 2026-10-19
 
 ### [Blind Precise Assembly: Proprioceptive Sim-to-Real Peg-in-Hole for Diverse Parts](https://arxiv.org/abs/2610.23849v1)

@@ -2,6 +2,251 @@
 
 _自动追踪 arXiv 最新论文，最新更新在最上方。_
 
+## 📅 2026-10-20
+
+### [Ropedia W0: Scaling Loco-Manipulation World Models across Embodiments with Human Experience](https://arxiv.org/abs/2610.26855v1)
+
+- **arXiv**: `2610.26855v1`  |  **提交日期**: 2026-10-19
+- **作者**: Tianqi Liu, Hanfei Zhao, Qifeng Liang, Hui En Pang, Jiarui Xu, Sayang Mu et al.
+
+World models enable embodied agents to anticipate action consequences, yet jointly modeling locomotion and manipulation across diverse embodiments remains challenging due to heterogeneous action spaces and limited multimodal supervision. We present Ropedia W0, the first egocentric loco-manipulation world foundation model spanning humans and robots with diverse embodiments. We curate Xp-Data, comprising 10k hours of egocentric human data and 3k hours of robot data with unified multimodal annotations and systematic quality control. A unified kinematic representation encodes locomotion through…
+
+---
+
+### [Train An Imaginative Agent](https://arxiv.org/abs/2610.26845v1)
+
+- **arXiv**: `2610.26845v1`  |  **提交日期**: 2026-10-19
+- **作者**: Jiaxin Ge, Junyi Zhang, Tianning Chai, Hanjun Yoo, Chenyang Wang, Xiuyu Li et al.
+
+A seemingly reasonable push in Sokoban can make the puzzle unsolvable. To avoid such mistakes, an agent has to anticipate the consequences of its actions before execution, especially when feedback from the real environment is sparse or actions are irreversible. We introduce Agentic Imagination (Agima), a training framework that trains an agent to imagine before acting, i.e. to be imaginative. Agima trains a single omni model to propose actions, generate images of their outcomes, and then reason over these imagined futures to decide what to execute in the real environment. Rather than…
+
+---
+
+### [AnyGoal: On World Model Generalization Beyond Expert Rollouts](https://arxiv.org/abs/2610.26844v1)
+
+- **arXiv**: `2610.26844v1`  |  **提交日期**: 2026-10-19
+- **作者**: Heejeong Nam, Divyat Mahajan, Quentin Le Lidec, Randall Balestriero, David Klindt
+
+The goal of a world model is to capture the dynamics of an environment. This has the great appeal that it allows agents to plan and simulate a course of actions with the help of a world model. For these uses to be reliable, however, the learned dynamics must behave well beyond the specific state-action combinations observed in expert rollouts. Despite this, the relationship between data coverage, dynamics generalization, and downstream planning performance remains underexplored. We study this relationship through the lens of compositional generalization: can a world model recombine familiar…
+
+---
+
+### [Agent World Model in the Wild: Computer-Use Agent Environment Synthesis](https://arxiv.org/abs/2610.26828v1)
+
+- **arXiv**: `2610.26828v1`  |  **提交日期**: 2026-10-19
+- **作者**: Zhaoyang Wang, Qianhui Wu, Haorui Wang, Simon Yu, Baolin Peng, Canwen Xu et al.
+
+Agent learning is shifting from learning from human data toward learning through interaction with the world. However, scaling such learning directly in real-world computer systems is challenging and can introduce substantial security risks. We therefore propose Agent World Model in the Wild (WildAWM), a scalable pipeline for synthesizing controllable environments and tasks for training general computer-use agents (CUAs). Whereas existing approaches typically specialize in a single agent interaction interface, we construct executable environments that jointly support graphical user interfaces,…
+
+---
+
+### [State World Models: Execute the Rules, Generate the Pixels](https://arxiv.org/abs/2610.26811v1)
+
+- **arXiv**: `2610.26811v1`  |  **提交日期**: 2026-10-19
+- **作者**: Chan Yan Ki, Yanran Zhang, Wenzhao Zheng, Xiaofeng Wang, Zheng Zhu, Lei Chen et al.
+
+Existing world models can generate action-conditioned video from a single image. Many focus on camera movement, allowing users to explore the generated scene. However, navigation alone does not ensure that an action follows persistent rules when its outcome depends on state that is invisible in the current frame. We present Stateful Harness, a framework that separates world evolution from video rendering to support stateful and rule-governed interaction. It maintains an evolving world state under specified rules, renders each resulting event with a frozen video model, and uses the generated…
+
+---
+
+### [Simulation Priors for Rapid Adaptation in Model-Based RL for Autonomous Racing](https://arxiv.org/abs/2610.26757v1)
+
+- **arXiv**: `2610.26757v1`  |  **提交日期**: 2026-10-19
+- **作者**: Adrian Remonda, Jiajun Xi, Nicklas Hansen, Marcus Greiff, Thomas Lew, John Talbot et al.
+
+Reinforcement learning enables learning high-performance control policies, but its reliance on extensive interaction limits deployment on physical systems where data collection is costly, and failures are unsafe. We introduce Prior-Informed Adaptation (PIA), an offline-to-online model-based RL framework that uses structured simulation priors for rapid adaptation. PIA pretrains a world model on heterogeneous low- and high-fidelity simulated trajectories, then adapts it with limited target-domain interaction using uncertainty-regularized planning. Rather than requiring an accurate simulator for…
+
+---
+
+### [PrismWAM: Decoupling State Representations in World Action Models](https://arxiv.org/abs/2610.26564v1)
+
+- **arXiv**: `2610.26564v1`  |  **提交日期**: 2026-10-19
+- **作者**: Tianyu Xin, Wanqi Zhong, Bowen Hu, Zhangchi Guo, Lijie Wang, Yiming Wang et al.
+
+World Action Models (WAMs) typically represent the world through latent embeddings from pretrained video models, which entangle heterogeneous aspects of the world, from how it looks (e.g., texture and color) to how it is physically configured (e.g., occupancy and pose). This raises an underexplored question: $\textbf{what should constitute the state of a WAM?}$ We argue that the world state should separate how the world appears from how the world evolves under action: the former captures semantic context, while the latter is governed by physical state. To this end, we propose…
+
+---
+
+### [Learning Goal-Conditioned Subgoals through Frozen Hierarchical World Models](https://arxiv.org/abs/2610.26179v1)
+
+- **arXiv**: `2610.26179v1`  |  **提交日期**: 2026-10-19
+- **作者**: Xiang Kaibo, Liu Qingfeng
+
+Hierarchical world models plan over long horizons by passing predicted states from a coarse model to a lower-level controller. Choosing these states can be expensive: the upper-level planner repeatedly differentiates through candidate macro-action trajectories. We replace this search with a lightweight goal-conditioned network trained through the frozen high-level predictor. The network supplies a conditioning vector, while the predictor generates the next latent waypoint. Training uses hindsight goals and state-prediction losses on offline trajectories, without search-solution targets or…
+
+---
+
+### [EmbodiedWorld-200K: Toward Embodied World Agents via Embodied-Planning Dataset and Interactive World Models](https://arxiv.org/abs/2610.25959v1)
+
+- **arXiv**: `2610.25959v1`  |  **提交日期**: 2026-10-19
+- **作者**: X. Feng, J. Tang, Z. Lin, L. Chen, S. Shao, Q. Lu et al.
+
+Building embodied agents that can perceive, reason, and act across diverse 3D worlds is a central research direction toward artificial general intelligence. Yet most existing work remains confined to specific tasks in a single scene and transfers poorly to new environments, leaving general embodied agents for open-world settings under-explored. We refer to such agents as Embodied World Agents (EWAs), whose defining property is the ability to understand diverse visual environments and execute general actions in open-world conditions. To advance EWA research, we study open-world embodied…
+
+---
+
+### [ActionRoPE: action as coordinates for spatially consistent control in planar-camera game world models](https://arxiv.org/abs/2610.25861v1)
+
+- **arXiv**: `2610.25861v1`  |  **提交日期**: 2026-10-19
+- **作者**: Zhiyang Deng, Yuzhe Wu, Zijun Lin, Yeying Jin
+
+Game world models have made rapid progress toward real-time interactive generation. Yet action control is still predominantly implemented as feature conditioning, leaving the model to learn from training data how each action should move the visual world. This formulation is poorly matched to a broad class of planar-camera worlds, such as top-down and isometric games. In these worlds, player motion induces a geometrically well-defined planar camera displacement. We observe that the key to spatially consistent control in such worlds is to represent the effect of each action directly in world…
+
+---
+
+### [See the Future, Classify the Present: Stochastic Latent World Modeling for Hyperspectral Images](https://arxiv.org/abs/2610.25781v1)
+
+- **arXiv**: `2610.25781v1`  |  **提交日期**: 2026-10-19
+- **作者**: Muhammad Ahmad, Gemine Vivone, Ronny Hänsch, Ahmed Sohaib, Manuel Mazzara, Danfeng Hong
+
+Hyperspectral image classification (HSIC) relies on static spatial-spectral representations learned from labeled samples, limiting its ability to model structured dependencies in the latent representation space. To address this limitation, this work proposes Stochastic Latent World Modeling (LWM), a trajectory-based representation-learning framework that enriches classification through stochastic latent-state prediction. Given a hyperspectral patch, LWM tokenizes and encodes spectral and spatial information separately using dedicated transformer branches, then fuses their outputs into a…
+
+---
+
+### [ActTime: Action-Conditioned World Modeling for Time Series](https://arxiv.org/abs/2610.25764v1)
+
+- **arXiv**: `2610.25764v1`  |  **提交日期**: 2026-10-19
+- **作者**: Xinxing Zhou, Xiaojie Yuan, Yanlong Wen, Ming Jin
+
+Time-series models increasingly condition on known future inputs. In controlled systems, some of these inputs are actions that can be changed, compared, and optimized before execution. A model must therefore do more than predict the realized future: it must predict how outcomes change under different actions from the same observed history and support reliable comparison of candidate plans. We introduce ActTime, an action-conditioned world model for time series. Over the observed history, ActTime updates variable-specific latent states through an action-conditioned transition and corrects them…
+
+---
+
+### [Frechet Forcing: Training Long-Horizon Streaming World Models from Short Clips](https://arxiv.org/abs/2610.25666v1)
+
+- **arXiv**: `2610.25666v1`  |  **提交日期**: 2026-10-19
+- **作者**: Yian Zhao, Yu Yan, Hongcan Guo, Ruochong Zheng, Jian Zhang, Jie Chen
+
+Streaming video world models generate the future chunk by chunk, conditioned on their own past and a stream of actions. Trained on short clips, they drift once a rollout exceeds the training horizon, as prediction errors re-enter the context and compound. A common remedy is to train the model on its own rollouts via distribution matching distillation (DMD). For action-conditioned world models, the teacher becomes a bottleneck: an external video model is agnostic to the actions, whereas the model's own pretrained network drifts in the same manner as the student. We observe that a long rollout…
+
+---
+
+### [Vector-Quantized World Model: Latent Feedback Motion Planning for Robot Manipulation](https://arxiv.org/abs/2610.25600v1)
+
+- **arXiv**: `2610.25600v1`  |  **提交日期**: 2026-10-19
+- **作者**: Xuezhou Xu, Chung-Pang Wang, Zhenzhen Li, Benjamin Riviere
+
+Visual world models have shown strong potential for robot planning, yet long-horizon manipulation remains challenging due to compounding prediction errors, large search complexity, and latent plans that the low-level controller cannot reliably reach. In this work, we introduce Vector-Quantized World Model (VQ-WM), a latent feedback motion planning framework that integrates discrete long-horizon search with continuous visual feedback control: a discrete latent predictor models transitions between vector-quantized latent states, allowing the planner to look far ahead and find a shortest path to…
+
+---
+
+### [Dynamics-Aligned Representation Learning under Induced Partial Observability](https://arxiv.org/abs/2610.25511v1)
+
+- **arXiv**: `2610.25511v1`  |  **提交日期**: 2026-10-18
+- **作者**: SM Mazharul Islam, Manfred Huber
+
+Model-based reinforcement learning (MBRL) has enabled sample-efficient learning of continuous control policies from high-dimensional observations through learned latent dynamics models. These models are typically trained with observation reconstruction objectives, which provide strong supervision but can bias representations toward visual fidelity leading to an undertrained prior and unreliable long-horizon predictions. We propose a stochastic gating mechanism that induces controlled partial observability during training by sampling a spatial binary mask from a Beta--Bernoulli random field…
+
+---
+
+### [UniState: Unifying Memory and Intervention for Controllable World Simulation](https://arxiv.org/abs/2610.25414v1)
+
+- **arXiv**: `2610.25414v1`  |  **提交日期**: 2026-10-18
+- **作者**: Jaeseok Jeong, Kyungmook Choi, Sohyun Chung, Youngsik Yun, Youngjung Uh
+
+World models offer increasingly rich environments for exploration, yet intervening in a world while observing the consequences from freely chosen viewpoints remains challenging. We tackle these challenges by introducing UniState, a framework for controllable world simulation built on a unified world-state representation. This representation unifies spatial memory and user interventions. Users specify object motion directly within spatial memory, while independently choosing the camera trajectory from which the resulting world state is observed. This unification makes the relationship between…
+
+---
+
+### [Operator-Mismatch Contrastive Learning for World-Relative Trajectory Coherence](https://arxiv.org/abs/2610.25360v1)
+
+- **arXiv**: `2610.25360v1`  |  **提交日期**: 2026-10-18
+- **作者**: One Octadion, Firmansyah Sundana, Novanto Yudistira
+
+World models are increasingly judged by how well they rank plausible futures, yet plausibility alone is the wrong target. The same scene can evolve under many latent rules, and a future that is smooth and physically valid under one rule can be incoherent under the rule actually in force. We formalize the resulting failure, operator-blindness, and show that it is systematically hidden by standard evaluation: a scorer can attain near-perfect generic ranking while separating current-world from other-world futures no better than chance. We introduce Operator-Mismatch Contrastive (OMC) learning,…
+
+---
+
+### [CoRe-WM: Conditioned Response-State World Modeling for Longitudinal Treatment-Response Prediction in Breast DCE-MRI](https://arxiv.org/abs/2610.25333v1)
+
+- **arXiv**: `2610.25333v1`  |  **提交日期**: 2026-10-18
+- **作者**: Lin Zhao, Bowen Chen, Qiaohui Gao, Shaowen Wan, Xiang Li, Wei Liu et al.
+
+Pathologic complete response (pCR) after neoadjuvant chemotherapy is a key prognostic indicator in aggressive breast cancer, yet existing prediction approaches either rely on pretreatment imaging alone, missing the patient's evolving response, or optimize multi-visit classifiers under direct outcome supervision, coupling representation learning with the clinical endpoint. We formulate longitudinal pCR prediction as a world-modeling problem and propose Conditioned Response-state World Modeling (CoRe-WM), which learns a latent state-transition model that predicts the next imaging state from the…
+
+---
+
+### [World Model Interpretability: From Decoding Representations to Understanding Latent Worlds](https://arxiv.org/abs/2610.25296v1)
+
+- **arXiv**: `2610.25296v1`  |  **提交日期**: 2026-10-18
+- **作者**: Jize Wang, Yongcheng Jing, Xinyi Le, Cailian Chen, Xinping Guan, Dacheng Tao
+
+Emerging Joint-Embedding Predictive Architectures (JEPAs) are moving beyond representation learning towards latent world models that support prediction, planning, and control. Yet their latent worlds naturally lack a human-interpretable interface. In this Perspective, we argue that as JEPA latents become internal states for prediction and action, interpretability must move beyond what they encode to how latent variables interact, evolve, and causally drive prediction. To this end, we envision a four-stage research agenda, involving Ground, Structure, Verify, and Act, to guide this shift…
+
+---
+
+### [The Explainability Illusion: Must ViTs Exhibit Patch-Decoding Interpretability?](https://arxiv.org/abs/2610.25289v1)
+
+- **arXiv**: `2610.25289v1`  |  **提交日期**: 2026-10-18
+- **作者**: Ronen Schaffer, Hila Manor, Tomer Michaeli
+
+Transformers are widely assumed to exhibit token-decoding explainability. In particular, in vision transformer (ViT) classifiers, decoding individual patch tokens has become a common diagnostic tool due to its tendency to yield human-interpretable outputs. In light of the increasing popularity of this approach, an important question is whether token-decoding explainability is an inherent property of transformers that should be expected to hold across architectures, scales, and training objectives, or merely an artifact of some implicit bias. In this paper we systematically study…
+
+---
+
+### [World Models, Trees and Foundation Models for Retail Forecasting: Evidence from Four Public Data Sets](https://arxiv.org/abs/2610.25170v1)
+
+- **arXiv**: `2610.25170v1`  |  **提交日期**: 2026-10-18
+- **作者**: Karthik Iyer, Madan Dabbeeru
+
+A retailer makes different decisions at different grains of the product, store and time hierarchy: store orders for an item in a store, supplier funding for an item across stores, category performance by store, and the financial plan for the chain. Which forecasting model to use depends on the grain. This paper compares models at each grain on four public data sets (M5, six Dominick's categories, Breakfast at the Frat, and Corporación Favorita, the last kept out of all development), over rolling forecast origins with paired tests and model confidence sets. It covers price and promotion…
+
+---
+
+### [Latent World Models Should Plan with Distances Along the Latent Manifold](https://arxiv.org/abs/2610.25013v1)
+
+- **arXiv**: `2610.25013v1`  |  **提交日期**: 2026-10-18
+- **作者**: Zunzhi You, Linwei Tao, Siyu Xu, Yunke Wang, Chang Xu
+
+Latent world models such as LeWM plan by searching for an action sequence whose predicted terminal latent is closest to the goal latent under an ambient norm, such as the Euclidean distance. Planning with such a cost assumes that proximity in the ambient latent space reflects proximity to the goal in the environment. Studying LeWM, we find that this assumption holds only in a small neighborhood around the goal, whereas farther away the L2 cost forms spurious low-cost basins that trap the planner. Yet neighborhood-based embeddings show that the latents retain the underlying physical state. We…
+
+---
+
+### [From Prediction to Action: Population Health World Model for Digital Medicine](https://arxiv.org/abs/2610.24662v1)
+
+- **arXiv**: `2610.24662v1`  |  **提交日期**: 2026-10-17
+- **作者**: Xike Xie, Yu Li, Weizhong Yang, Amalie Dyda, Shaohua Kevin Zhou
+
+Digital medicine now captures data that traces individual health trajectories and reveals population health dynamics through electronic health records, claims, remote monitoring, wearable devices, mobile devices, social sensing data, medical images, etc. But much of its modeling still centers on task-specific, outcome-specific, and prediction-specific estimation. The next frontier is not simply better prediction, but action in an evolving health world shaped by multiple decision-makers, heterogeneous populations, resource constraints, and feedback in care delivery. This is why digital…
+
+---
+
+### [Representations Have Trajectories: Characterizing Temporal Representation Dynamics in Neural Networks](https://arxiv.org/abs/2610.24571v1)
+
+- **arXiv**: `2610.24571v1`  |  **提交日期**: 2026-10-17
+- **作者**: Shivaprasad B. Gowda, Sparsh Mittal
+
+Recent work has shown that deep neural networks exhibit an implicit low-rank simplicity bias. In this paper, we investigate the questions that naturally arise from this observation. What are the temporal consequences of low-rank simplicity bias during optimization? How does representation geometry evolve throughout optimization rather than only at convergence? Do different neural architectures exhibit distinct geometric optimization behaviors? To answer these questions, we conduct a large-scale empirical study tracking representational geometry throughout training. We find that neural…
+
+---
+
+### [Structured Latent Dynamics for Long-Horizon Embodied World Models](https://arxiv.org/abs/2610.24534v1)
+
+- **arXiv**: `2610.24534v1`  |  **提交日期**: 2026-10-17
+- **作者**: Kevin Chen, Yu-Wei Zhan, Haoran Liang, Sen Cui, Changshui Zhang
+
+Reliable long-horizon prediction remains a central challenge for embodied world models. Although recent generative models can synthesize visually plausible action-conditioned futures, their latent dynamics are typically learned through unconstrained transition modules, which may gradually deviate from coherent physical evolution as predictions are recursively rolled forward. We investigate whether explicitly structuring latent state evolution can improve the stability and utility of such imagined trajectories. To this end, we introduce HWM, a structured dynamics framework that represents…
+
+---
+
+### [Axiomatic World Modeling for Physics Reasoning](https://arxiv.org/abs/2610.24519v1)
+
+- **arXiv**: `2610.24519v1`  |  **提交日期**: 2026-10-17
+- **作者**: Xinye Yang, Zhenyang Liu, Yuxuan Wang, Yuanyuan Lei
+
+Recent research-level physics-reasoning benchmarks for LLMs reveal a failure mode that lies not in knowledge or execution, but in modeling the world being reasoned about. Models often silently alter given quantities, fabricate laws, or inject unstated assumptions to force a problem into familiar patterns, and then reason inside this corrupted world. We define this premise-level divergence as modeling drift: the gap between a model's internal axiomatic world model (AWM) and the true physical world specified in the problem. Although RLVR and PRM have yielded substantial gains in mathematics and…
+
+---
+
+### [Beyond Next-Screen Prediction: The Decision Value of GUI World Models](https://arxiv.org/abs/2610.24372v1)
+
+- **arXiv**: `2610.24372v1`  |  **提交日期**: 2026-10-17
+- **作者**: Sizhe Tang, Hanhan Zhou, Jeffrey Svajlenko, Rashmi Gangadharaiah
+
+GUI world models are increasingly used to improve action selection by predicting the consequences of candidate actions, but it is unclear how much of the resulting gain comes from prediction itself rather than from the evaluator that interprets those predictions. We study this attribution problem through controlled interventions on GUI action selection. With candidates and predictions held fixed, lookahead gains can change with how the prediction is presented to the evaluator, so end-to-end gains cannot be attributed to prediction alone. We then introduce Direct Action Ranking (DAR), which…
+
+---
+
 ## 📅 2026-10-19
 
 ### [Persistent Planar Memory for Video World Models](https://arxiv.org/abs/2610.23795v1)
