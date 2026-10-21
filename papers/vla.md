@@ -2,6 +2,116 @@
 
 _自动追踪 arXiv 最新论文，最新更新在最上方。_
 
+## 📅 2026-10-21
+
+### [Perceives but Doesn't Brake: A Perception-Action Binding Gap in Reasoning Driving VLAs](https://arxiv.org/abs/2610.28184v1)
+
+- **arXiv**: `2610.28184v1`  |  **提交日期**: 2026-10-20
+- **作者**: Matteo Cercola, Katie Z Luo, Simone Formentin, Marco Pavone
+
+Reasoning-augmented vision-language-action (VLA) driving models can perceive and reason about safety-critical hazards yet fail to translate that evidence into safe actions. We characterize this failure as a perception-action binding gap: hazard information is available inside the model but exerts insufficient control over trajectory generation. Using matched simulated counterfactuals and logged driving replay, we show that in-path hazards are actually encoded in the visual representation, but longitudinal plans are dominated by ego-speed history and respond only weakly to hazard proximity or…
+
+---
+
+### [Reasoning as a Distribution: Generative Plan Latents for Vision-Language-Action Models](https://arxiv.org/abs/2610.28166v1)
+
+- **arXiv**: `2610.28166v1`  |  **提交日期**: 2026-10-20
+- **作者**: Matteo Cercola, Katie Z Luo, Milan Ganai, John Alora, Simone Formentin, Marco Pavone
+
+Vision-Language-Action (VLA) policies increasingly reason before acting, but existing reasoning models compress this intermediate decision into a single representation. When several plans are valid, this commitment hides alternatives that could otherwise be selected or revised. We introduce the Generative Plan Latent (GPL), which represents the reasoning state as a low-dimensional conditional distribution over plans, such as which object, grasp, or route to use. This makes the reasoning state addressable: without retraining the VLA, plans can be sampled (coverage), selected on request…
+
+---
+
+### [FIT-MAC: A Closed-Loop Multi-Agent Framework for Robust Vision-Language-Action Models](https://arxiv.org/abs/2610.28109v1)
+
+- **arXiv**: `2610.28109v1`  |  **提交日期**: 2026-10-20
+- **作者**: Jiatong Li, Jisheng Dang, Qiangqiang Ma, Bimei Wang, Jingwen Zhao, Wenjun Ma et al.
+
+Vision-language-action (VLA) models have achieved strong performance on standard robotic manipulation benchmarks. However, their reliability can degrade substantially when task conditions deviate from the nominal setting. Perturbations in object positions and task instructions may lead to complete task failure. Existing VLA policies generally lack an explicit runtime mechanism for distinguishing these failure modes and selecting an appropriate recovery strategy. To systematically mitigate this issue, we propose FIT-MAC, a failure-aware, closed-loop multi-agent control framework for improving…
+
+---
+
+### [PACT-VLA: Speculative Action-Chunk Verification with Pre-Commit Observations](https://arxiv.org/abs/2610.28019v1)
+
+- **arXiv**: `2610.28019v1`  |  **提交日期**: 2026-10-20
+- **作者**: Yixiang Zhu, Ruilong Wu, Yonghao Chen, Jiaxiang Zou, Yusong Hu, Xinyu Chen
+
+Vision-language-action (VLA) policies are commonly deployed with asynchronous inference in real-world settings, where the next action chunk is generated while the robot is still executing the previous one. By the time the new chunk is committed, the robot and scene have changed, so the chunk is conditioned on a stale observation and task success drops sharply as this inference delay grows. Generating multiple candidate chunks could let newer observations inform the final choice, but existing multi-candidate methods either rank candidates with the stale inference-start observation or…
+
+---
+
+### [EventSync: Event-Driven Memory Updates for History-Dependent Manipulation](https://arxiv.org/abs/2610.27917v1)
+
+- **arXiv**: `2610.27917v1`  |  **提交日期**: 2026-10-20
+- **作者**: Jingjiao Zhao, Dong Jing, Mingyu Cao, Ruochuan Shi, Xiansheng Chen, Pengwei Wang et al.
+
+History-dependent robotic manipulation requires task context and interaction history, as the current observation alone is insufficient to determine the next action. Hierarchical frameworks use task memory for high-level subgoal reasoning and low-level policies for execution. However, memory updates require accurate completion assessment: similar observations may correspond to different execution phases, and prematurely recording completion can mislead subsequent subgoal reasoning. We present EventSync, a hierarchical framework that coordinates task reasoning and action execution through…
+
+---
+
+### [RoboCasa-Shift: Stage-Aware Robustness Evaluation of Vision-Language-Action Policies in Long-Horizon Household Manipulation](https://arxiv.org/abs/2610.27861v1)
+
+- **arXiv**: `2610.27861v1`  |  **提交日期**: 2026-10-20
+- **作者**: Haocheng Wang, Youquan Liu, Weiyu Guo, Aokai Zhang, Donghang Wu, Hongyu Liu et al.
+
+Vision-language-action (VLA) robustness is commonly summarized by aggregate task success, which obscures how individual executions change under distribution shifts and where failures emerge in long-horizon tasks. We introduce \textbf{RoboCasa-Shift}, a diagnostic robustness benchmark built on RoboCasa365 that combines controlled single-factor shifts, matched clean-perturbed rollouts in which each pair shares the same underlying settings and differs only in the target shift, and simulator-grounded stage-aware diagnostics. We evaluate GR00T N1.5 on four long-horizon tasks that pass a predefined…
+
+---
+
+### [AWLS: Advantage-Weighted Latent Steering for One-Step Generative Robotic Manipulation Policies](https://arxiv.org/abs/2610.27736v1)
+
+- **arXiv**: `2610.27736v1`  |  **提交日期**: 2026-10-20
+- **作者**: Jiahong Tang, Jiaju He, Zhiyuan Yang, Ruyang Han, Haiyue Zhu
+
+Human-collected real-world robotic manipulation demonstrations often contain mixed-quality trajectories, including hesitant, indirect, or inefficient action segments. While diffusion- and flow-based policies can model such multimodal data, standard behavior cloning (BC) assigns equal likelihood to all demonstrated actions and may therefore reproduce suboptimal modes. Offline RL value estimates offer a natural signal for biasing policies toward higher-value behavioral modes, but directly fine-tuning the generative policy or using critic gradients for policy steering can amplify critic errors…
+
+---
+
+### [VLA-Retain: Benchmarking Cross-Dimension Effects of Vision Tuning in VLAs](https://arxiv.org/abs/2610.27698v1)
+
+- **arXiv**: `2610.27698v1`  |  **提交日期**: 2026-10-20
+- **作者**: Borui Xu, Han Chen, Bingsheng He, Ming Wu, Jason Zeng, Michael Heinrich
+
+Vision-language-action (VLA) models transfer knowledge from large-scale pretraining into robot control, but their manipulation performance remains sensitive to changes in observation conditions, which recent work addresses by fine-tuning the visual module on target-domain data. However, it remains unclear how such adaptation affects robustness beyond the target condition, as existing robustness benchmarks only evaluate models without fine-tuning and adaptation studies only report the target gain. Measuring this cross-dimension effect requires separating target gains from off-target changes,…
+
+---
+
+### [PLaCA: Learning Patch-Level Future Latent Change for Action Generation](https://arxiv.org/abs/2610.27657v1)
+
+- **arXiv**: `2610.27657v1`  |  **提交日期**: 2026-10-20
+- **作者**: Zhan Yi, Yuchen Wang, Chao Li, Lei Hong, Boyuan Yang
+
+Vision-Language-Action (VLA) models generate robot actions from visual observations and language instructions, but effective manipulation also requires anticipating how the environment will change. Existing world-action models explore future image prediction and latent dynamics modeling. However, generating complete future images can be computationally expensive, while highly compressed latent representations may obscure local changes. To address these challenges, we propose PLaCA, a world-to-action framework built around future latent change. PLaCA directly predicts spatially structured…
+
+---
+
+### [KPHarness: Co-Evolving Knowledge and Probing for Long-Horizon Gaming Harnesses](https://arxiv.org/abs/2610.27417v1)
+
+- **arXiv**: `2610.27417v1`  |  **提交日期**: 2026-10-20
+- **作者**: Zhikang Chen, Yueqing Sun, Sen Cui, Ziang Ye, Yu Wang, Yan Feng2 et al.
+
+A failed gaming trajectory reveals that an agent needs intervention, but not necessarily how its execution harness should change. Effective harness adaptation therefore requires gathering diagnostic evidence, rather than merely proposing alternative recovery rules. We present KPHarness, a framework that adapts the external execution harness of a frozen vision-language-action model through knowledge-probing co-evolution. Recovery knowledge supplies context-specific intervention hypotheses that guide active probing; probe outcomes reveal when these hypotheses apply and provide evidence for…
+
+---
+
+### [What Would Removing This Corruption Change? Failure Attribution for Vision-Language-Action Models](https://arxiv.org/abs/2610.27277v1)
+
+- **arXiv**: `2610.27277v1`  |  **提交日期**: 2026-10-19
+- **作者**: Carson Sobolewski, Anjali Parashar, Fei Chen, Yingke Li, Chuchu Fan
+
+Vision-language-action (VLA) models are sensitive to visual corruptions, but knowing that a corruption is typically harmful does not establish whether removing it would benefit the current episode. Furthermore, when several corruptions co-occur, deciding what to correct requires understanding which ones contribute to failure risk and how much their removal would help. We define this problem as failure attribution. Detecting corruption presence alone cannot answer this question, as corruptions can be present but relatively harmless, while directly measuring removal benefits requires costly…
+
+---
+
+### [VLA-Rolling: Fewer Denoising Steps, Better Control via Adaptive Action Reuse](https://arxiv.org/abs/2610.25043v2)
+
+- **arXiv**: `2610.25043v2`  |  **提交日期**: 2026-10-18
+- **作者**: Sicheng He, Yi Pan, Qiuting Yu, Jiaming Huang, Qi Lu, Shuyan Wu et al.
+
+Flow-matching vision-language-action (VLA) models generate an action chunk by iteratively denoising Gaussian noise, but typically execute only a short prefix before replanning with updated observations. Under this receding-horizon paradigm, the unexecuted remainder---the action tail---is discarded, and the next chunk is regenerated from fresh noise. We show that this discarded tail retains transferable denoising progress: action-tail initialization can match or outperform a native 10-step Gaussian baseline using fewer denoising steps. However, the optimal denoising budget varies substantially…
+
+---
+
 ## 📅 2026-10-20
 
 ### [Robot Learning with Vision-Language-Action Models for Agricultural Manipulation](https://arxiv.org/abs/2610.26717v1)

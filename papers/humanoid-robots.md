@@ -2,6 +2,44 @@
 
 _自动追踪 arXiv 最新论文，最新更新在最上方。_
 
+## 📅 2026-10-21
+
+### [Fast Motion Retargeting Pipeline for Scalable Humanoid Robot Learning](https://arxiv.org/abs/2610.28470v1)
+
+- **arXiv**: `2610.28470v1`  |  **提交日期**: 2026-10-20
+- **作者**: Daniel Marew, Sangjun Park, Nisal Perera, Donghyun Kim
+
+While large-scale human motion capture datasets provide a rich source of demonstrations for humanoid robot learning, retargeting the diverse motions to different humanoid robots remains a nontrivial challenge. Existing kinodynamic trajectory optimization pipelines are computationally expensive and often require manual adjustments per motion. We present FRDV (Fast Retargeting with Dynamics Validation), a scalable framework consisting of rapid constrained kinematic retargeting and an additional dynamics validation pipeline. Its kinematic stage integrates a custom Sequential Quadratic…
+
+---
+
+### [Plausible Future, Wrong Choice: Steering World-Action Models toward Intended Future](https://arxiv.org/abs/2610.28431v1)
+
+- **arXiv**: `2610.28431v1`  |  **提交日期**: 2026-10-20
+- **作者**: Zhuohao Li, Jiawei He, Yuxuan Yan, Lang Zhou, Yinghao Li, Yanrui Li et al.
+
+World-Action Models (WAMs) have emerged as a promising paradigm for embodied generalist policies by jointly modeling future world evolution and robot actions across diverse manipulation tasks. However, representing diverse futures is only the first step: a capable WAM must also generate futures that match the requirements of the current task and execution progress. In long-horizon manipulation where similar observation-action segments occur across different tasks and stages, existing approaches may generate locally plausible yet misdirected rollouts to drift toward wrong task stage, i.e., a…
+
+---
+
+### [EchoNav: Evidential BEV Completion from Historical Observations for Visual Navigation](https://arxiv.org/abs/2610.27616v1)
+
+- **arXiv**: `2610.27616v1`  |  **提交日期**: 2026-10-20
+- **作者**: Diwen Liu, Yiyang Shao, Borui Wang, Chi Zhang, Yunhui Liu
+
+Visual navigation in cluttered environments requires robots to recover previously observed structure and infer obstacles and free space that remain occluded. We present a framework that combines temporal aggregation and occupancy completion in an evidential bird's-eye-view (BEV) representation predicted from short RGB sequences. A decoder adapts frozen VGGT-Omega features and combines historical residual proposals using cellwise weights and a learned no-update option. The BEV predictor produces a local map in the latest ego frame without depth or camera-pose inputs or explicit geometric…
+
+---
+
+### [Visual Task Modeling and Automated Planning for Humanoid Robots in Education of Individuals with Autism Spectrum Disorder](https://arxiv.org/abs/2610.27162v1)
+
+- **arXiv**: `2610.27162v1`  |  **提交日期**: 2026-10-19
+- **作者**: Lada Kudláčková
+
+In robot-assisted education, a robot must understand how to complete a task in order to effectively guide a student through it. We present a novel method that enables a semi-autonomous, camera-equipped robot to recognise the task goal and plan actions to achieve it. Our work focuses on Shoebox Tasks, an activity commonly used in the education of individuals with Autism Spectrum Disorder (ASD). These tasks are designed so that the goal can be inferred directly from their visual structure. We have developed a solver that uses a vision-based Large Language Model to convert photos of a Shoebox…
+
+---
+
 ## 📅 2026-10-20
 
 ### [Bio-inspired Thrust-Assisted Trotting on a legged-Aerial Robot via Real-Time QP-MPC](https://arxiv.org/abs/2610.26810v1)

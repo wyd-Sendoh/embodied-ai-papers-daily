@@ -2,6 +2,62 @@
 
 _自动追踪 arXiv 最新论文，最新更新在最上方。_
 
+## 📅 2026-10-21
+
+### [CLOSER: Evidence-Aware Active Visual Verification for Embodied Object-Goal Navigation](https://arxiv.org/abs/2610.28476v1)
+
+- **arXiv**: `2610.28476v1`  |  **提交日期**: 2026-10-20
+- **作者**: Pengying Wu, Mingye Jiang, Yunze Hu, Zhejia Wen, Kangjie Zhou, Zongru Yang et al.
+
+Object-goal navigation (ObjectNav) requires an embodied agent to find an instance of a specified category in an unseen environment and stop near it. The agent typically relies on an object detector but must judge online from a limited egocentric video stream, sometimes a single frame, whether a detected candidate is the target. Detectors often confidently mistake similar objects, such as a sofa for a bed, and stopping at a false positive fails the episode. Prevailing systems also approach candidates greedily, leaving them occluded or partially observed. We present CLOSER, an evidence-aware…
+
+---
+
+### [CAPSafe: A Benchmark for Contextual Action and Plan Safety Reasoning in Embodied Agents](https://arxiv.org/abs/2610.28381v1)
+
+- **arXiv**: `2610.28381v1`  |  **提交日期**: 2026-10-20
+- **作者**: Youmna Farag, Svetlana Stoyanchev, Simon Keizer, Mohan Li, Rama Doddipatla
+
+Reasoning about safety is essential for embodied agents powered by large language models (LLMs). We introduce the Contextual Action and Plan Safety benchmark (CAPSafe), designed to evaluate safety reasoning at two levels: (1) an action-level dataset that tests whether a single action is safe given its environmental context, and (2) a plan-level dataset that evaluates whether agents can generate safe long-horizon plans for complex hazardous household tasks. CAPSafe models safety conditions where hazards are situational (inferred from object properties), multiple hazards can co-occur within the…
+
+---
+
+### [World2HOSI: A Multi-Expert Harness for Long-Horizon Human-Object-Scene Interaction Generation](https://arxiv.org/abs/2610.27725v1)
+
+- **arXiv**: `2610.27725v1`  |  **提交日期**: 2026-10-20
+- **作者**: Jiushu Li, Haoran Wang, Yumeng Liu, Zhiyang Dou, Yuan Liu, Yuexin Ma et al.
+
+Long-horizon human-object-scene interaction (HOSI) is central to embodied AI, animation, and game development. Existing human-object interaction (HOI) and human-scene interaction (HSI) models excel in their respective domains, but none alone covers tasks requiring multiple interaction skills. Training unified HOSI models is hindered by scarce and costly data. We introduce World2HOSI, a multi-expert orchestration harness that generates continuous HOSI data from 3D Gaussian Splatting (3DGS) scenes and natural language instructions. Our key insight is that long-horizon HOSI hinges not on a…
+
+---
+
+### [CovNav: Conformal Prediction-Guided Adaptive Inference for Object Goal Navigation](https://arxiv.org/abs/2610.27677v1)
+
+- **arXiv**: `2610.27677v1`  |  **提交日期**: 2026-10-20
+- **作者**: Pengying Wu, Zhejia Wen, Kang Ding, Kangjie Zhou, Chunxuan Jiao, Wei Pan et al.
+
+In object goal navigation (ObjectNav), an embodied agent must find a target object (e.g., "find a bed") in a previously unseen environment, relying on spatial commonsense such as object co-occurrence. Large Language Models (LLMs) encode this commonsense, but deploying them on robots exposes a trade-off between reasoning quality and efficiency: cloud-based models incur latency and privacy risks, whereas small on-device LLMs are fast but prone to hallucinated spatial judgments. Hybrid reasoning LLMs offer both a fast non-thinking mode and a slow thinking mode, which raises a key question for…
+
+---
+
+### [JARVIS: From Visual Manuals to Autonomous Robotic Assembly](https://arxiv.org/abs/2610.27618v1)
+
+- **arXiv**: `2610.27618v1`  |  **提交日期**: 2026-10-20
+- **作者**: Fan Ding, Fucai Ke, Kevin Yuchen Ma, Xuewen Luo, Wenyu Liang, Vishnu Monn Baskaran et al.
+
+Visual manuals communicate procedural knowledge through stepwise diagrams, but translating these instructions into reliable long-horizon robotic execution remains challenging. We introduce JARVIS, a method-agnostic benchmark for autonomous visual-manual-guided execution without additional language instructions. JARVIS comprises 236,679 LEGO assembly tasks across 8,987 scenes, with a carefully curated JARVIS-v1 suite of 50 tasks for interactive robotic evaluation. Tasks span varying initial structural complexities and assembly horizons, requiring agents to interpret manuals, ground actions in…
+
+---
+
+### [LVMem: Image-Augmented Memory for Long-Horizon Question Answering](https://arxiv.org/abs/2610.27104v1)
+
+- **arXiv**: `2610.27104v1`  |  **提交日期**: 2026-10-19
+- **作者**: Victoria Khoruzhaya, Maksim Kalmykov, Tuong Do Minh, Tatiana Zemskova, Yixin Zhu, Dmitry Yudin
+
+Reliable language-guided perception is essential for embodied agents, where questions about objects, events, and their locations must be answered from long observation histories. Unlike conventional visual question answering, realistic robotic settings require reasoning over extended temporal horizons and persistent scene memory. We build upon the view-based memory paradigm and propose an efficient framework for long-horizon spatio-temporal question answering. While existing view-based systems typically store either text captions or visual embeddings, we extend the ReMEmbR-style memory with…
+
+---
+
 ## 📅 2026-10-20
 
 ### [BetaMem: Learning to Remember a Changing World for Embodied Agents](https://arxiv.org/abs/2610.26554v1)

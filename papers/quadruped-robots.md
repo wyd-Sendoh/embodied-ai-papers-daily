@@ -2,6 +2,35 @@
 
 _自动追踪 arXiv 最新论文，最新更新在最上方。_
 
+## 📅 2026-10-21
+
+### [LocoPilot: Single-Operator Bilateral Teleoperation for Loco-Manipulation Policy Learning](https://arxiv.org/abs/2610.27998v1)
+
+- **arXiv**: `2610.27998v1`  |  **提交日期**: 2026-10-20
+- **作者**: Antonio Langella, Giovanni Minelli, Giovanni B. Dessy, Lorenzo Amatucci, Giulio Turrisi, Victor Barasuol et al.
+
+Learning loco-manipulation policies requires demonstrations that capture coordinated base and arm motion on the target embodiment. Robot-free interfaces allow demonstrations to be collected independently of the target robot, increasing flexibility but without directly capturing platform-specific commands, proprioception, and body-mounted observations. On-robot teleoperation allows to capture these signals directly, but requires an interface capable of commanding the complete system concurrently. This paper presents LocoPilot, a single-operator bilateral teleoperation and data-collection…
+
+---
+
+### [Towards Autonomous Bricklaying Using Boston Dynamics Spot](https://arxiv.org/abs/2610.27472v1)
+
+- **arXiv**: `2610.27472v1`  |  **提交日期**: 2026-10-20
+- **作者**: Karl-Johan Sorensen, Nico vom Hofe, Frank H. P. Fitzek
+
+Mobile legged robots offer unique advantages for on-site construction, including the ability to traverse unstructured terrain, climb stairs, and operate independently between spatially separated work zones. This paper presents a proof-of-concept system for autonomous brick stacking using a Boston Dynamics Spot quadrupedal robot equipped with a manipulator arm. The system operates between a supply area and an assembly area, using AprilTag fiducials for localization and autowalk missions for navigation. Target brick positions and orientations are specified in CAD software and exported directly…
+
+---
+
+### [Design and Control of a Multimodal Legged-Aerial Robot Through Separate Control Contraction Metrics](https://arxiv.org/abs/2610.27315v1)
+
+- **arXiv**: `2610.27315v1`  |  **提交日期**: 2026-10-19
+- **作者**: Kaushik Venkatesh Krishnamurthy, Eric Sihite, Alireza Ramezani, Morteza Gharib
+
+The integration of dynamic legged locomotion and aerial mobility offers versatility that is deterred by challenges in payload distribution, actuation, and the contrasting requirements of both domains. In this paper, we present the design and operation of a multimodal quadrupedal aerial-legged robot. The presence of legged aerial systems also allows for thruster-assisted legged locomotion, which we make possible with a unified control framework using Control Contraction Metrics (CCM). We search for separate domain-specific contraction metrics for walking and flight independently offline and…
+
+---
+
 ## 📅 2026-10-20
 
 ### [PVBench: Quantifying Physical Plausibility in Video Generation with Object-Level Physical Measurements](https://arxiv.org/abs/2610.26711v1)

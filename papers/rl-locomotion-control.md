@@ -2,6 +2,35 @@
 
 _自动追踪 arXiv 最新论文，最新更新在最上方。_
 
+## 📅 2026-10-21
+
+### [SuperMimic: Scaling Humanoid Whole-Body Control with One Differentiable World Model](https://arxiv.org/abs/2610.28480v1)
+
+- **arXiv**: `2610.28480v1`  |  **提交日期**: 2026-10-20
+- **作者**: Qiayuan Liao, Yiyang Shao, Junfeng Long, Kevin Zakka, Roberto Horowitz, Pieter Abbeel et al.
+
+Tracking large human-motion datasets has become the dominant route to general, expressive humanoid whole-body control, but scaling across many motions is expensive. Current pipelines use model-free reinforcement learning, either merging per-motion specialists through lossy distillation, or brute-forcing a single policy with cluster-scale compute. SuperMimic amortizes learning across all motions with one differentiable world model of their shared dynamics, fit from logged transitions of a standard rigid-body simulator. The world model and the tracking policy train together in one loop, and…
+
+---
+
+### [Physical AI for Intralogistics: Benchmarking the NVIDIA Sim-to-Real Ecosystem for Cosmos-Enhanced COMPASS Navigation on Industrial Mobile Robots](https://arxiv.org/abs/2610.28432v1)
+
+- **arXiv**: `2610.28432v1`  |  **提交日期**: 2026-10-20
+- **作者**: Charbel Abi Hana, Rayan Zaitouni, Kameel Amareen, Mohamad Mostafa, Hasan Sayour, Wei Liu et al.
+
+Classical robot navigation stacks are reliable but often require re-engineering for each new robot type and site. Learning-based navigation shifts this effort from hand-tuned parameters to data generation and training, where a policy adapts to each new embodiment or facility by fine-tuning in simulation. Whether policies adapted this way stay reliable on real industrial robots has seen little systematic testing. We study this for NVIDIA's X-Mobility and COMPASS workflow for training learned navigation policies on Idealworks robots. In simulation, we extend the COMPASS benchmark with two…
+
+---
+
+### [Physical AI: Concepts, Techniques, and Challenges](https://arxiv.org/abs/2610.27045v1)
+
+- **arXiv**: `2610.27045v1`  |  **提交日期**: 2026-10-19
+- **作者**: Weinan Zhang, Chunhua Shen, Tianfan Xue, Bin Zhao, Bingqi Jiang, Zihan Guo et al.
+
+In recent years, physical artificial intelligence (physical AI) has experienced rapid development, capturing significant attention in academia and industry. However, the field has yet to reach consensus on its definition, technical landscape, and core challenges. To address this gap, this monograph seeks to define physical AI, present its technical landscape, and examine each key technical subfield in depth. In doing so, it establishes a unified framework for Physical AI: artificial systems that perceive, model, and act upon the physical world through continuous feedback under real-world…
+
+---
+
 ## 📅 2026-10-20
 
 ### [HandsOn: A Large-Scale Simulation Benchmark for Generalizable Dexterous Manipulation](https://arxiv.org/abs/2610.26765v1)

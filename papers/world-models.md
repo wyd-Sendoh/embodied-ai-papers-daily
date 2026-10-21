@@ -2,6 +2,197 @@
 
 _自动追踪 arXiv 最新论文，最新更新在最上方。_
 
+## 📅 2026-10-21
+
+### [AEON: Unifying Video and 3D World Models](https://arxiv.org/abs/2610.28631v1)
+
+- **arXiv**: `2610.28631v1`  |  **提交日期**: 2026-10-20
+- **作者**: Weiqi Zhang, Wenyuan Zhang, Yu-Shen Liu, Junsheng Zhou
+
+Current world models for explicit world simulation typically follow two distinct pathways: (1) video generative models (e.g., Sora), which simulate realistic appearances but fail to preserve 3D consistency; and (2) 3D generative models (e.g., Marble), which generate geometrically consistent scenes but often yield static, less realistic observations. We present AEON, a unified framework that bridges video-based and 3D-based world models and combines the benefits of both. The key insight of AEON lies in a generative model that operates within the text- or image-conditioned video latent space…
+
+---
+
+### [Physical Canvas: A Vision Tactile World Model For Robot Policy Evaluation And Learning](https://arxiv.org/abs/2610.28613v1)
+
+- **arXiv**: `2610.28613v1`  |  **提交日期**: 2026-10-20
+- **作者**: Zebin Xing, Yuhang Zheng, Yupeng Zheng, Yichen Zhang, Zichen Li, Shangqing Zhou et al.
+
+Evaluating and post-training robot policies through physical interaction is costly and difficult to scale, motivating action-conditioned world models as interactive simulators. However, visually plausible predictions can misrepresent contact dynamics, providing unreliable feedback for policy evaluation and learning. We introduce PhysCanvas, a state-consistent visuo-tactile world model for contact-rich robot manipulation. PhysCanvas unifies multi-view RGB, tactile images, marker displacement, task state, and actions within a unified vision space. All modalities share a video VAE and pretrained…
+
+---
+
+### [Learning the 4D World through Point Trajectory Forecasting](https://arxiv.org/abs/2610.28594v1)
+
+- **arXiv**: `2610.28594v1`  |  **提交日期**: 2026-10-20
+- **作者**: Byungwoo Jeon, Sunghwan Hong, Dohyeon Kim, Jonghoon Lee, Jungwoo Park, Inhee Lee et al.
+
+Reliable multi-view forecasting requires videos from different cameras to describe the same evolving 3D scene. To this end, we introduce Video-Point Model (VPM), a world model that conditions on multi-view video histories and a language instruction to jointly forecast future videos from arbitrary viewpoints and the 3D trajectories of persistent scene points. We extend a pretrained world model with camera-conditioned multi-view processing that integrates complementary observations across cameras, and add a trajectory head that predicts how physical points move through time. Each trajectory…
+
+---
+
+### [Learning Computational Structure for Sample-Efficient Prediction](https://arxiv.org/abs/2610.28555v1)
+
+- **arXiv**: `2610.28555v1`  |  **提交日期**: 2026-10-20
+- **作者**: Hangyu Zhou, Constantine Dovrolis, Stephen Mussmann
+
+Statistical learning in high dimensions suffers from the curse of dimensionality. Fortunately, many functions of practical interest are compositionally sparse, meaning they admit a composition of local functions, each depending on only a few variables, allowing sample complexity to depend on local arity rather than ambient dimension. Yet realizing this benefit requires exploiting hidden compositional structure, which theory does not establish for practical gradient-based training. We study this gap with CSFRBench, a controlled benchmark that hides the target's compositional computation during…
+
+---
+
+### [OverSeer: Multi-Agent World Models Beyond What Agents See](https://arxiv.org/abs/2610.28554v1)
+
+- **arXiv**: `2610.28554v1`  |  **提交日期**: 2026-10-20
+- **作者**: Runjia Li, Kam Woh Ng, Minghao Chen, Junlin Han, Jianyuan Wang, Zhaochong An et al.
+
+Despite the success of video world models, extending them to multiple agents is difficult because it requires generating several agent-specific video streams that are consistent in time and between agents. To address this gap, we introduce OverSeer, a multi-agent world model that augments egocentric agent views with auxiliary camera views. We suggest that, by fixing the auxiliary views in space, they act as a proxy for a world-centric representation: Unlike the agents' views, which can change entirely due to a simple change in agent position, changes in the auxiliary views directly map to…
+
+---
+
+### [Exploring Temporal Context-Aware Physical Grounding in Latent World Models](https://arxiv.org/abs/2610.28483v1)
+
+- **arXiv**: `2610.28483v1`  |  **提交日期**: 2026-10-20
+- **作者**: Yilei Man, Yang Chen, Jingcai Guo
+
+Learning latent dynamics is fundamental to building action-conditioned world models for planning. Among existing families, Joint Embedding Predictive Architectures (JEPAs) offer a natural framework by modeling transitions directly in latent space rather than at the pixel level. However, two issues remain in JEPA-based world models: (i) physical grounding lacks explicit aggregation of temporal context and (ii) action planning always overly relies on generic sampling distributions. To this end, we propose $\mathcal{G}$-JEPA, which incorporates temporal context into physical grounding for latent…
+
+---
+
+### [MoDDiT: Simple Token Routing in Diffusion Transformers](https://arxiv.org/abs/2610.28086v1)
+
+- **arXiv**: `2610.28086v1`  |  **提交日期**: 2026-10-20
+- **作者**: Jarek Liesen, Matthew T. Jackson, Benjamin Ellis, Shimon Whiteson, Jakob N. Foerster
+
+Real-time video generation, interactive world models, and on-device image synthesis are almost a reality. Diffusion Transformers (DiT) achieve excellent sample quality, shifting the bottleneck to the throughput of the models themselves. Natural images are inherently sparse, as large portions of an image are often background, contribute little to the scene content, and are easy to denoise. DiTs fail to exploit this sparsity, as they process image tokens statically and uniformly. We propose MoDDiT, a simple architecture modification that learns to route tokens through both MLP and…
+
+---
+
+### [Slot-JEPA: Object-Structured Prediction Interfaces for Latent World Models](https://arxiv.org/abs/2610.28074v1)
+
+- **arXiv**: `2610.28074v1`  |  **提交日期**: 2026-10-20
+- **作者**: Peisong Wen, Qianqian Xu, Minye Lei, Siran Dai, Yang Liu, Qingming Huang
+
+As a prototypical latent world model, Joint-Embedding Predictive Architectures (JEPAs) provide strong semantic representations. However, dense patch representations expose a redundant interface to downstream predictors, which must implicitly infer spatial organization and temporal correspondence, presenting three challenges. First, object information is distributed across patches, forcing each downstream predictor to redundantly recover object structure that could otherwise be reused across tasks before modeling interactions. Second, the lack of explicit entity correspondence across time…
+
+---
+
+### [Knowing When to Stop Thinking: A Dissection of Expected Free Energy as a Test-Time Compute Controller for Latent World-Model Planning](https://arxiv.org/abs/2610.28011v1)
+
+- **arXiv**: `2610.28011v1`  |  **提交日期**: 2026-10-20
+- **作者**: Tong Zhang, Zhiyuan Shi, Yun Peng, Tao Xie
+
+A planner using a learned world model can improve its predicted outcome while choosing a worse action. We study when expected free energy (EFE) can help decide how much computation to spend on a plan. An EFE-inspired objective combines goal distance with disagreement among stochastic predictions. We test candidate scoring, stopping, and online predictor updates separately. Stopping when elite cost stalls reduces refinement on tasks whose success plateaus with depth, with mean success close to fixed-depth references. At the larger tested weights, rewarding disagreement lowers success with a…
+
+---
+
+### [Quantum-JEPA: Quantum Born Priors for Latent-Action JEPA World Models](https://arxiv.org/abs/2610.27921v1)
+
+- **arXiv**: `2610.27921v1`  |  **提交日期**: 2026-10-20
+- **作者**: Zhiyuan Liu, Sicheng Liu, Haiyu Wu
+
+A single observation can admit several plausible futures, making uncertainty an essential part of world modelling. However, quantum generative models remain underexplored for this task. We introduce Quantum-JEPA, a latent-action JEPA framework that learns distributions of future representations using a conditional quantum Born prior. Circuit measurements generate binary latent actions, which a shared predictor maps to alternative future representations. We train the quantum prior through the quality and diversity of these predictions using a sampled energy objective. Our model learns distinct…
+
+---
+
+### [World Models with Configurable Perception](https://arxiv.org/abs/2610.27914v1)
+
+- **arXiv**: `2610.27914v1`  |  **提交日期**: 2026-10-20
+- **作者**: Yijun Shen, Delong Chen, Xianming Hu, Kai Zhang, Pascale Fung
+
+Real-world observations are noisy and often contain excessive task-irrelevant information. Effective world modeling and planning need to abstract observations into world state representations while filtering out irrelevant information. However, encoders in existing world models are typically non-adaptive, leading to state representations that are easily distracted by task-irrelevant information. As a result, the model may not selectively filter observations to cater to different task demands. To address this problem, we introduce ConfigWM, which realizes configurable perception through…
+
+---
+
+### [EndoWorld-JEPA: Motion-Guided Global-Local Latent World Modeling for Endoscopic Video Representation Learning](https://arxiv.org/abs/2610.27890v1)
+
+- **arXiv**: `2610.27890v1`  |  **提交日期**: 2026-10-20
+- **作者**: Jie Wang, Shilong Yang, Tao Zhou, Juan Yu, Rong Qu, Jianfeng Ren et al.
+
+Endoscopic video contains state transitions induced by camera displacement, deformable tissue, and instrument interaction, yet existing pre-training methods treat dynamics implicitly. Inspired by action-conditioned joint-embedding predictive world models and by the observation that endoscopic optical flow contains both shared image-plane displacement and localized residual motion, we reformulate passive endoscopic video pre-training as causal motion-guided latent-state prediction. We present EndoWorld-JEPA, to our knowledge the first latent world-model pre-training framework designed for…
+
+---
+
+### [LaLa-World: Scaling Latent World Models with Natural Language Actions](https://arxiv.org/abs/2610.27851v1)
+
+- **arXiv**: `2610.27851v1`  |  **提交日期**: 2026-10-20
+- **作者**: Junha Song, Geonmo Gu, Jeongeun Park, Heejeong Nam, Lucas Maes, Byeongho Heo et al.
+
+This paper shows that JEPA-style latent world models (LWMs) can learn across diverse domains and data sources by adopting the language-conditioned interface of video generation models. We establish this approach as an effective and efficient basis for planning with imagination and downstream policy fine-tuning. To this end, we introduce LaLa-World, a Language-conditioned Latent World model that learns from simulation and robot trajectories together with broader image and video data. Two designs make this work. First, we describe both numerical actions and visual changes in language, enabling…
+
+---
+
+### [RoboJudge: Multimodal Language Models as Judges for Embodied Video Generation](https://arxiv.org/abs/2610.27782v1)
+
+- **arXiv**: `2610.27782v1`  |  **提交日期**: 2026-10-20
+- **作者**: Siyuan Ma, Yu Qi, Cheng Ye, Ruotian Peng, Xinyi Xu, Zitiantao Lin et al.
+
+Video generation models are promising foundations for embodied world models, but only if their generated rollouts are physically valid and faithful to task instructions. Multimodal large language models (MLLMs) are increasingly used to judge these properties, yet their agreement with human judgments on embodied videos has not been systematically evaluated. To address this gap, we introduce RoboJudge-Bench, a benchmark for evaluating MLLMs as judges of embodied video generation. The benchmark measures two fundamental dimensions, Physical Adherence and Instruction Alignment, across 800…
+
+---
+
+### [From POMDP Theory to Deep RL with Particle Filters](https://arxiv.org/abs/2610.27575v1)
+
+- **arXiv**: `2610.27575v1`  |  **提交日期**: 2026-10-20
+- **作者**: Kevin Tan, Ziping Xu
+
+Model-based reinforcement learning in partially observable environments requires inferring hidden states, learning latent dynamics, and planning under the resulting belief. Practical algorithms often solve one aspect of the above pipeline while relying on approximations for the others that are often poorly understood, while existing POMDP theory typically analyzes computationally inefficient theoretical algorithms far from modern deep RL practice. To fill this gap, we propose a practical end-to-end algorithm that approximately solves the hidden state filtering problem via sequential Monte…
+
+---
+
+### [Training Controllable World Models via Action Influence Maximization](https://arxiv.org/abs/2610.27387v1)
+
+- **arXiv**: `2610.27387v1`  |  **提交日期**: 2026-10-19
+- **作者**: Samuel M. Bateman, Tenny Yin, Chongyi Zheng, Lei Huang, Brian Wang, Benjamin Eysenbach et al.
+
+Action-conditioned video generative models trained on successful, goal-directed demonstrations tend to ignore the commanded action, rendering a plausible expert-like future regardless of what is asked of them. We trace this failure to training data that lack sufficient action influence. We analyze this metric and prove that it upper bounds the action influence that any model trained on that data can express. Expert demonstrations, whose narrow action distributions let next states be predicted without attending to the action, set a low ceiling that no amount of model capacity alone can raise.…
+
+---
+
+### [VPFlow: Value-Predictive Planning with Imperfect World Models for Offline Goal Reaching](https://arxiv.org/abs/2610.27280v1)
+
+- **arXiv**: `2610.27280v1`  |  **提交日期**: 2026-10-19
+- **作者**: Yunzhe Hu, Dong Xu
+
+Offline goal-conditioned reinforcement learning enables skill acquisition by reaching any goal from any state without dense rewards. Model-based methods allow for planning by scaling test-time compute to solve complex tasks. Combining both holds appealing promise for pre-training on suboptimal demonstrations and zero-shot adaptation via goal specification and planning. Yet existing methods assume effective planning requires accurate next-state prediction in pixel or latent space. In this work, we show that value prediction is more useful for planning, whereas accurate state prediction is…
+
+---
+
+### [LOB-Impact Benchmark: Emergent Market Impact in Generative Limit Order Book Models](https://arxiv.org/abs/2610.27100v1)
+
+- **arXiv**: `2610.27100v1`  |  **提交日期**: 2026-10-19
+- **作者**: George Nigmatulin, Valentin Mohl, Sascha Frey, Kang Li, Aramis Marti-Shahandeh, Mihai Cucuringu et al.
+
+Realistic market impact is essential for generative limit order book (LOB) models to serve as world models for trading agents. If a simulator misprices this mechanism, agents learn policies that are optimal in the simulator but wrong in the real market. Existing metrics assess generated streams purely through distributional comparison with historical data, leaving counterfactual response to an agent's own orders largely unexplored. Here, we show that market impact emerges naturally in neural LOB generators trained solely for next-token prediction. We inject execution-style metaorders into the…
+
+---
+
+### [Learning Goal-Conditioned Subgoals through Frozen Hierarchical World Models](https://arxiv.org/abs/2610.26179v2)
+
+- **arXiv**: `2610.26179v2`  |  **提交日期**: 2026-10-19
+- **作者**: Xiang Kaibo, Liu Qingfeng
+
+Hierarchical world models plan over long horizons by passing predicted states from a coarse model to a lower-level controller. Choosing these states can be expensive: the upper-level planner repeatedly differentiates through candidate macro-action trajectories. We replace this search with a lightweight goal-conditioned network trained through the frozen high-level predictor. The network supplies a conditioning vector, while the predictor generates the next latent waypoint. Training uses hindsight goals and state-prediction losses on offline trajectories, without search-solution targets or…
+
+---
+
+### [ActionRoPE: Action as Coordinates for Spatially Consistent Control in Planar-Camera Game World Models](https://arxiv.org/abs/2610.25861v2)
+
+- **arXiv**: `2610.25861v2`  |  **提交日期**: 2026-10-19
+- **作者**: Zhiyang Deng, Yuzhe Wu, Zijun Lin, Yeying Jin
+
+Game world models have made rapid progress toward real-time interactive generation. Yet action control is still predominantly implemented as feature conditioning, leaving the model to learn from training data how each action should move the visual world. This formulation is poorly matched to a broad class of planar-camera worlds, such as top-down and isometric games. In these worlds, player motion induces a geometrically well-defined planar camera displacement. We observe that the key to spatially consistent control in such worlds is to represent the effect of each action directly in world…
+
+---
+
+### [Latent Projection for Latent Planning](https://arxiv.org/abs/2610.26979v1)
+
+- **arXiv**: `2610.26979v1`  |  **提交日期**: 2026-10-19
+- **作者**: Yoo Sung Jang, Michael Ryoo
+
+Latent world models let an agent plan in latent space. The planner searches for an action sequence that minimizes a cost, and that cost is often the $\ell_2$ distance between the predicted terminal latent and the goal latent. The latent, however, is partly noise: the regularizer that prevents collapse during world model training promotes variance in the directions carrying no signal. We show that the same regularizer also supplies the structure to prune that noise in the latent. SIGReg drives the latent marginal to a standard Gaussian at every step, and assuming further that the latent…
+
+---
+
 ## 📅 2026-10-20
 
 ### [Ropedia W0: Scaling Loco-Manipulation World Models across Embodiments with Human Experience](https://arxiv.org/abs/2610.26855v1)
