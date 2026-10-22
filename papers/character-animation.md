@@ -2,6 +2,17 @@
 
 _自动追踪 arXiv 最新论文，最新更新在最上方。_
 
+## 📅 2026-10-22
+
+### [RLMuscle: Muscle-Driven Character Animation via Reinforcement Learning](https://arxiv.org/abs/2610.30033v1)
+
+- **arXiv**: `2610.30033v1`  |  **提交日期**: 2026-10-21
+- **作者**: Chunlei Li, Siyuan Yu, Yang Gao, Shuai Li, Peng Yu, Aimin Hao et al.
+
+Body deformation caused by muscle contraction plays a vital role in the visual realism of character animation, yet in most 3D animation pipelines artists have to manually specify muscle activations, which is time-consuming and gives no guarantee of physical realism. To address this, we propose a new method in which a reinforcement learning (RL) controller discovers per-muscle activations that track reference motions without manual tuning. Existing RL muscle controllers stop at 1D muscles; we go one step further, keeping the 1D model inside the RL control loop as a fast surrogate, and using a…
+
+---
+
 ## 📅 2026-10-20
 
 ### [MOMO: Human Motion from Moving Sounds](https://arxiv.org/abs/2610.24522v1)
