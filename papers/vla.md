@@ -2,6 +2,98 @@
 
 _自动追踪 arXiv 最新论文，最新更新在最上方。_
 
+## 📅 2026-10-26
+
+### [RobustRLlib: A Unified Library and Benchmark for Robust Reinforcement Learning Algorithms](https://arxiv.org/abs/2610.32971v1)
+
+- **arXiv**: `2610.32971v1`  |  **提交日期**: 2026-10-23
+- **作者**: Xi Chen, Fengqi Hu, Zeyu Shen, Jiaying Xu, Shangding Gu, Pan Xu et al.
+
+Robust reinforcement learning (RL) is critical for reliable real-world deployment, where policies may fail under diverse shifts and disruptions. Existing robust RL algorithms offer a rich set of mechanisms and principles, yet two major barriers limit their broader potential: limited algorithm reusability and an unclear empirical capability boundary. We introduce RobustRLlib, an algorithm-centric library and benchmark that addresses both challenges. It integrates 17 representative robust online, offline, and safe RL algorithms under a unified interface for substantially improved reusability,…
+
+---
+
+### [If at First You Don't Succeed, Backtrack: Lightweight Recovery for Frozen VLAs](https://arxiv.org/abs/2610.32941v1)
+
+- **arXiv**: `2610.32941v1`  |  **提交日期**: 2026-10-23
+- **作者**: Thomas Landeg, Thierry Tambe
+
+Vision-Language-Action (VLA) models perform well on robotic manipulation, yet remain brittle once their own actions carry them into states their training data barely covers. Recovering from such failures usually requires recovery demonstrations, policy retraining, or a separate model at inference time. We introduce Backtrack, a lightweight failure detection and recovery mechanism for frozen VLAs that needs none of these. A small failure prediction head, trained only on outcome-labeled rollouts of the frozen policy, reads the VLA's existing internal representations to estimate whether the…
+
+---
+
+### [When Human Corrections Travel: Safety in Federated VLA Adaptation](https://arxiv.org/abs/2610.32888v1)
+
+- **arXiv**: `2610.32888v1`  |  **提交日期**: 2026-10-23
+- **作者**: Vigneshwaran Subbaraju, Obaidullah Zaland, Monowar Bhuyan
+
+Vision-language-action (VLA) policies can adapt to local human intervention, while federated learning can combine distributed robot experience without pooling raw records. We examine their prospective intersection: sharing adaptations derived from diverse human corrections across tasks, environments, people, and robot embodiments. Corrections differ in modality, safety semantics(urgency, behavioral scope, etc.), and privacy sensitivity. A shared update that improves mean task success may suppress a rare safety intervention or produce an unsafe response on another robot. We argue for three…
+
+---
+
+### [Retiming Robot Demonstrations with a Learned Speed Prior](https://arxiv.org/abs/2610.32676v1)
+
+- **arXiv**: `2610.32676v1`  |  **提交日期**: 2026-10-23
+- **作者**: Seungyong Moon, Deokjae Lee, Hansang Lee, Munkhtselmeg Battsengel, Youngin Kim, Seonghyeon Yun et al.
+
+The pace of a robot demonstration is often determined by the teleoperator rather than by the task itself. As a result, the same motion can appear at widely different speeds across demonstrations, and policies trained on such data may inherit operator-specific timing along with task behavior. We propose to learn a speed prior directly from large-scale demonstration data. Given a task instruction, a motion path and the images along it, it predicts a distribution over execution speed along the path, from which a chosen quantile defines a consistent clock for retiming each demonstration. Existing…
+
+---
+
+### [When to Stop Penalizing Actions? Martingale GRPO for VLA Reinforcement Learning](https://arxiv.org/abs/2610.32431v1)
+
+- **arXiv**: `2610.32431v1`  |  **提交日期**: 2026-10-23
+- **作者**: Zongyao Zhao, Cheng-Jie Zhao, Ruihang Jiang, Bing Zheng, Zhaolin Wang, Yuanwei Liu
+
+A failed vision-language-action (VLA) rollout does not imply that every action contributed to failure. Yet in group-relative policy optimization (GRPO), a single trajectory-level advantage is assigned to all actions in a rollout. Potentially useful recovery attempts can thus be penalized alongside the errors they aim to correct. Ideal stopping conditions for failure feedback are characterized using success-probability and policy-score martingales. At these stops, the removed gradient contribution has zero conditional expectation given the retained information. Truncation therefore preserves…
+
+---
+
+### [MAST-VLA: Skill-Conditioned Adaptation with Trajectory-Affordance Priors for Multi-Skill Robot Manipulation](https://arxiv.org/abs/2610.32312v1)
+
+- **arXiv**: `2610.32312v1`  |  **提交日期**: 2026-10-23
+- **作者**: Jiachi Yang, Zhiyi Xu, Hongquan Zhang, Xin Tan, Zhizhong Zhang, Jingyu Gong et al.
+
+Generalist robot manipulation requires a single vision-language-action (VLA) policy to execute diverse skills across scenes and instructions. However, current multi-skill VLA policies often leave two aspects of an instruction insufficiently modeled: which primitive skill to execute and where/how to contact and move objects. We propose MAST-VLA (Multi-skill Adaptation with Skill-conditioned experts and Trajectory-affordance priors), a dual-conditioning framework for robot manipulation. MAST-VLA introduces skill-conditioned LoRA Mixture-of-Experts (LoRA-MoE) adapters in the LLM backbone, where…
+
+---
+
+### [RoboCode: Learning Reusable Action Primitives for Robot Manipulation](https://arxiv.org/abs/2610.32225v1)
+
+- **arXiv**: `2610.32225v1`  |  **提交日期**: 2026-10-23
+- **作者**: Xianyue Peng, Devi Amarsaikhan, Iman Soltani
+
+Recent robot manipulation policies commonly predict continuous action chunks directly from observations, without explicitly modeling reusable structure in the action space. However, manipulation demonstrations often contain recurring short-horizon motion patterns that are shared across tasks. We introduce \textsc{RoboCode}, which learns these patterns through a shared soft-gated primitive action interface. Rather than assigning each action chunk to a single discrete code, \textsc{RoboCode} represents it as a soft composition of multiple learned primitives, providing a flexible intermediate…
+
+---
+
+### [Do VLAs Know They Will Fail? Interpretable Success and Failure Patterns in Physical AI Systems](https://arxiv.org/abs/2610.32208v1)
+
+- **arXiv**: `2610.32208v1`  |  **提交日期**: 2026-10-23
+- **作者**: Christian A. Rogers, Qian Lin, Daniel S. Brown
+
+Vision-Language-Action (VLA) models have emerged as powerful general-purpose robot policies, but their successes and failures remain difficult to diagnose and understand. In this work, we show that sparse autoencoder (SAE) representations of OpenVLA activations contain outcome-predictive information and can be used to predict task failure before the robot reaches an unrecoverable state. Moreover, to provide insights into what common behaviors may contribute to these outcomes, we identify individual SAE features whose strong activations are associated with specific stages of success or…
+
+---
+
+### [Coupling Execution Horizon and Sampling Depth in Flow-Matching VLA Policies](https://arxiv.org/abs/2610.32102v1)
+
+- **arXiv**: `2610.32102v1`  |  **提交日期**: 2026-10-23
+- **作者**: Jiabing Yang, Yuan Xu, Yixiang Chen, Qisen Ma, Peiyan Li, Kai Wang et al.
+
+Flow-matching Vision-Language-Action (VLA) models generate expressive continuous trajectories for robotic manipulation, yet balancing real-time responsiveness with execution stability remains a persistent challenge. Standard deployment workflows typically treat numerical solver depth and execution horizon as decoupled choices. The horizon amortizes inference latency, while solver depth is kept high to preserve integration fidelity. In this paper, we reveal a fundamental compute-execution coupling in flow-matching VLAs governed by a systematic sign reversal. While coarse numerical integration…
+
+---
+
+### [TTT in VLA Models: Exploring Training with Human Demonstrations](https://arxiv.org/abs/2610.32094v1)
+
+- **arXiv**: `2610.32094v1`  |  **提交日期**: 2026-10-23
+- **作者**: Qiangong Zhou, Jiafeng Liang, Yimin Dong, Yang He, Hongxiang Li
+
+Long-horizon robot tasks require retaining and using past information. We integrate Test-Time Training (TTT), which stores context in fast weights, into InternVLA-A1 and Pi0.5 to study action generation conditioned on human demonstrations through training on paired demonstrations and robot trajectories. We implement memory transfer between the two phases and truncated backpropagation, and examine training objectives, gradient coverage, and contrastive regularization across video, short-video, and single-frame cue tasks. In our experiments, adding TTT and training on paired data at the current…
+
+---
+
 ## 📅 2026-10-23
 
 ### [Sensorimotor Alignment: A Platonic Proxy for Embodied Policy Success](https://arxiv.org/abs/2610.31670v1)

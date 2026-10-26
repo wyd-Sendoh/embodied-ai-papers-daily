@@ -2,6 +2,80 @@
 
 _自动追踪 arXiv 最新论文，最新更新在最上方。_
 
+## 📅 2026-10-26
+
+### [UniAction: Unified Action Conditioning for World Models](https://arxiv.org/abs/2610.32977v1)
+
+- **arXiv**: `2610.32977v1`  |  **提交日期**: 2026-10-23
+- **作者**: Bowen Xue, Zizhang Li, Hong-Xing Yu, Jiajun Wu
+
+Actions that condition world models are highly heterogeneous, and thus existing action-conditioned world models are typically built for individual action types, fragmenting already limited action-annotated data across separate models. We introduce UniAction, a unified action-conditioning framework that represents any action as a sparse set of action elements, each with a discrete semantic identity and a continuous spatiotemporal grounding coordinate. By mapping these coordinates directly into the pretrained video model's native positional space, UniAction allows heterogeneous actions to…
+
+---
+
+### [Adaptive World-Models for Anomaly Recognition (AWARE): A Framework for Robot Dynamics Prediction and Introspection](https://arxiv.org/abs/2610.32742v1)
+
+- **arXiv**: `2610.32742v1`  |  **提交日期**: 2026-10-23
+- **作者**: Luke Beddow, George Mavroghenis, Rodrigo Chacon Quesada, Kamil Dreczkowski, Cong Sun, Jiankai Wang et al.
+
+Unrecognized anomalies in critical infrastructure can rapidly cascade into catastrophic physical or operational failures. Current anomaly detection approaches often rely on direct access to the monitored system by utilizing onboard sensors, such as motor encoders, to detect anomalous states. However, legacy hardware often lacks these sensors, or strict security protocols may prohibit access altogether. We therefore present AWARE, a world model framework that is capable of anomaly detection using only external camera monitoring via system dynamics estimation and state prediction. Evaluated…
+
+---
+
+### [DT-JEPA: Learning to Predict Future Representations for Decision-Making](https://arxiv.org/abs/2610.32657v1)
+
+- **arXiv**: `2610.32657v1`  |  **提交日期**: 2026-10-23
+- **作者**: Changxu Ni, Yiyang Ni, Jun Li, Feiran You, Hongyang Du, Haitao Zhao et al.
+
+Decision Transformer (DT) has demonstrated strong performance in various offline reinforcement learning (RL) tasks by conditioning action generation on expected future returns and historical trajectories. However, treating expected future returns as the condition provides an incomplete description of the future, as trajectories with different state transitions and behaviors may share similar returns. Moreover, expected future returns inherently depend on task-specific reward functions, which makes policy learning reliant on reward-labeled datasets and restricts its scalability to tasks with…
+
+---
+
+### [HGWM: Hierarchical Graph-Guided World Model for Zero-Shot Object Navigation via Graph Matching](https://arxiv.org/abs/2610.32554v1)
+
+- **arXiv**: `2610.32554v1`  |  **提交日期**: 2026-10-23
+- **作者**: I-tak Ieong, Hao Tang
+
+Zero-shot object navigation requires an embodied agent to choose where to search while retaining evidence from previous observations. HGWM couples an LLM-generated room-anchor prior with persistent spatial-semantic memory. A coarse stage assigns visual-semantic scores to candidate headings on a 0-10 scale; a fine stage measures symbolic compatibility between observed objects, room context, and the goal prior. Phase-dependent fusion combines these scores with an LLM direction recommendation before local action selection. On HM3D v0.1, the reported HGWM configuration achieves 62.6% success rate…
+
+---
+
+### [When Does Dynamics Randomization Test Context Inference?](https://arxiv.org/abs/2610.32414v1)
+
+- **arXiv**: `2610.32414v1`  |  **提交日期**: 2026-10-23
+- **作者**: Oleg Smirnov, Sofiane Ennadir, John Pertoft, Bjartur Hjaltason, Sara Karimi
+
+Environments with randomized dynamics are widely used to ask whether world models need explicit context inference. However, randomization can leave little predictive information for a context encoder to add, because distinct latent parameters may produce similar transitions at visited states, or those states may already reveal the active context. We formalize the remaining one-step information as predictive headroom and compare kernels under fixed and visited state--action distributions to distinguish changes in query coverage from changes in context weights. We analyze discrete and…
+
+---
+
+### [UniWorld: A Unified World Model for Real-Time Visual World Simulation](https://arxiv.org/abs/2610.32381v1)
+
+- **arXiv**: `2610.32381v1`  |  **提交日期**: 2026-10-23
+- **作者**: Xin Zhang, Yabo Chen, Shuaiwei Wang, Zixuan Duan, Haibin Huang, Feng Xu et al.
+
+Continuous visual world simulation requires coupling evolving scene geometry with temporally persistent appearance. We present UniWorld, a unified framework that integrates depth trajectories and reference appearance within a shared video generation model. The central design maintains visual and geometric histories on a common timeline. Noise-aligned overlapping continuation places generated history at the prescribed sampling noise level and commits only newly generated latents. Rolling depth latent state preserves the corresponding geometric controls, incrementally reads newly available…
+
+---
+
+### [ACWM-RM: A Reference-Free Reward Model from Complementary Mismatch Preferences](https://arxiv.org/abs/2610.32222v1)
+
+- **arXiv**: `2610.32222v1`  |  **提交日期**: 2026-10-23
+- **作者**: Shibo Hong, Siyu Ren, FengJiao Chen, Zhongyuan Peng, Wei Shi, Yixin Cao
+
+Reinforcement learning has gained attention for improving action-conditioned world models (ACWMs), as it enables reward-driven optimization of visual quality (VQ) and action-following fidelity (AF) beyond flow-matching optimization. Realizing this potential requires reward signals that reliably rank videos by both VQ and AF. However, existing rewards capture only one dimension: metric-based rewards assess VQ but require ground-truth videos and do not directly assess AF, while inverse dynamics model (IDM) rewards assess AF without references but do not guarantee VQ. Moreover, IDMs, typically…
+
+---
+
+### [$Ψ$-0.6: Adaptive Streams of Thought in a Unified Vision-Language World Model](https://arxiv.org/abs/2610.32177v1)
+
+- **arXiv**: `2610.32177v1`  |  **提交日期**: 2026-10-23
+- **作者**: Khai Loong Aw, Klemen Kotar, Baihan Zhang, Yifan Liu, Lilian Chen, Atlas Kazemian et al.
+
+Humans reason about the physical world by flexibly combining different forms of inference as a problem unfolds. Achieving this flexibility is a major open challenge in AI: capabilities often remain separated across specialized models, limiting how they can be composed and jointly adapted to a task. We introduce $Ψ$-0.6, a unified vision-language world model that adaptively composes perception, language, geometry, and simulation within a shared reasoning process we call streams of thought. These streams interleave images, text, and explicit representations of geometry and motion, all of which…
+
+---
+
 ## 📅 2026-10-23
 
 ### [Reading, Writing, Sharing, and Interacting with the World through Video](https://arxiv.org/abs/2610.31668v1)

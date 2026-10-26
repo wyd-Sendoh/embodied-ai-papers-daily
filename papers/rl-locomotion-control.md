@@ -2,6 +2,44 @@
 
 _自动追踪 arXiv 最新论文，最新更新在最上方。_
 
+## 📅 2026-10-26
+
+### [HoloBoxing: A Simple Recipe for Humanoid Boxing with 7 Minutes of Single-GPU Training](https://arxiv.org/abs/2610.32909v1)
+
+- **arXiv**: `2610.32909v1`  |  **提交日期**: 2026-10-23
+- **作者**: Xihan Ma, Bo Zhang, Boxiong Li, Yuhan Bao, Ziyue Liu, Yucheng Wang
+
+HoloBoxing presents a simple recipe for learning humanoid boxing by building on a pretrained whole-body controller. The recipe separates reusable motor skills from task decisions: a compact planner requests future body-point targets, while the frozen controller handles joint-level execution. A learned decoder maps 32-dimensional actions to structured target windows, and measured-state imitation initializes the planner before reinforcement learning. Task learning then refines interaction behavior while reusing the decoder and controller, avoiding the need to relearn whole-body control. This…
+
+---
+
+### [Regularised RL improves sim-to-real transfer](https://arxiv.org/abs/2610.32855v1)
+
+- **arXiv**: `2610.32855v1`  |  **提交日期**: 2026-10-23
+- **作者**: Danilo Vucetic, Mohamad H. Danesh, Florence Clerc, Hsiu-Chin Lin, Jonathan Tremblay
+
+Regularised reinforcement learning (RL) has provable robustness guarantees that should ease the transfer of policies from simulation to robots, known as sim-to-real. Yet, weakly regularised algorithms like Proximal Policy Optimisation (PPO) remain the de facto choice in sim-to-real pipelines, while the practical benefits of regularisation for transfer remain poorly characterised. In this work, we study the sim-to-real performance of commonly used RL algorithms, with the aim of characterising the effects of regularisation on robotic performance. To that end, we derive Soft MellowMax…
+
+---
+
+### [CoCarry: Contact-Support-Structured Retargeting for Dual-Humanoid Cooperative Carrying](https://arxiv.org/abs/2610.32460v1)
+
+- **arXiv**: `2610.32460v1`  |  **提交日期**: 2026-10-23
+- **作者**: Ziyu Lin, Shihang Du, Tianhang Wang, Xiaodong Liu, Runze Zhang, Zongyou Yu et al.
+
+Recent advances in large-scale human motion data, motion retargeting, and motion imitation have enabled increasingly capable whole-body control for individual humanoids. Cooperative carrying is more challenging because successful coordination requires not only plausible individual motions, but also consistent cross-agent and agent-object relations, including shared grasp, relative configuration, and whole-body support. We introduce CoCarry, a cooperative-carrying dataset containing 220 synchronized two-person sequences across 21 task schemes, five shared-object geometries, four terrain types,…
+
+---
+
+### [SKG in Practice: OOD Generalization Cases Across FourDomains](https://arxiv.org/abs/2610.32314v1)
+
+- **arXiv**: `2610.32314v1`  |  **提交日期**: 2026-10-23
+- **作者**: Jian An, Chaoshi Wu, Xinpan Luo
+
+This paper presents the engineering implementation methods of the SKG inference framework and provides complete case studies across four domains. Case 1, 2D Dissipative Mechanical System: OOD MSE is 1.69 to 4.12 times lower than the best neural baseline; the state-dependent metric yields a 10^8-order improvement under controlled conditions. Case 2, Target Detection Sim-to-Real: Real-machine mAP increases from 0.2564 to 0.4964 (+24.00 points, single-run experiment, 32 images, point estimate), and AP75 increases from 0.1736 to 0.5765 (+40.29 points), with no real-machine retraining required.…
+
+---
+
 ## 📅 2026-10-23
 
 ### [In-Context Learning World Models for Robot Dual-Arm Manipulation of Soft Garment with Partial Observations](https://arxiv.org/abs/2610.30988v1)

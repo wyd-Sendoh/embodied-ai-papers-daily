@@ -2,6 +2,17 @@
 
 _自动追踪 arXiv 最新论文，最新更新在最上方。_
 
+## 📅 2026-10-26
+
+### [SceneBloom: Agentic Indoor Environment Generation with Realistic and Diverse Layouts for Embodied Learning](https://arxiv.org/abs/2610.32978v1)
+
+- **arXiv**: `2610.32978v1`  |  **提交日期**: 2026-10-23
+- **作者**: Yuhan Liu, Lianhui Qin, Shenji Wan
+
+Training generalizable embodied agents requires realistic, varied, and simulation-ready indoor environments. Language-guided methods support semantic planning and object-level reasoning, but precise spatial grounding remains difficult. Visual generative models offer rich priors over plausible arrangements, yet their outputs require geometric reasoning to become physically valid 3D scenes. We introduce SceneBloom, an agentic framework that combines visual layout sampling with contract-guided 3D compilation. A hierarchical sampler uses diffusion priors to generate furniture arrangements within…
+
+---
+
 ## 📅 2026-10-23
 
 ### [A Sparse Topometric Graph for Scalable Cross-Session Indoor Navigation](https://arxiv.org/abs/2610.31432v1)
