@@ -2,6 +2,53 @@
 
 _自动追踪 arXiv 最新论文，最新更新在最上方。_
 
+## 📅 2026-10-30
+
+### [LucidLyra: Feed-Forward Generative 3D Scene Reconstruction and Joint Understanding via Multi-Task Distillation](https://arxiv.org/abs/2610.40495v1)
+
+- **arXiv**: `2610.40495v1`  |  **提交日期**: 2026-10-29
+- **作者**: Oliver Hahn, Rodrigo Marcuzzi, Sangeetha Grama Srinivasan, Alessandro Burzio, Sherwin Bahmani, Jiahui Huang et al.
+
+We present LucidLyra, a framework that makes generatively reconstructed 3D scenes directly queryable for semantics and instances in a feed-forward manner from video latents. While generative 3D reconstruction can synthesize virtual environments from a single image, downstream applications in robotics and physical AI require not only visual realism but also access to scene semantics and object identities. Existing 3D understanding approaches, however, require captured multi-view scenes, have limited generalization capabilities, or rely on expensive per-scene processing and optimization. To…
+
+---
+
+### [UniffordInteractor: Reasoning the Unified Affordance for Human and Multi-Object Interaction](https://arxiv.org/abs/2610.39745v1)
+
+- **arXiv**: `2610.39745v1`  |  **提交日期**: 2026-10-29
+- **作者**: Chen Su, Xingqun Qi, Xurui Hu, Bingkun Yang, Muyi Sun, Man Zhang et al.
+
+Deriving plausible and dynamic Human Object Interaction (HOI) has gained tremendous progress in Embodied AI and Immersive AR/VR. While existing HOI methods have effectively explored human interaction with individual or fixed objects, they still show limitations in complex multi-object interaction scenes. Meanwhile, previous approaches focus more on the contact information held by human-object relation, overlooking the significance of the contact situation of various entities (i.e., object-object). To address these limitations, we propose UniffordInteractor, a Reasoning-then-Interacting…
+
+---
+
+### [Ask to Evolve: A Unified Harness for Lifelong Embodied Navigation with Hybrid Action Space and Persistent Memory](https://arxiv.org/abs/2610.39446v1)
+
+- **arXiv**: `2610.39446v1`  |  **提交日期**: 2026-10-29
+- **作者**: Kai Sheng, Liuyi Wang, Jinlong Li, Haojie Dai, Chengju Liu, Qijun Chen
+
+Giving embodied agents the freedom to act autonomously, initiate interactions, and understand their surroundings through experience is a step toward bringing them to life in the physical world. Realizing this vision requires action, interaction, and memory to work together, so that each encounter can inform current decisions and contribute experience for future tasks. We present EvoLife, a unified navigation harness that enables a multimodal embodied agent to choose how to move, when to ask, and what experience to carry forward. Its hybrid action space supports waypoint navigation, local…
+
+---
+
+### [EmbodiExp: Compositional Experience Transfer for Embodied Agents](https://arxiv.org/abs/2610.39180v1)
+
+- **arXiv**: `2610.39180v1`  |  **提交日期**: 2026-10-29
+- **作者**: Zhifeng Gu, Ying Chen, Rui Jiang, Lei Yi, Bing Wang
+
+Experience can help embodied agents turn high-level plans into grounded actions, but transferring it across tasks remains challenging: previously effective strategies may be inapplicable to the current state or fail to produce their intended outcomes. We present EmbodiExp, a framework for constructing transferable experiences and composing them online during embodied task execution. Our key observation is that tasks often share subgoals whose completion can be assessed independently of overall task success. We therefore introduce an outcome-grounded subgoal experience that specifies a…
+
+---
+
+### [PhysicsNeMo-Mesh: GPU-Native Meshes and Simulation Cases for Physics AI](https://arxiv.org/abs/2610.39072v1)
+
+- **arXiv**: `2610.39072v1`  |  **提交日期**: 2026-10-29
+- **作者**: Peter D. Sharpe, Corey Adams, Negin Sobhani, Sanjay Choudhry
+
+PhysicsNeMo-Mesh is the mesh module of the open-source PhysicsNeMo library. It provides mesh processing similar to PyVista, but on the GPU, in batches, and inside PyTorch's automatic differentiation. Like xarray for unstructured meshes, it attaches semantics to data: fields on points, cells, and whole meshes have names and shapes, and a simulation case keeps the complete PDE problem specification, including boundary conditions and their prescribed values. It addresses three problems that plague machine learning for physical simulation. First, GPU utilization is bottlenecked by I/O, because…
+
+---
+
 ## 📅 2026-10-28
 
 ### [Zooming without Zooming v2: From Seeing Details to Connecting Evidence for Generalizable Multimodal Perception](https://arxiv.org/abs/2610.37037v1)

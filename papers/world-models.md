@@ -2,6 +2,233 @@
 
 _自动追踪 arXiv 最新论文，最新更新在最上方。_
 
+## 📅 2026-10-30
+
+### [world2vec: Mechanistic world models through latent dynamics learning](https://arxiv.org/abs/2610.40637v1)
+
+- **arXiv**: `2610.40637v1`  |  **提交日期**: 2026-10-29
+- **作者**: Tobias Schmidt, Rodrigo Gonzalez Laiz, Krisztián Szuppinger, Steffen Schneider
+
+World models can achieve strong control performance without faithfully capturing the dynamics of their environment, limiting their potential for mechanistic interpretability and scientific discovery. Here, we introduce world2vec to learn mechanistic world models without reward information directly from observations and actions. World2vec learns latent dynamics that faithfully reproduce the true system over long prediction horizons, with at least one order of magnitude fewer parameters than DreamerV3, TD-MPC2 and LeWM. This enables state of the art performance in controlling continuous…
+
+---
+
+### [L3G-World: Real-Time Infinite World Generation with Latent 3D Gaussian Memory](https://arxiv.org/abs/2610.40614v1)
+
+- **arXiv**: `2610.40614v1`  |  **提交日期**: 2026-10-29
+- **作者**: Jinhyeok Choi, JoungBin Lee, Jongmin Lee, Minkyeong Jeon, Jiyoung Kim, Kaeun Han et al.
+
+Interactive world models generate visual content conditioned on user actions, yet maintaining spatial consistency over long-horizon exploration in real time remains challenging. Existing approaches rely on either temporal context or explicit 3D memory, both of which scale poorly because memory grows with the length of the generated stream. Moreover, explicit 3D memories condition latent video generators by re-encoding RGB renderings, which precludes real-time generation. In this paper, we introduce a Latent 3D Gaussian Memory (L3G) that combines the efficiency of feed-forward reconstruction…
+
+---
+
+### [Fight World Model: Customizable Combat through Visual Interaction Proxies](https://arxiv.org/abs/2610.40607v1)
+
+- **arXiv**: `2610.40607v1`  |  **提交日期**: 2026-10-29
+- **作者**: Jiahua Li, Zixu John, Tom Zhong, Fuping Wu, Tianhao Xu, Ruicheng Zhang et al.
+
+A playable, programmable game world must maintain persistent state, enforce executable rules, and support extensible gameplay mechanics. Existing video world models can generate plausible combat, yet struggle to keep hit reactions and health updates consistent with game rules. We introduce Fight World Model (FWM), which separates rule-governed combat execution from video rendering. An executable engine maintains state and resolves interactions. A deterministic compiler encodes these outcomes and attempted actions in a spatially and temporally aligned interaction proxy. The proxy aligns action…
+
+---
+
+### [Algebraic World Model: From Exploration to Proofs](https://arxiv.org/abs/2610.40503v1)
+
+- **arXiv**: `2610.40503v1`  |  **提交日期**: 2026-10-29
+- **作者**: Guancheng Pan, Qixin Tan, Yang Yuan, Andrew Chi-Chih Yao
+
+AI has made remarkable progress in mathematics, solving challenging problems with machine-checkable proofs in Lean, yet typically relying on predefined mathematical definitions and formal specifications. This raises a natural question: can it reason rigorously about an unknown world? We introduce the Algebraic World Model (AWM), a framework that turns interaction with unfamiliar environments into explicit mathematical models supporting formal reasoning. AWM explores the environment and develops executable Python hypotheses, continually testing and revising them against observations. It then…
+
+---
+
+### [Continuous-Action World Models: Learning Cross-Embodiment Spatiotemporal Dynamics Priors](https://arxiv.org/abs/2610.40401v1)
+
+- **arXiv**: `2610.40401v1`  |  **提交日期**: 2026-10-29
+- **作者**: Liangyu Li, Qingwen Liu
+
+We introduce Continuous-Action World Models (CoAWM), a framework for learning cross-embodiment spatiotemporal dynamics priors that support robot action generation across embodiments and execution frequencies. At its core is a shared latent function space that captures the spatial and temporal structure of robot actions. We learn this space through two stages. First, function pretraining brings trajectories from different embodiments and sampling frequencies into a common representation, learning shared dynamics priors through action reconstruction and consistency across temporal sampling…
+
+---
+
+### [Wizard: Manipulate Any World in Real Time via Agentic Control](https://arxiv.org/abs/2610.40339v1)
+
+- **arXiv**: `2610.40339v1`  |  **提交日期**: 2026-10-29
+- **作者**: Yuzhe Wu, Zijun Lin, Yeying Jin
+
+Recent advances in video world models have enabled the generation of increasingly realistic and interactive virtual environments, opening new possibilities for player-customizable gameplay. Agentic frameworks further advance this direction by decoupling explicit game logic and controllable world representations from visual generation. However, existing approaches support only simple game settings and predefined motion patterns, generalize poorly to unseen environments and characters, and offer limited real-time interactivity. In this paper, we introduce Wizard, an agentic game world model…
+
+---
+
+### [Video Generation Meets Agent Harness: Agentic Video Generation, Agentic World Modeling and Recursive Self-Improvement](https://arxiv.org/abs/2610.40191v1)
+
+- **arXiv**: `2610.40191v1`  |  **提交日期**: 2026-10-29
+- **作者**: Liaoyuan Fan, Yuhao Zheng, Dongxing Mao, Hangyu Ran, Siyuan Hu, Weijia Mao et al.
+
+Video generation is shifting from end-to-end synthesis toward agentic generation, where planning, tool use, and feedback enable coherent, controllable multi-shot videos. In parallel, video world models provide action-conditioned observations and predicted futures, serving as interactive environments for agents. We study their intersection through the agent harness: an executable runtime that constructs context, exposes tools, maintains state, routes feedback, and manages budgets around video models. This report examines three directions. First, agentic video generation, where harnesses…
+
+---
+
+### [Cheap Retrieval and Observation Credit Assignment from One Quantity: The Value of Information](https://arxiv.org/abs/2610.40030v1)
+
+- **arXiv**: `2610.40030v1`  |  **提交日期**: 2026-10-29
+- **作者**: Daniel Strauss, Nikolaos Sotirakis, Zhenshan Bing, Alois Knoll
+
+Memory in reinforcement learning raises two problems. Attention finds the relevant item by scoring the whole store, which is costly for robots under latency and energy limits. When a retrieved memory pays off, credit for acquiring it must cross the whole sequence. We argue that both are governed by one quantity, the value of information, and propose to estimate it from archived rollouts with a learned world model. We obtain that, when read at the observation, it yields a provable lower bound on the optimal value of the acquiring action, which floors its TD target and attributes this floor to…
+
+---
+
+### [GROME: GROunding Factorized MEmory into Video World Models](https://arxiv.org/abs/2610.39812v1)
+
+- **arXiv**: `2610.39812v1`  |  **提交日期**: 2026-10-29
+- **作者**: Fang Yu, Xiaoxue Wu, Haiyu Zhang, Yangfu Li, Botong Zhao, Yu Qiao et al.
+
+Long-horizon consistency is essential for video world models, yet it becomes difficult to maintain once observed content falls outside the context window. Existing memory mechanisms either retrieve history as implicit context, which remains constrained by context capacity and entangles static and dynamic information or consolidate history into explicit global representations, which struggle to model evolving dynamics and accumulate geometric errors. To overcome these limitations, we introduce \textbf{GROME}, a novel factorized memory framework that augments video world models for long-horizon…
+
+---
+
+### [WorldProbe: When Video World Models Fall Apart under Long-Horizon Spatial Exploration](https://arxiv.org/abs/2610.39721v1)
+
+- **arXiv**: `2610.39721v1`  |  **提交日期**: 2026-10-29
+- **作者**: Minqi Wang, Jie Peng, Hejun Dong, Ruchang Yao, Puyi Wang, Siyuan Huang et al.
+
+Video world models generate future visual observations from camera or action inputs, with the goal of synthesizing persistent 3D worlds that can be explored across time and space. Existing benchmarks typically evaluate short interactions or rely on camera trajectories fixed before generation. The performance of video world models under long-horizon exploration with extensive camera motion remains under-explored. We introduce WorldProbe, a diagnostic benchmark that uses a goal-conditioned multimodal agent to adapt camera actions online during generation. WorldProbe comprises 164 test cases…
+
+---
+
+### [FutureWorld: A Plug-and-Play Causal Next-State Predictor for Interactive Video World Exploration](https://arxiv.org/abs/2610.39619v1)
+
+- **arXiv**: `2610.39619v1`  |  **提交日期**: 2026-10-29
+- **作者**: Guangyuan Li, Kelu Yao, Shuolin Xu, Xinlei Yu, Wei Xing, Lei Zhao et al.
+
+Interactive video world models aim to follow user actions while maintaining scene consistency over extended interactions. History-based methods reuse generated latents to preserve scene content, but three limitations of this reuse contribute to error recirculation. 1) The latent generated at each interaction is retained as history, potentially containing blurred details, geometric distortions, or semantic drift. 2) Although retrieved historical content matches the current scene, it can still contain errors that are carried into the next chunk. 3) New outputs then become history for later…
+
+---
+
+### [Assuring Learning-Enabled Cyber-Physical Systems with Foundation Models: A Neuro-Symbolic Agenda for Testing, Verification, and Runtime Assurance](https://arxiv.org/abs/2610.39547v1)
+
+- **arXiv**: `2610.39547v1`  |  **提交日期**: 2026-10-29
+- **作者**: Xi Zheng, Ivan Ruchkin, Hong Jin Kang, Tevfik Bultan, Vijay Ganesh, Taylor T. Johnson et al.
+
+Learning-enabled cyber-physical systems (CPS), including autonomous vehicles and UAVs, increasingly incorporate foundation models, yet fragmented assurance practices provide insufficient support for system-level guarantees. We argue that restoring engineering control across stochastic neural, symbolic, and physical boundaries requires a shift from model-centric evaluation to system-level assurance. We introduce the Foundation Model Assurance Stack, connecting three directions: (i) neuro-symbolic architectures that constrain foundation models through explicit symbolic world models, reasoning…
+
+---
+
+### [Robust LIDAR Sensor-to-Sensor Domain Generalization via Accumulated-Point Scene Completion](https://arxiv.org/abs/2610.39516v1)
+
+- **arXiv**: `2610.39516v1`  |  **提交日期**: 2026-10-29
+- **作者**: Christoph B Rist, Larissa T Triess, Markus Enzweiler, Dariu M Gavrila
+
+We study domain generalization for LIDAR semantic segmentation. Deep neural networks achieve strong performance on 3D point clouds, yet real-world LIDAR exhibits sensor-specific sampling patterns that hinder transfer across datasets. In many applications, performance on completely unseen sensors is crucial. A model should preferably work on a new setup without prior access to its data or labels. To this end, we introduce a source-only training scheme that adds an occupancy prediction auxiliary objective. We aggregate source-domain scans into a simple world model and use it as the supervision…
+
+---
+
+### [WorldFlow: Joint Video and 3D Motion Prediction via Large-Scale Pretraining](https://arxiv.org/abs/2610.39278v1)
+
+- **arXiv**: `2610.39278v1`  |  **提交日期**: 2026-10-29
+- **作者**: Yuhao Lu, Jiongxu Chen, Hexiang Wei, Jiajin Wu, Juelin Li, Mingjian Liang et al.
+
+Predicting future physical states stands as a central challenge in embodied intelligence. Existing video world models leave 3D dynamics implicit, action-based formulations remain tied to specific robot configurations, and 3D motion prediction models use flow-only supervision, providing a limited learning signal for physical dynamics. To circumvent these limitations, we introduce \method{}, a generative world model that jointly predicts future video and query-based 3D trajectories. By parameterizing 3D motion as continuous displacement tokens aligned with the video grid, a unified…
+
+---
+
+### [Seeing and Imagining as One: Unified Video Generation and 4D Perception for Embodied World Modeling](https://arxiv.org/abs/2610.39232v1)
+
+- **arXiv**: `2610.39232v1`  |  **提交日期**: 2026-10-29
+- **作者**: Haitang Feng, Zhuoman Liu, Zhennan Wang, Sheng Wang, Juelin Li, Chengzhi Zhao et al.
+
+Embodied world models should not only imagine plausible futures, but also perceive the geometric, semantic, and motion structure of the evolving world. We present GenSight, a unified embodied world model that brings future video generation and dense perception into a single pretrained video diffusion transformer. GenSight uses a unified spatiotemporal representation for video, depth, embodiment segmentation, and first-frame-relative 2D flow. Built on a shared DiT backbone, GenSight uses lightweight task modulation to predict all modalities within the same architecture. All tasks are jointly…
+
+---
+
+### [Generating Critic-Guided Synthetic Experience in Latent World Models](https://arxiv.org/abs/2610.39100v1)
+
+- **arXiv**: `2610.39100v1`  |  **提交日期**: 2026-10-29
+- **作者**: Jorge de Freitas, Christos Ziakas, Alessandra Russo
+
+Learning from offline datasets is limited in scalability, as collecting new experience is often costly or unsafe in the real world. World models offer an alternative way to generate new experience through a learned dynamics model, yet learning policies in latent space is limited due to compounding errors in imagined rollouts. To this end, we propose using the world model as a local transition generator, leveraging critic guidance to choose actions inside that model to generate synthetic experiences. We study action refinement methodologies, introducing Critic-Guided Synthetic Experience…
+
+---
+
+### [Tactus: Tactile & Pose Sensing Glove for Natural Dexterity Data Collection](https://arxiv.org/abs/2610.39076v1)
+
+- **arXiv**: `2610.39076v1`  |  **提交日期**: 2026-10-29
+- **作者**: Li Guan, Rachael Granberry, Sahar Aseeri, Sahar Rostami, Taylor Niehues, Sai Dhanooshi Marri et al.
+
+Collecting naturalistic human manipulation demonstrations with accurate contact force and hand pose is essential for robot dexterous manipulation policy and foundational world model learning - yet no existing wearable platform provides both calibrated fingertip force sensing and occlusion-resilient hand tracking in a form factor that preserves natural manipulation behavior. We present Tactus, a textile-integrated sensing glove that co-optimizes three design pillars: (1) a thin, conformal 3D-knit form factor (1.5 mm fingertip stackup) designed to minimize interference with natural…
+
+---
+
+### [Context Compaction for World Models](https://arxiv.org/abs/2610.38980v1)
+
+- **arXiv**: `2610.38980v1`  |  **提交日期**: 2026-10-28
+- **作者**: Hayder Tirmazi
+
+World models let observers explore and interact with generated worlds. Recent work shows that when observers revisit a region, current models often fail to regenerate it consistently. We view this as a context retrieval problem. LLM agents manage context retrieval at two layers of their stack. At the model layer, the KV cache design determines how much context fits in memory. At the agent harness layer, harnesses such as Claude Code pick the context sent to the LLM. Prior work on world models has mostly focused only on the model layer. In this paper, we make three contributions. First, we…
+
+---
+
+### [Structural-Test Geometry as an Inductive Bias for Partially Observable World Models](https://arxiv.org/abs/2610.38903v1)
+
+- **arXiv**: `2610.38903v1`  |  **提交日期**: 2026-10-28
+- **作者**: Todd Y. Zhou
+
+Predictive world-model objectives need not organize latent histories according to distinctions required for later control. With privileged simulator access during training, should response-derived structural information be predicted, decoded, or imposed directly on latent geometry--and how do these choices compare with structured belief distillation? We define posterior-marginalized structural tests whose response distributions induce a pseudometric over histories, then train quotient-preserving (QP) world models by aligning shared latent Euclidean distances to that metric. Across a fixed…
+
+---
+
+### [Predict the Reward, Not the World: World Reward Models for ML Agents](https://arxiv.org/abs/2610.38439v1)
+
+- **arXiv**: `2610.38439v1`  |  **提交日期**: 2026-10-28
+- **作者**: Yuxiao Lee, Zherui Yang, Fan Liu, Hao Liu
+
+Search-based machine-learning (ML) agents improve a solution by writing candidate programs, executing them, and keeping the best. Execution gives the search reliable feedback, but a single run can take hours, and most runs end in programs the agent discards. Recent agents try to save these runs by letting a large language model act as a world model that predicts how each program would perform. However, a wrong prediction feeds the search false information. We argue that an agent does not need to predict the outcome of execution, only the decision that execution would support. We propose World…
+
+---
+
+### [PulmoWorld: An Asynchronous Multimodal Medical World Model for Longitudinal Pneumonia Dynamics](https://arxiv.org/abs/2610.38289v1)
+
+- **arXiv**: `2610.38289v1`  |  **提交日期**: 2026-10-28
+- **作者**: Cheng Tang, Xinyu Zhang, Jiawei Chen, Minghui Zhang, Shaocong Wei, Wei Li et al.
+
+Pneumonia changes across respiration, inflammation, and organ function, while the measurements that describe it arrive at different times and are often incomplete. We introduce PULMOWORLD, a world model for longitudinal pneumonia dynamics that connects asynchronous state estimation, recursive simulation, and evidence-constrained planning. History-aware filtering separates state propagation from observation-driven correction, so a measurement updates the shared belief only when it is observed. That belief supports recursive forecasts of clinical values and modality representations, and…
+
+---
+
+### [Recursive Self-Improvement in Physical AI: Mechanisms, Evidence, and Evaluation](https://arxiv.org/abs/2610.38266v1)
+
+- **arXiv**: `2610.38266v1`  |  **提交日期**: 2026-10-28
+- **作者**: Xiaofeng Han, Kaize Luo, Zenghuang Fu, Zichong Zhu, Zhe Feng, Changwei Wang et al.
+
+Embodied systems can update policies, world models, skills, and executable programs from deployment experience, allowing one interaction to benefit later tasks. When a system also revises and reuses its data-acquisition, feedback, or learning procedures, experience changes the process that produces capability, introducing recursive self-improvement. This paper surveys research in physical AI through the connection between persistent capability and its improvement process. We first explain the functional distinction between learner updates and improvers, then compare policy learning, imagined…
+
+---
+
+### [Self-Supervised Latent Action-Conditioned World Modeling for Time Series](https://arxiv.org/abs/2610.37963v1)
+
+- **arXiv**: `2610.37963v1`  |  **提交日期**: 2026-10-27
+- **作者**: Chia-Han Kuo, Chengshuai Zhao, Huan Liu, Lo Pang-Yun Ting
+
+Time-series data play an important role in various tasks, such as weather forecasting, web traffic analysis, and speech recognition. Recently, pioneering studies have increasingly adopted Joint-Embedding Predictive Architecture (JEPA) based encoders to learn time-series representations through latent-space prediction. However, they often overlook the underlying factors governing transitions between time-series observations. In this work, we hypothesize that explicitly modeling the information behind changes in time series can facilitate time-series modeling. Building on this hypothesis, we…
+
+---
+
+### [When More Planning Hurts: Learned Planners for World Models](https://arxiv.org/abs/2610.37891v1)
+
+- **arXiv**: `2610.37891v1`  |  **提交日期**: 2026-10-27
+- **作者**: Josef Chen
+
+On PushT, our fixed action updater (1,505 parameters) solves 8 of 16 scenes reserved from our configuration selection. The comparison planners perform as follows: Selected Adam (7 tasks solved, total planning and encoding time 218.440s), adapted iCEM (2 tasks solved, total planning and encoding time 49.309s), released LePlanner (16 tasks solved, total planning and encoding time 5.652s). The total planning and encoding time for our action updater is 59.079s. Note that our action updater does not satisfy the task-cost criterion we fixed before evaluation. We also conduct another matched…
+
+---
+
+### [GameVerse: A Minute-Scale Gameplay Dataset for Long-Horizon Interactive World Modeling](https://arxiv.org/abs/2610.37257v2)
+
+- **arXiv**: `2610.37257v2`  |  **提交日期**: 2026-10-27
+- **作者**: Kang He, Wenshuo Peng, Chuanhao Li, Zihui Gao, Xiaojie Xu, Zhengyuan Lin et al.
+
+Recent advances in interactive world models have made it possible to generate controllable, dynamic environments from action inputs. Yet current models struggle to maintain coherence beyond roughly one minute of rollout, a limitation rooted not in model capacity but in the scarcity of long-horizon training data. Existing gameplay video datasets typically consist of clips under ten seconds, with captions that describe whole clips in coarse and undifferentiated text, which is insufficient for controllable long-horizon generation. We address this with GameVerse, a minute-scale gameplay video…
+
+---
+
 ## 📅 2026-10-28
 
 ### [Understanding the limits of latent world models](https://arxiv.org/abs/2610.37588v1)
