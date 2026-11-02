@@ -2,6 +2,35 @@
 
 _自动追踪 arXiv 最新论文，最新更新在最上方。_
 
+## 📅 2026-11-02
+
+### [When the Past Shapes Action: Understanding Embodied Memory](https://arxiv.org/abs/2610.41688v1)
+
+- **arXiv**: `2610.41688v1`  |  **提交日期**: 2026-10-30
+- **作者**: Siqi Li, Ziyi Bai, Xinrun Xu, Tinglei Huang, Börje F. Karlsson
+
+Recent advances in generative foundation models have expanded the capabilities of embodied AI, enabling increasingly general navigation, manipulation, and long-horizon task execution. However, effective interaction with dynamic environments requires more than only strong perception and reasoning: agents must act with partial knowledge and retain, retrieve, and update information from past observations, actions, and experiences. This survey examines embodied memory as a mechanism for preserving decision-relevant information beyond the current observation. We organize existing approaches along…
+
+---
+
+### [BioAgent: Self-Directed Skill Acquisition and Capability Growth for Long-Horizon Laboratory Protocols](https://arxiv.org/abs/2610.41383v1)
+
+- **arXiv**: `2610.41383v1`  |  **提交日期**: 2026-10-30
+- **作者**: Gaojing Zhang, Changwen Chen, Zichen Luo, Jialiang Li, Yuhan Wang, Yifei Xie et al.
+
+Executing an unfamiliar laboratory protocol requires a robot to identify missing capabilities and determine whether each operation remains valid as the experiment progresses. This letter presents BioAgent, an embodied agent that addresses these coupled challenges of capability sufficiency and experimental validity. It matches human-reviewed requirements to validated skills and task packages, selects tool-based implementations for missing behaviors, and requests human teaching when needed during learning. Learned skills undergo sequential task-package validation to check outcomes and…
+
+---
+
+### [FrontierMat: Benchmarking Language Models at the Frontier of Materials R&D](https://arxiv.org/abs/2610.41162v1)
+
+- **arXiv**: `2610.41162v1`  |  **提交日期**: 2026-10-30
+- **作者**: Feng Chen, Jianguo Huang, Yushan Xiao, Yue Li, Bijun Tang, Xuyu Dong et al.
+
+To accelerate materials discovery, language models must be able to address problems at the research frontier. Yet textbook- and examination-derived benchmarks primarily assess established knowledge, leaving performance on frontier research problems largely untested. We introduce FrontierMat, a benchmark of 330 problems drawn from frontier academic and industrial research in fields including aerospace, semiconductors, embodied intelligence and nuclear fusion. Every problem is validated by leading experimentalists and industry experts in its field. Each problem presents a real study and asks…
+
+---
+
 ## 📅 2026-10-30
 
 ### [LucidLyra: Feed-Forward Generative 3D Scene Reconstruction and Joint Understanding via Multi-Task Distillation](https://arxiv.org/abs/2610.40495v1)

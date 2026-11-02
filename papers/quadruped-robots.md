@@ -2,6 +2,17 @@
 
 _自动追踪 arXiv 最新论文，最新更新在最上方。_
 
+## 📅 2026-11-02
+
+### [SAFARI: Semantic- And Frontier-driven Autonomous Risk Inspection](https://arxiv.org/abs/2610.41456v1)
+
+- **arXiv**: `2610.41456v1`  |  **提交日期**: 2026-10-30
+- **作者**: Ugur Kafkasyali, Mihnea Toader, Julia Richter, Turcan Tuna, Cesar Cadena, Marco Hutter
+
+Robotic exploration can reduce human exposure to hazardous environments by autonomously searching unknown areas for objects of interest while constructing a complete, risk-aware map. However, existing autonomous exploration approaches typically prioritize geometric coverage or information gain, without explicitly coupling semantic object detection and the risk associated with operating near potentially hazardous objects. Moreover, many systems have been demonstrated primarily in simulation or controlled environments, leaving limited validation of risk-aware semantic exploration in complex,…
+
+---
+
 ## 📅 2026-10-30
 
 ### [Is It the Curriculum or Just the Easy Start? Benchmarking Unsupervised Environment Design on Quadrupeds](https://arxiv.org/abs/2610.40364v1)

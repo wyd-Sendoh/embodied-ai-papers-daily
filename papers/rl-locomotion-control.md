@@ -2,6 +2,53 @@
 
 _自动追踪 arXiv 最新论文，最新更新在最上方。_
 
+## 📅 2026-11-02
+
+### [REA: A Routed Embodied Agent Runtime for Asynchronous Brain-Cerebellum Control](https://arxiv.org/abs/2610.42053v1)
+
+- **arXiv**: `2610.42053v1`  |  **提交日期**: 2026-10-30
+- **作者**: Pengfei Zhou, Yixing Ma, Zhengfeiyang Zhang, Haoyuan Chen, Zhenglin Wan, Hexin Wang et al.
+
+Foundation models are becoming remarkably reliable at high-level reasoning, yet they remain too slow and costly to serve as fine-grained controllers. Conversely, fast policies like VLAs and whole-body controllers offer more efficient reflexes, but struggle to generalize. While pairing a deliberative brain (foundation models) with a reactive cerebellum (fast policies) seems natural for embodied systems, two obstacles remain: methods are built and scored on incompatible stacks, and their asynchronous coordination is difficult. For example, an agent that calls the VLA in the agentic loop can…
+
+---
+
+### [Online Learning of Heterogeneous Locomotion Dynamics under Reinforcement Learning Policies for Precise Loco-Manipulation](https://arxiv.org/abs/2610.41892v1)
+
+- **arXiv**: `2610.41892v1`  |  **提交日期**: 2026-10-30
+- **作者**: Tianlin Zhang, Weipeng Xia, Lingwei Zhang, Yiyang Shao, Zhongyu Li, Yun-Hui Liu
+
+How to reuse a pretrained locomotion policy for precise loco-manipulation is still an open problem. We propose an online method to learn the closed-loop dynamics under a frozen locomotion policy. The learned model predicts floating-base motion and improves loco-manipulation accuracy. However, unobserved latent conditions of the policy introduce heterogeneous responses, meaning that the same observed state will lead to different motions. Direct learning without accounting for this heterogeneity introduces bias and fluctuations into dynamics estimates, degrading floating-base prediction and…
+
+---
+
+### [$\nabla$Mimic: Ultra-Efficient Humanoid Control with Differentiable Simulation](https://arxiv.org/abs/2610.41654v1)
+
+- **arXiv**: `2610.41654v1`  |  **提交日期**: 2026-10-30
+- **作者**: Weyl Lu, Yubei Chen
+
+Robot policy learning is dominated by zeroth-order methods such as PPO, which treat the simulator as a black box and pay for it with enormous sample counts. First-order policy learning differentiates through the dynamics, but on contact-rich whole-body control it has rarely worked: its gradients explode. A recent world-model method showed that derivative information can make humanoid motion tracking far more efficient, using surrogate gradients of a learned model. We show that exact gradients of the simulator itself do better, once two obstacles are removed. Exact gradients contain rare…
+
+---
+
+### [DiffWBC: Unlocking Steerable General Humanoid Motion Tracking via One-Step Diffusion Whole-Body Control](https://arxiv.org/abs/2610.41354v1)
+
+- **arXiv**: `2610.41354v1`  |  **提交日期**: 2026-10-30
+- **作者**: Yifei Huang, Yazhao Yang, Weijia Li, Zhiheng Ma, Dian Shen
+
+General humanoid motion trackers typically rely on deterministic policies that cannot adapt online without brittle reference editing or costly retraining. We present DiffWBC, shifting whole-body control to a generative paradigm via a one-step diffusion model. By modeling distributions over future trajectories, DiffWBC unifies general tracking, test-time steering, and simulation-free failure discovery within a single controller: (1) Generative general tracking: DiffWBC requires a single forward pass per 50 Hz control step and can be distilled from an RL teacher or trained from scratch via…
+
+---
+
+### [FlowMoDE: Coarse-to-fine Flow Matching for Detail-aware Sim-to-Real Monocular Depth Estimation](https://arxiv.org/abs/2610.41190v1)
+
+- **arXiv**: `2610.41190v1`  |  **提交日期**: 2026-10-30
+- **作者**: Liangjing Shao, Wanhao Liu, Jinsong Lin, Zhiwei Fang, Hongliang Ren
+
+Monocular depth estimation is a fundamental capability for 3D spatial perception in robotic and intelligent systems. While data-driven discriminative methods have achieved compelling performance for monocular depth estimation, generative approaches can reconstruct fine structural details with stronger generalization. However, most existing generative diffusion models suffer from low inference efficiency caused by multi-step sampling, whereas single-step diffusion models struggle to recover high-fidelity depth maps. To mitigate these drawbacks, this paper presents FlowMoDE, a coarse-to-fine…
+
+---
+
 ## 📅 2026-10-30
 
 ### [Explore Where It Matters: Targeted Exploration for Efficient Rover Adaptation](https://arxiv.org/abs/2610.38657v1)

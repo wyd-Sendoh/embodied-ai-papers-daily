@@ -2,6 +2,53 @@
 
 _自动追踪 arXiv 最新论文，最新更新在最上方。_
 
+## 📅 2026-11-02
+
+### [Hierarchical World Models with Implicit Dynamics](https://arxiv.org/abs/2610.42146v1)
+
+- **arXiv**: `2610.42146v1`  |  **提交日期**: 2026-10-30
+- **作者**: Gaoyue Zhou, Yvonne Wu, Zichen Jeff Cui, Nicolas Ballas, Mido Assran, Lerrel Pinto et al.
+
+Planning with world models enables test-time adaptation for embodied agents, offering superior generalization over direct policy learning. However, long-horizon tasks remain hindered by cumulative errors and search complexity. Existing hierarchical methods often use rigid macro-actions or latent skills, leading to brittle representations and limited fine-grained control. We introduce ID-WM (Implicit Dynamics World Models), a hierarchical world model that decouples state-space reachability from local control. Our framework utilizes a high-level model to sample feasible transitions across the…
+
+---
+
+### [CausalWAM: Learning the Causes of Actions in World Action Models](https://arxiv.org/abs/2610.42096v1)
+
+- **arXiv**: `2610.42096v1`  |  **提交日期**: 2026-10-30
+- **作者**: Juntao Cheng, Jinzhou Tang, Fan Feng, Henrik I. Christensen, Yujia Zheng
+
+World action models (WAMs) learn latent variables from observations and use these to both predict the evolution of the scene and to generate actions. The prediction has to be of the whole scene, whereas only a portion of the scene causes actions. WAMs fitted to demonstrations do not, in general, guarantee that they will generate actions solely from the latent causes of the demonstrated actions (the action-relevant latent variables), as the model could just as well learn to imitate in this way whilst entangling the action-relevant latent variables with the nuisance variables. We therefore…
+
+---
+
+### [Cross-Embodiment Motion Planning by Coupling Body-Agnostic World Model with Differentiable Ego-Dynamics](https://arxiv.org/abs/2610.41330v1)
+
+- **arXiv**: `2610.41330v1`  |  **提交日期**: 2026-10-30
+- **作者**: Zhidong Wang, Zirui Li, Haoran Xu, Yujie Yan, Zitong Shan, Jingsong Liang et al.
+
+Motion planning in clutter is embodiment-specific: the feasible free space and reachable commands depend on each robot's geometry and dynamics. Existing cross-embodiment policies output normalized commands that disregard these differences, or compensate through per-robot training and distillation. World models can in principle pool cross-embodiment data, yet command-conditioned models bind their latent dynamics to a single action space, while pose-conditioned models omit the mapping from commands to body-specific motion. On flat ground, however, embodiment affects the planner's observations…
+
+---
+
+### [SPT-Flow: One Integration, Many Futures in Continuous-Time World Models](https://arxiv.org/abs/2610.41273v1)
+
+- **arXiv**: `2610.41273v1`  |  **提交日期**: 2026-10-30
+- **作者**: Mingyang Lyu, Yinqian Sun, Gongce Cao, Yuhao Zhang, Lu Jia, Qian Zhang et al.
+
+Continuous-time world models generate a latent trajectory through a single ODE integration, but adding stochastic conditioning does not ensure that the model uses it. In our teacher-forced baseline, posterior means vary by only about 1% of the prior scale, and matched and swapped latents yield indistinguishable reconstruction PSNR at the reported precision. We study a supervision-shortcut hypothesis: ground-truth intermediate states can reduce the need for trajectory-associated latent information. We introduce SPT-Flow, which samples one latent per trajectory and matches a free-running ODE…
+
+---
+
+### [One Verdict Is Not Enough: Regression Testing Learned World Models and Their Test Harnesses](https://arxiv.org/abs/2610.41130v1)
+
+- **arXiv**: `2610.41130v1`  |  **提交日期**: 2026-10-30
+- **作者**: Junyu Huo, Zihao Wan, Ziqi Mao, Gouri Ginde
+
+Learned world models ship as software components whose model versions, preprocessing, and test harnesses change between releases. Work on model updates already counts per-sample regressions, or negative flips, that an accuracy check hides. Two problems remain: a test can pass under one configuration and fail under another, and a harness fault can produce erroneous scores and wrong verdicts without a crash. We present TetraState, a regression-testing protocol for paired possible/impossible video tests. Each test runs under four fixed model-native configurations; its number of correct verdicts…
+
+---
+
 ## 📅 2026-10-30
 
 ### [world2vec: Mechanistic world models through latent dynamics learning](https://arxiv.org/abs/2610.40637v1)

@@ -2,6 +2,53 @@
 
 _自动追踪 arXiv 最新论文，最新更新在最上方。_
 
+## 📅 2026-11-02
+
+### [When the Simulator Fails, Not the Policy: Auditing Contact Artifacts in Simulated Robot Benchmarks](https://arxiv.org/abs/2610.41857v1)
+
+- **arXiv**: `2610.41857v1`  |  **提交日期**: 2026-10-30
+- **作者**: Alex Zhou, Junhao Wu, Xueyang Zhou, Yixiao Huo, Hongcheng Gao, Di Zhu et al.
+
+Simulation benchmarks score robot policies by success rate, and every failed episode counts against the policy. Many of these failures are the simulator's fault, not the policy's; we find the cause and fix it. Testing a vision language action model and a world action model in simulation, we find that the policy often places the object and the simulator then ejects it, and that the benchmark's own scripted demonstrations fail the same way. We present SimuGuard, an auditing plugin for LIBERO, RoboTwin, RoboCasa and RoboDojo. It leaves the evaluation unchanged. At every physics step, it records…
+
+---
+
+### [VLA Policies Do Not Know When Not to Act: Unintended Task Execution and Start Suppression](https://arxiv.org/abs/2610.41609v1)
+
+- **arXiv**: `2610.41609v1`  |  **提交日期**: 2026-10-30
+- **作者**: Minsu Jang, Jae-Woo Choi, Youngwoo Yoon, Dohyung Kim
+
+A robot should act only on an instruction from a person or on an intent that the robot explicitly represents and generates. Unintended actions taken without such an instruction can cause risk or inconvenience to people and the environment. We examine how recent vision-language-action (VLA) policies respond when the instruction is missing or meaningless. We apply a paired protocol with empty, neutral, nonsense, infeasible, and wrong-task instructions to six model checkpoints in LIBERO-Goal simulation. Holding the initial state fixed and varying only the instruction, we ask three questions:…
+
+---
+
+### [SACQ: Structure-Aware Codebook Quantization for Ultra-Low-Bit Vision-Language-Action Models](https://arxiv.org/abs/2610.41408v1)
+
+- **arXiv**: `2610.41408v1`  |  **提交日期**: 2026-10-30
+- **作者**: Haesung Lee, Insu Han
+
+Vision-Language-Action (VLA) models enable capable robot behavior, but their large memory footprint limits deployment on resource-constrained robotic platforms. Weight quantization is a natural remedy, yet post-training quantization (PTQ) recipes inherited from large language models degrade when applied to VLAs at ultra-low precision. Existing low-bit PTQ methods often fail to explicitly account for the structure of downstream operations and allocate precision without considering its effect on the policy actions. We introduce SACQ, an ultra- low-bit weight-only vector-codebook quantization…
+
+---
+
+### [MolmoSpaces-CommonSense: Evaluating Commonsense in Robotic Manipulation Policies](https://arxiv.org/abs/2610.41377v1)
+
+- **arXiv**: `2610.41377v1`  |  **提交日期**: 2026-10-30
+- **作者**: Arjun Guru, Max Argus, Jae Sung Park, Jiafei Duan, Ali Farhadi, Ranjay Krishna
+
+Real-world robotic manipulation requires reasoning about cluttered scenes, partially observable or hidden objects, and semantically appropriate actions, in addition to low-level execution within those scenes. However, existing simulation benchmarks primarily test the latter and remain dominated by comparatively clean environments with limited clutter and narrowly scoped task structure, leaving many forms of commonsense reasoning untested. We address this by introducing a taxonomy of reasoning processes for robotic manipulation grounded in developmental cognitive science. We operationalize…
+
+---
+
+### [TRACE: Target-State Risk-Aligned Conditional Execution for Embodied Tracking](https://arxiv.org/abs/2610.41275v1)
+
+- **arXiv**: `2610.41275v1`  |  **提交日期**: 2026-10-30
+- **作者**: Mingyang Lyu, Gongce Cao, Yiyang Jia, Lu Jia, Erliang Lin, Yuhao Zhang et al.
+
+Embodied visual tracking requires a robot to follow a language-specified person under occlusion, look-alike distractors, and ambiguous instructions. We show that improving tracking persistence can simultaneously increase safety violations. Using a compact 0.6B vision-language-action (VLA) tracker with a frozen backbone, we update only the planner head with proximal policy optimization (PPO). PPO improves success and following rates across all three EVT-Bench settings, but increases the collision rate on distracted tracking because episodes that previously ended in target loss can instead end…
+
+---
+
 ## 📅 2026-10-30
 
 ### [Gym-Anything for Robotics: Scaling physical simulations with digital agents](https://arxiv.org/abs/2610.40565v1)
