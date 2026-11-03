@@ -2,6 +2,44 @@
 
 _自动追踪 arXiv 最新论文，最新更新在最上方。_
 
+## 📅 2026-11-03
+
+### [ReContact: Reconstruct and Retarget Human Contacts from Video for Contact-Rich Humanoid Manipulation](https://arxiv.org/abs/2611.02968v1)
+
+- **arXiv**: `2611.02968v1`  |  **提交日期**: 2026-11-02
+- **作者**: Zhongkai Gu, Yang Liu, Wei Zhu, Mitsuhiro Hayashibe
+
+Contact transitions allow humanoid robots to redistribute object support across the whole body, enabling manipulation beyond hand-only grasps. Human videos provide a scalable source of such transitions for robots to learn from. However, body occlusion disrupts object pose tracking and corrupts retargeted motion. Moreover, accurately reproducing the object trajectory does not ensure that the robot applies stabilizing forces at the intended contacts, risking slips or drops in later phases. To address these challenges, we propose ReContact, which reconstructs and retargets human-object…
+
+---
+
+### [MAPO: Mixture of Experts with Alternating Policy Optimization for Universal Humanoid Motion Tracking](https://arxiv.org/abs/2611.02613v1)
+
+- **arXiv**: `2611.02613v1`  |  **提交日期**: 2026-11-02
+- **作者**: Seonghyeon Lim, Hyeonwoo Lee, Mincheol Kim, Kimin Lee, Hyun Myung
+
+Universal humanoid motion tracking is essential for enabling humanoid robots to perform diverse tasks in human environments. To capture the wide diversity of human motions, mixture-of-experts (MoE) policies have been widely adopted, leveraging dynamic routing to enhance policy expressiveness. However, we identify that divergence between old and updated policies can be misestimated during policy-gradient updates of MoE policies, due to their dynamic routing. Because most policy-gradient algorithms regulate policy updates based on the divergence, this misestimation can lead to either overly…
+
+---
+
+### [ODE Policy: Robot Learning via Action Dynamics, Not Actions](https://arxiv.org/abs/2611.01729v1)
+
+- **arXiv**: `2611.01729v1`  |  **提交日期**: 2026-11-01
+- **作者**: Jindou Jia, Jingliang Li, Kuangji Zuo, Tuo An, Yuxuan Hu, Mengfei Zhao et al.
+
+Most robot policies, whether trained by imitation learning (IL) or reinforcement learning (RL), map observations to action values at discrete control steps and leave the continuity of physical motion to be learned implicitly. We propose ODE policy, which learns the dynamics of the action rather than the action itself. A neural ordinary differential equation (ODE) learns the vector field of the action by matching the integrated actions to the targets over short action chunks in IL and single control steps in RL. A lightweight diversity head captures multi-modal behavior by randomizing the…
+
+---
+
+### [Learning Agile Humanoid Dodgeball with Onboard Monocular Vision](https://arxiv.org/abs/2611.01197v1)
+
+- **arXiv**: `2611.01197v1`  |  **提交日期**: 2026-10-31
+- **作者**: Feng Tian, Yulin An, Chenhao Li, Matthias Heyrman, Marco Hutter
+
+Humanoid robots operating in shared, dynamic environments must respond to rapidly approaching objects while maintaining balance. We study dodgeball as a controlled test of this capability, coupling visual threat assessment with whole-body evasion, recovery, and target reacquisition. We develop a system that integrates onboard monocular perception, temporal ball-state and threat-flag estimation, and learned whole-body control. A ball detector supplies bounding-box histories, and a temporal estimator predicts relative ball position and a binary threat flag. Separate dodge/recovery and…
+
+---
+
 ## 📅 2026-10-30
 
 ### [ScheduleGen: Demonstration Generation via Skill Scheduling for Multi-Arm Imitation Learning](https://arxiv.org/abs/2610.39429v1)

@@ -2,6 +2,35 @@
 
 _自动追踪 arXiv 最新论文，最新更新在最上方。_
 
+## 📅 2026-11-03
+
+### [SNAP: Semantic Navigation Among Pedestrians](https://arxiv.org/abs/2611.03498v1)
+
+- **arXiv**: `2611.03498v1`  |  **提交日期**: 2026-11-02
+- **作者**: Jakob Wolfram, Pascal Roth, Fan Yang, Cesar Cadena, Marco Hutter
+
+Navigating crowded urban environments requires robots to avoid pedestrians while adhering to social norms such as remaining on sidewalks. Existing approaches typically address either crowd avoidance or semantic path planning in isolation. We propose a reinforcement learning (RL) navigation policy that jointly reasons about semantic terrain and dynamic obstacles from a single semantically annotated bird's-eye-view (BEV) map, without relying on explicit human-state estimation. Our policy outperforms established crowd-navigation and semantic-aware baselines and transfers zero-shot to a legged…
+
+---
+
+### [Learning Purposeful Co-designs of Bio-inspired Quadrupedal Robots](https://arxiv.org/abs/2611.02462v1)
+
+- **arXiv**: `2611.02462v1`  |  **提交日期**: 2026-11-02
+- **作者**: Fabio Boekel, Jiatao Ding, Cosimo Della Santina
+
+Treating morphology and control as separate design problems has constrained the efficiency and adaptability of quadrupedal robots, while current co-design approaches are often constrained by restricted design spaces. We overcome this limit by introducing Dogger, a bio-inspired quadruped with modular three-segment legs, four-bar linkages and adjustable passive knee compliance. A two-stage framework combining reinforcement learning and Bayesian optimization is developed: the morphology-conditioned control policy is trained across designs and then held fixed during task-specific design…
+
+---
+
+### [HALO-LP: A Homogeneous All-Shifted Non-Interior-Point Method for Linear Programming](https://arxiv.org/abs/2611.01038v1)
+
+- **arXiv**: `2611.01038v1`  |  **提交日期**: 2026-10-31
+- **作者**: Jose Rojas, Ana Aguilar, Eusebio Bugarin
+
+This letter introduces HALO-LP, a novel homogeneous all-shifted non-interior-point method for linear programming (LP). The proposed method combines a homogeneous self-dual (HSD) embedding with all-shifted nonlinear complementarity (NCP) functions and proximal primal-dual regularization, enabling arbitrary primal-dual warm starts without requiring strictly interior iterates. The resulting Newton equations admit a condensation based on a positive-definite matrix that can be efficiently factorized using Cholesky decomposition, while the HSD embedding enables primal and dual infeasibility…
+
+---
+
 ## 📅 2026-11-02
 
 ### [SAFARI: Semantic- And Frontier-driven Autonomous Risk Inspection](https://arxiv.org/abs/2610.41456v1)

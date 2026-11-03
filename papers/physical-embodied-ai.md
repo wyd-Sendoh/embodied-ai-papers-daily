@@ -2,6 +2,35 @@
 
 _自动追踪 arXiv 最新论文，最新更新在最上方。_
 
+## 📅 2026-11-03
+
+### [EgoActionBench: Benchmarking Dense Action Captioning for Egocentric Human Videos](https://arxiv.org/abs/2611.03646v1)
+
+- **arXiv**: `2611.03646v1`  |  **提交日期**: 2026-11-02
+- **作者**: Yujiao Shen, Jiahe Song, Haitian Li, Jingkang Yang, Ziwei Liu
+
+Learning from human data offers a scalable path toward embodied intelligence, yet it requires models to accurately understand fine-grained human actions from egocentric observations. However, existing benchmarks remain limited in action atomicity, temporal precision, and hand-action association. We introduce EgoActionBench, a benchmark that represents continuous human manipulation as temporally localized atomic actions associated with the left hand, right hand, or both hands. EgoActionBench contains 1,407 episodes with 41,132 human-refined action annotations. To evaluate such dense…
+
+---
+
+### [Do Embodied VLMs Actually Use Their Scene-Graph Memory?](https://arxiv.org/abs/2611.02056v1)
+
+- **arXiv**: `2611.02056v1`  |  **提交日期**: 2026-11-01
+- **作者**: Shubh Garg, Divyansh Pandey, Vedant Khandelwal, Niyati Rawal, Amit Sheth
+
+Embodied agents that answer questions about their route need a memory of what they saw, and scene graphs are a natural form for it. A vision-language model (VLM) can receive such a graph as text or through a graph encoder, but accuracy alone cannot show whether the graph holds the episode's facts, reaches the model, or is actually relied on. In this diagnostic study, we introduce a graph-swap test for the last of these: each episode is given another episode's graph, and we count how many answers change. On an embodied question-answering benchmark with routes through two to seven rooms, we use…
+
+---
+
+### [TriPhysBench: Evaluating Physical Intelligence for Embodied Agents](https://arxiv.org/abs/2611.01934v1)
+
+- **arXiv**: `2611.01934v1`  |  **提交日期**: 2026-11-01
+- **作者**: Zhongxiang Sun, Chenghao Yang, Haojie Ding, Boheng Zhang, Fan Yang, Qingsong Wen et al.
+
+Embodied agents need physical intelligence to understand their surroundings through physical perception, physical knowledge retrieval, and physical reasoning. These capabilities must work together to interpret events and make quantitative judgments. Existing benchmarks advance physical understanding and general-purpose tool use, yet the coordination of these capabilities in physical scenarios remains insufficiently characterized. Inspired by Popper's Three Worlds, we introduce TriPhysBench, a benchmark of 410 questions from 200 videos that brings physical perception, physical knowledge…
+
+---
+
 ## 📅 2026-11-02
 
 ### [When the Past Shapes Action: Understanding Embodied Memory](https://arxiv.org/abs/2610.41688v1)
