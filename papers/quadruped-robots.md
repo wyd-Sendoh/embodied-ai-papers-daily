@@ -2,6 +2,44 @@
 
 _自动追踪 arXiv 最新论文，最新更新在最上方。_
 
+## 📅 2026-11-04
+
+### [WayTrace: A Map-to-Language-to-Trace Hierarchy for Embodied Urban Navigation](https://arxiv.org/abs/2611.05129v1)
+
+- **arXiv**: `2611.05129v1`  |  **提交日期**: 2026-11-03
+- **作者**: Manthan Patel, Jonas Frey, Pascal Roth, Marco Hutter, Cesar Cadena
+
+Web services provide walking directions for nearly every city, but following them reliably over long routes remains challenging for autonomous robots. Point-goal navigation policies rely heavily on accurate GNSS, while most vision-language navigation models struggle to execute even short instructions outdoors. We present WayTrace, a hierarchical system that connects web-map directions to robot motion through language. An off-the-shelf orchestrator vision-language model reads the turn-by-turn directions, a satellite map and recent camera images, and issues one atomic language command at a…
+
+---
+
+### [Caging Vision-Language Navigation for Legged Robots via Barrier-Certified Safety Architecture](https://arxiv.org/abs/2611.04972v1)
+
+- **arXiv**: `2611.04972v1`  |  **提交日期**: 2026-11-03
+- **作者**: Abhijeet M. Kulkarni, Saimouli Katragadda, Yuze Du, Zijun Sha, Guoquan Huang
+
+By harnessing the inherent commonsense capabilities of pretrained Large Language Models (LLMs) and Vision-Language Models (VLMs), current Vision-Language Action(VLA) models for legged robots excel at interpreting language-based navigation commands but lack the physical grounding and explicit safety assurance required for real-world operation. Therefore, this paper aims to cage Legged-Vision-Language Navigation (VLN) through a safety architecture that provides physical grounding and ensures navigation safety. The key idea is not to abandon the powerful capabilities of end-to-end VLA planning,…
+
+---
+
+### [Moving Horizon Estimation and Constrained Model Predictive Control for Balancing a Wheel-Legged Robot Under Unknown Disturbances](https://arxiv.org/abs/2611.04357v1)
+
+- **arXiv**: `2611.04357v1`  |  **提交日期**: 2026-11-03
+- **作者**: Haitham El-Hussieny
+
+Wheel-legged robots balance on two wheels while using articulated legs to change height, absorb impacts, and cross uneven terrain. On hardware, the balance controller must rely on noisy inertial and encoder measurements, and it must reject disturbances that are not known in advance, such as payloads and wind, without exceeding motor torque limits. This paper presents a moving horizon estimator (MHE) combined with an offset-free, constrained model predictive controller (MPC) for the sagittal balance of a 9.95 kg wheel-legged robot. The estimator uses a virtual-leg model augmented with a…
+
+---
+
+### [SNAP: Semantic Navigation Among Pedestrians](https://arxiv.org/abs/2611.03498v2)
+
+- **arXiv**: `2611.03498v2`  |  **提交日期**: 2026-11-02
+- **作者**: Jakob Wolfram, Pascal Roth, Fan Yang, Cesar Cadena, Marco Hutter
+
+Navigating crowded urban environments requires robots to avoid pedestrians while adhering to social norms such as remaining on sidewalks. Existing approaches typically address either crowd avoidance or semantic path planning in isolation. We propose a reinforcement learning (RL) navigation policy that jointly reasons about semantic terrain and dynamic obstacles from a single semantically annotated bird's-eye-view (BEV) map, without relying on explicit human-state estimation. Our policy outperforms established crowd-navigation and semantic-aware baselines and transfers zero-shot to a legged…
+
+---
+
 ## 📅 2026-11-03
 
 ### [SNAP: Semantic Navigation Among Pedestrians](https://arxiv.org/abs/2611.03498v1)

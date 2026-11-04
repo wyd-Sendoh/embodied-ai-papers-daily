@@ -2,6 +2,71 @@
 
 _自动追踪 arXiv 最新论文，最新更新在最上方。_
 
+## 📅 2026-11-04
+
+### [From Autonomous Agents to Cognitive Symbionts: Toward AI-Augmented Human Intelligence](https://arxiv.org/abs/2611.05376v1)
+
+- **arXiv**: `2611.05376v1`  |  **提交日期**: 2026-11-03
+- **作者**: Hao Fei
+
+For a decade, progress in artificial intelligence has been measured by how much a machine can do on its own. Large foundation models now write code and run multistep tasks, and personal agents act on a person's behalf. Yet people still forget what they once knew, miss what they are not looking at, fail to find the right words, and face hard choices without the benefit of their own history, because the machine that could help stands outside the situation. As AI moves into the physical world, attention has settled on one kind of intelligent individual, the embodied robot; we argue that the era…
+
+---
+
+### [DRAP: Dynamics-Risk Adaptive Plasticity for Continual Learning in Physical AI](https://arxiv.org/abs/2611.05029v1)
+
+- **arXiv**: `2611.05029v1`  |  **提交日期**: 2026-11-03
+- **作者**: Oswaldo Ludwig
+
+Continual learning in physical AI differs from conventional continual learning because small per-step policy errors can accumulate over a trajectory. Each deviation may move the agent outside the training distribution, increase subsequent prediction errors, and ultimately cause closed-loop task failure. This work introduces Dynamics-Risk Adaptive Plasticity (DRAP), a replay-free method that estimates the historical importance of adaptable model tensors from sample-level action gradients weighted by local trajectory-amplification risk. A ridge-regularized local linear model is fitted to expert…
+
+---
+
+### [HTCE: Homeomorphism-inspired Topological Cross-Scene Experience Canonicalization and Reuse for Object Navigation](https://arxiv.org/abs/2611.04836v1)
+
+- **arXiv**: `2611.04836v1`  |  **提交日期**: 2026-11-03
+- **作者**: Xiaoran Xu, Yupeng Wu, Tianyu Xue, Xuanran Dong, Yifan Xu, Xiaoshan Yang et al.
+
+As embodied agents perform object-goal navigation across residential environments, they accumulate successful experiences whose semantic structure recurs across scenes even when geometric trajectories do not. Reusing such experience is challenging because differences in region naming and observation granularity produce distinct graph representations of similar approaches, while meaningful differences in anchors, branches, and endpoints must stay distinguishable. We introduce HTCE, a homeomorphism-inspired topological framework that canonicalizes and reuses navigation experience. Feature and…
+
+---
+
+### [TriMedium: A Cross-Medium Simulator for Embodied Networking Across Air-Ground-Sea](https://arxiv.org/abs/2611.04763v1)
+
+- **arXiv**: `2611.04763v1`  |  **提交日期**: 2026-11-03
+- **作者**: Ruizhe Dang, Jiayi Su, Wenlihan Lu, Weijie Yuan, Shijian Gao
+
+Embodied intelligent applications have expanded from air and ground into maritime environments, where missions such as coastal reporting require coordination among underwater sensing, surface gateways, and aerial relays. Yet field trials remain costly, and existing simulation tools make it difficult to study how cross-medium communication affects cooperation among these platforms. We present TriMedium, an integrated Air-Ground-Sea simulator for cross-medium embodied networking. TriMedium has three design elements. First, it provides a shared three-dimensional world where aerial, terrestrial,…
+
+---
+
+### [Self-Consistent Neural Control: Learning Trajectories for Implicit Equilibrium](https://arxiv.org/abs/2611.03885v1)
+
+- **arXiv**: `2611.03885v1`  |  **提交日期**: 2026-11-02
+- **作者**: Hengyi Zhou, Haobo Fang, Xiaonan Huang, Dezhong Tong, M. Khalid Jawed
+
+One big challenge in physical AI is interacting with systems whose states are defined by implicit equilibrium. Learning in these systems is difficult because their responses can be multistable, path-dependent, and sensitive over long horizons. Adjoint learning provides an efficient way to optimize trajectories without unrolling iterative equilibrium solvers, but its gradient relies on the frozen-tangent approximation, which neglects higher-order sensitivity terms and can become inaccurate when the local equilibrium varies rapidly. In this work, we introduce Self-Consistent Neural Control…
+
+---
+
+### [RoboScope Kit: Unified Interfaces for Fast and Scalable Embodied-AI Evaluation](https://arxiv.org/abs/2611.03850v1)
+
+- **arXiv**: `2611.03850v1`  |  **提交日期**: 2026-11-02
+- **作者**: Deng-Ke Wu, Yifan Jin, Yida Yang, Lei Qian, Zhaoye Zhou, Hongru Zhang et al.
+
+Simulation benchmarks are the standard way to compare robot policies, but each benchmark brings its own evaluator, observation layout, and action convention, and evaluation is slow: 500 RoboTwin Easy episodes with one simulator and one model on one GPU take 359.7 minutes. Profiling the official StarVLA evaluator shows that simulation occupies CPU cores while the GPU averages 14.3% utilization. RoboScope Kit wraps each model once in a Python class called a Policy, and each benchmark once in an adapter around the benchmark's own evaluator, so the benchmark's rules and scoring stay unchanged.…
+
+---
+
+### [VagueBench: Benchmarking the Robustness of Embodied Agents on Ambient Context Illusions](https://arxiv.org/abs/2611.03765v1)
+
+- **arXiv**: `2611.03765v1`  |  **提交日期**: 2026-11-02
+- **作者**: Yang Qu, Qiang Fu, Zonghao Ying, Jiayi Zhao, Yaoyuan Zhang, Jinyang Guo et al.
+
+Embodied agents are increasingly deployed in open-world environments, yet current robustness evaluations remain biased toward hazardous instructions and jailbreak vulnerabilities. A more fundamental issue is largely overlooked: agents are rarely tested under semantically sufficient but contextually minimal instructions (i.e., common in real-world human communication), where auxiliary contextual cues are absent. For the first, we identify a novel phenomenon termed Ambient Context Illusion, where agents fail to execute tasks correctly when non-essential contextual details are omitted, despite…
+
+---
+
 ## 📅 2026-11-03
 
 ### [EgoActionBench: Benchmarking Dense Action Captioning for Egocentric Human Videos](https://arxiv.org/abs/2611.03646v1)

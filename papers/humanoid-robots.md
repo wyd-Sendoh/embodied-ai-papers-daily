@@ -2,6 +2,53 @@
 
 _自动追踪 arXiv 最新论文，最新更新在最上方。_
 
+## 📅 2026-11-04
+
+### [PACT: Pose-Robust Actuation Co-Design for Tendon-Driven Robotic Hands](https://arxiv.org/abs/2611.05302v1)
+
+- **arXiv**: `2611.05302v1`  |  **提交日期**: 2026-11-03
+- **作者**: Prashant Kumar, Rachael Granberry, Taylor Niehues, Andrew A. Stanley, Gabe Pirie
+
+Humanoid robotic hands must provide sufficient force, speed, and backdrivability within a human-scale envelope. Tendon-driven transmissions address this challenge by relocating actuators to the palm and forearm, but routing paths, moment arms, and capstan dimensions jointly determine both force capability and joint speed, so selecting them sequentially satisfies one requirement at the expense of the other. This paper presents a pose-robust actuation co-design for tendon-driven robot hands (PACT) framework that optimizes tendon routing, moment arms, and capstan dimensions under pose-dependent…
+
+---
+
+### [ReflexArc: Bottom-Up Integration of Instantaneous Tactile Reflexes into Whole-Body Humanoid Control](https://arxiv.org/abs/2611.04424v1)
+
+- **arXiv**: `2611.04424v1`  |  **提交日期**: 2026-11-03
+- **作者**: Mingyu Wang, Si Li, Ziqing Chen, He Wang, Li Yi
+
+Humanoid robots operating in cluttered environments must react to unexpected contacts before the first impact peak, which arrives within tens of milliseconds. Learned whole-body policies running at 50 Hz introduce a policy-cycle delay and may suppress a protective withdrawal as a tracking error. To address these challenges, we propose ARC (Ascending Reflex Control), a bottom-up framework that integrates instantaneous tactile reflexes with learned whole-body control. ARC consists of two components: an instantaneous reflex pathway and bottom-up reflex integration. The reflex pathway detects…
+
+---
+
+### [ActOR: Ambient AI-Based Agentic Orchestration for Humanoid Autonomy in Operating Rooms](https://arxiv.org/abs/2611.04255v1)
+
+- **arXiv**: `2611.04255v1`  |  **提交日期**: 2026-11-03
+- **作者**: Han Zhang, Sicheng Lu, Aleks Santari, Jeffrey K. Jopling, Masaru Ishii, Mathias Unberath
+
+Operating rooms (ORs) increasingly contain ambient sensing infrastructure to enable AI-based optimization of workflows and utilization. We pursue an alternative path: using ambient AI to guide robot action and optimize utilization. Deploying humanoids in the OR without ambient AI is severely limited by cumbersome de novo orientation and planning due to partial onboard observations. We posit that this can be achieved by coupling an ambient AI-based agentic orchestrator with the humanoid robotic actor, providing shared perception and execution feedback for humanoid autonomy in the OR. ActOR…
+
+---
+
+### [Online iLQR-MPC with Whole-Body Control for Robust Humanoid Locomotion](https://arxiv.org/abs/2611.04204v1)
+
+- **arXiv**: `2611.04204v1`  |  **提交日期**: 2026-11-03
+- **作者**: Xiang Li, Linlin Ou, Ruihan Wu, Xinyi Yu
+
+Humanoid locomotion requires deciding where to step and how to distribute contact forces. However, a disturbance can invalidate the nominal plan, requiring coordinated revision under constraints that switch with every footfall. To solve this online, the proposed approach employs the single-rigid-body model, which retains attitude dynamics and the full contact wrench. An iterative linear-quadratic-regulator MPC (iLQR-MPC) then jointly optimizes contact forces and footstep locations in a single receding-horizon problem, without a separate step planner. Specifically, contact and motion…
+
+---
+
+### [Online Hamilton-Jacobi Reachability Onboard the Robot Control Loop: A Real-Time GPU Solver for Safety-Critical Autonomy](https://arxiv.org/abs/2611.04096v1)
+
+- **arXiv**: `2611.04096v1`  |  **提交日期**: 2026-11-03
+- **作者**: Kevin Weekly, Alexandre M. Bayen
+
+Hamilton-Jacobi (HJ) reachability provides certified backward reachable tubes (BRTs) for safety-critical robotic systems, but the level-set computation scales exponentially in the state dimension and has historically been performed offline. As autonomy stacks (ADAS/AV, humanoid robotics, and vision-language-action models) increasingly rely on black-box, probabilistic policies, a deterministic safety layer with formal guarantees is an essential complement. We present a CUDA implementation of the canonical WENO5 + TVD-RK3 + Lax-Friedrichs level-set Hamilton-Jacobi-Isaacs solver for 2D, 3D, and…
+
+---
+
 ## 📅 2026-11-03
 
 ### [ReContact: Reconstruct and Retarget Human Contacts from Video for Contact-Rich Humanoid Manipulation](https://arxiv.org/abs/2611.02968v1)

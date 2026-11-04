@@ -2,6 +2,53 @@
 
 _自动追踪 arXiv 最新论文，最新更新在最上方。_
 
+## 📅 2026-11-04
+
+### [HLO-AMP: Hierarchical Loco-Manipulation from Object-Aware Motion Priors](https://arxiv.org/abs/2611.05113v1)
+
+- **arXiv**: `2611.05113v1`  |  **提交日期**: 2026-11-03
+- **作者**: Jean-Pierre Sleiman, Bilal Hammoud, He Li, Jonathan Foster, Sylvain Bertrand, Jessica K. Hodgins et al.
+
+Hierarchical pipelines for humanoid loco-manipulation typically pair a task-agnostic whole-body controller (WBC) with a downstream task policy. Such WBCs are often trained through manual reward shaping, which yields visibly machine-like motions; more consequentially, they are trained without the manipulated object in the scene. Object dynamics are instead approximated through randomized end-effector force disturbances, a proxy that fails to reproduce the distributed multi-contact wrench a real payload applies across the arms and torso, with the gap becoming critical near the platform's…
+
+---
+
+### [MABEL: An Open Anthropomorphic Mobile Bimanual Platform for Teleoperation and Learning](https://arxiv.org/abs/2611.04083v1)
+
+- **arXiv**: `2611.04083v1`  |  **提交日期**: 2026-11-02
+- **作者**: Qilong Cheng, Rooholla Khorrambakht, Mohamed Yassine Kabouri, Quang Nam Nguyen, Luca Macesanu, Haoran Zhou et al.
+
+As robot learning moves beyond the tabletop, many tasks require mobility, adjustable reach, active perception, and bimanual dexterity. Commercial platforms combining these capabilities are costly, while affordable open-source alternatives cover only a subset and require software integration. We present MABEL, an open-source anthropomorphic mobile bimanual robot with 56 degrees of freedom (DOF) and a US$8.1k parts cost. It combines two 7-DOF arms with 17-DOF hands, a pitching torso, a lift, a 3-DOF neck, and a holonomic base. Back-drivable arms and torso support compliant interaction, with…
+
+---
+
+### [A Practical Causal Framework for Autonomous Mobile Robots: From Simulation to Real-World Human Environments](https://arxiv.org/abs/2611.04027v1)
+
+- **arXiv**: `2611.04027v1`  |  **提交日期**: 2026-11-02
+- **作者**: Luca Castri, Gloria Beraldo, Nicola Bellotto
+
+Causal inference has emerged as a powerful paradigm enabling robots to make safe, efficient decisions by reasoning about the ``why'' behind events. However, its real-world application is hindered by the difficulty of collecting causal data, especially in human-populated environments where training takes time, while users expect immediate operation. To this end, we tackle the challenge of transferring simulation-learnt causal relations to the real world with minimal effort. While retaining the invariant high-level causal structure, we empirically demonstrate the system adapts efficiently to…
+
+---
+
+### [FlowBench: Counterfactual Imagination Training for Spatial Intelligence](https://arxiv.org/abs/2611.03937v1)
+
+- **arXiv**: `2611.03937v1`  |  **提交日期**: 2026-11-02
+- **作者**: Yifan Liu, Baihan Zhang, Khai Loong Aw, Klemen Kotar, Daniel L. K. Yamins
+
+Humans imagine scene changes under hypothetical motions, an ability central to spatial reasoning and robotic planning. However, this capability remains underexplored in vision-language models and world models. We formalize this capability as Counterfactual Spatial Imagination (CSI) and introduce FlowBench, a resource for training and evaluating both, with 428K training examples spanning simulated and real-world scenes, household environments and tabletop manipulation, and diverse question types. A scalable, fully automatic pipeline pairs each hypothetical motion with spatial questions and, in…
+
+---
+
+### [Clinician-AI Collaboration in Endovascular Neurointerventions: In-Vitro User Study of Copilot Assistance Modes for Robotic Navigation Across the Autonomy Spectrum](https://arxiv.org/abs/2611.03446v2)
+
+- **arXiv**: `2611.03446v2`  |  **提交日期**: 2026-11-02
+- **作者**: Nikola Fischer, Harry Robertshaw, S. M. Hadi Sadati, Xingyu Chen, Weiyuan Deng, Benjamin Jackson et al.
+
+Mechanical thrombectomy (MT) is an effective treatment for acute ischemic stroke, yet access remains limited by the availability of neurointerventional expertise. Telerobotic and AI-assisted systems may help address this challenge, but it remains unclear how clinicians interact with different levels of autonomy and how autonomous navigation systems perform in realistic environments. This work introduces Copilot Assistance Modes (CAMs), a framework for clinician-AI collaboration in robotic endovascular navigation spanning the autonomy spectrum from manual operation to full autonomy. In the…
+
+---
+
 ## 📅 2026-11-03
 
 ### [Pixel: A Co-Designed Full-Stack Robot System for Learning General-Purpose Mobile Manipulation](https://arxiv.org/abs/2611.03648v1)
