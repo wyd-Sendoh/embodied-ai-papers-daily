@@ -2,6 +2,53 @@
 
 _自动追踪 arXiv 最新论文，最新更新在最上方。_
 
+## 📅 2026-11-05
+
+### [Perceptive Humanoid Motion from Simulation](https://arxiv.org/abs/2611.06908v1)
+
+- **arXiv**: `2611.06908v1`  |  **提交日期**: 2026-11-04
+- **作者**: Siyuan Hu, Abulikemu Abuduweili, Yue Meng, Shipeng Liu, Quentin Leboutet, Chen Chen et al.
+
+Humanoid robots have the potential to automate a wide range of physical tasks. Progress toward generalist humanoid autonomy, however, remains constrained by a data bottleneck: mapping pixels and free-form language to low-level joint commands requires paired supervision, and no corpus of such data exists at sufficiently large scale. Some approaches rely on human teleoperation and wearable capture devices, which require at least an hour of human time to produce an hour of data. We present HALO, a humanoid autonomy system powered by a pipeline that synthesizes vision-language-motion data across…
+
+---
+
+### [Playing Soccer Like Humans Do: Learning Versatile and Agile Humanoid Soccer via Latent Motion Priors](https://arxiv.org/abs/2611.06564v1)
+
+- **arXiv**: `2611.06564v1`  |  **提交日期**: 2026-11-04
+- **作者**: Haoyu Shao, Yunshen Wang, Jingze Zhang, Shaohang Zhu, Yong-Lu Li, Tianzhu Zhang et al.
+
+Humanoid soccer requires a robot to seamlessly combine agile locomotion, ball manipulation, and impact-rich contact dynamics across a continuous, dynamic behavioral spectrum. Yet existing approaches either cover only a limited set of skills, or forego motion priors entirely and produce unnatural behaviors, leaving the combination of a unified skill set and human-like motion quality unaddressed. We present soccerbot, a hierarchical reinforcement learning framework that resolves both limitations through a structured latent motion prior distilled from large-scale human soccer motion capture…
+
+---
+
+### [H^2MARL: Hierarchical Heterogeneous Multi-agent Reinforcement Learning for Humanoid Robot Control](https://arxiv.org/abs/2611.06523v1)
+
+- **arXiv**: `2611.06523v1`  |  **提交日期**: 2026-11-04
+- **作者**: Xuemin Hu, Kaixin Li, Qingqing Xia, Yuxin Wang, Wei Xie, Bo Tang et al.
+
+Coordinated whole-body control of humanoid robots remains challenging due to high-dimensional coupled dynamics and substantial physical heterogeneity across joint degrees of freedom (JDoFs). Existing multi-agent reinforcement learning methods either employ coarse agent partitions or directly apply generic heterogeneous-agent algorithms, while hierarchical controllers commonly optimize high-level planning and low-level execution independently, leading to uncoordinated motion. In this paper, we propose H^2MARL, a hierarchical heterogeneous multi-agent reinforcement learning framework with two…
+
+---
+
+### [Robots in the City: Persona-Based Perceptions of Urban Robots](https://arxiv.org/abs/2611.05954v1)
+
+- **arXiv**: `2611.05954v1`  |  **提交日期**: 2026-11-04
+- **作者**: Keonhee Jang, Kanghoon Lee, Seokwoo Yun, Namwoo Kim, Yoonjin Yoon
+
+Pedestrians increasingly encounter robots in urban public spaces without interacting with them, but how robots change the perceived safety of a street remains unclear. We examine how robot presence and type affect perceived safety across urban contexts. We generate 18 images of Seoul streets that vary in time of day, road class, and robot condition (no robot, a delivery robot, or a humanoid). Two multimodal large language models (MLLMs), Qwen3.8-27B and Gemma4-26B, each conditioned on 500 synthetic personas, choose the safer image in each pair, and 25 human respondents complete the same task.…
+
+---
+
+### [Contact-Implicit Whole-Body Trajectory Optimization for Dynamic Humanoid Locomotion on Parameterizable Uneven Terrain](https://arxiv.org/abs/2611.05585v1)
+
+- **arXiv**: `2611.05585v1`  |  **提交日期**: 2026-11-03
+- **作者**: Roberto Mauceri, Stefano Dafarra, Giulio Romualdi, Marco Gabiccini, Daniele Pucci
+
+This letter presents a trajectory planner for humanoid robots to perform dynamic motions on complex, parameterizable terrains using a contact-implicit whole-body optimization framework. The planner generates feasible movements without predefined contact sequences, considering the robot's full dynamics and kinematics. To plan bipedal locomotion on steps, ramps, and other terrains, we propose a mathematical model to approximate ground geometry with a smooth surface. The rigid interaction between the robot and the ground is modeled via novel contact constraints, extending the domain of…
+
+---
+
 ## 📅 2026-11-04
 
 ### [PACT: Pose-Robust Actuation Co-Design for Tendon-Driven Robotic Hands](https://arxiv.org/abs/2611.05302v1)

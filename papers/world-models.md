@@ -2,6 +2,116 @@
 
 _自动追踪 arXiv 最新论文，最新更新在最上方。_
 
+## 📅 2026-11-05
+
+### [Motion-guided Contrastive Regularization For Latent World Models](https://arxiv.org/abs/2611.06901v1)
+
+- **arXiv**: `2611.06901v1`  |  **提交日期**: 2026-11-04
+- **作者**: Yiwen Chen, Qiqi Hou, Jisoo Jeong, Yinhao Zhu, Huaizu Jiang, Amir Said
+
+JEPA-style world models learn action-conditioned latent dynamics without reconstructing observations, but distributional regularization alone does not ensure that their representations preserve information needed for control. We identify static collapse, a failure mode in which the encoder preserves episode-specific static content while suppressing manipulation-relevant state changes. Because static content is temporally predictable yet diverse across episodes, this failure can persist despite regularizers such as SIGReg. A controlled study on OGBench-Cube shows that introducing randomized…
+
+---
+
+### [Detecting Silent Action-Interface Mismatch with Calibrated Relational World Models](https://arxiv.org/abs/2611.06653v1)
+
+- **arXiv**: `2611.06653v1`  |  **提交日期**: 2026-11-04
+- **作者**: Rui Zhu, Xurui Li, Haixu Tang
+
+A robot action can satisfy shape and range constraints yet carry the wrong semantics: axes may be permuted, signs inverted, rotations rescaled, or gripper polarity reversed. We study learned state-action-effect relations as offline contracts for detecting these mismatches and ranking their likely fields. Clean held-out transitions calibrate alarms; a fixed inverse vocabulary supports closed-set localization. On ten LIBERO Spatial tasks comprising 432 source episodes, a capacity-controlled comparison at 2.5% empirical clean false-positive rate gives 46.1% recall for a ridge forward residual,…
+
+---
+
+### [MKD2World: A Typed Spatial MarkDown World Model For Web Agents](https://arxiv.org/abs/2611.06544v1)
+
+- **arXiv**: `2611.06544v1`  |  **提交日期**: 2026-11-04
+- **作者**: Zhihao Nan, Sifan Zhou, Yiming Cheng, Jinkai Zheng, Zheng Zhu, Si Shi et al.
+
+Graphical user interface (GUI) agents can improve decision-making with world-model foresight, provided that predicted states accurately reflect post-action interfaces. Existing state representations fail to jointly capture interface layout, UI semantics, and explicit locations. We introduce Typed Spatial Markdown (TSM), a Markdown-style textual state representation for desktop web interfaces. TSM serializes block-level and atomic-level UI elements according to their spatial relationships, jointly encoding their types, visual semantics, explicit locations, optional control states, and…
+
+---
+
+### [ReactWorld: Structuring Interaction Responses for Embodied Video Generation](https://arxiv.org/abs/2611.06120v1)
+
+- **arXiv**: `2611.06120v1`  |  **提交日期**: 2026-11-04
+- **作者**: Hanwei Liu, Huijia Zhang, Hanzhang Wang, Guangyu Liu, Hanbei Zhan, Linjie Hu et al.
+
+Embodied video world models predict scene changes caused by robot actions, yet generated object responses may remain inconsistent with task intent and contact dynamics. Critical responses in embodied scenes often concentrate in local regions and specific time intervals. Inspired by chain-of-thought reasoning, we introduce ReactWorld, an embodied video generation model guided by structured interaction anticipation. In the generation backbone's feature space, an interaction response field predictor anticipates how the interaction will unfold, explicitly describing participant roles, future…
+
+---
+
+### [TouchéWorld tech report : Towards Online Unified Camera--Hand Exploration in Generative Worlds](https://arxiv.org/abs/2611.06061v1)
+
+- **arXiv**: `2611.06061v1`  |  **提交日期**: 2026-11-04
+- **作者**: Jiaao Yu, Yanjian Zhang, Haoyang Jiang, Guillaume Wisniewski, Nadi Tomeh, Shijie Jia
+
+Recent video world models allow users to explore generated environments through camera navigation. Continuous hand motion provides a fine-grained action channel for interacting with the people and objects encountered during exploration. We present TouchéWorld, a framework that integrates gesture-driven interaction into a camera-controlled video world model. Given an initial image and a scene-description prompt, the model generates video conditioned on temporally aligned camera and hand controls. We construct joint camera--hand training data from heterogeneous egocentric videos through…
+
+---
+
+### [Does Your Trial Simulator Know What the Drug Does? An Intervention-Blind Test of Interventional Validity on 7,207 Registered Trials](https://arxiv.org/abs/2611.05907v1)
+
+- **arXiv**: `2611.05907v1`  |  **提交日期**: 2026-11-04
+- **作者**: Alicem Koyun
+
+Patient world models are increasingly proposed as simulators of clinical trials, and recent surveys rank their capabilities on a ladder from temporal prediction to counterfactual rollouts. Position on that ladder is currently assigned by reading papers rather than by measurement. We turn the counterfactual rung into a measured quantity. From 30,119 completed phase 2/3 trials with results posted to ClinicalTrials.gov we construct 9,996 audited within-trial contrasts from 7,207 trials, and we score a simulator on how much of its accuracy depends on knowing which intervention was tested. The…
+
+---
+
+### [CellCanon: An Agentic Cellular World Model for Prediction, Explanation, and Observation-Driven Updating](https://arxiv.org/abs/2611.05890v1)
+
+- **arXiv**: `2611.05890v1`  |  **提交日期**: 2026-11-04
+- **作者**: Zhaokang Liang, Shuyang Zhuang, Xiaoran Jiao, Hao Chen
+
+Biological discovery requires using molecular knowledge and new measurements to infer responses beyond the conditions already observed. We introduce CellCanon, the first agentic cellular world model to unify single-cell expression prediction, evidence-grounded explanation, and observation-driven updating. Its predictive core reuses condition-level biological evidence across gene-specific numerical readouts to guide single-cell expression generation. A shared world state links predictions, acquired measurements, and source-linked claims, supporting explanation and revision. On 339 held-out…
+
+---
+
+### [Time-to-Goal: Learned Temporal Metrics for Long-Horizon Planning with JEPA World Models](https://arxiv.org/abs/2611.05847v1)
+
+- **arXiv**: `2611.05847v1`  |  **提交日期**: 2026-11-04
+- **作者**: Ruilong Yu, Fei Ye
+
+Joint-Embedding Predictive Architectures (JEPAs) support planning by comparing predicted latent states with an encoded goal. For this comparison to guide temporal progress, states closer in time to the goal should receive lower costs. However, training representations for prediction and distribution regularization does not directly enforce this ordering. We examine this mismatch in flat LeWorldModel (LeWM) by analyzing how its Euclidean goal cost changes with temporal separation. Our analysis identifies conditions under which states at different long offsets receive similar average costs,…
+
+---
+
+### [Translate, then decide: asymptotic optimality of latent-space control in bistable systems](https://arxiv.org/abs/2611.05736v1)
+
+- **arXiv**: `2611.05736v1`  |  **提交日期**: 2026-11-03
+- **作者**: Arthur Castello B. de Oliveira
+
+This paper asks whether an optimal decision can be separated from the physical dynamics on which it acts. It studies this question through minimum-energy barrier crossing in scalar bistable systems. It characterizes the finite-horizon optimal feedback and shows that, as the horizon grows, it converges to a law that doubles and reverses the drift while it opposes crossing, and switches off once the barrier is passed. In physical coordinates, this law inherits the plant's nonlinearity, entangling decision and dynamics. We show that a plant-specific translation of state, input, and time maps…
+
+---
+
+### [Readable Is Not Steerable: Pre-Registered Tests of Physical Structure in Learned Fluid Representations](https://arxiv.org/abs/2611.05577v1)
+
+- **arXiv**: `2611.05577v1`  |  **提交日期**: 2026-11-03
+- **作者**: Manvendra Modgil
+
+Self-supervised world models are often said to organize their latents around physical quantities. We test this on 2D decaying Navier-Stokes flow in three pre-registered studies, each tested once on held-out data. In Study 1, a joint-embedding predictive architecture (JEPA) trained to predict the flow fails the pre-registered criteria for organizing its latent around fluid quantities better than an untrained network of the same architecture (not supported); a JEPA trained on non-physical linear dynamics and a static invariance model that never sees time do as well or better. In Study 2, plain…
+
+---
+
+### [Jev with Foresight: Safe Language-Guided Autonomous Driving via a Language World Model](https://arxiv.org/abs/2611.05448v1)
+
+- **arXiv**: `2611.05448v1`  |  **提交日期**: 2026-11-03
+- **作者**: Yansong Qu, Jiancong Chen, Samuel Labi
+
+Large language models understand passengers' driving commands, but as driving agents they reason in generated text for seconds and must infer each action's consequences implicitly from the scene. We present Jev-AD, which pairs Jev, a typed decision model that answers predefined questions with probabilities, not generated text, with a language world model that predicts for every candidate action how nearby vehicles move over the next two seconds. Code turns these predictions into foreseen consequences, which Jev compares instead of inferring them from coordinates. In simulated highway merging…
+
+---
+
+### [SurgTransfer: Multi-Step Latent Action Modeling for Action Transfer in Surgical World Model](https://arxiv.org/abs/2611.05443v1)
+
+- **arXiv**: `2611.05443v1`  |  **提交日期**: 2026-11-03
+- **作者**: Saurabh Koju, Love Panta, Deepak Thapa, Rudra P. K. Poudel, Prajwal Ghimire, Angus Watson et al.
+
+Surgical world models have the potential to provide intra-operative guidance, accelerate risk-free training and facilitate transfer of expert surgical maneuvers. However, the use of world models for transferring surgical expertise has been largely unexplored. Moreover, recent approaches in this domain have mainly relied on ground truth kinematics actions or expert annotations for specific tasks, limiting their applicability beyond the narrow range of tasks with ground-truth annotations. In contrast, existing works in the natural domain have shown promising results in learning latent actions…
+
+---
+
 ## 📅 2026-11-04
 
 ### [YANAMI: A Large-Scale Multimodal Dataset and Benchmark for Multiturn Stateful Interaction](https://arxiv.org/abs/2611.05280v1)

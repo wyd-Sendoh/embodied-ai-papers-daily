@@ -2,6 +2,17 @@
 
 _自动追踪 arXiv 最新论文，最新更新在最上方。_
 
+## 📅 2026-11-05
+
+### [Semantic Residual Vector Quantization for Sign Language Generation](https://arxiv.org/abs/2611.06781v1)
+
+- **arXiv**: `2611.06781v1`  |  **提交日期**: 2026-11-04
+- **作者**: Chang Liu, Ke Han, Niccolò Biondi, Gloria Isotton, Elisa Ricci, Davide Talon et al.
+
+Sign language generation (SLG) maps written sentences into signing motion while preserving both lexical content and fine-grained articulation. This requires a model to decide what signs should be expressed and to realize them through precise handshape, trajectory, facial expression and body coordination. Existing pose-based systems and reconstruction-only motion tokenizers often entangle these two decisions, leaving the generator without an explicit text-aligned intermediate target for what to sign before refining how to sign it. To address this issue, we introduce Semantic Residual Vector…
+
+---
+
 ## 📅 2026-10-30
 
 ### [StepControl: Long-Horizon Human Motion Generation from Foot-Contact Schedules](https://arxiv.org/abs/2610.38153v1)

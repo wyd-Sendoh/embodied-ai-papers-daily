@@ -2,6 +2,17 @@
 
 _自动追踪 arXiv 最新论文，最新更新在最上方。_
 
+## 📅 2026-11-05
+
+### [SCRUB: Contact-Based Surface-Frame Estimation for Force-Motion Control with an Armless Quadruped](https://arxiv.org/abs/2611.06649v1)
+
+- **arXiv**: `2611.06649v1`  |  **提交日期**: 2026-11-04
+- **作者**: Sourav Selvaraj, Juan Pablo Espinosa Chessal, Mahdi Agheli
+
+Wiping, sanding, and inspection robots press a sliding tool on a surface with controlled force. Controlling that force needs the surface normal, which is unknown on real-world, unmapped surfaces. Surface-normal estimators can help estimate the surface normal, but they either need a friction model or assume that the instantaneous tool velocity lies along the surface; however, walking violates this assumption. We propose SCRUB, a contact-based surface-frame estimator, which lets an armless quadruped slide a body-mounted tool along near-vertical surfaces in the absence of known, axis-aligned, or…
+
+---
+
 ## 📅 2026-11-04
 
 ### [WayTrace: A Map-to-Language-to-Trace Hierarchy for Embodied Urban Navigation](https://arxiv.org/abs/2611.05129v1)

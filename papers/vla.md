@@ -2,6 +2,62 @@
 
 _自动追踪 arXiv 最新论文，最新更新在最上方。_
 
+## 📅 2026-11-05
+
+### [From Pixels to Actions - Towards Native Vision-Language-Action Policies](https://arxiv.org/abs/2611.06918v1)
+
+- **arXiv**: `2611.06918v1`  |  **提交日期**: 2026-11-04
+- **作者**: Weichen Fan, Haiwen Diao, Penghao Wu, Siyuan Hu, Ziqi Huang, Tianqi Liu et al.
+
+Vision-language-action models are typically built on a simple premise: perception is first compressed by visual encoders, and action reasoning begins only afterwards. Yet manipulation often hinges on precisely the visual signals most vulnerable to this abstraction, e.g., local geometry, boundaries, depth, and subtle state changes. This raises a fundamental question: should action policies inherit a fixed visual endpoint, or directly access evolving visual computation? We introduce NEO-VLA, a structurally encoder-free vision-language-action framework. Images are tokenized by lightweight patch…
+
+---
+
+### [Where Is VLA Inference Time Spent? Bottlenecks and Optimization Interactions Across GPUs](https://arxiv.org/abs/2611.06710v1)
+
+- **arXiv**: `2611.06710v1`  |  **提交日期**: 2026-11-04
+- **作者**: Muhammad Danish Waseem, Ahmed Ali-Eldin Hassan
+
+Vision-language-action (VLA) models map camera observations and language instructions to robot actions. However, their large backbones and repeated action generation can make inference take longer than the robot's real-time requirements for its next action. To reduce the load of VLA computations, researchers have proposed multiple optimization approaches, including quantization and pruning. These optimizations can be combined with other general optimizations such as better kernel compilation or using CUDA graphs instead of the eager mode. However, most of these optimization results are…
+
+---
+
+### [$A^3$-VLA: Automatic Perception-Guided Attention Alignment for Robot Manipulation](https://arxiv.org/abs/2611.06447v1)
+
+- **arXiv**: `2611.06447v1`  |  **提交日期**: 2026-11-04
+- **作者**: Shengzhe Zhang, Qi Zhang, Dazhong Shen, Chao Wang, Shaopeng Zhai, Hui Xiong
+
+Vision-Language-Action Models (VLAs) enable robots to perform manipulation tasks by leveraging Vision-Language Models (VLMs) to process visual observations and language instructions. However, the action prediction objective itself lacks fine-grained task-specific perceptual supervision, making it prone to relying on task-irrelevant visual shortcuts, leading attention away from target objects and key interaction areas, thereby limiting its operational performance and generalization ability. To address this, we propose Automatic Perception-Guided Attention Alignment for Robot Manipulation…
+
+---
+
+### [Can Astra Solve RoboMME without Breaking the Bank?](https://arxiv.org/abs/2611.06184v1)
+
+- **arXiv**: `2611.06184v1`  |  **提交日期**: 2026-11-04
+- **作者**: Bingao Chen, Haoquan Fang, C. Karen Liu
+
+Robotic manipulation often requires remembering information that is no longer visible, such as an object's location before occlusion or the order of a demonstrated action sequence. A large vision-language planner can read this history, but calling it before every action chunk is slow and costly. We present a three-tier system for the RoboMME benchmark. GPT-6 Astra (System 2) selects a grounded subtask from stored visual history, a $π_{0.5}$ vision-language-action policy (System 1) executes it, and a fine-tuned Qwen3-VL-4B monitor (System 1.5) checks after each action chunk whether the subtask…
+
+---
+
+### [MotoVerse: A Benchmark for Predictive Perception of Motorized Two-Wheelers in Dense Unstructured Traffic](https://arxiv.org/abs/2611.06007v1)
+
+- **arXiv**: `2611.06007v1`  |  **提交日期**: 2026-11-04
+- **作者**: Varun A. Paturkar, Shankar Gangisetty, C. V. Jawahar
+
+Motorized Two-Wheelers (MTWs) dominate personal transport across much of the Global South, yet remain largely overlooked in predictive perception research for autonomous driving and ADAS. We introduce MotoVerse, a benchmark for predictive perception from an MTW's ego-centric perspective. MotoVerse comprises 949 maneuver clips collected in dense, unstructured traffic and trajectory annotations for over 31,000 surrounding road agents, including over 16,000 MTWs, enabling two complementary tasks: Ego-Rider Maneuver Anticipation (ERMA) and Traffic Agent Trajectory Prediction (TATP). Each clip is…
+
+---
+
+### [Correct Robots Before They Make Mistakes: Proactive Human-in-the-Loop Intervention via Preference Learning](https://arxiv.org/abs/2611.05667v1)
+
+- **arXiv**: `2611.05667v1`  |  **提交日期**: 2026-11-03
+- **作者**: Xinkai Jiang, Jing Jiang, Hongyi Zhou, Pankhuri Vanjani, Ahmad Baki, Jakub Suliga et al.
+
+This paper presents Proactive Human-in-the-Loop (PHIL), a framework for proactive policy correction and preference-based post-training. PHIL enables operators to preview policy-predicted future motion and intervene before anticipated undesirable actions. During takeover, PHIL continues querying the policy and displaying its predicted trajectories in the physical workspace through an extended reality (XR) interface. PHIL pairs rejected policy predictions with corrective action chunks subsequently executed from the same physical state over the same horizon, and preference-based post-training…
+
+---
+
 ## 📅 2026-11-04
 
 ### [PolicyIK: High-Precision Inverse Kinematics for Robot Arms with Reinforcement Learning](https://arxiv.org/abs/2611.05372v1)
