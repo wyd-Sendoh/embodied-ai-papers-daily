@@ -2,6 +2,53 @@
 
 _自动追踪 arXiv 最新论文，最新更新在最上方。_
 
+## 📅 2026-11-06
+
+### [VFlash: Fast, Accurate Visual Planning via Flash Primitive Decoding](https://arxiv.org/abs/2611.08449v1)
+
+- **arXiv**: `2611.08449v1`  |  **提交日期**: 2026-11-05
+- **作者**: Yu-Cheng Chou, Shihao Wang, Jin Huang, Chi-Pin Huang, Chiao-An Yang, Xianzhe Fan et al.
+
+Models for physical AI tasks, such as robotics and autonomous driving, need not reason solely in language. They can use visual plans--points, bounding boxes, and trajectories--to represent spatial goals and anticipate motion. However, autoregressive vision-language models generate these plans one coordinate token at a time, making richer predictions increasingly costly. We introduce VFlash, a method for fast, accurate visual planning through Flash Primitive Decoding. VFlash exploits the known structure of visual primitives to predict their coordinates jointly, using a lightweight drafter that…
+
+---
+
+### [Learning the Task or Learning the Verifier? Rethinking Criteria Exposure in Embodied Self-Improvement](https://arxiv.org/abs/2611.08318v1)
+
+- **arXiv**: `2611.08318v1`  |  **提交日期**: 2026-11-05
+- **作者**: Wenbo Huang, Jianxin Bi, Shunyu Yang, Ruiyang Si, Rui Ni, Qiang Wang et al.
+
+Self-improving embodied agents are increasingly being developed and compared on robot simulation benchmarks. Several recent works expose the benchmark's success criteria to the learning agent, a practice we call Criteria Exposure (CE). These criteria, originally written to verify policies trained by imitation learning, often demand more than the corresponding language instructions, so a score from such a verifier may not faithfully reflect whether the instructed task was completed, especially for robot-control programs written by an agent. As embodied coding agents report ever higher…
+
+---
+
+### [Scenario-aware Adaptive Neuromorphic Intelligence for multimodal sensor fusion](https://arxiv.org/abs/2611.07830v1)
+
+- **arXiv**: `2611.07830v1`  |  **提交日期**: 2026-11-05
+- **作者**: Kapil Bhardwaj, Tauseef Ejaz, Sayani Majumdar
+
+Multisensory Physical AI systems operating in isolated conditions must make timely and reliable decisions within strict energy and hardware budgets. In this context, the present analytical study investigates the feasibility of reliable multimodal sensor fusion using a neuromorphic approach based on memristor-based Integrate-and-Fire neuron circuits driven by aggressively compressed representations of sensory information. Rather than relying on fixed processing and learning parameters, the proposed framework introduces scenario-dependent adaptability into individual stages of the neuromorphic…
+
+---
+
+### [Generate-then-Rank: Learning Symbolic Goal Interpretation for Embodied Agents](https://arxiv.org/abs/2611.07825v1)
+
+- **arXiv**: `2611.07825v1`  |  **提交日期**: 2026-11-05
+- **作者**: Jisen Lei, Huizhi Liang
+
+Goal interpretation is to translate a natural language instruction into a formal symbolic goal that a planner can execute. It is critical for embodied agents because any error here propagates to every downstream planning and action step. Doing it well requires both generating suitable candidates and reliably selecting among them. We present a two-stage generate-then-rank approach to Goal Interpretation in the Embodied Agent Interface (EAI). First, supervised fine-tuning adapts a Large Language Model (LLM) to EAI's output convention. Second, Candidate-Output Ranking from Errors (CORE) learns…
+
+---
+
+### [Open-HumanWAM: An Open Recipe for Scaling Human and Robot Experience for Embodied Foundation Models](https://arxiv.org/abs/2611.06817v2)
+
+- **arXiv**: `2611.06817v2`  |  **提交日期**: 2026-11-04
+- **作者**: Juncheng Ma, Jiaxin Li, Jiankai Tu, Bo Liang, Guodong Lv, Yufan Deng et al.
+
+Egocentric human video offers a scalable source of manipulation priors for robot learning, yet translating raw data scale into generalizable robot policies demands rigorous data curation and training recipes. We introduce Open-HumanWAM, the first fully open recipe for scaling egocentric pretraining to 50,000 hours, anchored by Open-HumanWAM-50K---a curated egocentric video corpus densely annotated with hand motion and natural language. Leveraging this corpus, we systematically investigate pure human pretraining via closed-loop simulation evaluations and uncover an empirical log-linear scaling…
+
+---
+
 ## 📅 2026-11-05
 
 ### [Open-HumanScale: An Open Recipe for Scaling Human and Robot Experience for Embodied Foundation Models](https://arxiv.org/abs/2611.06817v1)

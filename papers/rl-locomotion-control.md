@@ -2,6 +2,26 @@
 
 _自动追踪 arXiv 最新论文，最新更新在最上方。_
 
+## 📅 2026-11-06
+
+### [TactileLab: Sim-to-Real Dexterous Robot Manipulation with Efficient Shear-Sensitive Tactile Simulation](https://arxiv.org/abs/2611.07881v1)
+
+- **arXiv**: `2611.07881v1`  |  **提交日期**: 2026-11-05
+- **作者**: Yijiong Lin, Wenhao He, Toby Jack, Max Yang, Haoran Li, Nathan F. Lepora
+
+Robotic simulators that represent shear within tactile sensing are becoming increasingly important for contact-rich manipulation. However, simulating contact shear with high-fidelity deformable or soft-body simulation is computationally demanding, limiting scalability to large-scale reinforcement learning. Here we introduce \textit{TactileLab}, a scalable multimodal tactile simulation framework built on IsaacLab, with a particular focus on a new optical-flow-based tactile representation termed \textit{simulated tactile flow}. Instead of relying on soft-body physics to model shear deformation,…
+
+---
+
+### [An Empirical Study of Reinforcement Learning for Keypoint Positioning of Deformable Linear Objects](https://arxiv.org/abs/2611.07261v1)
+
+- **arXiv**: `2611.07261v1`  |  **提交日期**: 2026-11-05
+- **作者**: Vinay Rodrigues, Sara Zeynalpour, Gokhan Solak, Sebastian Hjorth, Arash Ajoudani
+
+Deformable linear object (DLO) manipulation is challenging because high-dimensional configurations, nonlinear contact dynamics, and diverse material and geometric properties produce a broad range of object responses that are both difficult to model and data-intensive to learn. This work studies reinforcement learning for planar manipulation of a one-end-grasped DLO, focusing on training efficiency, observation design, robustness, and zero-shot sim-to-real transfer. We compare three Proximal Policy Optimization training stacks and find that the GPU-parallel MuJoCo Playground stack enables…
+
+---
+
 ## 📅 2026-11-04
 
 ### [HLO-AMP: Hierarchical Loco-Manipulation from Object-Aware Motion Priors](https://arxiv.org/abs/2611.05113v1)

@@ -2,6 +2,26 @@
 
 _自动追踪 arXiv 最新论文，最新更新在最上方。_
 
+## 📅 2026-11-06
+
+### [LMGN: A Unified Policy Learning Model for Last-Mile Grasp-Navigation](https://arxiv.org/abs/2611.07515v1)
+
+- **arXiv**: `2611.07515v1`  |  **提交日期**: 2026-11-05
+- **作者**: Xuenmin Hu, Qingxue Qian, Wei Luo, Benyi Ma, Bo Tang, Long Chen
+
+Legged robots equipped with manipulators have shown significant potential in the fields of daily life and industry in complex environments. However, existing methods mainly focus on global navigation or manipulation independently, while overlooking the last-mile navigation problem, where the robot must jointly determine the base placement, approach direction, and grasp execution to achieve reliable object grasping, and different manipulation stages require distinct control behaviors. To address these challenges, we propose Last-Mile Grasp-Navigation (LMGN), a unified policy learning model for…
+
+---
+
+### [Kinematic analysis of a double-closed-loop four-bar chain-based leg for a multimodal quadruped-pentarotor robot](https://arxiv.org/abs/2611.07470v1)
+
+- **arXiv**: `2611.07470v1`  |  **提交日期**: 2026-11-05
+- **作者**: Prashant Raturi, Santhakumar Mohan
+
+This paper presents the kinematic modeling and singularity analysis of a three-degree-of-freedom, double four-bar closed-loop quadruped leg mechanism. This leg is essential for transitioning between the two operational modes; therefore, it is examined in both joint and task spaces, leading to the development of its Jacobian matrix, which is vital for designing the gaits required for terrestrial mode and mid-air aerial reconfiguration (for aerial mode). Various gaits are devised for the system's motion in the MATLAB simulation, and their practical implementation on the single-leg test rig is…
+
+---
+
 ## 📅 2026-11-05
 
 ### [SCRUB: Contact-Based Surface-Frame Estimation for Force-Motion Control with an Armless Quadruped](https://arxiv.org/abs/2611.06649v1)
