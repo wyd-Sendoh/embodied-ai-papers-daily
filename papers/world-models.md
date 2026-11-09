@@ -2,6 +2,35 @@
 
 _自动追踪 arXiv 最新论文，最新更新在最上方。_
 
+## 📅 2026-11-09
+
+### [Encoding Memory in World Models with Test-Time Model-Based Reinforcement Learning](https://arxiv.org/abs/2611.09625v1)
+
+- **arXiv**: `2611.09625v1`  |  **提交日期**: 2026-11-06
+- **作者**: Maxime Burchi, Fayaz Ali Dharejo, Radu Timofte
+
+Model-based reinforcement learning (MBRL) approaches have demonstrated strong performance across diverse domains in recent years, learning accurate world models from agent trajectories. However, despite this progress, current approaches still struggle to surpass human performance on tasks that require long-term memory and planning. In this work, we address the problem of long-term memory in MBRL by moving beyond the commonly studied paradigm of architecture design. We introduce Test-Time Model-Based Reinforcement Learning (TT-MBRL), using gradient descent at test time to encode the memory of…
+
+---
+
+### [BiLoGo: Reducing the smoothing of localised responses in Transformer-based neural operators for sheet forming](https://arxiv.org/abs/2611.09621v1)
+
+- **arXiv**: `2611.09621v1`  |  **提交日期**: 2026-11-06
+- **作者**: Yingxue Zhao, Haoran Li, Haosu Zhou, Tobias Pfaff, Nan Li
+
+Trial-and-error FE simulation of sheet forming could be computationally expensive, neural-network-based learned simulators are used to accelerate design. These simulators should accurately capture localised responses, such as thinning around sharp radii or near ribs, which determine formability. Transformer-based neural operators propagate information efficiently across the mesh but tend to smooth such localised responses. This study develops BiLoGo, a Bipartite Local-Global learned simulator with an FE-guided design that connects local node-element message passing with a Transformer-based…
+
+---
+
+### [FATHOM: World-Model-Guided Diffusion Action-Trajectory Selection for Sparse-Marker AUV Tracking](https://arxiv.org/abs/2611.08898v1)
+
+- **arXiv**: `2611.08898v1`  |  **提交日期**: 2026-11-06
+- **作者**: Xiaorui Wang, Zeyu Sha, Mingyang Yang, David Chen Wang, Feitian Zhang
+
+Reliable relative tracking is fundamental to cooperative autonomous underwater vehicles (AUVs), yet remains challenging under nonlinear vehicle dynamics and degraded underwater visual conditions. Active light markers improve robustness to appearance variation, but provide deliberately sparse observations that can become incomplete or corrupted by occlusion, reflections, and detection noise during dynamic motion. To address the resulting partial-observation control problem, this paper proposes FATHOM, a world-model-guided diffusion action-trajectory selection framework for sparse-marker AUV…
+
+---
+
 ## 📅 2026-11-06
 
 ### [Learning a patient world model for health system simulation in intensive care](https://arxiv.org/abs/2611.08392v1)
