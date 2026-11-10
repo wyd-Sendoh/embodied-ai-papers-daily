@@ -2,6 +2,17 @@
 
 _自动追踪 arXiv 最新论文，最新更新在最上方。_
 
+## 📅 2026-11-10
+
+### [InfCoiL: Coordinated Planner-Controller Learning for Closed-Loop Physics-Based Human-Object Interaction](https://arxiv.org/abs/2611.11517v1)
+
+- **arXiv**: `2611.11517v1`  |  **提交日期**: 2026-11-08
+- **作者**: Yude Zou, Yifei Yao, Yiwei Hao, Hanqing Wang, Xing Gao
+
+Text- and goal-conditioned human-object interaction (HOI) provides an intuitive interface for specifying high-level intents in physics-based character animation. Mapping such intents to physically plausible, contact-rich behaviors naturally calls for a generative planner and a physics-based controller, yet existing planner-controller systems either execute plans open-loop or close the loop while keeping the planner fixed, so execution feedback never reshapes what is planned. We present InfCoiL, a closed-loop framework for physics-based HOI from coordinated planner-controller learning. InfCoiL…
+
+---
+
 ## 📅 2026-11-05
 
 ### [Semantic Residual Vector Quantization for Sign Language Generation](https://arxiv.org/abs/2611.06781v1)

@@ -2,6 +2,260 @@
 
 _自动追踪 arXiv 最新论文，最新更新在最上方。_
 
+## 📅 2026-11-10
+
+### [DreamLander: A 6-DOF World Model based Reinforcement Learning Planetary Lander](https://arxiv.org/abs/2611.12824v1)
+
+- **arXiv**: `2611.12824v1`  |  **提交日期**: 2026-11-09
+- **作者**: George Nehma, Patrick Quinn, Madhur Tiwari, Camilo Riano-Rios
+
+Soft powered descent landings are becoming evermore important in the field of space exploration and scientific advancement, because of their ability to deliver mission critical payloads, both highly accurately and safely. The high efficiency restriction on planetary landings due to the severely limited fuel supply results in the need for optimal guidance trajectories and control. Model based reinforcement learning is proving to be an important tool in simplifying the highly complex process of generating optimal guidance trajectories and control. In this work, we present DreamLander, a state…
+
+---
+
+### [$Σ$-LeWM: Learning World Models via S-Information for Robot Control](https://arxiv.org/abs/2611.12732v1)
+
+- **arXiv**: `2611.12732v1`  |  **提交日期**: 2026-11-09
+- **作者**: Xinrui Zu, Michael Przystupa, Zhao Yang, Shujian Yu, Kevin Sebastian Luck
+
+World models have increasingly been applied as a model-based control method for robotics tasks such as manipulation and locomotion. While early world model architectures relied on decoders to prevent mode collapse and learn a predictable latent space, recent works on world models, such as Joint Embedding Predictive Architecture or LeWorldModel, increasingly aim to learn embeddings without a grounding decoder, utilising only a latent forward dynamics predictor and a stabilising entropy term. In this paper, we set out to demonstrate that the further introduction of two additional latent losses…
+
+---
+
+### [Library of Hands: Fix the Hands, Not the World Model](https://arxiv.org/abs/2611.12678v1)
+
+- **arXiv**: `2611.12678v1`  |  **提交日期**: 2026-11-09
+- **作者**: Hasaan Ahmad, Qizhen Ying, Yuxuan Sun, Tianjin Huang, Guangming Wang
+
+A world model predicts how a scene changes after an action, and a planner uses it to search for actions that reach a goal. If the camera moves or the controller changes, the same command moves the robot differently: when its commands are turned by 90 degrees, a frozen planner with the LeWM world model that succeeds in 77.5% of episodes succeeds in only 7.8%. Current fixes retrain the model, need training data, or forget a set-up when it returns. We propose Library of Hands (LoH), a training-free method that keeps the world model frozen and corrects only the map from commands to applied…
+
+---
+
+### [WanderBench: Can World Models Explore Dynamic Worlds from Video?](https://arxiv.org/abs/2611.12557v1)
+
+- **arXiv**: `2611.12557v1`  |  **提交日期**: 2026-11-09
+- **作者**: Yuhang Chen, Jiheng Li, Jiale Wang, Zai Wang, Guangyue Liu
+
+Video world models conditioned on an input video make it possible to explore real, recorded dynamic scenes, enabling re-shooting of footage, free-viewpoint replay, and real-to-sim environments for embodied agents. Such uses require the generated rollout to stay faithful to the recorded world, yet existing benchmarks start from a single image or a text prompt, and video-conditioned generation is evaluated mainly on perceptual quality and camera following. These evaluations do not directly assess whether exploration preserves subject identity, event progression, and scene consistency upon…
+
+---
+
+### [QCC-WM: Linking Macro-State Dynamics and Visual Generation via Quotient Causal Construction](https://arxiv.org/abs/2611.12353v1)
+
+- **arXiv**: `2611.12353v1`  |  **提交日期**: 2026-11-09
+- **作者**: Zhizhong Fu, Wei Zhou, Zhaoyang Jiang, Yudong Lin, Songlun Li, Zhi Li et al.
+
+A key challenge in action-conditioned world modeling is to construct macro-states from high-dimensional observations that support recursive prediction under actions, while keeping their predicted evolution consistent with visual changes in generated observations. We propose QCC-WM, a visual world model based on Quotient-based Causal Construction. QCC-WM uses action responses to guide macro-variable construction for recursive action-conditioned prediction. A shared reference quotient measurement constrains the consistency between predicted states and observed changes, allowing macro-level…
+
+---
+
+### [How Many Exposures Does a World Model Need? Learning Unseen Game Mechanics at Test Time](https://arxiv.org/abs/2611.12324v1)
+
+- **arXiv**: `2611.12324v1`  |  **提交日期**: 2026-11-09
+- **作者**: Ku Onoda, Haruto Kawano, Shota Takashiro, Kohei Hayashi
+
+World models enable agents to plan and learn from imagined experience, but in an unfamiliar environment they must learn its mechanics from limited interaction. A mechanic is a rule for how an action or an interaction changes part of the environment. Each occurrence of a mechanic that the model observes is one exposure. We ask how many exposures a world model needs to predict the effects of a new environment's mechanics. We address this question on ARC-AGI-3, a benchmark of interactive games defined by their programs. We introduce MechEval, which labels 69 recurring mechanics across 20 games…
+
+---
+
+### [Mitigating SM-Level Load Imbalance in 3D Gaussian Splatting on GPUs](https://arxiv.org/abs/2611.12319v1)
+
+- **arXiv**: `2611.12319v1`  |  **提交日期**: 2026-11-09
+- **作者**: Junha Ryu, Hoi-Jun Yoo
+
+3D Gaussian Splatting (3DGS) enables photorealistic, real-time rendering on commodity GPUs and is increasingly adopted in generative world models and autonomous driving simulators. However, existing optimizations rely on algorithmic changes that often require retraining, or on specialized accelerators that lack flexibility across evolving 3DGS variants. In this paper, we identify a fundamental inefficiency in GPU-based 3DGS rendering: severe SM-level load imbalance caused by uneven workloads across screen tiles. This imbalance creates a long execution tail, leaving most SMs idle while a few…
+
+---
+
+### [Learning to Act with World Models by Valuing What Comes Next](https://arxiv.org/abs/2611.12200v1)
+
+- **arXiv**: `2611.12200v1`  |  **提交日期**: 2026-11-09
+- **作者**: Chenghao Gao, Zhi Zhang, Dian Jin, Yihe Pan, Doudou Zhou
+
+A sparse terminal reward tells an agent little about its steps. Much of the missing information is implicit in the environment's dynamics, because each state transition can change the conditions for success long before the reward arrives. A world model trained on real transitions can learn to predict what each action changes, but a predicted observation does not by itself show whether success has become more likely. With a binary terminal reward, PPO's critic makes this judgment by estimating the current policy's probability of success, but only for states the agent reaches. Our method,…
+
+---
+
+### [Benchmarking language models and agents for scientific reasoning in evolving materials laboratories](https://arxiv.org/abs/2611.12014v1)
+
+- **arXiv**: `2611.12014v1`  |  **提交日期**: 2026-11-09
+- **作者**: Xuyu Dong, Yixuan Li, Jianguo Huang, Feng Chen, Yiyun Zhou, Bo An et al.
+
+Large language models and the multi-agent systems built around them could accelerate materials discovery by connecting scientific knowledge with experimental decisions. Existing benchmarks establish capabilities in domain knowledge, multimodal interpretation and scientific tool use. As language models increasingly support materials research workflows, their ability to distinguish closely related material states and reason accurately with quantitative evidence remains insufficiently evaluated. These abilities are essential for comparing material responses, assessing mechanisms and maintaining…
+
+---
+
+### [An Evaluation of Tabular Foundation Models as Training-Free World Models](https://arxiv.org/abs/2611.11921v1)
+
+- **arXiv**: `2611.11921v1`  |  **提交日期**: 2026-11-09
+- **作者**: Xian Yeow Lee, Ryoichi Takase, Ahmed Farahat
+
+World models are widely considered to be a potential key component of model-based reinforcement learning and robot planning, but typically require task-specific training on substantial interaction data. We investigate whether a pretrained tabular foundation model (TabFM) can serve as a training-free dynamics model for world modeling by framing next-state prediction as in-context regression over transition pairs, and where such a model helps and where it breaks. Across synthetic dynamical systems and robot locomotion benchmarks, TabFM is more accurate than LSTM and MLP models trained from…
+
+---
+
+### [LO-World: Unified BEV Latent Modeling for Joint 4D Occupancy and LiDAR Forecasting](https://arxiv.org/abs/2611.11912v1)
+
+- **arXiv**: `2611.11912v1`  |  **提交日期**: 2026-11-09
+- **作者**: Zhimin Liao, Ping Wei, Kai Mao, Shuaijia Chen
+
+LiDAR point clouds and 3D semantic occupancy represent two distinct modalities capturing fine-grained metric geometry and dense volumetric semantics, respectively, holding natural potential for mutual complementarity. However, existing world models typically forecast these modalities independently or cascade them heuristically, missing the opportunity for reciprocal cross-modal regularization. To address this, we propose \textbf{LO-World}, a unified 4D world model that forecasts both modalities within a shared BEV latent space. This single-stream formulation enables dense semantics and metric…
+
+---
+
+### [How Many Candidates Does a One-Step World Model Need? A Random-Codebook Account of Nearest-of-m Training on Frozen DINO Tokens](https://arxiv.org/abs/2611.11887v1)
+
+- **arXiv**: `2611.11887v1`  |  **提交日期**: 2026-11-09
+- **作者**: Yong Hwi Song, Keon Myung Lee
+
+One-step stochastic world models avoid the mode averaging of deterministic feature predictors without the tens of network evaluations per step that diffusion and flow matching require. The simplest such objective is nearest-of-m matching (conditional implicit maximum likelihood estimation, IMLE): draw m candidate futures and pull only the one closest to the observed outcome. Recent work conjectures that a small m suffices for feature-space world models and that a strictly proper energy score should replace the hard minimum. We test both claims with one-step world models on frozen DINOv2/v3…
+
+---
+
+### [Action Representation for Spatial Generalization in Robot World Models](https://arxiv.org/abs/2611.11869v1)
+
+- **arXiv**: `2611.11869v1`  |  **提交日期**: 2026-11-09
+- **作者**: Yuhang Sun
+
+Spatial generalization in robot world models depends on whether action representations capture the physical relationships that remain valid across changing spatial configurations. Yet different coordinates can describe the same interaction, whereas similar motions can produce different outcomes when local physical conditions change. How these distinctions affect learned prediction remains insufficiently understood. This study evaluates matched action representations defined in world, object, and surface coordinate frames using a controlled robotic peeling benchmark. Global pose and contact…
+
+---
+
+### [Planners Exploit Deterministic Error: Dithered Low-Bit World Models](https://arxiv.org/abs/2611.11780v1)
+
+- **arXiv**: `2611.11780v1`  |  **提交日期**: 2026-11-09
+- **作者**: Yong Hwi Song, Keon Myung Lee
+
+Sampling-based planners such as MPPI and CEM query a learned world model thousands of times per control step, so low-bit world models are an obvious way to make model-based control cheaper on a robot. With round-to-nearest activation quantization and no calibration, we find that planning can collapse, by up to 100 points of success, while the world model's latent one-step prediction error stays no larger than that of a stochastic rounding scheme that plans well. At the same bit width, what decides the outcome is not the size of the rounding error but whether it persists across planner…
+
+---
+
+### [ScanDreamer: A Map-Grounded World Model for Quadrotor Navigation](https://arxiv.org/abs/2611.11605v1)
+
+- **arXiv**: `2611.11605v1`  |  **提交日期**: 2026-11-08
+- **作者**: Yunyi Gao, Yixing Shi, Yize Liu, Hai-Duong Tran, Nhat-Hoang P. Nguyen, Shuai Wang et al.
+
+Quadrotors inspecting buildings and tunnels must navigate unknown clutter with a forward-facing depth camera whose limited field of view constrains scene understanding and collision-avoiding navigation. Recent world-model agents learn navigation through imagined experience (e.g., AirDreamer), but remain data-intensive and often lack explicit geometric memory and awareness of what the camera can observe. We propose ScanDreamer, a map-grounded world model that constructs an online 2D scan-memory map from depth images and vehicle pose. Our world model, actor, and critic are conditioned on this…
+
+---
+
+### [K-PWM: Control-Oriented Structured Bilinear World Models under Partial Observation](https://arxiv.org/abs/2611.11521v1)
+
+- **arXiv**: `2611.11521v1`  |  **提交日期**: 2026-11-08
+- **作者**: Santosh Mohan Rajkumar, Sriram Narayanan, Samuel E. Otto, Debdipta Goswami
+
+World models learn internal simulators of environment dynamics for prediction, planning, and control, yet learning them from limited, noisy, and partial observations remains challenging. While much progress has focused on pixel-based observations, many physical systems instead provide vector-valued measurements that reveal only part of the underlying state. We introduce K-PWM, a probabilistic world model for prediction and control under partial observation. K-PWM couples Koopman-bilinear latent dynamics with a nonlinear observation decoder and performs probabilistic latent-state inference…
+
+---
+
+### [Breaking survivorship bias in driving world models](https://arxiv.org/abs/2611.11516v1)
+
+- **arXiv**: `2611.11516v1`  |  **提交日期**: 2026-11-08
+- **作者**: Zihao Sheng, Zilin Huang, Yuhao Luo, Zhengyang Wan, Boyue Wang, Soyoung Ahn et al.
+
+World models allow autonomous vehicles to imagine the consequences of candidate actions before execution, but their reliability depends on the futures represented in their training data. We identify a survivorship bias in driving world models: because the futures recorded in prevailing driving datasets almost always end safely, existing models often imagine benign outcomes even when a collision is imminent. We introduce a neutral world model (NWM) that learns both routine and safety-critical futures from a mixture of routine driving and real accident videos with a bounding-box-guided…
+
+---
+
+### [ForeAct: Geometry-Guided Action Learning from World Representations](https://arxiv.org/abs/2611.11500v1)
+
+- **arXiv**: `2611.11500v1`  |  **提交日期**: 2026-11-08
+- **作者**: Wei Lu, Jiaxi Zhang, Yunheng Wang, Taowen Wang, Yuetong Fang, Zhenhui Zhang et al.
+
+Robotic manipulation requires representations that capture both scene geometry and its evolution during interaction. Existing approaches have largely treated these two aspects separately. World action models capture such dynamics by coupling action prediction with future video generation, but their reliance on iterative diffusion or rectified-flow inference leads to high computational cost, while their representations lack explicit spatial structure. Explicitly modeling scene geometry typically requires auxiliary modules that increase both parameter count and computational cost. Conversely,…
+
+---
+
+### [DexForesight: Grounding Dexterous Policies with Implicit Spatial Foresight](https://arxiv.org/abs/2611.11166v1)
+
+- **arXiv**: `2611.11166v1`  |  **提交日期**: 2026-11-08
+- **作者**: Zhongxi Chen, Yi Yang, Xinyi Chen, Mingzhe Ye, Yaping Li, Zhihong Liu et al.
+
+Dexterous manipulation requires rich spatial foresight over both the surrounding scene and the robot hand. Existing world-action models often acquire such predictive knowledge through explicit future prediction. We introduce DexForesight, a framework that learns spatial foresight implicitly by injecting dynamics-aware world representations into the latent space of a dexterous policy. During training, DexForesight learns an action-conditioned spatial world model from offline scene depth, kinematic hand geometry, and demonstration trajectories. The world model predicts 3D hand-point motion and…
+
+---
+
+### [SurgWorld: Learning Surgical Representations Beyond Observation via Latent Prediction](https://arxiv.org/abs/2611.11140v1)
+
+- **arXiv**: `2611.11140v1`  |  **提交日期**: 2026-11-08
+- **作者**: Jingkun Yue, Pengxiang Wang, Siqi Zhang, Zinan Jia, Yiyao Zhang, Huihuan Xu et al.
+
+Surgical procedures are inherently partially observable, requiring surgeons to continuously infer evolving anatomical dynamics and future surgical states beyond the current observation. However, existing self-supervised learning methods primarily learn from observed surgical videos through masked reconstruction or predicting representations within the camera's current field of view, lacking the capability to explicitly model the out-of-sight surgical dynamics. Inspired by latent predictive world models, we introduce SurgWorld, a video-native, self-supervised framework for surgical…
+
+---
+
+### [ObjectWorld: Scaling Object-Centric World Models with A Large-Scale 3D Full-Object Flow Dataset](https://arxiv.org/abs/2611.11085v1)
+
+- **arXiv**: `2611.11085v1`  |  **提交日期**: 2026-11-08
+- **作者**: Haonan Chen, Sicheng Isabella Lu, Haitian Li, Jiajin Wu, Hexiang Wei, Jiawei Zhang et al.
+
+Generative world modeling from large-scale visual data offers a promising path toward scalable robot manipulation. This calls for an intermediate representation that can be supervised at scale and remains actionable for downstream control. We propose 3D full-object flow, an object-centric motion representation that assigns dense 3D trajectories to points across the complete surface of a target object, including its occluded regions. By extending visible-surface object flow to the full object geometry, this representation makes complete object motion explicit and applies uniformly to both…
+
+---
+
+### [WARP-JEPA: World-Model-in-the-Loop Amortized Rollout Planning for Frozen Hierarchical Joint-Embedding Predictive Architectures](https://arxiv.org/abs/2611.10806v1)
+
+- **arXiv**: `2611.10806v1`  |  **提交日期**: 2026-11-07
+- **作者**: Junjie Li, Zhaojiacheng Zhou, Kaixiang Wang, Zihan Wang, QingSong Zhao, Jiong Lou et al.
+
+Hierarchical Joint-Embedding Predictive Architectures (H-JEPA) enable long-horizon visual control but rely on costly test-time gradient descent for planning. Our analysis reveals that iterative optimization consumes up to 97.7% of episode runtime and that low predicted rollout costs do not necessarily translate into successful control. We further identify a planning-horizon asymmetry between long-horizon top-level composition and short two-step subordinate planning. To address these challenges, we propose WARP-JEPA, a hierarchical amortized planning framework that replaces online gradient…
+
+---
+
+### [WorldFoundry: Towards Unified Infrastructure for World Intelligence](https://arxiv.org/abs/2611.10771v1)
+
+- **arXiv**: `2611.10771v1`  |  **提交日期**: 2026-11-07
+- **作者**: Juanxi Tian, Jiadong Hou, Baiang Li, Xin Lin, Zhengbo Jiao, Weijia Zhang et al.
+
+Visual generative models increasingly blur the line between synthesizing observations and simulating environments. Yet visual plausibility alone does not constitute successful world modeling: compelling outputs may lack persistent state, physical dynamics, or causally consistent responses to interactions. We define a generative world model as a predictive dynamical system that maintains a persistent, history-conditioned representation of an environment, updates that representation in response to actions or interventions, and generates temporally coherent trajectories that reflect outcomes…
+
+---
+
+### [Dynamics-Informed Action Learning for Goal-Conditioned Latent Planning](https://arxiv.org/abs/2611.10660v1)
+
+- **arXiv**: `2611.10660v1`  |  **提交日期**: 2026-11-07
+- **作者**: Yinuo Jiang, Guangzhi Wang, Yiran Wang, Junfu Pu, Cheng Cheng, Honghao Chen et al.
+
+Latent world models enable visual control by planning action sequences in compact representation spaces, but a gap remains between how latent dynamics are learned and how they are used for planning. First, teacher-forced training does not expose the dynamics model to the recursively predicted latent states encountered during planning. Second, sampling-based planners typically initialize action search from goal-agnostic proposals, without exploiting the action-conditioned dynamics learned by the world model. We introduce Dynamics-Informed Action Learning (DIAL) to bridge these two gaps. During…
+
+---
+
+### [The Delta Gap: Cellular World Models for Perturbation Response Prediction Are Far Harder Than Global Correlation Implies](https://arxiv.org/abs/2611.10658v1)
+
+- **arXiv**: `2611.10658v1`  |  **提交日期**: 2026-11-07
+- **作者**: Junhui Gao
+
+Cellular world models aim to predict how cells respond to genetic perturbations, analogous to world models in reinforcement learning. Perturbation response models are evaluated almost exclusively by global Pearson correlation between predicted and observed transcriptomes. We show this metric is dominated by thousands of non-responsive genes and severely inflates apparent performance. On the Replogle K562 screen (509 unseen perturbations, 5000 genes), GEARS achieves global Pearson 0.977, but its delta Pearson is only 0.076. A trivial baseline predicting mean training delta achieves 0.267,…
+
+---
+
+### [Action Transfer Across Character Body Plans in Latent-Action World Models: An Empirical Study of Animated Characters](https://arxiv.org/abs/2611.10523v1)
+
+- **arXiv**: `2611.10523v1`  |  **提交日期**: 2026-11-07
+- **作者**: Amarnath R
+
+Latent-action world models learn actions from video without labels, and recent methods aim to share these actions across bodies. Transfer between 2D characters with different body structures remains underexplored. In this paper, we study whether an action learned from one character can make a character with a different body perform the same action. A cat, a blob and a human can all jump, but each moves its body in its own way. The usual transfer gain mixes body motion with screen movement and can assign a perfect score to a model that ignores its action. To address this, we introduce a…
+
+---
+
+### [Multi-Objective Adaptation After Deployment: A Position on World Models for Remote Robot Teams](https://arxiv.org/abs/2611.10435v1)
+
+- **arXiv**: `2611.10435v1`  |  **提交日期**: 2026-11-07
+- **作者**: Jamie Santos, Kagan Tumer
+
+Autonomous robot teams deployed in remote, unstructured environments may face changes in the environment, hardware, and team composition that degrade previously effective policies. Shifting mission objectives can be handled by selecting a different solution from an existing Pareto set, but shifting deployment conditions can reorder the set itself, making previously dominated policies competitive or new policies necessary. However, evaluating these policies in new contexts while minimizing risk to the hardware remains an open problem. We argue that, although largely untested in this domain,…
+
+---
+
+### [Tiresias: Towards Language-Conditioned World Models](https://arxiv.org/abs/2611.10392v1)
+
+- **arXiv**: `2611.10392v1`  |  **提交日期**: 2026-11-07
+- **作者**: Fengyi Wu, Yifei Dong, Yetong Sha, Lingdong Kong, Qiyu Hu, Bohan Xiong et al.
+
+World models enable planning through internal simulation, while natural language provides intuitive task specification. Yet, language-conditioned world modeling remains fragmented across domains with disparate action spaces, datasets, and evaluation protocols. We introduce LCWM, a shared task that maps an initial agent-view observation and a language instruction to an action sequence that fulfills the instruction. Its accompanying benchmark, LCWM-Bench, integrates 15 datasets across navigation, robotics, 3D gaming, and driving under a shared action interface and evaluation protocol, pairing…
+
+---
+
 ## 📅 2026-11-09
 
 ### [Encoding Memory in World Models with Test-Time Model-Based Reinforcement Learning](https://arxiv.org/abs/2611.09625v1)
