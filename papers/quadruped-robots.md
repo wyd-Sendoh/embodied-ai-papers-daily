@@ -2,6 +2,17 @@
 
 _自动追踪 arXiv 最新论文，最新更新在最上方。_
 
+## 📅 2026-11-11
+
+### [Koopman Model-Based Reinforcement Learning](https://arxiv.org/abs/2611.14186v1)
+
+- **arXiv**: `2611.14186v1`  |  **提交日期**: 2026-11-10
+- **作者**: Wenjian Hao, Paulo C. Heredia, Shaoshuai Mou
+
+We propose a Koopman model-based reinforcement learning (K-MBRL) algorithm for controlling nonlinear robotic systems with unknown dynamics. The K-MBRL learns a control policy by minimizing an approximate policy objective that combines the analytical immediate cost with an estimate of the future cost evaluated at the one-step predicted state. To this end, we develop a stochastic Koopman operator-based learning method to approximate the unknown nonlinear dynamics in a linear representation, while a critic function estimates the remaining future cost. This formulation offers two key advantages.…
+
+---
+
 ## 📅 2026-11-10
 
 ### [Compass 1: Towards Open-World and Persistent Embodied Navigation from Monocular RGB Videos](https://arxiv.org/abs/2611.12087v1)
