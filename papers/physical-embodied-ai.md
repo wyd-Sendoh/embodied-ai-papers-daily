@@ -2,6 +2,89 @@
 
 _自动追踪 arXiv 最新论文，最新更新在最上方。_
 
+## 📅 2026-11-13
+
+### [XBot-Omni: An Omni-Modal Model for Embodied Understanding and Interaction](https://arxiv.org/abs/2611.17160v1)
+
+- **arXiv**: `2611.17160v1`  |  **提交日期**: 2026-11-12
+- **作者**: Kerui Gu, Xing Fu, Shuoyang Sun, Cheng Peng, Jingru Duan, Huayu Gu et al.
+
+Embodied interaction requires an agent to integrate multimodal perception with verbal and nonverbal behaviors to effectively communicate its intentions, including speech, body motion, and facial expressions. We present XBot-Omni, a Thinker--Talker--Actor architecture that extends the Omni paradigm to robotic modalities, including body motion and facial expressions, with ``X'' representing the extensibility to robotic-specific modalities. The Thinker processes text, images, audio, and video to formulate contextually appropriate responses, which are then realized by the Talker and Actor through…
+
+---
+
+### [Ropedia Xperience 2: A Gold Standard for Scaling Physical AI Environments and Behaviors](https://arxiv.org/abs/2611.17060v1)
+
+- **arXiv**: `2611.17060v1`  |  **提交日期**: 2026-11-12
+- **作者**: Hao Li, Fangzhou Hong, Zhaoxi Chen, Hui En Pang, Kairui Hu, Mingze Sun et al.
+
+Large foundation models such as GPT-6 Astra and Claude Fable 5.1 have recently been shown to control robots directly from visual observations. They nevertheless remain brittle on long-horizon, contact-rich tasks in real-world environments. Further progress depends on two complementary resources: demonstrations of human behavior that supervise how tasks are performed, and interactive environments in which policies can be rolled out, evaluated, and improved in closed loop. Language models have advanced along well-characterized scaling laws; the corresponding question for physical AI is how…
+
+---
+
+### [AstroMemBench: A Benchmark for Memory Systems in Embodied Spacecraft Agents](https://arxiv.org/abs/2611.16590v1)
+
+- **arXiv**: `2611.16590v1`  |  **提交日期**: 2026-11-12
+- **作者**: You Wu, Guhong Zhang, Hongwei Li, Xinyue Hong, Yuan Jia
+
+Long-term spacecraft autonomy requires embodied agents to use operational history under communication delays, time-critical operations, environmental uncertainty, complex physical interactions, power and computational constraints, and safety and reliability requirements. We introduce AstroMemBench and a Scenario-Challenge-Capability design method that maps these requirements to executable memory tests. The benchmark covers 16 memory subchallenges through 140 templates and 2240 instances across nine tasks in planetary surface operations, on-orbit servicing, and deep-space exploration. A…
+
+---
+
+### [HeMeR: Heterogeneous Memory Reconciliation for Embodied Agents via Structured KV Reuse](https://arxiv.org/abs/2611.16487v1)
+
+- **arXiv**: `2611.16487v1`  |  **提交日期**: 2026-11-12
+- **作者**: Saehun Chun, Wonje Choi, Jinwoo Jang, Taeyoon Kwack, Honguk Woo
+
+Embodied agents make decisions by combining information from heterogeneous memory modules, including declarative memory for explicit knowledge, procedural memory for learned routines, and working memory for current observations. During interaction, the memory contents required for decision making change with the agent's state, goal, and task progress, while many contents remain shared across consecutive decisions. However, existing memory modules are typically accessed through separate interfaces, so each updated memory context is often processed as a new input to the foundation model. This…
+
+---
+
+### [BWM-Forge: Agentic World Programming for Embodied Intelligence](https://arxiv.org/abs/2611.16221v1)
+
+- **arXiv**: `2611.16221v1`  |  **提交日期**: 2026-11-12
+- **作者**:  BWM Team
+
+Generating diverse robot videos requires control over scene geometry, robot motion, and viewpoints. End-to-end video generation offers limited direct access to these variables, making targeted edits and reuse across tasks difficult. We present BWM-Forge, a code-driven framework for controllable video generation in robotics. Given robot assets and a task description, the framework accepts an initial image, an image with motion data, or a human demonstration video. A coding agent constructs editable Blender scene programs that specify objects, robot motion, and cameras. The resulting proxy…
+
+---
+
+### [Topology-Aware 4D Gaussian Splatting for Egocentric Videos](https://arxiv.org/abs/2611.16012v1)
+
+- **arXiv**: `2611.16012v1`  |  **提交日期**: 2026-11-11
+- **作者**: Leonardo Vanni, Stefano Gasperini, Federico Tombari, Chiara Plizzari
+
+Reconstructing dynamic scenes and objects from monocular egocentric video is crucial for embodied AI, yet existing 4D Gaussian Splatting (4DGS) approaches struggle with everyday interactions involving topological changes, such as cutting, assembly, opening, or closing. Since 4DGS methods rely on deforming a fixed representation, events that split, merge, or reveal surfaces cause severe visual artifacts. To address this challenge, we introduce TopoEgo, the first benchmark dedicated to topological changes in egocentric video (covering fission, fusion, open, and close), alongside Topo-4DGS, a…
+
+---
+
+### [Recover, Don't Just Continue: Learning from Feedback for Physical Failure Understanding and Correction](https://arxiv.org/abs/2611.15651v1)
+
+- **arXiv**: `2611.15651v1`  |  **提交日期**: 2026-11-11
+- **作者**: Miao Pan, Kaixiang Yao, Xiaohe Zhou, Xu Wang, Qinfeng Li, Wenqi Zhang et al.
+
+Multimodal large language models are regarded as the cognitive foundation of embodied intelligence, but planning from instructions alone cannot make them reliable. During execution, actions deviate from intended effects, constrained by the embodiment and environment. An embodied brain must understand why execution deviates, identify what can be reliably realized, and revise decisions using interaction experience. These correspond to causal failure localization, capability-constrained adaptation, and experience-driven revision. Current embodied foundation models largely lack these…
+
+---
+
+### [IncR-3DSGG: Incremental Posed RGB Image Based 3D Scene Graph Generation via Privileged Depth Supervision](https://arxiv.org/abs/2611.15429v1)
+
+- **arXiv**: `2611.15429v1`  |  **提交日期**: 2026-11-11
+- **作者**: Mrunmai Phatak, Daniel Kienzle, Roman Küble, Jörg Hähner, Rainer Lienhart
+
+Scene graphs provide a compact, structured representation of environments by capturing objects and their spatial or semantic relationships in a form suitable for embodied agents. Existing 3D scene graph generation methods often rely on depth sensing at inference, either to associate object instances across views via point cloud overlap or to compute inter-object relations from geometric cues, limiting deployment to platforms with depth sensors. We propose IncR-3DSGG, which builds 3D scene graphs incrementally from posed\footnote{RGB images with camera extrinsics estimated by an off-the-shelf…
+
+---
+
+### [Risk-Aware Joint Inference and Resource Control for Physical AI in 6G Networks](https://arxiv.org/abs/2611.14696v1)
+
+- **arXiv**: `2611.14696v1`  |  **提交日期**: 2026-11-10
+- **作者**: Amin Farajzadeh, Melike Erol-Kantarci
+
+Wireless edge inference enables Physical-AI devices to execute edge-inferred actions using transmitted sensory inputs. Since the risk of incorrect actions vary across observations and tasks, the associated uplink transmission of sensory inputs requires different levels of wireless reliability. For instance, applying a fixed signal-to-interference-plus-noise ratio (SINR) requirement can overprovision low-risk tasks while underprovisioning high-risk ones. Therefore, we propose risk-aware control for edge inference (RACE), which maps predicted action-failure probability and task criticality to…
+
+---
+
 ## 📅 2026-11-11
 
 ### [LEASH: Stay Safe in Agentic Robotics](https://arxiv.org/abs/2611.14115v1)

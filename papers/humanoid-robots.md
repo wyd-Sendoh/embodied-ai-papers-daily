@@ -2,6 +2,71 @@
 
 _自动追踪 arXiv 最新论文，最新更新在最上方。_
 
+## 📅 2026-11-13
+
+### [BlinkMimic: Training a Humanoid Motion Tracker in Minutes on a Single GPU](https://arxiv.org/abs/2611.16422v1)
+
+- **arXiv**: `2611.16422v1`  |  **提交日期**: 2026-11-12
+- **作者**: Fuyi Chen
+
+Whole-body motion tracking lets a humanoid robot follow reference motions, but training a tracking policy for a library of motions has usually taken hours of GPU time. SuperMimic showed that the policy can instead be trained by backpropagating through a world model learned from parallel simulation, and InstantTrack added Muon updates, a residual policy around the reference and an averaged deployed policy. We build on both and present BlinkMimic, a recipe that makes this training faster. On a simulated Unitree G1, BlinkMimic trains one policy for all 40 LAFAN1 clips in 3.4 minutes on a single…
+
+---
+
+### [PERA: Plug-in Experts for Robotic Actions in Continual Whole-Body Control](https://arxiv.org/abs/2611.16188v1)
+
+- **arXiv**: `2611.16188v1`  |  **提交日期**: 2026-11-12
+- **作者**: Shangchao Hu, Yadan Sun, Xibo Yu, Wei Huang
+
+Motion imitation enables humanoid robots to acquire whole-body skills such as walking and dancing. However, fine-tuning an entire policy for a new skill can affect existing behaviors, while training a separate policy for each skill increases training and maintenance costs. We present PERA, a method for learning new skills by reusing existing motion capabilities. PERA freezes a pretrained mixture-of-experts policy and trains an additional task expert and its routing score using task rewards or teacher-action supervision. In Unitree G1 simulation, each added task module contains approximately…
+
+---
+
+### [Runtime Safety and Emergency Stops on a Full-Size Humanoid: Deployment Lessons and a Case for Graduated Force Authority](https://arxiv.org/abs/2611.15928v1)
+
+- **arXiv**: `2611.15928v1`  |  **提交日期**: 2026-11-11
+- **作者**: Max Conway, Yutong Zhang, Allen Devaraj, William Xie, Alessandro Roncone, Nikolaus Correll
+
+Full-size humanoid robots are being considered for hazardous industrial work such as disassembling electric-vehicle batteries. We describe the safety mechanisms of an open-source autonomy stack for the Unitree H1-2 humanoid and what deploying them taught us. All joint commands pass through a safety layer that runs separately from the control software. It enforces joint position, velocity, and torque limits, and it stops the robot when a state estimate becomes stale or when the hard-wired emergency stop (e-stop) is pressed or disconnected. We pushed the standing robot until it lost balance.…
+
+---
+
+### [Reading the Table: Sim-to-Real Game State Detection for the Chef's Hat Card Game](https://arxiv.org/abs/2611.15524v1)
+
+- **arXiv**: `2611.15524v1`  |  **提交日期**: 2026-11-11
+- **作者**: Connor Gäde, Matthias Kerzel, Hauke Bünning, Jan-Gerrit Habekost, Mariana Barros, Stefan Wermter
+
+Tabletop games offer a compelling scenario to study the interaction between artificial and human agents, combining social interaction with game state tracking and physical manipulation. To assess the game state, a robot needs to precisely detect closely related game objects, such as different card designs, requiring dedicated training data that is costly to annotate in the real world. Instead, we develop a fully automated synthetic data collection pipeline, using re-projection of known 3D coordinates to generate labels automatically and domain randomization to bridge the reality gap. This…
+
+---
+
+### [ILA: A Transferable Interface-Level Adapter for Compliant Humanoid Motion Tracking](https://arxiv.org/abs/2611.14985v1)
+
+- **arXiv**: `2611.14985v1`  |  **提交日期**: 2026-11-11
+- **作者**: ZhuoChang Cai, Zihao Yan, Jinxuan Zhu, Yanjie Li, Hao Xiong
+
+Humanoid motion tracking is fundamental to reproducing human motions on humanoid robots and serves as an important tool for teleoperation and motion data collection. However, directly tracking reference motions can be unsafe in constrained environments or during physical human--robot interaction, motivating the need for compliant motion tracking. We present ILA, an Interface-Level Adapter for compliant humanoid motion tracking without dedicated interaction sensors. ILA adapts motion references from the robot's observation history, allowing the robot to respond to physical guidance while…
+
+---
+
+### [From a Single RGB Image to Robot Execution: Metric Scene Alignment and Contact-Guided Retargeting](https://arxiv.org/abs/2611.14981v1)
+
+- **arXiv**: `2611.14981v1`  |  **提交日期**: 2026-11-11
+- **作者**: Zhenxuan Ding, Yu Huang, Xinmiao Wang, Chenghao Sun, Ziyang Dong, Wenhao Cui
+
+Extending humanoid interaction generation to new environments remains limited by the need for prebuilt 3D scene assets. Reconstructing scenes directly from single RGB images offers a way to overcome this limitation, but introduces a key challenge in maintaining geometric consistency throughout motion generation and transfer. Visually plausible human motions may be misaligned with the reconstructed scene, while retargeting can introduce additional support errors due to differences between human and robot embodiments. We present a unified pipeline that transforms a single RGB image into a…
+
+---
+
+### [Can I join you? Extended Social Force Based Model with Predictive Control and Barrier Functions for Humanoid Group Repositioning Amidst Obstacles](https://arxiv.org/abs/2611.14853v1)
+
+- **arXiv**: `2611.14853v1`  |  **提交日期**: 2026-11-11
+- **作者**: Chuxuan Zhang, Niloofar Jahanshahi, Yasaman Etesam, Mo Chen, Angelica Lim
+
+As social and service robots increasingly share interaction spaces in public, they may form groups while coordinating tasks or interacting with humans. Initial group formation alone is insufficient in dynamic settings, because it can be disrupted when a person or another agent joins, leaves, or passes through the group. Although group dynamics and repositioning have been widely studied in swarm robotics and virtual-agent settings, little attention has been given to socially appropriate repositioning behaviors in groups of humanoid robots. Existing social-force-based approaches provide a…
+
+---
+
 ## 📅 2026-11-11
 
 ### [Personalized Affective Perception via Continual Learning in Human-Agent Negotiation](https://arxiv.org/abs/2611.14247v1)

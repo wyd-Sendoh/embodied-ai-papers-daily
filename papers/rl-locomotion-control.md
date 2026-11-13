@@ -2,6 +2,71 @@
 
 _自动追踪 arXiv 最新论文，最新更新在最上方。_
 
+## 📅 2026-11-13
+
+### [Fog-FWL: A Large-Scale Full-Waveform LiDAR Dataset for Recovering Fog-Hidden Objects](https://arxiv.org/abs/2611.16742v1)
+
+- **arXiv**: `2611.16742v1`  |  **提交日期**: 2026-11-12
+- **作者**: Kazuma Ikeda, Kotaro Oishi, Ryosei Hara, Ryo Yoshida, Takahiro Kado, Ibuki Fujioka et al.
+
+LiDAR is a core sensor for autonomous driving, yet it is highly vulnerable to fog. Fog scattering produces strong backscatter near the sensor and attenuates reflections from objects behind it, so weak object returns are often discarded by the peak detection that converts received signals into point clouds. Full-waveform LiDAR (FWL), which records the received optical signal before peak detection, retains these weak returns, but the lack of suitable data has prevented research on recovering fog-hidden objects from FWL. We present Fog-FWL, a dataset foundation for this task that consists of a…
+
+---
+
+### [Memory-Efficient Parallel Policy Learning for Collapse-Reactive Retreat via Hybrid Terrain Modeling](https://arxiv.org/abs/2611.16337v1)
+
+- **arXiv**: `2611.16337v1`  |  **提交日期**: 2026-11-12
+- **作者**: Yuki Kadokawa, Ritsuki Matsunaga, Yuqi Yang, Edgar Anarossi, Takamitsu Matsubara
+
+At disaster sites and on unstable slopes, robot contact can collapse uninspected terrain, requiring retreat upon support loss. Massively parallel reinforcement learning of collapse-reactive retreat requires independent state--action experiences. However, on shared rigid-body collapsible terrain, one robot's collapse alters others' contacts without direct interaction. We call this indirect interference. Duplicating terrain objects prevents this but is memory-intensive, limiting parallel sampling. Our key insight is that policy learning does not necessarily require rigid-body collapse modeling,…
+
+---
+
+### [Embedded Sim-to-Real Visual Servoing: Learned Reaching and Force-Guided Placement](https://arxiv.org/abs/2611.15658v1)
+
+- **arXiv**: `2611.15658v1`  |  **提交日期**: 2026-11-11
+- **作者**: Dezhi Sun, Duy Khang Banh, Kenan Niu
+
+Embedded perception-to-control systems must combine visual targeting with reliable contact handling under tight computational constraints. We present a shared architecture on an NVIDIA Jetson AGX Orin controlling a Franka Research 3 through Cartesian impedance control. RealSense D435i observations, YOLO11-seg segmentation, depth back-projection, and hand--eye calibration provide metric robot-frame targets. We compare two strategies: compact proximal policy optimization (PPO) policies transferred from simulation for object- and hole-region reaching, and force-guided Cartesian placement using…
+
+---
+
+### [Sim-to-Real Powertrain Vibration Control via Model-Based Assisted Domain-Randomized Reinforcement Learning](https://arxiv.org/abs/2611.15133v1)
+
+- **arXiv**: `2611.15133v1`  |  **提交日期**: 2026-11-11
+- **作者**: Heisei Yonezawa, Ansei Yonezawa, Itsuro Kajiwara
+
+Controllers designed from nominal models often degrade on mechanical systems with nonlinearities and parametric variations, such as automotive powertrains with backlash. Deep reinforcement learning (DRL) with domain randomization can acquire robustness to such model discrepancies, but wide randomization destabilizes training and yields conservative policies, and experimental transfer of such policies has rarely been demonstrated in vibration control. This paper presents model-based controller assisted domain randomization (MBCADR), a framework that integrates model-based control into…
+
+---
+
+### [CFGComposer: Compositional Audio-Text-to-Motion Generation via Copula Score Correction](https://arxiv.org/abs/2611.15101v1)
+
+- **arXiv**: `2611.15101v1`  |  **提交日期**: 2026-11-11
+- **作者**: Pengyang Shi, Jinlu Zhang, Chunze Lin, Yizhou Wang, Li Yi
+
+Generating whole-body gestures that are simultaneously rhythmically synchronized with speech audio and semantically aligned with text descriptions is a fundamental challenge in embodied AI and social robotics. We tackle this Audio-Text-to-Motion (AT2M) problem by composing two independently-trained diffusion models at inference time and refine bias in joint inference by modeling the copula score $s_I$. A rigorous theoretical analysis reveals that naive epsilon blending corresponds to a Product-of-Experts formulation that omits the copula score $s_I$: the cross-modal interaction between audio…
+
+---
+
+### [MiniPose: Miniature-Based Real Data Collection for 6D Pose Estimation of Large Industrial Pipe Segments](https://arxiv.org/abs/2611.15066v1)
+
+- **arXiv**: `2611.15066v1`  |  **提交日期**: 2026-11-11
+- **作者**: Hyunjun Kim, Youngjin Seo, Sungwon Seo, Jiyou Shin, Kunwoo Kim, Chanyong Park et al.
+
+6-DOF pose estimation of large and heavy industrial objects, such as large piping systems in shipyards and structural components in petrochemical plants, remains relatively underexplored in robotic perception. Repeatedly repositioning large objects is physically and spatially demanding, making it difficult to acquire real training data with sufficient pose diversity. Synthetic data offer a scalable alternative, but faithfully reproducing real RGB-D observations, particularly the structured measurement errors of real depth sensors, remains difficult. We propose MiniPose, a practical pipeline…
+
+---
+
+### [Genie Sim Benchmark: Real-to-Sim Fidelity and Evaluation](https://arxiv.org/abs/2611.15020v1)
+
+- **arXiv**: `2611.15020v1`  |  **提交日期**: 2026-11-11
+- **作者**: Di Yang, Da Huang, Yang Lv, Fan Yang, Yi Lu, Zheyuan Xing et al.
+
+We evaluate Genie Sim Benchmark through paired real-simulation tasks and complementary system-identification studies. Across 22 robot-task pairs spanning 16 task names, task-specific pi0.5 policies fine-tuned on real-robot data achieve a descriptive Score correlation of 0.9686, MAE 0.0405, RMSE 0.0520, with simulation-real differences from -0.110 to +0.080. G2 crsB experiments assess long-horizon closed-loop position and joint-side torque agreement, while five representative object cases examine identification and cross-engine contact transfer. A separate 32.6503 s teleoperation trajectory,…
+
+---
+
 ## 📅 2026-11-11
 
 ### [RedirectMimic: Local Motion Content Redaction for Humanoid Whole-Body Control](https://arxiv.org/abs/2611.14049v1)

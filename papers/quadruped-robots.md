@@ -2,6 +2,44 @@
 
 _自动追踪 arXiv 最新论文，最新更新在最上方。_
 
+## 📅 2026-11-13
+
+### [FanCyqlone: A Parallelized Solver for Multi-Horizon Optimal Control](https://arxiv.org/abs/2611.17221v1)
+
+- **arXiv**: `2611.17221v1`  |  **提交日期**: 2026-11-12
+- **作者**: Matisse Teuwen, Pieter Pas, Mathijs Schuurmans, Panagiotis Patrinos
+
+Multi-horizon optimal control aims to select optimal control sequences simultaneously for several possible future scenarios, ensuring consistency at the first stage. While this enables advanced model predictive control schemes that explicitly handle prediction uncertainty, solving these problems tends to be costly. We introduce FanCyqlone, a linear solver that exploits parallelism across both time steps and scenario branches. The method builds on Cyqlone to compute the contribution of each branch and combines these results through a shared root problem. We integrate FanCyqlone into QPALM to…
+
+---
+
+### [AgriSense: Vision-Language Decision Support and Robotic Intervention in a Virtual Greenhouse Copy title](https://arxiv.org/abs/2611.16752v1)
+
+- **arXiv**: `2611.16752v1`  |  **提交日期**: 2026-11-12
+- **作者**: Lyes Saad Saoud, Oualid Doukhi, Reza Ghorbani, Moussa Ayyash
+
+Autonomous greenhouse management increasingly requires robotic systems that integrate perception, navigation, environmental regulation, and plant-level intervention. This paper presents AgriSense, a framework combining an Isaac Sim virtual greenhouse, a quadruped mobile manipulator, RGB and LiDAR-inertial sensing, environmental control, and supervised vision-language decision support. Frozen DINOv2 and BERT encoders, together with structured environmental inputs, support joint prediction of twelve environmental references, a target zone, and an intervention flag. Checkpoint replay reproduces…
+
+---
+
+### [SPARC: RoboCup Standard Platform for Autonomous Rescue Competition with Initial Datasets, Software, and Simulation Environments](https://arxiv.org/abs/2611.15443v1)
+
+- **arXiv**: `2611.15443v1`  |  **提交日期**: 2026-11-11
+- **作者**: Yuezhong Wang, Bichi Zhang, Zhongli Yin, Pingcong Li, Raimund Edlinger, Sören Schwertfeger
+
+The RoboCup Standard Platform for Autonomous Rescue Competition (SPARC) is a new competition under development of the RoboCup Rescue Robot League that uses the Unitree A2-W as a common robot platform. SPARC aims to make research on artificial intelligence for autonomous rescue robots accessible to a broader research community, including groups without expertise in developing and maintaining custom robot hardware. By providing a capable standard platform and established benchmark environments, researchers can focus on autonomous navigation, perception, manipulation, and embodied AI for…
+
+---
+
+### [PolyMorphWBC: Whole-Body Control from End-Effector Trajectories for Quadrupedal Mobile Manipulation across Arm Morphologies with Extended Reach](https://arxiv.org/abs/2611.15117v1)
+
+- **arXiv**: `2611.15117v1`  |  **提交日期**: 2026-11-11
+- **作者**: Heng Li, Yang Li, Yifan Duan, Ren Fang, Matao Duan, Wenhao Yu et al.
+
+Quadrupedal mobile manipulators can extend their manipulation workspace by coordinating the mounted arm with the mobile base. At the task level, short-horizon end-effector (EE) trajectories provide an interface for specifying the desired manipulation motion without prescribing how it should be realized by the arm and base. However, executing such trajectories remains challenging because the controller must determine when and how the base should move, and this decision depends on the mounted-arm morphology. We therefore present PolyMorphWBC, a hierarchical controller that takes an EE…
+
+---
+
 ## 📅 2026-11-11
 
 ### [Koopman Model-Based Reinforcement Learning](https://arxiv.org/abs/2611.14186v1)
