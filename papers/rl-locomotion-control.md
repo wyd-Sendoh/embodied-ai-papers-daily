@@ -2,6 +2,26 @@
 
 _自动追踪 arXiv 最新论文，最新更新在最上方。_
 
+## 📅 2026-11-16
+
+### [Heavy Metal Acrobatics: Learning Dynamic Control for Skid-Steer Loaders](https://arxiv.org/abs/2611.18365v1)
+
+- **arXiv**: `2611.18365v1`  |  **提交日期**: 2026-11-13
+- **作者**: Pierre-Jean Lorentz, Pascal Egli, Edo Jelavic, Cliff Li, Ramitha Sundar, Harikrishnan Suresh et al.
+
+Automation of heavy machinery offers the opportunity to improve productivity in mechanized industries such as construction, mining, and material handling. Yet, automation of such machines is challenged by their complex dynamics, in part because of hydraulic actuation that involves fluids, flexible elements, and nonlinear delays. A concomitant challenge is the size and weight of these machines, which can make experiments on the physical systems exceedingly dangerous. Here, we show that \ac{RL} in simulation, followed by transfer of the learned policies from simulation to reality, can…
+
+---
+
+### [TouchTwin: Scaling Human Touch Data via Real-to-Sim-to-Real](https://arxiv.org/abs/2611.17619v1)
+
+- **arXiv**: `2611.17619v1`  |  **提交日期**: 2026-11-13
+- **作者**: Huiwen Han, Nuo Chen, Ziyao Zeng, Dayou Li, Hao Wang, Amir Hossein Rahmati et al.
+
+Human demonstrations are becoming the main source of data for dexterous manipulation, and real-to-sim-to-real pipelines multiply each demonstration in simulation. These pipelines rebuild the interaction from vision, which recovers how the hand moves. Which fingers touch, when, and how hard remain unobserved, because a hand pose shows where each finger stops on the surface rather than how far it is driven to close. This gap is a force gap: on held-out recordings, a hand policy that imitates the observed pose grips with 0.31x the recorded force, and a policy trained on physics replays of…
+
+---
+
 ## 📅 2026-11-13
 
 ### [Fog-FWL: A Large-Scale Full-Waveform LiDAR Dataset for Recovering Fog-Hidden Objects](https://arxiv.org/abs/2611.16742v1)

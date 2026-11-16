@@ -2,6 +2,53 @@
 
 _自动追踪 arXiv 最新论文，最新更新在最上方。_
 
+## 📅 2026-11-16
+
+### [When to Trust Simulated Patient Responses:Support-Gated World Models for Vasopressor Decision Support](https://arxiv.org/abs/2611.18458v1)
+
+- **arXiv**: `2611.18458v1`  |  **提交日期**: 2026-11-13
+- **作者**: Yifan Jin, Tao Liu
+
+Clinical world models expose language-model agents to predicted patient responses, but simulations can be unreliable for poorly supported treatments or unfamiliar hospitals. We introduce Support-Gated World-Model decision support, a lightweight extension of a propose--simulate--refine agent. A recurrent dynamics ensemble predicts short-horizon physiological responses to documented norepinephrine dose categories, while a behavior model estimates observational action support. The interface withholds predictions with insufficient support or excessive ensemble disagreement and abstains when no…
+
+---
+
+### [WeatherDreamer: Learning a World Model from Multimodal Earth Observations](https://arxiv.org/abs/2611.18393v1)
+
+- **arXiv**: `2611.18393v1`  |  **提交日期**: 2026-11-13
+- **作者**: Kate Duffy, Elise Penn, Tristan Ballard, August Posch, Thomas J. Vandal
+
+Machine learning weather models now rival operational global forecasts but still start from analyses produced by separate, expensive data assimilation (DA) systems, which for global models are typically updated every six hours. Observation-to-observation models avoid this dependence, but most omit the recursive filtering cycle that lets DA systems carry a background state through sparse, irregular observations. We introduce WeatherDreamer, a world model that learns this cycle end-to-end from 18 global observing systems, without reanalysis. It infers a latent state from observations, carries…
+
+---
+
+### [V-JEPA-LM: Video-Language Models That Read Dynamics Beyond Static, Text-Aligned Representations](https://arxiv.org/abs/2611.17831v1)
+
+- **arXiv**: `2611.17831v1`  |  **提交日期**: 2026-11-13
+- **作者**: Keuntae Kim, Dongjun Kim, Yong Suk Choi
+
+World-model video encoders such as V-JEPA learn how scenes change (direction, speed, order, state) from video alone. To answer questions, they are joined to a language model trained on captions and question-answer pairs. But each caption or question names only a few attributes of a clip, so the model learns to retrieve those attributes rather than to read the clip, and the dynamics the encoder carries go unused: on the same items, a linear probe reads speed from frozen V-JEPA features at 87% while the VLM answers at chance. We show where dynamics lives in a frozen encoder: in a subspace…
+
+---
+
+### [Beyond Prediction Gain: LASR as a Metric for Action-Grounded Latents in World Models](https://arxiv.org/abs/2611.17775v1)
+
+- **arXiv**: `2611.17775v1`  |  **提交日期**: 2026-11-13
+- **作者**: Yu Zhou, Changsong Lei, Yixiang Wei, Kairui Wen, Huankun Sheng, Ming Li et al.
+
+World models that support planning, control, and interpretable reasoning require latent representations that genuinely encode action. Yet the large-scale video data from which such models are learned overwhelmingly lack action annotations. Latent-action models infer action-like variables from observation sequences, enabling action-aware learning from unlabeled videos or trajectories. A fundamental concern, however, remains: a latent that improves future prediction may simply encode the current state, episode progress, task identity, or other predictive shortcuts. Existing evaluation…
+
+---
+
+### [Joint World Action Models through Differentiable Trajectory Optimization](https://arxiv.org/abs/2611.17626v1)
+
+- **arXiv**: `2611.17626v1`  |  **提交日期**: 2026-11-13
+- **作者**: Mintae Kim, Koushil Sreenath
+
+Joint world action models (WAMs) generate future actions and states together, modeling world-action trajectories rather than actions alone. However, trajectory imitation does not ensure that these trajectories are task-effective or consistent with dynamics. We present \textbf{world action trajectory optimization (WATO)}, which optimizes generated actions and future states jointly for control. WATO uses both as references in a dynamics-constrained trajectory optimization problem and differentiates the task loss through the optimized trajectory to train the generator. This makes generated…
+
+---
+
 ## 📅 2026-11-13
 
 ### [Spatial Foundry: A Multimodal Dataset for Spatial Intelligence](https://arxiv.org/abs/2611.17318v1)

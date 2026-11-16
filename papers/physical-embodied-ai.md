@@ -2,6 +2,26 @@
 
 _自动追踪 arXiv 最新论文，最新更新在最上方。_
 
+## 📅 2026-11-16
+
+### [From AI-Enabled Remote Patient Monitoring Toward Agentic Robotics: Embodiment, Governance, and Care Integration](https://arxiv.org/abs/2611.18484v1)
+
+- **arXiv**: `2611.18484v1`  |  **提交日期**: 2026-11-13
+- **作者**: Ivana Ragusa, Lorenzo Guiducci, Filippo Cavallo
+
+AI-enabled remote patient monitoring is evolving beyond passive data collection toward agentic AI systems that interpret patient states, coordinate care, and initiate action across domestic and clinical settings. This structured scoping review finds that mature agentic care has not yet emerged: Most systems remain human led, while stronger decision-action coupling and embodied AI remain largely confined to prototypes and pilots. Healthcare robotics makes the transition from monitoring to action especially visible by translating AI-generated recommendations and decisions into speech, movement,…
+
+---
+
+### [AI-guided robotic in situ fabrication of curvature- and tissue-adaptive wireless bioelectronics](https://arxiv.org/abs/2611.17638v1)
+
+- **arXiv**: `2611.17638v1`  |  **提交日期**: 2026-11-13
+- **作者**: Hiroyuki Tetsuka, Jiaju Ma, Naomi Kumano, Minoru Hirano
+
+Personalized bioelectronic devices for wound therapy require not only conformal fabrication on complex body surfaces but also functional adaptation of their electrical characteristics to individual wound geometries. Here, we present an AI-guided robotic in situ printing platform for fabricating wireless wound electrotherapy devices directly on transparent wound dressings. The system integrates a 3D vision camera, a six-degree-of-freedom robotic arm, direct-ink-writing, and geometry-aware RF design optimization. AI-based wound segmentation is used to determine wound dimensions and local…
+
+---
+
 ## 📅 2026-11-13
 
 ### [XBot-Omni: An Omni-Modal Model for Embodied Understanding and Interaction](https://arxiv.org/abs/2611.17160v1)

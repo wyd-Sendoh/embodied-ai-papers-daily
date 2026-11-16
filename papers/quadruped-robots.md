@@ -2,6 +2,35 @@
 
 _自动追踪 arXiv 最新论文，最新更新在最上方。_
 
+## 📅 2026-11-16
+
+### [VLAN: Vision-Language Accessible Navigation](https://arxiv.org/abs/2611.18346v1)
+
+- **arXiv**: `2611.18346v1`  |  **提交日期**: 2026-11-13
+- **作者**: Jie Hu, Yu Zheng, Wenzhi Wu, Weixing Feng, Cunlei Cheng, Jiaming Zhang
+
+Accessible mobility is user-conditioned rather than scene-intrinsic, as walkable paths for one embodiment are inaccessible to another. Yet, existing benchmarks evaluate traversability under a fixed and limited embodiment. We present Vision-Language Accessible Navigation (VLAN), containing 1,000 scenes, 20K navigation trajectories, and 160K keyframes across diverse lighting, environmental conditions, scene semantics, and path geometries. For each trajectory, VLAN provides embodiment-specific actions and accessibility features for legged and wheeled agents, including humanoid and quadruped…
+
+---
+
+### [PROOF: Perceptive Robustness via Out-of-Distribution Fallback for Legged Locomotion](https://arxiv.org/abs/2611.18305v1)
+
+- **arXiv**: `2611.18305v1`  |  **提交日期**: 2026-11-13
+- **作者**: Siyuan Wang, Dongjie Zhu, Jinxuan Lu, Wenjun Xu, Jiankun Wang
+
+Vision-based perceptive locomotion has enabled legged robots to achieve agile and terrain-aware locomotion across complex environments. However, the reliability of such systems heavily depends on visual observations, which are inherently susceptible to occlusion, reflective surfaces, and illumination variations, often resulting in catastrophic locomotion failures under degraded perception conditions. In this paper, we present PROOF (Perceptive Robustness via Out-of-Distribution Fallback for Legged Locomotion), a perceptive locomotion framework that enables robust locomotion under severe…
+
+---
+
+### [PoliMop: Policy-in-the-Loop Motion Planning in 3D Spaces for Mobile Robots](https://arxiv.org/abs/2611.18110v1)
+
+- **arXiv**: `2611.18110v1`  |  **提交日期**: 2026-11-13
+- **作者**: Yael Fassbind, Valentin N. Hartmann, Huang Su, Yijiang Huang, Stelian Coros
+
+Reaching a goal state in a complex environment often requires a robot to overcome challenging terrain and obstacles. Which routes are accessible depends on the robot's physical design, the control policy it uses, and how it modifies its surroundings. We present a kinodynamic rapidly-exploring random tree (RRT) planner that uses physics simulation to exploit skills encoded in the control policy, which allows it to find a path in the scene with respect to the robot's capabilities. The planner samples states from a reduced state space in 3D around the scene and expands the RRT toward each sample…
+
+---
+
 ## 📅 2026-11-13
 
 ### [FanCyqlone: A Parallelized Solver for Multi-Horizon Optimal Control](https://arxiv.org/abs/2611.17221v1)
