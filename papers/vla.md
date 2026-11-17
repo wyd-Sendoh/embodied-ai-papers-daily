@@ -2,6 +2,170 @@
 
 _自动追踪 arXiv 最新论文，最新更新在最上方。_
 
+## 📅 2026-11-17
+
+### [ScaleVLA: Scaling Vision-Language-Action Models to 552 Billion Parameters](https://arxiv.org/abs/2611.21607v1)
+
+- **arXiv**: `2611.21607v1`  |  **提交日期**: 2026-11-16
+- **作者**: Ruixi Yu, Dairu Liu, Xuchuan Chen, Zekun Qi, Zekai Li, Zhuo Cao et al.
+
+Frontier Vision-Language Models (VLMs) such as GPT-6 Astra have demonstrated remarkable capabilities in robot control, suggesting that broad pretraining provides knowledge valuable for physical action. Yet most Vision-Language-Action (VLA) policies still rely on much smaller VLM backbones, leaving this potential largely untapped. We ask whether frontier-scale representations can provide a stronger foundation for robot learning. We introduce ScaleVLA, which connects a 552B DeepSeek-V4.1-Flash backbone to a trainable action DiT, and systematically compare VLMs from 2B to 552B under a shared…
+
+---
+
+### [MetricHand: Geometry-Aware Flow Matching for 4D Hand Reconstruction in Metric World Space](https://arxiv.org/abs/2611.21060v1)
+
+- **arXiv**: `2611.21060v1`  |  **提交日期**: 2026-11-16
+- **作者**: Yibo Bai, Likui Zhang, Jinglei Zhang, Zhengbin Pang, Xingshen Song, Xiaoqing Yin et al.
+
+Egocentric hand motion provides physical motion supervision for dexterous manipulation and vision-language-action pretraining. Reliable use of this supervision requires accurate and temporally coherent 4D hand reconstruction in metric world space. Existing methods typically lift framewise estimates produced under weak perspective into world coordinates. By ignoring joint-dependent depth variation at close range, this approximation couples errors in translation, orientation, and articulation that persist after world lifting and worsen under occlusion. We present MetricHand, a geometry-aware…
+
+---
+
+### [POKE: Probe Offline, Keep Efficiently for Vision-Language-Action Models](https://arxiv.org/abs/2611.21033v1)
+
+- **arXiv**: `2611.21033v1`  |  **提交日期**: 2026-11-16
+- **作者**: Jaehyuk Lee, Yeajin Lee, Suhyun Bae, Donghun Lee
+
+Visual token pruning reduces the inference cost of Vision-Language-Action (VLA) models, but attention-based scores do not directly measure a token's effect on the predicted action. We define action sensitivity as the magnitude of the first-order action change when a token is replaced by its camera's mean token and estimate it for all tokens with a single backward pass. Computing it online is costly: scoring on the full (unpruned) graph needs an extra forward pass at every control step. Scoring on the pruned forward pass is cheaper but causes scoring-graph lock-in: removed tokens lose their…
+
+---
+
+### [FAVR: Flow-Aware Visual Residual Alignment for Vision-Language-Action Policies](https://arxiv.org/abs/2611.20971v1)
+
+- **arXiv**: `2611.20971v1`  |  **提交日期**: 2026-11-16
+- **作者**: Qixuan Wu, Xiaole Yang, Yuguang Yang, Canyu Chen, Linlin Yang, Haixia Pan et al.
+
+Pretrained video representations provide rich temporal information for robotic manipulation, yet effectively integrating them into existing vision-language-action (VLA) policies remains challenging. We present Flow-Aware Visual Residual Alignment (FAVR), a lightweight framework for flow-aware visual conditioning of frozen VLA policies. FAVR maintains a compact temporal visual state through linear Test-Time Training (TTT) and retrieves action-conditioned visual features throughout flow-based action generation. By exploiting the affine structure of the frozen action head, we explicitly…
+
+---
+
+### [Competent Autonomous Driving Through Fine Tuning Vision Language Action Models with Symbolic Traffic Rules](https://arxiv.org/abs/2611.20648v1)
+
+- **arXiv**: `2611.20648v1`  |  **提交日期**: 2026-11-16
+- **作者**: Barkin Dagda, Vinal Asodia, Iman Sharifi, Peng Wei, Saber Fallah
+
+Vision-language-action (VLA) models offer a unified approach to perception, reasoning, and control for autonomous driving, but accurate action prediction alone does not establish compliance with traffic regulations. This paper presents a rule-guided VLA framework that incorporates symbolic traffic-rule feedback into policy optimisation. The framework combines supervised fine-tuning on expert demonstrations with reinforcement learning (RL) refinement using a reward that encourages encoded-rule compliance while penalising deviations from expert actions. Selected provisions of the United Kingdom…
+
+---
+
+### [Instructions Before Actions: Prospective and Retrospective Language Supervision for Driving Vision-Language-Action Data](https://arxiv.org/abs/2611.20631v1)
+
+- **arXiv**: `2611.20631v1`  |  **提交日期**: 2026-11-16
+- **作者**: Angel Martinez-Sanchez, Ross Greer
+
+Driving vision-language-action (VLA) models can accept navigation instructions, yet predicting a driver's trajectory does not establish that a model follows the instruction. We study how driving-language supervision is collected and evaluated, distinguishing prospective instructions issued before an action from retrospective labels written after observing it. We develop ADVLAT-Engine to synchronize spoken instructions, road-scene video, and vehicle trajectories, and compare three navigation apps on 48 replayed routes. On 87 maneuvers announced by both Google Maps and a passenger, the…
+
+---
+
+### [Stochastic Self-Distillation for Flow-Based Vision-Language-Action Models](https://arxiv.org/abs/2611.20460v1)
+
+- **arXiv**: `2611.20460v1`  |  **提交日期**: 2026-11-16
+- **作者**: Jingru Guo, Alessandra Russo, Joey Bose, Christos Ziakas
+
+Flow-based vision-language-action (VLA) models achieve strong performance in robotics through imitation learning, yet fine-tuning them with on-policy reinforcement learning (RL) is limited. In group-based RL methods like Group Relative Policy Optimization (GRPO), every rollout step requires multi-step ODE integration, and the sampler's limited stochasticity leads to rollout groups with low variance. We propose VLA-SSD, which addresses both high inference latency and limited stochasticity. In particular, our method self-distills a pretrained flow-matching action head into a stochastic one-step…
+
+---
+
+### [NF-VLA: A Normalizing-Flow Baseline for Vision-Language-Action Learning](https://arxiv.org/abs/2611.20314v1)
+
+- **arXiv**: `2611.20314v1`  |  **提交日期**: 2026-11-15
+- **作者**: Ruichen Deng, Qinyu Zhao, Yong-Hyun Park, Mutian Tong, Liang Zheng, Jiatao Gu
+
+Autoregressive normalizing flows (NFs) provide a tractable density for learning and sampling continuous robot actions. We show that a single maximum-likelihood objective can train vision--language--action (VLA) policies competitive with leading methods on manipulation benchmarks. We present NF-VLA, which combines conditional autoregressive normalizing flows with score-based action refinement. Its deep--shallow architecture concentrates visual, language, and proprioceptive prefix conditioning in a high-capacity deep block, while unconditioned shallow blocks provide a shared invertible action…
+
+---
+
+### [Right Goal, Wrong Body: Re-grounding Frozen VLAs under Actuation Shift](https://arxiv.org/abs/2611.20244v1)
+
+- **arXiv**: `2611.20244v1`  |  **提交日期**: 2026-11-15
+- **作者**: Umer Siddique, Peilang Li, Yongcan Cao
+
+Vision-language-action (VLA) models are capable of producing desired robotic behaviors in ideal settings. However, they often fail when the robot's actuation changes at deployment. For example, remounting, mechanical wear, or command latency changes can lead to failed tasks and unsafe behaviors. To address the inevitable actuation shift, we propose ReGround, an inference-time method that keeps the VLA frozen and re-grounds its intended motion. ReGround learns the deployed robot's dynamics from task-agnostic motor babbling, and then tracks the policy's intended motion while staying close to…
+
+---
+
+### [ReactBench-AD: Do Driving VLAs and World-Action Models React to Imminent Hazards in Their Path?](https://arxiv.org/abs/2611.20011v1)
+
+- **arXiv**: `2611.20011v1`  |  **提交日期**: 2026-11-15
+- **作者**: Nikos Theodoridis, Reenu Mohandas, Sushil Sharma, Ciarán Hogan, Ganesh Sistu, Anthony Scanlan et al.
+
+Vision-Language-Action models (VLAs) and World-Action Models (WAMs) have emerged in autonomous driving with the promise of strong generalization to long-tail scenarios. Although these models achieve state-of-the-art results on autonomous driving benchmarks, most existing benchmarks are dominated by nominal scenarios and therefore cannot test this promise. To test one such long-tail capability that is critical for safety, we introduce ReactBench-AD, a benchmark that measures how driving models react to objects that appear in the ego vehicle's path. Built on real NAVSIM and…
+
+---
+
+### [PlanDiv: Test-Time Scaling with Latent Plans for Vision-Language-Action Models](https://arxiv.org/abs/2611.20010v1)
+
+- **arXiv**: `2611.20010v1`  |  **提交日期**: 2026-11-15
+- **作者**: Hanbo Zhang, Lianlei Shan, Liuhaichen Yang, Zezhi Tang
+
+Test-time scaling improves vision-language-action (VLA) policies by drawing several action candidates and executing the best one. We find that its returns diminish quickly when the candidates are resampled from one decoder: they differ by noise rather than by plan, and for each of three resampling sources, going from four to eight candidates adds only 0.06-0.07 to the average number of completed tasks on CALVIN. We introduce PlanDiv, an action head that makes the candidates differ by plan: a lightweight planner proposes K latent plan hypotheses, a shared masked-diffusion executor decodes one…
+
+---
+
+### [When Backdoors Can Be Switched Off: Suppression-Aware Backdoor Attacks on Vision-Language-Action Models](https://arxiv.org/abs/2611.19774v1)
+
+- **arXiv**: `2611.19774v1`  |  **提交日期**: 2026-11-15
+- **作者**: Nur Afsa Syeda, Mohamed Elmahallawy
+
+Vision-Language-Action (VLA) models map visual observations, robot states, and natural-language instructions to robotic actions, but their multimodal interfaces introduce new security risks. Existing VLA backdoor attacks primarily study trigger-based activation and stealthy action manipulation, leaving conditional suppression of malicious behavior underexplored. We investigate suppression-aware backdoors, which combine conjunctive trigger activation with instruction-conditioned suppression. We instantiate this design through three variants: Cross-Modal Trigger, combining robot-state and…
+
+---
+
+### [ResWAM: Learning What Changes, Not What Stays, for World-Action Models](https://arxiv.org/abs/2611.19559v1)
+
+- **arXiv**: `2611.19559v1`  |  **提交日期**: 2026-11-14
+- **作者**: Chongyu Fan, Gaowen Liu, Ramana Rao Kompella, Jason Corso, Sijia Liu
+
+World-action models (WAMs) augment vision-language-action policies (VLAs) with future prediction so that the policy can anticipate how its actions will affect the physical world. Existing WAMs supervise complete future observations. However, observations typically change little over an action chunk, so the future loss is dominated by copying static background content rather than learning task-relevant robot and object motion, limiting policy learning. Moreover, existing WAMs rely on large video generation models or separate world models, incurring heavy training and inference compute that…
+
+---
+
+### [MARS: Dynamic Routing of Reinforcement-Learned Atomic Skills for Multi-Stage Robotic Manipulation](https://arxiv.org/abs/2611.19324v1)
+
+- **arXiv**: `2611.19324v1`  |  **提交日期**: 2026-11-14
+- **作者**: Zequan Zeng, Junqin Yang, Kai Wang
+
+Vision-Language-Action (VLA) models have demonstrated strong capabilities in multi-task robotic manipulation. However, they still face limitations in control precision and execution stability during critical manipulation stages, such as object grasping, alignment and insertion. To combine general-purpose manipulation capabilities with task-specific fine-grained control, while enabling effective coordination between generalist and specialized policies throughout multi-stage manipulation tasks, this paper proposes MARS (Modular Atomic-skill Routing System), a dynamic routing framework for…
+
+---
+
+### [Self-Calibrating Vision-Agent-Action: Deploying Pick-and-Place to New Robot Cells without Demonstrations or Fine-Tuning](https://arxiv.org/abs/2611.19198v1)
+
+- **arXiv**: `2611.19198v1`  |  **提交日期**: 2026-11-14
+- **作者**: Jae Hun Hwang, Yechan Seo, Hong-In Won
+
+In simulation, Vision-Agent-Action (VAA) performs pick-and-place in robot cells with gripper or base-frame changes without robot demonstrations or fine-tuning. It uses pre-trained vision-language and language models for interpretation, measures the command map and camera geometry from its own motion and fingertips, estimates lens distortion, and plans grasps from measured object depth. A controlled study of eight public LIBERO-fine-tuned vision-language-action models (VLAs) varies robot hardware, camera geometry, appearance, and base frame. Gripper and frame changes dominate their losses in…
+
+---
+
+### [SuperGlance: Driving at a Glance with a Vision-Language Model](https://arxiv.org/abs/2611.19138v1)
+
+- **arXiv**: `2611.19138v1`  |  **提交日期**: 2026-11-14
+- **作者**: Jieyuan Pei, Xin Yan, Mingwei Xu, Haiyi Zhang, Siyu Zou, Zhangyi Hu et al.
+
+Autonomous driving is turning to vision-language-action models (VLAs). They answer and plan by decoding, one step at a time. Each step is another forward pass, so a plan can take over a second of GPU time. Embodied AI often pairs such a slow, reasoning System 2 with a fast System 1 that acts. Human drivers plan at a glance, with System 1. Faster designs usually put System 1 outside the vision-language model (VLM), in a planner without its abilities. Yet before a VLM writes its first token, it has already read the scene into one hidden state. We show that, once trained, this hidden state is…
+
+---
+
+### [Wireless Edge-Assisted Adaptive Latent Reasoning for Vision-Language-Action Models in Physical AI](https://arxiv.org/abs/2611.19131v1)
+
+- **arXiv**: `2611.19131v1`  |  **提交日期**: 2026-11-14
+- **作者**: Fatih Temiz, Melike Erol-Kantarci
+
+Vision-language-action (VLA) models enable embodied artificial intelligence (AI) by translating visual observations and language instructions into robotic actions. Emerging use cases in physical AI are expected to drive the need for efficient inference and communication, as the computational demands of the VLA models pose challenges for real-time control with limited onboard resources. Test-time scaling through latent reasoning allows these models to refine hidden representations without generating explicit chain-of-thought (CoT) tokens, but introduces a trade-off between task success,…
+
+---
+
+### [RoboCoEvo: Expanding Robot Capabilities through Agent-Policy Co-Evolution](https://arxiv.org/abs/2611.19081v1)
+
+- **arXiv**: `2611.19081v1`  |  **提交日期**: 2026-11-14
+- **作者**: Ran Qi, Yixin Xiao, Dawei Wang, Zhiyuan Li, Jinbang Huang, Xuan Zhao et al.
+
+Integrating MLLM-based agents with robotic foundation models has attracted increasing attention as a means of enhancing robotic capabilities. However, the improvement of such integrated systems remains largely decoupled across their agent and model components, with advances in one component not necessarily benefiting the other, substantially limiting the capabilities of the combined system. As both MLLMs and robotic foundation models become increasingly capable, fully realizing their combined potential calls for co-evolution, an iterative process in which improvements in agents and robotic…
+
+---
+
 ## 📅 2026-11-16
 
 ### [Training Reasoning Models in Simulation to Natively Use Real Robots](https://arxiv.org/abs/2611.18562v1)

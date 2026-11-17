@@ -2,6 +2,170 @@
 
 _自动追踪 arXiv 最新论文，最新更新在最上方。_
 
+## 📅 2026-11-17
+
+### [Lazy-MOSAIC: Accelerating Skill-Centric Manipulation Planning with Learned Skill-Effect World Models](https://arxiv.org/abs/2611.21517v1)
+
+- **arXiv**: `2611.21517v1`  |  **提交日期**: 2026-11-16
+- **作者**: Itamar Mishani, Mukund Krishnakumar, Oren Salzman, Maxim Likhachev
+
+Long-horizon manipulation tasks require a robot to perform a sequence of physical interactions with its environment, typically combining several different skills. Planning such behaviors efficiently is challenging: given a library of parameterized skills, solutions lie in a vast hybrid space of skill sequences and their parameters, and evaluating each candidate skill's feasibility and effect with a high-fidelity world model such as a physics simulator is computationally expensive. MOSAIC, a recent skill-centric approach, lets the skills guide a non-sequential search toward the regions of this…
+
+---
+
+### [LynnReal-Hand: Unlocking World Interaction with Hand Control](https://arxiv.org/abs/2611.21479v1)
+
+- **arXiv**: `2611.21479v1`  |  **提交日期**: 2026-11-16
+- **作者**: Shaohao Rui, Chaoyang Zhang, Xiaofeng Mao, Weijie Ma
+
+Interactive video world models enable exploration through text and camera controls, yet direct object interaction requires finer control. Hands provide a natural interface, but translating continuous hand movements into coherent visual responses remains challenging because of complex hand-object dynamics and demanding real-time computation. To address these challenges, we introduce LynnReal-Hand, a hand-controlled video world model that unifies precise interaction modeling with efficient streaming generation. We curate 100K interaction clips spanning diverse real and synthetic environments…
+
+---
+
+### [Warm Starting Neural Dynamics Models From Few Jacobian Samples](https://arxiv.org/abs/2611.21465v1)
+
+- **arXiv**: `2611.21465v1`  |  **提交日期**: 2026-11-16
+- **作者**: Maxime Rochkoulets, Joppe De Jonghe, Mariya Ishteva
+
+Model-based reinforcement learning (MBRL) leverages a model of the environment, used for planning and generating samples without interacting with the real world. Motivated by evidence that informed initialization significantly improves the efficiency of MBRL, we propose TDec-Init, an algorithm to warm-start neural dynamics models using transition Jacobians. Using a decoupling algorithm based on the decomposition of a tensor of stacked Jacobian samples, we recover weights and flexible nonlinearities, and use them to initialize a feedforward neural network. In the low-data regime, we show on…
+
+---
+
+### [SciWorldBench: Do Video World Models Really Understand Scientific Experiments?](https://arxiv.org/abs/2611.20899v1)
+
+- **arXiv**: `2611.20899v1`  |  **提交日期**: 2026-11-16
+- **作者**: Xue Yang, Haonan Cai, Xinyu Hang, Zhimeng Huang, Xuanyi Liu, Chuanmin Jia et al.
+
+While the ability of video generation models to accurately depict scientific phenomena has received growing attention, determining whether these models genuinely understand the underlying principles remains a critical challenge. Existing benchmarks typically evaluate video samples in isolation, making it difficult to expose models that simply fit superficial visual priors. In scientific experiments, a small change in one condition produces a markedly different outcome even when the rest of the setup remains fixed. Capitalizing on this sensitivity, we introduce SciWorldBench, a benchmark…
+
+---
+
+### [Auditing World-Model Explanations in Retail Forecasting: Faithfulness, Accuracy and Price Response](https://arxiv.org/abs/2611.20811v1)
+
+- **arXiv**: `2611.20811v1`  |  **提交日期**: 2026-11-16
+- **作者**: Kathik Iyer
+
+Forecasting models that read the price and promotion plan explain each forecast as a baseline, what would sell with nothing planned, plus the lift the plan adds. We test such explanations with eight checks, six with a pass rule fixed before any result, and find that passing them does not make an explanation right. In generated store data with known effects, a world model passes the checks of construction, stability, price direction and agreement with sales and with LightGBM, yet its lifts are 1.33 to 1.40 times the truth when merchants plan into high-demand weeks, and 1.23 to 1.42 times in…
+
+---
+
+### [XMimic and XSoma: Learning Humanoid Motion Tracking and Locomotion in Under a Minute](https://arxiv.org/abs/2611.20452v1)
+
+- **arXiv**: `2611.20452v1`  |  **提交日期**: 2026-11-16
+- **作者**: Nico Bohlinger, Jan Peters
+
+We present XMimic and XSoma, which learn humanoid motion tracking and locomotion on rough terrain in under a minute of training. Both follow SuperMimic, which learns a world model of the robot and optimizes the policy with analytic gradients through short rollouts imagined in this model. Existing implementations of this method do not make use of larger GPUs, as every training iteration is a long chain of small GPU operations that run one after another. XMimic and XSoma therefore shorten this chain and run the steps of every iteration at the same time on up to four GPUs. We compile the…
+
+---
+
+### [SAFER: Navigating the Exploration-Exploitation Dilemma in World-Model-Based Planning for Autonomous Driving](https://arxiv.org/abs/2611.20107v1)
+
+- **arXiv**: `2611.20107v1`  |  **提交日期**: 2026-11-15
+- **作者**: Yansong Qu, Zilin Huang, Zihao Sheng, Sikai Chen, Samuel Labi
+
+An autonomous vehicle must foresee the consequences of its actions, especially in the rare, time-critical situations where crashes happen. A world model offers this foresight, but only within the coverage of its training data, which poses an exploration-exploitation dilemma. Within this coverage a planner can hardly improve on the data, and beyond it the model's errors mislead it. Logs of competent driving rarely contain the failures that would widen the coverage, and agents that learn from interaction gain them only by failing themselves, without being shown what to do instead. We propose…
+
+---
+
+### [Latent World Modeling for Point-Cloud Video Pretraining](https://arxiv.org/abs/2611.20090v1)
+
+- **arXiv**: `2611.20090v1`  |  **提交日期**: 2026-11-15
+- **作者**: Zhuoyue Zhang, Jian Liu, Jihua Zhu, Ajmal Saeed Mian
+
+Masked modeling is the dominant self-supervised paradigm for point-cloud videos. However, it leaks the information it is meant to predict, whether it reconstructs masked points as in MAE-style methods or predicts their latent features. Because point-cloud tokens are anchored at points sampled from each frame, querying a target at its own position reveals where its geometry has moved, in reconstruction and latent prediction alike. For latent predictors, random spatio-temporal masks introduce a further shortcut, as visible frames on both sides of each target allow interpolation rather than…
+
+---
+
+### [Value and Policy Calibration from Execution Feedback for Socially Compatible Driving](https://arxiv.org/abs/2611.19969v1)
+
+- **arXiv**: `2611.19969v1`  |  **提交日期**: 2026-11-15
+- **作者**: Sen Shen, Ning Liu, Xiangrui Kong, Yingwei Li, Dongkun Han
+
+Autonomous vehicle (AV) decisions at intersections affect the delay, braking, and motion smoothness of surrounding human-driven vehicles (HDVs). Learning socially compatible behavior requires connecting imagined interaction outcomes with feedback from executed actions. We propose a world-model reinforcement learning framework combines imagined policy improvement with direct value and policy calibration from finalized interactions, balancing AV progress with HDV interaction burden. An interaction-aware latent model supports imagination, while off-policy correction and replay updates enable…
+
+---
+
+### [PanDWM: Panoramic 4D Driving World Models](https://arxiv.org/abs/2611.19857v1)
+
+- **arXiv**: `2611.19857v1`  |  **提交日期**: 2026-11-15
+- **作者**: Jiajun Sun, Zeyu Zhang, Zeyu Ren, Guangfeng Jiang, Yang Zhao, Hao Tang
+
+Driving world models usually generate videos from six pinhole cameras with separate optical centres and small overlaps, and must learn to keep these views consistent. We present PanDWM, which stitches them into one $360^\circ$ panoramic band. Camera boundaries then fall inside one image, so keeping the views consistent means keeping the image continuous, and each pixel still records its camera ray. Conditioned on layouts, a causal student generates the band window by window in four steps; it is distilled from a causal teacher and trained on its own rollouts. A feed-forward decoder lifts each…
+
+---
+
+### [The Flip Test: Video World Models Fail to Learn the World State](https://arxiv.org/abs/2611.19822v1)
+
+- **arXiv**: `2611.19822v1`  |  **提交日期**: 2026-11-15
+- **作者**: Mi Luo, Lijun Yu, Adams Wei Yu, Ang Cao, Baochen Sun, Ming-Hsuan Yang et al.
+
+Video world models promise to predict the future of a scene from its present. Do current models keep this promise? We probe this question counterfactually. When a small change to the present flips the future, such as a box resting a few millimeters before or past a table edge, a model that tracks the state of the world must flip its prediction too. We build FlipTest, a three-level hierarchy of increasingly strict tests over 1,680 initial frames from 10 simulated and 15 real-world tasks. At the base, visual minimal pairs, two nearly identical frames whose true futures differ, test whether…
+
+---
+
+### [The Sense Paradigm for World Models](https://arxiv.org/abs/2611.19796v1)
+
+- **arXiv**: `2611.19796v1`  |  **提交日期**: 2026-11-15
+- **作者**: Haidong Hu
+
+Latent world models predict the future in an embedding space rather than in pixels. An encoder trained only to predict collapses and maps every observation to the same point, so existing models add a mechanism against collapse, such as a target network, a variance penalty or a distribution penalty. These mechanisms keep the embedding from collapsing, but they leave its distances without meaning, and the model cannot tell a reversible transition from an irreversible one. We propose Sense, a single cross-entropy loss over the directed distance $d(x\to y)=\sum_i \mathrm{ReLU}(y_i-x_i)$ that…
+
+---
+
+### [JEPA4R: Embodied JEPA World Models with 4D Point Planning](https://arxiv.org/abs/2611.19771v1)
+
+- **arXiv**: `2611.19771v1`  |  **提交日期**: 2026-11-15
+- **作者**: Jiarui Dong, Zhiheng Liang, Yanjun Li, Zeyu Zhang, Heejeong Nam, Haoyu Chen et al.
+
+Joint-embedding predictive architecture (JEPA) world models predict future embeddings instead of pixels and plan in latent space. Two challenges remain: 2D images leave the metric geometry that manipulation acts on implicit and entangled with appearance, and what these models imagine stays hidden, as they are mostly judged in simulation by short-horizon latent planning. We present JEPA4R, a JEPA world model that observes single-depth-camera point clouds, predicts and plans in their latent space, and acts through a policy head on its frozen latents; we call this 4D point planning. A decoder on…
+
+---
+
+### [Score-Based Stochastic Closure Modeling via Offline Indirect Learning and Online Data Assimilation](https://arxiv.org/abs/2611.19676v1)
+
+- **arXiv**: `2611.19676v1`  |  **提交日期**: 2026-11-15
+- **作者**: Xinghao Dong, Huchen Yang, Jin-Long Wu
+
+Stochastic closure modeling is an emerging area in reduced-order modeling of large and complex (e.g., multiscale, multi-physics) systems, for which the computationally affordable reduced-order physical descriptions (e.g., digital twins for additive manufacturing, world models for AI agents) in numerical simulations inevitably lead to information losses that cannot be well addressed by classical deterministic closures. However, learning stochastic closures typically requires closure data that are difficult to obtain from measurements or often prohibitively expensive to compute using…
+
+---
+
+### [Successive Convexification in Learned World Models for Safe Offline Planning](https://arxiv.org/abs/2611.19466v1)
+
+- **arXiv**: `2611.19466v1`  |  **提交日期**: 2026-11-14
+- **作者**: Samuel Younger
+
+World models learned from offline data allow an agent to plan without further interaction with the environment, but the sampling-based planners used with them handle safety constraints only by scoring or rejecting sampled action sequences. We instead pose safe planning in the latent space of a learned world model as a successive convex program (SCP), in which a learned discrete-time control barrier function is imposed as a constraint at every step of the horizon. SCP requires smooth dynamics, so we build the networks from smoothed MaxMin activations and spectrally normalised layers, and bound…
+
+---
+
+### [Macro Control and Capability Evaluation of Black-Box World Models: A Two-Regime Framework for LLM-Agent Markets](https://arxiv.org/abs/2611.19311v1)
+
+- **arXiv**: `2611.19311v1`  |  **提交日期**: 2026-11-14
+- **作者**: Zhiyang Niu, Chuanjie Li, Huayuan Shen, Mengmeng Zhao, Jiajia Zhang
+
+Large language model (LLM) agents can be organized into multi-agent markets that act as world models, mapping macro information to emergent macro dynamics while the evaluator observes only macro inputs and outputs. This paper separates a model's capability into two stages that a single aggregate score cannot separate: information simulation, from macro information to micro behavior, and macro emergence, from micro behavior to the macro outcome. We introduce a soft macro-control method that announces a public reference path day by day without touching individual decisions, orders, or matching,…
+
+---
+
+### [GameWM: Toward Next-Generation Video Games with Interaction-Centric World Models](https://arxiv.org/abs/2611.19247v1)
+
+- **arXiv**: `2611.19247v1`  |  **提交日期**: 2026-11-14
+- **作者**: Bing He, Runze Wang, Fei Zha, Zhongyuan Wu, Ke Xu, Tao Zhuang et al.
+
+For more than half a century, video games have pursued better graphics, more natural interaction, and more engaging gameplay. Generative video models (VMs) now bear on all three. Neural networks already draw most of the pixels in shipped games, and recent world models let a lightweight game engine keep the world state while a VM turns the engine's coarse proxy video into final frames. These systems, however, treat the VM as a renderer that only restyles motion the engine has already authored, which leaves most of its generative capacity unused and limits the diversity a game can offer. We…
+
+---
+
+### [WA-JEPA: Goal-Aware Predictive Feedback Action Refinement for a World-Action Model](https://arxiv.org/abs/2611.19183v1)
+
+- **arXiv**: `2611.19183v1`  |  **提交日期**: 2026-11-14
+- **作者**: Tao An, Weihang Liang, Tianqi Wang, Chuqing Cao, Wenming Tan, Kai Zhang et al.
+
+JEPA-based world models predict action consequences in latent space, but representative planning approaches rely on candidate-action search, requiring repeated evaluation of action sequences and incurring substantial online computational cost. Direct action generation avoids this search, yet how to leverage latent predictions to guide action generation given task goals remains a key challenge in translating learned physical dynamics into effective decisions. We introduce WA-JEPA, a world-action model that couples action generation, action-conditioned latent prediction, and goal-aware…
+
+---
+
 ## 📅 2026-11-16
 
 ### [When to Trust Simulated Patient Responses:Support-Gated World Models for Vasopressor Decision Support](https://arxiv.org/abs/2611.18458v1)

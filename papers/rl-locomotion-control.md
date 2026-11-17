@@ -2,6 +2,80 @@
 
 _自动追踪 arXiv 最新论文，最新更新在最上方。_
 
+## 📅 2026-11-17
+
+### [Exploring the link between predictive uncertainty and the sim-to-real gap in deep learning models utilizing synthetic data](https://arxiv.org/abs/2611.21365v1)
+
+- **arXiv**: `2611.21365v1`  |  **提交日期**: 2026-11-16
+- **作者**: Alexander Moriz, Lukas Krebs, Amon Göppert, Robert H. Schmitt
+
+Today, state-of-the-art methods for quality control (QC) are based on Machine Vision, combining deep learning (DL) models with camera-based inspection. Yet, the integration of such solutions in industrial applications is often impeded by data sparsity and trust in model reliability. While synthetic data offers a promising approach to generate the necessary data with perfect annotations, it poses risks related to performance degradation due to the possible occurrence of the sim-to-real gap. This study conducts experiments using the ensemble method to estimate the predictive uncertainty of DL…
+
+---
+
+### [QTOP: Scaling Humanoid Motion Tracking with Quantile Critics](https://arxiv.org/abs/2611.20791v1)
+
+- **arXiv**: `2611.20791v1`  |  **提交日期**: 2026-11-16
+- **作者**: Markus Peschl, Dana Kianfar, Daniel Dijkman
+
+Learning human motion tracking policies through reinforcement learning (RL) has emerged as a core capability that underpins a majority of recent progress in humanoid whole-body control. However, achieving generalization to unseen motions at high fidelity requires jointly scaling training to thousands of GPU and dataset hours. This work hypothesizes that motion tracking is inherently compute-bound because training on a diverse set of motions introduces learning interference, similar to multi-task RL. To tackle this, we propose Quantile Tracking Optimization (QTOP), which improves sample…
+
+---
+
+### [Unreasonable Confidence from Simulator Misspecification: Directional Robustness on the SPEED+ Sim-to-Real Benchmark](https://arxiv.org/abs/2611.20321v1)
+
+- **arXiv**: `2611.20321v1`  |  **提交日期**: 2026-11-15
+- **作者**: Nikolay Dolgov
+
+Vision-based navigation systems for orbit must be trained almost entirely on synthetic imagery, because real labelled images of a given spacecraft in flight rarely exist. Benchmarks like SPEED+ are built for that situation: the training set comes from a simulator, and the test sets are real images of a satellite mockup under two kinds of lighting. That simulator approximates how light reflects off mylar and aluminium, and like every scientific simulator it is misspecified. Its error is radiometric, since it misses the specular highlights, hard shadows and sensor saturation common in real…
+
+---
+
+### [DAPPT: Domain-Aware Policies from Procedural Trajectories for Sim-to-Real Dexterous Tool Use](https://arxiv.org/abs/2611.20202v1)
+
+- **arXiv**: `2611.20202v1`  |  **提交日期**: 2026-11-15
+- **作者**: Beining Han, Jia Deng
+
+Sim-to-real RL has achieved impressive results in dexterous manipulation but remains limited to tasks with accurate rigid-body simulation. However, these methods cannot be applied to skills that involve deformable and particles, with which the simulation speed will become too slow for large-scale RL learning. We present DAPPT, a sim-to-real framework for end-to-end dexterous tool-use manipulation skills, e.g., sand scooping, play-dough rod-rolling, without simulating non-rigid materials. Our method learns a domain-aware RL policy by tracking procedural trajectories parameterized by domain…
+
+---
+
+### [Sim-to-Real Room-Mediated Object-Goal Navigation with ROS 2 and Nav2](https://arxiv.org/abs/2611.19720v1)
+
+- **arXiv**: `2611.19720v1`  |  **提交日期**: 2026-11-15
+- **作者**: Matthew Chua, Adam Scicluna, Gavin Paul
+
+Although object-goal navigation (ObjectNav) approaches are usually evaluated in simulation, which offers scale and repeatable environments, real-world deployments are rarely examined beyond feasibility demonstrations. This paper presents the deployment of Room-Mediated Co-occurrence, an ObjectNav policy that reasons over Room Probability Vectors (RPVs), on two robotic platforms (Boston Dynamics Spot and Clearpath Robotics TurtleBot 4) through a robot-agnostic ROS 2 bridge. We study how these semantic priors generalise to physical environments and describe the adaptations required to transfer…
+
+---
+
+### [Towards Probabilistically Safe Reinforcement Learning: Theory and Deployment on Humanoid and Aerial Robots](https://arxiv.org/abs/2611.19616v1)
+
+- **arXiv**: `2611.19616v1`  |  **提交日期**: 2026-11-14
+- **作者**: Pol Mestres, Varun Gabbita, Jason H. K. Siu, Sergio A. Esteban, Hampus Serneke, Joel W. Burdick et al.
+
+Reinforcement learning (RL) enables robots to acquire complex skills, but standard RL formulations do not guarantee that learned policies satisfy safety constraints, which limits their use in safety-critical settings. Existing safe RL methods with provable guarantees typically support only restricted classes of constraints and require unbiased estimators of the objective and constraint functions, which prevents their direct integration with state-of-the-art algorithms such as proximal policy optimization (PPO). In this paper, we extend the recently introduced robust safe gradient flow-based…
+
+---
+
+### [Residual Reinforcement Learning for Visual Servo Control with Zero-Shot Sim-to-Real Transfer](https://arxiv.org/abs/2611.19318v1)
+
+- **arXiv**: `2611.19318v1`  |  **提交日期**: 2026-11-14
+- **作者**: Mahdi Nobar, Alisa Rupenyan, John Lygeros, Jürg Keller
+
+We address tracking a moving object on a conveyor with a Franka Emika Panda robot arm, despite an imprecise digital twin, measurement errors, and noise. Our novel approach augments a loop-shaped inverse-Jacobian PI controller with a residual policy learned via Soft Actor-Critic in the digital twin. A delay-compensated Kalman filter fuses out-of-sequence camera measurements to provide latency-aware moving target position estimates. We compare the achieved performance to a performance bound for a class of model-based controllers derived from a frequency-domain sensitivity analysis, quantifying…
+
+---
+
+### [A Unified Control Framework, Mathematical Model, and Five-layer Closed-loop Case Study for Embodied Intelligence Control Systems](https://arxiv.org/abs/2611.19187v1)
+
+- **arXiv**: `2611.19187v1`  |  **提交日期**: 2026-11-14
+- **作者**: Yiwei Zhou, Zhongcheng Lei, Xiaoran Dai, Wenshan Hu, Hong Zhou
+
+Embodied intelligence holds that an agent develops cognition and behavior through real-time body-environment interaction, so its control system must tightly couple perception, decision making, learning, optimization, constraints, and physical execution. This report asks whether a unified framework exists, how its mathematical models unify, and how the framework is realized computably. Four conclusions emerge. (1) No single framework is accepted, but the field converges on a common skeleton: from operational-space and whole-body control to MPC, reinforcement learning, active inference, and…
+
+---
+
 ## 📅 2026-11-16
 
 ### [Heavy Metal Acrobatics: Learning Dynamic Control for Skid-Steer Loaders](https://arxiv.org/abs/2611.18365v1)

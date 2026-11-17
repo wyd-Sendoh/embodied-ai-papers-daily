@@ -2,6 +2,44 @@
 
 _自动追踪 arXiv 最新论文，最新更新在最上方。_
 
+## 📅 2026-11-17
+
+### [From Companion to Guardian: Designing an Emergency Support System Using a Quadruped Robot for Older Adults](https://arxiv.org/abs/2611.19932v1)
+
+- **arXiv**: `2611.19932v1`  |  **提交日期**: 2026-11-15
+- **作者**: Chunyang Meng, Eduardo B. Sandoval, Josh Andres, Francisco Cruz, Mari Velonaki
+
+As older adults increasingly live alone, emergency support becomes an important function for home companion robots. In Australia, demand for the care and support workforce is projected to nearly double between 2020-21 and 2049-50. Service robots such as robot dogs may support older adults by combining everyday companionship with assistance when human support is not immediately available. We present the design and implementation of a domestic companion-robot system on a Unitree Go1 quadruped platform that combines companionship with emergency awareness and response. The system uses a…
+
+---
+
+### [AgenticJevNav: Agentic Object Search and Navigation via Event-Driven Verification](https://arxiv.org/abs/2611.19912v1)
+
+- **arXiv**: `2611.19912v1`  |  **提交日期**: 2026-11-15
+- **作者**: Shuning Zhang, Shuli Zhang, Yunheng Wang, Wei Lu, Jiaxi Zhang, Yihang Kang et al.
+
+Agentic navigation must maintain goals and adapt actions from incomplete evidence despite execution failures and delayed inference. We present AgenticJevNav, which links goal-directed planning, evidence memory, event-triggered verification, and bounded execution. The Agent plans from RGB, odometry, memory, and feedback, retaining goal ownership while authorizing a bounded action set. Jev reviews structured evidence after blocked/failed execution or two consecutive low-progress segments. Version, freshness, and once-only checks govern decision application. A single executor and independent RGB…
+
+---
+
+### [Recovery-Guided Model-Based Diffusion for Safety-Critical Legged Locomotion](https://arxiv.org/abs/2611.19775v1)
+
+- **arXiv**: `2611.19775v1`  |  **提交日期**: 2026-11-15
+- **作者**: Lei Zheng, Shivam Sood, Mithun Vanniasinghe, Guillaume Sartoretti, Armin Lederer
+
+Safety-critical high-speed legged locomotion requires motion planners to balance safety foresight with online computational efficiency. Although short prediction horizons reduce rollout costs, they provide limited safety foresight, and strict safety constraints severely restrict the feasible trajectory space. We propose a recovery-guided model-based diffusion (MBD) framework for safety-critical legged locomotion. It incorporates a learned terminal recovery critic into short-horizon trajectory optimization. Specifically, the critic approximates the worst-case future clearance margin along…
+
+---
+
+### [Exploration as Feedback in Model Predictive Path Integral Control](https://arxiv.org/abs/2611.19252v1)
+
+- **arXiv**: `2611.19252v1`  |  **提交日期**: 2026-11-14
+- **作者**: Junsei Ito, Kohei Honda, Yasuaki Wasa
+
+This paper investigates how exploration affects closed-loop stability in model predictive path integral (MPPI) control. With a warm start, MPPI optimizes a control sequence by sampling candidates around the previous solution, and their covariance, the exploration covariance, is typically tuned to balance solution quality and computational cost. Small exploration is attractive because most samples then contribute to the solution, and existing stability analyses treat reduced exploration only as a bias toward the previous solution. Whether insufficient exploration can destabilize the closed…
+
+---
+
 ## 📅 2026-11-16
 
 ### [VLAN: Vision-Language Accessible Navigation](https://arxiv.org/abs/2611.18346v1)

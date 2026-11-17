@@ -2,6 +2,71 @@
 
 _自动追踪 arXiv 最新论文，最新更新在最上方。_
 
+## 📅 2026-11-17
+
+### [Lost in the Hallway: Benchmarking Persistent Spatial Memory Across Revisits](https://arxiv.org/abs/2611.21485v1)
+
+- **arXiv**: `2611.21485v1`  |  **提交日期**: 2026-11-16
+- **作者**: Henry Zheng, Weibo Gong, Yang Yue, Rui Huang, Yang Zhang, Gao Huang
+
+Persistent spatial understanding is essential for embodied agents to operate reliably in environments they repeatedly encounter. It requires recognizing revisited places despite viewpoint changes, distinguishing them from similar-looking rooms, and updating memories as environments change. Yet existing evaluations often leave physical place identity across separated visits implicit. We introduce ReSpaceBench, a benchmark comprising 3,244 questions across 590 synthetic and real-home scenes, organized into 9 tasks spanning room association, persistent state tracking, and downstream reasoning.…
+
+---
+
+### [DoF-Query Transformer for Adaptive Fusion of Egocentric Vision and Forearm HD-sEMG in Continuous Hand Kinematics](https://arxiv.org/abs/2611.20196v1)
+
+- **arXiv**: `2611.20196v1`  |  **提交日期**: 2026-11-15
+- **作者**: Jiahang Liu, Wenbo Zhang, Junsong Wang, Zhenzhi Ying, Siqi Hou, Naohiko Sugita et al.
+
+Continuous and accurate estimation of human hand kinematics is important not only for intuitive human-machine interaction, but also for capturing fine-grained human manipulation demonstrations that can provide action supervision for embodied-intelligence datasets and dexterous robot learning. However, individual sensing modalities may be insufficient for reliable estimation under varying operating conditions. We present a finger-unencumbered multimodal framework for continuous regression of 20 hand joint angles from egocentric RGB images and 128-channel forearm high-density surface…
+
+---
+
+### [EgoSwarm: Learning Decentralized Robot Swarm Intelligence from Human Swarm Demonstrations](https://arxiv.org/abs/2611.20100v1)
+
+- **arXiv**: `2611.20100v1`  |  **提交日期**: 2026-11-15
+- **作者**: Ziqiang Liu, Xitong Chen, Min Li, Yiqun Li, Zhuoping Yin
+
+Advancing from individual embodied intelligence to swarm embodied intelligence is a key step toward scalable, general-purpose embodied intelligence. Complex tasks often require multiple agents to divide responsibilities, coordinate handovers, and manipulate shared objects collaboratively. However, existing robot learning methods rely primarily on individual demonstrations, which provide limited supervision for modeling dependencies among agent actions, while collecting multi-robot demonstrations at scale remains difficult. Human egocentric demonstrations offer a scalable alternative, yet…
+
+---
+
+### [Pros4D: Modeling Evolving 4D Worlds in Latent Space for Dynamic Spatial Reasoning](https://arxiv.org/abs/2611.19803v1)
+
+- **arXiv**: `2611.19803v1`  |  **提交日期**: 2026-11-15
+- **作者**: Rongxin Gao, Dongxuan Liu, Chu Li, Chengyang Ji, Jialing Huang, Runyu Chen et al.
+
+Dynamic spatial reasoning from monocular video enables vision-language models (VLMs) to understand how 3D environments evolve over time, supporting physical world understanding and embodied intelligence. Existing efforts primarily address observed-dynamics understanding, whereas agents in dynamic environments also require future-dynamics prediction beyond the observation boundary. Moreover, external geometric processing and textual descriptions can increase inference complexity or lose information when representing continuous dynamics. These limitations motivate a shared internal state that…
+
+---
+
+### [NI-ACT: A Neural Intent Interface for Brain-Embodied Manipulation](https://arxiv.org/abs/2611.19332v1)
+
+- **arXiv**: `2611.19332v1`  |  **提交日期**: 2026-11-14
+- **作者**: Yinghao Li, WeiHsien Lee, Zeyu Zhang, Canyang Zhao, Ke Fang, Xing Li et al.
+
+Intracortical brain-computer interfaces can drive robotic arms, but they keep the user inside the fast sensorimotor loop: every approach, correction, and grasp must be neurally specified. Whether intracortical population activity can instead serve as a task-level condition for a learned embodied policy, without symbolic commands or hand-designed skill libraries, remains unknown. NI-ACT addresses this question with a hierarchical brain-embodied framework: a brief motor-cortical signal is read once as a persistent intent, and a visuomotor policy then closes the perception-action loop from…
+
+---
+
+### [HospitalBench: Diagnosing Where and Why Embodied Agents Fail on Long Hospital Task Chains](https://arxiv.org/abs/2611.19274v1)
+
+- **arXiv**: `2611.19274v1`  |  **提交日期**: 2026-11-14
+- **作者**: Gaytri Jena, Kapil Wanaskar, Aman Chadha, Vasu Sharma, Vinija Jain, Amitava Das
+
+Long-horizon embodied tasks fail in ways that end-task success cannot see. HospitalBench is a diagnostic benchmark of ten hospital chores in NVIDIA Isaac Sim, each two unscored warm-up steps followed by a causal chain of five scored sub-tasks in one continuous simulation: the state one step leaves (an object pose, a choice, a fact seen once) determines what the next step must do, unlike benchmarks that place sub-tasks side by side. Vision-language agents act through skill-level tools from camera images. A scripted robot that makes only the calls a model gets is the solvability check of a…
+
+---
+
+### [Can an Agent Rethink What It Knows? Selective Scene Memory Updates in a Changing World](https://arxiv.org/abs/2611.19227v1)
+
+- **arXiv**: `2611.19227v1`  |  **提交日期**: 2026-11-14
+- **作者**: Zhekai Ren, Jiaming Wu
+
+Task configurations in factories, warehouses, and everyday physical environments change over time. Physical AI systems therefore need to incorporate new facts into scene memory while preserving valid information about equipment, objects, and operating constraints. We study updates to this parametric semantic-memory layer and present a joint evaluation of correction and preservation under finite update budgets. At fixed current fact count and memory parameter count, the protocol combines independent single-fact updates, budget trajectories, old-to-new answer diagnostics, and first stable…
+
+---
+
 ## 📅 2026-11-16
 
 ### [From AI-Enabled Remote Patient Monitoring Toward Agentic Robotics: Embodiment, Governance, and Care Integration](https://arxiv.org/abs/2611.18484v1)

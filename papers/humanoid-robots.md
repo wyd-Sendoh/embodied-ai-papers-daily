@@ -2,6 +2,62 @@
 
 _自动追踪 arXiv 最新论文，最新更新在最上方。_
 
+## 📅 2026-11-17
+
+### [ROSE: A Shared Cross-Embodiment Facial-Motion Latent Space for Humanoid Robot Expression](https://arxiv.org/abs/2611.20950v1)
+
+- **arXiv**: `2611.20950v1`  |  **提交日期**: 2026-11-16
+- **作者**: Yongji Fu, Man Cao, Yi Zhou, Fei Lin, Mark F. Hansen, Guanqun Cao
+
+Natural, coherent full-face dynamic expressions are central to making humanoid robots socially approachable, yet existing systems commonly realize only limited lip motion or scripted expressions. The limitation is both physical and algorithmic. A compact head leaves little room for densely packed, independently controllable actuation; meanwhile, learned systems often generate an avatar video, landmarks, or facial parameters and then infer actuator commands through visual retargeting. This render-and-invert path adds latency and artifacts, and it does not reliably transfer generated behavior…
+
+---
+
+### [Driving the Style: Velocity-Conditioned Whole-Body Control from Motion Demonstrations](https://arxiv.org/abs/2611.20888v1)
+
+- **arXiv**: `2611.20888v1`  |  **提交日期**: 2026-11-16
+- **作者**: Murad Dawood, Oezge Drama Berkenkamp, Antonio Gonzales Marin, Nutan Chen
+
+Achieving human-like behavior on humanoid robots has advanced rapidly by leveraging motion-capture demonstrations rather than hand-crafted cost functions. Adversarial imitation supplies a style signal that lets a policy fulfill a task while adhering to a desired style, but is difficult to transfer to hardware. Whole-body tracking through reinforcement learning instead deploys reliably and imitates demonstrations faithfully, but the resulting policies are conditioned on the future reference, so they require a reference trajectory at runtime and can fail when the motion differs from the…
+
+---
+
+### [SG-ODOM: Event-Driven Proprioceptive State Estimation with Stability-Gated Contact Updates for Legged Robots](https://arxiv.org/abs/2611.20710v1)
+
+- **arXiv**: `2611.20710v1`  |  **提交日期**: 2026-11-16
+- **作者**: Francesco Iotti, Chiyun Noh, Franco Angelini, Manolo Garabini, Ayoung Kim, Maurice Fallon et al.
+
+Reliable proprioceptive state estimation for legged robots fuses inertial sensing with kinematic sensing from leg encoders. The latter assumes a foot is stationary during the stance phase; however, physical foot touchdown does not necessarily provide a stationary reference for odometry, particularly during impact and load transfer. Repeatedly applying kinematic corrections throughout the same contact phase can introduce redundant or unreliable information. We present SG-ODOM, a proprioceptive odometry framework that uses stability-gated contact selection to schedule kinematic updates.…
+
+---
+
+### [MoViC: Real-Time Humanoid Whole-Body Control from Monocular Video Streams](https://arxiv.org/abs/2611.19998v1)
+
+- **arXiv**: `2611.19998v1`  |  **提交日期**: 2026-11-15
+- **作者**: Yimin Han, Jiahui Zhang, Wanyue Li, Zeren Luo, Yeke Chen, Liu Zhao et al.
+
+Real-time whole-body imitation from monocular video requires both a robust universal tracker and high-quality real-time reconstruction. We present MoViC, a framework that uses live RGB video as a control signal for humanoid robots without wearable tracking devices. The framework combines monocular human motion reconstruction, robot retargeting, and a transformer-based behavior foundation model. The policy receives proprioceptive history, a single explicit next-step reference, and a compact frequency-domain motion representation that supplies temporal context without explicitly stacking future…
+
+---
+
+### [ImpedanceMimic: Learned Impedance as Action Space for Force-Accurate Motion Imitation](https://arxiv.org/abs/2611.19153v1)
+
+- **arXiv**: `2611.19153v1`  |  **提交日期**: 2026-11-14
+- **作者**: Matthias Jammot, Pembe Gizem Özdil
+
+Recovering the forces behind a motion is ill-posed: different controllers can reproduce the same movement while generating different contact forces. Physics-based motion imitation resolves this ambiguity through simulation, but relies on fixed-gain proportional-derivative (PD) control. We show that fixed gains impose a trade-off between motion and force tracking, as contact and swing place conflicting demands on joint stiffness and damping. We introduce ImpedanceMimic, a reinforcement-learning policy that modulates per-joint stiffness, damping, and position setpoints from motion and force…
+
+---
+
+### [Leaning Over to Reach Far-Away Objects](https://arxiv.org/abs/2611.19100v1)
+
+- **arXiv**: `2611.19100v1`  |  **提交日期**: 2026-11-14
+- **作者**: Allen Devaraj, William Xie, Nikolaus Correll
+
+We study supported reaching to extend a humanoid robot's workspace by bracing against the environment for stabilization using a straightforward yet capable whole-body model predictive control (MPC) approach, exclusively with local sensing and fiducial markers. While typical solutions for whole body humanoid control aim at avoiding or accommodating contact, contact is explicitly required to reach objects placed on surfaces far out of normal reach. We employ sampling-based MPC for whole-body leaning, bracing, reaching, and recovery on a Unitree H1-2 humanoid. The controller runs in real-time at…
+
+---
+
 ## 📅 2026-11-16
 
 ### [Reusing Locomotion Training Recipes Across Humanoids via Body-Aligned Virtual Joints](https://arxiv.org/abs/2611.18003v1)
