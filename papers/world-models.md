@@ -2,6 +2,260 @@
 
 _自动追踪 arXiv 最新论文，最新更新在最上方。_
 
+## 📅 2026-11-18
+
+### [Residual-Guided Lightweight Reinforcement Learning for Risk-Aware Trajectory Selection with a Frozen World Model](https://arxiv.org/abs/2611.22998v1)
+
+- **arXiv**: `2611.22998v1`  |  **提交日期**: 2026-11-17
+- **作者**: Jiaqi Wu, Yongqi Dong, Yijie Zhong, Maple Shao, Yide Tao, Linsen Cai et al.
+
+In automated driving, world models provide future scene predictions for evaluating candidate trajectories, but fixed selection rules may not capture scene-dependent trade-offs. We propose a residual-guided reinforcement learning (RL) framework for lightweight trajectory selection with a frozen world model and a fixed candidate bank. The framework uses proximal policy optimization (PPO) to fine-tune a joint policy over candidate selection and bounded trajectory residuals. A context-conditioned ranking network learns candidate preferences from feedback obtained by evaluating local perturbations…
+
+---
+
+### [SpikWM: Efficient End-to-End Spiking World Modeling for Visual Planning](https://arxiv.org/abs/2611.22981v1)
+
+- **arXiv**: `2611.22981v1`  |  **提交日期**: 2026-11-17
+- **作者**: Shuhan Ye, Hongbin Yu, Chong Wang, Hui Lu, Jiaming He, Yi Yu et al.
+
+Goal-conditioned planning with image observations and goals requires predictions that distinguish visual states and action consequences. Spiking neural networks offer sparse computation, but single-step spikes can obscure motion cues and merge actions with different physical outcomes. We propose the Spiking Latent World Model (SpikWM), an end-to-end joint-embedding predictive architecture (JEPA) with one simulation step per image and one neural update per latent position. Spiking Regional Encoding retains spatial cues through regional pooling. Bi-Spike Action Encoding combines positive and…
+
+---
+
+### [Sim2CBF: From Forward Simulations to Implicit Control Barrier Function Safety Filtering without Model Derivatives](https://arxiv.org/abs/2611.22954v1)
+
+- **arXiv**: `2611.22954v1`  |  **提交日期**: 2026-11-17
+- **作者**: Luzia Knoedler, Yihan Liu, Shaohang Han, Yifei Dong, Jana Tumova
+
+Failure avoidance in complex robot-environment interactions is challenging because the underlying dynamics are difficult to model accurately, and available predictive models may not provide reliable derivatives. We present Sim2CBF, a failure-avoidance framework that solves the Control Barrier Function (CBF)-Safety Filter (SF) optimization problem using only forward-model evaluations, thereby avoiding differentiation of the predictive model. Specifically, we approximate the CBF constraint using finite differences and local linear interpolation over sampled control inputs while preserving…
+
+---
+
+### [Code World Model 2.0: Towards Infinite Controllable Video Generation](https://arxiv.org/abs/2611.22925v1)
+
+- **arXiv**: `2611.22925v1`  |  **提交日期**: 2026-11-17
+- **作者**: Ruoyu Wang, Hao Zhong, Yanming Yang, Jiahao Tian, Lin Liu, Biao Gong et al.
+
+Visual proxies decouple explicit world-state simulation from photorealistic video synthesis, offering a controllable interface for both offline clip creation and real-time interactive streaming. Yet a practical renderer must address two challenges. Upstream proxies vary from coarse layouts to fine articulated geometry depending on the interaction, and streaming inference must operate in a few causal steps without accumulating drift across self-generated history. We present Invoker-Render, pairing a bidirectional creation model with a causal four-step streaming model under a shared…
+
+---
+
+### [Evolve in Panorama, Render in View: Panoramic World State Evolution for Video World Models](https://arxiv.org/abs/2611.22733v1)
+
+- **arXiv**: `2611.22733v1`  |  **提交日期**: 2026-11-17
+- **作者**: Longtao Jiang, Mingfei Han, Jianmin Bao, Tingjun Dai, Jinjie Wei, Zhiran Zhang et al.
+
+Video world models should maintain a world that keeps evolving as the viewpoint changes. Yet when the camera turns away and returns, current models often freeze the unobserved scene, lose objects, or change their appearance, because content outside the view has no representation that keeps changing. We present PanoEvo, which uses a Panoramic Evolver to evolve the world state in the latent space of a panoramic video diffusion model, where every viewing direction is present at every time step, so the scene evolves whether or not it is observed. Existing panoramic video models are not trained to…
+
+---
+
+### [Making the World React Realistically: A Closed-Loop Interactive World Model for Autonomous Driving](https://arxiv.org/abs/2611.22691v1)
+
+- **arXiv**: `2611.22691v1`  |  **提交日期**: 2026-11-17
+- **作者**: Jia Hu, Yang Chang, Panqu Wang, Zhijun Fu, Chang Liu, Changjian Yu et al.
+
+World models (WMs) generate driving scenarios beyond recorded logs, enabling the training and evaluation of autonomous driving systems in unseen interactions. However, existing WMs struggle to ensure both behavioral realism and visual fidelity, since they overlook the relationship between vehicle interactions and the ego visual observations. We propose a closed-loop interactive WM that couples behavior modeling and visual rendering. First, imitation-learned background-vehicle (BV) policies are fine-tuned with multi-agent reinforcement learning in the closed loop against an end-to-end ego…
+
+---
+
+### [CascadeJEPA: Enhancing 3D Geometric Representations via Spatially Coupled Cascaded Prediction](https://arxiv.org/abs/2611.22686v1)
+
+- **arXiv**: `2611.22686v1`  |  **提交日期**: 2026-11-17
+- **作者**: Kailai Zhou, Ziqi Chen, Xiaoning Xu, Yuefeng Wu, Zixuan Fu, Zijun Lin et al.
+
+Joint-Embedding Predictive Architectures (JEPAs) have emerged as a promising paradigm for predictive visual representation learning. However, our analysis of I-JEPA reveals a growing discrepancy between semantic and geometric learning: improved semantic recognition during pretraining is accompanied by degraded 3D geometric representations. We hypothesize that this partly stems from predicting highly abstract latent representations with incomplete spatial context, favoring semantic regularities over fine-grained geometric information. To address this issue, we introduce CascadeJEPA, a…
+
+---
+
+### [Beyond the Camera: A Tri-Modal Driving World Model for Future RGB, Thermal, and LiDAR Forecasting in Adverse Weather](https://arxiv.org/abs/2611.22669v1)
+
+- **arXiv**: `2611.22669v1`  |  **提交日期**: 2026-11-17
+- **作者**: Faysal Mehrab Chowdhury, Md. Mahfuzur Rahman, Ahmed Rafi Hasan, Kishor Datta Gupta, Mohd Ariful Haque, Savannah Shannon
+
+Driving world models forecast what a vehicle's sensors will record next. Most forecast camera video and some add LiDAR, but thermal cameras, which still see in darkness and some adverse weather, are rarely a forecast target, and to our knowledge no world model forecasts all three sensors. We study joint forecasting of RGB, thermal, and LiDAR on real adverse-weather sequences of the DSERT-RoLL dataset. We post-train a pretrained video world model for each sensor and represent LiDAR as a depth video aligned with the RGB camera, with densification and encoding chosen by what the model's video…
+
+---
+
+### [Plausible Videos Can Lead to Poor Decisions: Diagnosing and CURE-ing World Models for Planning](https://arxiv.org/abs/2611.22561v1)
+
+- **arXiv**: `2611.22561v1`  |  **提交日期**: 2026-11-17
+- **作者**: Raphael C. Kim, Michele Santacatterina, Jingsen Zhu, Ramin Zabih
+
+Action-conditioned world models are increasingly used as world models for planning, yet a world model that makes plausible, realistic-looking videos that are consistent with the training data can produce poor decisions. We address two key questions: (1) when can we trust a world model for planning, and (2) what should we do when we cannot? We introduce CURE (Certify, Upweight, Rollout, Explore), a certificate-guided technique that assesses whether a world model can be trusted for planning and determines what to do next: whether to upweight the training data to debias the model; roll out more…
+
+---
+
+### [JointGV: Structure-Aware Correction of Visual World Models with Parallel Graph Dynamics for Long-Horizon Modeling](https://arxiv.org/abs/2611.22543v1)
+
+- **arXiv**: `2611.22543v1`  |  **提交日期**: 2026-11-17
+- **作者**: Tian Lyu, Yichen Jiang, Ziyuan Cheng, Yunda Yan, Xiangyu Pan, Junjie Jiang et al.
+
+Visual world models predict future visual states conditioned on actions, but recursive errors in entity poses and spatial relations limit their long-horizon prediction for robot planning and control. We ask whether a separately predicted relational state can correct this drift without restructuring the visual model. This is challenging because graph nodes and visual states share neither elements nor a feature space. We propose Joint Graph--Visual Dynamics Correction (JointGV), a plug-in based on a cross-granularity dynamics hypothesis: despite their different representations, graph-node and…
+
+---
+
+### [Testing World Models on Actions They Have Never Seen: Held-Out Plans, Forecast Accuracy and Price Rules in Retail](https://arxiv.org/abs/2611.22537v1)
+
+- **arXiv**: `2611.22537v1`  |  **提交日期**: 2026-11-17
+- **作者**: Karthik Iyer
+
+A world model is trusted to answer "what if": how its world responds to an action it has never seen. We give a test of that trust for any action-conditioned world model: actions held out of training by design and scored against a known answer; whether forecast accuracy predicts accuracy on those actions; and the same structure given to simpler models. We run it in retail, where the action is a price and promotion plan, across 2,853 fitted models. First, forecast accuracy is a fair guide between kinds of model (rank correlation with error on new plans 0.32 to 0.66) and a poor guide between…
+
+---
+
+### [Towards Data-Efficient, Real-Time World Models](https://arxiv.org/abs/2611.22497v1)
+
+- **arXiv**: `2611.22497v1`  |  **提交日期**: 2026-11-17
+- **作者**: Raluca Stevenson, David Bignell, Jennifer C. White, Tabish Rashid, Emanuele Aiello, Mariya Hendriksen et al.
+
+State-of-the-art world models have been used to produce sequences of gameplay that accord with provided user-input actions. However, high quality, consistent gameplay generation often comes at the cost of inference speed, making real-time interactive play and ideation challenging. The substantial quantities of data used to train state-of-the-art models have also made custom training of these models appear impractical, limiting many of their potential uses in creative fields. In this work we demonstrate a major step towards efficient world models: achieving both fast high-quality inference,…
+
+---
+
+### [Progress Predicts Policy](https://arxiv.org/abs/2611.22491v1)
+
+- **arXiv**: `2611.22491v1`  |  **提交日期**: 2026-11-17
+- **作者**: Licheng Zhong, Gim Hee Lee
+
+A task specifies how the world should change, while a policy specifies what the robot should do. We introduce Progress Predicts Policy (PPP), which learns a language-conditioned scalar field through the commands induced by its differential. We obtain action conditioning by composing a latent progress field with a shared world model and read its action gradient at a fixed reference command. Continuous commands scale this gradient by a learned positive gain, while discrete commands use finite differences of the same scalar. This yields a hybrid policy without a separate action head or iterative…
+
+---
+
+### [Manufacturing Differential Sparsity: Planner-Hardware Co-Design for Efficient World Model Planning](https://arxiv.org/abs/2611.22483v1)
+
+- **arXiv**: `2611.22483v1`  |  **提交日期**: 2026-11-17
+- **作者**: Wenbo Zhu, Paul Yi-Chia Chen, Yuanhan Li, Zishen Wan, Christopher Torng
+
+JEPA-style latent world models let embodied agents plan toward new goals with model predictive control, but they are still too slow for real-life embodied control: sampling-based MPC repeats predictor inference tens of thousands of times per plan, and even on high-end GPUs one planning step can take tens of seconds. We observe substantial latent locality in this repeated-inference workload: the predictor maps close actions to close latents, and inside a quantized predictor this closeness takes a form that hardware can exploit, differential bit-level sparsity. Unlike an input stream, whose…
+
+---
+
+### [Escaping Latent Traps by Remembering: Training-Free Episodic Kernel Repulsion for World-Model Planning](https://arxiv.org/abs/2611.22470v1)
+
+- **arXiv**: `2611.22470v1`  |  **提交日期**: 2026-11-17
+- **作者**: Yican Zhao, Bolin Yang, Ruizhe Wang, Haiyang Guo, Fuji Yang, Bingo Wing-Kuen Ling et al.
+
+Latent world models plan towards a goal image by minimising the distance between predicted and goal latents. This distance is not geodesic: it has local minima, latent traps, behind walls, at corners and in dead ends, and memoryless receding-horizon replanning keeps the agent in them, revisiting states far from the goal. We propose Episodic Kernel Repulsion (EKR), a training-free cost term that penalises candidate plans by a top-$k$ Gaussian kernel to a novelty-gated memory of the latents the agent has actually visited, rescaled by the current base cost so that its strength is comparable…
+
+---
+
+### [Think Once, Act Fast: Cost-Effective Recursive Self-Improvement for Decision Model Harness](https://arxiv.org/abs/2611.22432v1)
+
+- **arXiv**: `2611.22432v1`  |  **提交日期**: 2026-11-17
+- **作者**: Siqi Lai, Haitao Li, Hao Liu
+
+Fast System-1 models enable responsive actions but struggle with complex or unfamiliar tasks. Large language model (LLM)-based System-2 provides strong reasoning capabilities, yet repeated invocation incurs substantial latency and computational costs. To bridge this gap, we propose JevRSI, a System-1/System-2 collaboration framework that transforms LLM reasoning into transferable decision support through recursive harness improvement. A Jev-style System-1 model enables low-latency action selection, while an asynchronous System-2 LLM develops a modular harness. The harness integrates…
+
+---
+
+### [FailureGen: Scalable Robot Failure Data Generation with World Models](https://arxiv.org/abs/2611.22367v1)
+
+- **arXiv**: `2611.22367v1`  |  **提交日期**: 2026-11-17
+- **作者**: Akul Santhosh, Chaitra Sathe, Aastha Jhunjhunwala
+
+Robot failures are difficult to collect at scale, limiting the range of failure scenarios represented in robot learning datasets. We present FailureGen, a method for generating synthetic videos with temporal event annotations by reusing action trajectories from recorded failures. The method comprises four stages: (1) fine-tuning an action-conditioned Cosmos world model on successful and failed real executions; (2) annotating source recordings to identify failure-associated donor segments and compatible successful hosts; (3) transferring donor motion into host contexts, with optional spatial…
+
+---
+
+### [Inertial Video World Models](https://arxiv.org/abs/2611.22314v1)
+
+- **arXiv**: `2611.22314v1`  |  **提交日期**: 2026-11-17
+- **作者**: Yuan Gao, Fan Xu, Yu Guo, Yuxu Lu, Zhengru Fang, Hao Wu et al.
+
+The physical world has inertia: it evolves from what already exists rather than being recreated at every instant. However, many existing video world models lack an explicit mechanism for inertial state evolution, leaving the continuity of motion and structure implicit in video prediction. During autoregressive rollouts, repeated reconstruction can accumulate errors and destabilize the predicted dynamics. To address this limitation, we introduce InertialWorld, an Inertial Video World Model that makes inertia a structural prior for autoregressive prediction: existing scene evidence is carried…
+
+---
+
+### [Perception into Imagination: Executable Memory for World Models](https://arxiv.org/abs/2611.22294v1)
+
+- **arXiv**: `2611.22294v1`  |  **提交日期**: 2026-11-17
+- **作者**: Xianyao Li, Ruitong Tian, Rui Min, Fang Xu, Jing Du
+
+Physical agents must use what they previously saw or touched after visibility or contact is lost. Their actions change the implications of these remembered facts. We introduce executable perceptual memory (EPM), a world-model framework that advances explicit perceptual state alongside neural latent dynamics during imagination. Its evolving read-out informs reward prediction, value estimation and policy learning. We align reward inputs with the transitions that produced them and supervise the reward head on open-loop rollouts of recorded actions. On Memory Maze $13\times13$, EPM reaches 30.37…
+
+---
+
+### [ReLAP: Latent Action Pretraining through Recurrent Video Prediction in JEPA Space](https://arxiv.org/abs/2611.22077v1)
+
+- **arXiv**: `2611.22077v1`  |  **提交日期**: 2026-11-17
+- **作者**: R. Gnana Praveen, Ali Rouzbayani, Zhiying Jiang, Bidhan Roy
+
+Videos provide a rich source of physical interaction for learning robot behavior without action annotations, yet effective latent actions must capture not only local transitions but also how those transitions evolve over time. We introduce ReLAP, a latent-action pretraining framework that couples local transition learning with recurrent multi-step prediction in a frozen JEPA representation space. A shared inverse dynamics model infers compact continuous latent actions from adjacent observations, while a latent world model recurrently predicts the future JEPA features. Because each predicted…
+
+---
+
+### [DreamFAR: Real-Time and Long-Horizon Interaction with Diverse Objects](https://arxiv.org/abs/2611.22001v1)
+
+- **arXiv**: `2611.22001v1`  |  **提交日期**: 2026-11-16
+- **作者**: Yiming Dou, Botao He, Antonio Loquercio, Andrew Owens, Jitendra Malik, Sumedh Anand Sontakke et al.
+
+World models have shown great potential in serving as a simulator for robot manipulation. However, existing models are either fit to a single environment or lack ability to simulate long-horizon contact-rich events. We present DreamFAR, a world model whose dynamics model is trained from scratch on a large robot-native teleoperation dataset, with no internet-video pretraining. We present an architecture and learning recipe designed for training on robot-native data. DreamFAR is significantly smaller than the high-performance video generation models, yet shows better understanding of contact…
+
+---
+
+### [World-Grounded Reinforcement Learning for Pollution-Aware Bird Movement Modeling Using a Multi-Instance DQN Framework](https://arxiv.org/abs/2611.21895v1)
+
+- **arXiv**: `2611.21895v1`  |  **提交日期**: 2026-11-16
+- **作者**: Shivin Mangal, Divyansh Chawla, Anshu Garg, Isshaan Singh
+
+Birds are modeled as environmentally sensitive agents whose movement reflects real-world air quality conditions, where AQI serves as a measurable world feedback signal representing pollution-driven consequences. Instead of relying on human preference or synthetic rewards, the system uses environmental outcomes as the primary training signal, enabling policy learning grounded in ecological impact. We propose a multi-instance reinforcement learning simulation in which agents navigate a 2D grid representation of India integrated with a precomputed AQI matrix and geographic state boundaries. The…
+
+---
+
+### [WM-Quant: Rollout-Aware Post-Training Quantization for JEPA-Style World Models](https://arxiv.org/abs/2611.21882v1)
+
+- **arXiv**: `2611.21882v1`  |  **提交日期**: 2026-11-16
+- **作者**: William Hammer, Andrew Heuer, Nikhil Krishna, Matthew Grenier, Ramtin Zand
+
+We present WM-Quant, to our knowledge, the first post-training quantization (PTQ) framework designed specifically for JEPA-style world models. Although world models typically feature relatively few parameters, action planning algorithms often require thousands of inferences, which can quickly become computationally expensive. PTQ is a natural way to reduce this cost. However, we show that in world models using autoregressive model predictive control (MPC) rollouts, quantization error can compound with each predictor step, resulting in action rankings from the quantized model becoming…
+
+---
+
+### [Can a World Model Predict a Deepfake Video? A Consistency Margin Prior for Deepfake Detection](https://arxiv.org/abs/2611.21846v1)
+
+- **arXiv**: `2611.21846v1`  |  **提交日期**: 2026-11-16
+- **作者**: Pradip Gupta, Shubham Mandloi, Ravi Kumar Satzoda, Sujeeth Bharadwaj, Yassine Benajiba, Dan Roth
+
+Deepfake detectors often perform well on the dataset they are trained on, but their performance drops when tested on videos from different datasets. In this paper, we study whether a predictive video model can provide a signal that generalizes better across datasets. Instead of relying only on generator-specific artifacts, as many existing detectors do, we use a model trained to predict natural video and measure the difference between what it predicts and what it observes in a video. Using V-JEPA 2.1, we keep the encoder frozen and adapt the predictor using rank-16 LoRA. We define the…
+
+---
+
+### [Every Camera Grows Up: Camera-Height Regression in Interactive Video World Models](https://arxiv.org/abs/2611.21782v1)
+
+- **arXiv**: `2611.21782v1`  |  **提交日期**: 2026-11-16
+- **作者**: Sheng Lu, Guangpin Tao, Tong Lu, Ying Tai
+
+Interactive video world models serve as simulators for embodied agents: from a starting image and an action trajectory, they generate the views the agent would see. The starting image fixes how high the camera is, for example 0.15 m for a floor robot or 2.2 m for an overhead camera, and a faithful simulator must keep this height as the camera moves. We show that six recent open-weight models fail to do so: as motion replaces the starting view with generated content, they move the camera toward human eye level, a failure we call camera-height regression. Our benchmark, EyeHeight, pairs six…
+
+---
+
+### [LynnReal-Hand: Unlocking World Interaction with Hand Control](https://arxiv.org/abs/2611.21479v2)
+
+- **arXiv**: `2611.21479v2`  |  **提交日期**: 2026-11-16
+- **作者**: Shaohao Rui, Chaoyang Zhang, Xiaofeng Mao, Weijie Ma
+
+Interactive video world models enable exploration through text and camera controls, yet direct object interaction requires finer control. Hands provide a natural interface, but translating continuous hand movements into coherent visual responses remains challenging because of complex hand-object dynamics and demanding real-time computation. To address these challenges, we introduce LynnReal-Hand, a hand-controlled video world model that unifies precise interaction modeling with efficient streaming generation. We curate 100K interaction clips spanning diverse real and synthetic environments…
+
+---
+
+### [Auditing World-Model Explanations in Retail Forecasting: Faithfulness, Accuracy and Price Response](https://arxiv.org/abs/2611.20811v2)
+
+- **arXiv**: `2611.20811v2`  |  **提交日期**: 2026-11-16
+- **作者**: Kathik Iyer
+
+Forecasting models that read the price and promotion plan explain each forecast as a baseline, what would sell with nothing planned, plus the lift the plan adds, and merchants order stock and plan promotions on that lift. We show that an explanation can pass the checks used to trust it and still be wrong enough to cost money. We define eight checks for any forecaster that states a plan lift, six with a pass rule fixed before any result, and run them on a world model and on LightGBM. In generated store data with known effects, the world model passes the checks of construction, stability, price…
+
+---
+
+### [Latent World Modeling for Point-Cloud Video Pretraining](https://arxiv.org/abs/2611.20090v2)
+
+- **arXiv**: `2611.20090v2`  |  **提交日期**: 2026-11-15
+- **作者**: Zhuoyue Zhang, Jian Liu, Jihua Zhu, Ajmal Saeed Mian
+
+Masked modeling is the dominant self-supervised paradigm for point-cloud videos. However, it leaks the information it is meant to predict, whether it reconstructs masked points as in MAE-style methods or predicts their latent features. Because point-cloud tokens are anchored at points sampled from each frame, querying a target at its own position reveals where its geometry has moved, in reconstruction and latent prediction alike. For latent predictors, random spatio-temporal masks introduce a further shortcut, as visible frames on both sides of each target allow interpolation rather than…
+
+---
+
 ## 📅 2026-11-17
 
 ### [Lazy-MOSAIC: Accelerating Skill-Centric Manipulation Planning with Learned Skill-Effect World Models](https://arxiv.org/abs/2611.21517v1)

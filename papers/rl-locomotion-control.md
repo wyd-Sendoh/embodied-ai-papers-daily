@@ -2,6 +2,35 @@
 
 _自动追踪 arXiv 最新论文，最新更新在最上方。_
 
+## 📅 2026-11-18
+
+### [RFW-S: Everyday Deformable Objects with Independent Simulation Verification](https://arxiv.org/abs/2611.23056v1)
+
+- **arXiv**: `2611.23056v1`  |  **提交日期**: 2026-11-17
+- **作者**: Jiarui Guo, Saining Zhang, Jiaying Wan, Jiawei Weng, Junhao Chen, Rui Zhang et al.
+
+Large-scale robotic simulation requires diverse deformable objects with executable physical properties and realistic interaction behaviors. However, existing 3D asset collections primarily emphasize visual diversity, while scalable physical construction and verification remain challenging. We introduce RFW-S, a large-scale dataset of 83,365 simulation-verified assets spanning 485 everyday categories across five structural families: soft solids, cloth sheets, shells, garments, and bags. We develop an automated pipeline integrating reference-guided 3D generation, structure-aware physical…
+
+---
+
+### [Practice in Text, Act in Pixels: Correcting Where Perception Fails](https://arxiv.org/abs/2611.22722v1)
+
+- **arXiv**: `2611.22722v1`  |  **提交日期**: 2026-11-17
+- **作者**: Zhongling Xu, Hairong Wang
+
+GUI agents can learn cheaply from a text view of an interface and act on screenshots through a vision-language screen reader. Yet on a simulated mobile platform with a low-cost reader, policies that complete most tasks in text fail on many of the same tasks on screenshots. We ask where a small budget of real screenshots is best spent to close this gap. We find that the reader's misreads are systematic and recur on the same interface elements. Noise matched to the reader's error rates, a natural sim-to-real remedy, misses this structure, and in a pre-specified comparison it did not beat…
+
+---
+
+### [ASTRA: ASV Simulator for Transferable Realistic Autonomy](https://arxiv.org/abs/2611.21789v1)
+
+- **arXiv**: `2611.21789v1`  |  **提交日期**: 2026-11-16
+- **作者**: Tsimafei Lazouski, Cody Sheltraw, Alan Papalia, Maani Ghaffari
+
+Autonomy development for marine autonomous surface vehicles (ASVs) remains challenging because field testing is costly and difficult to reproduce. Existing marine simulation tools provide mature capabilities in vessel dynamics, robotics integration, and visual rendering, but these strengths are emphasized differently across platforms. This paper presents ASTRA, an ASV simulation framework built in NVIDIA Isaac Sim that combines marine vehicle dynamics, photorealistic perception, and Robot Operating System (ROS 2) autonomy interfaces within a common environment. ASTRA incorporates a…
+
+---
+
 ## 📅 2026-11-17
 
 ### [Exploring the link between predictive uncertainty and the sim-to-real gap in deep learning models utilizing synthetic data](https://arxiv.org/abs/2611.21365v1)

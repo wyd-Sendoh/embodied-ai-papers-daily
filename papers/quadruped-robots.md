@@ -2,6 +2,53 @@
 
 _自动追踪 arXiv 最新论文，最新更新在最上方。_
 
+## 📅 2026-11-18
+
+### [Auditing a Learned Simulator for Legged Robots: The Robotic World Model on ANYmal D](https://arxiv.org/abs/2611.23118v1)
+
+- **arXiv**: `2611.23118v1`  |  **提交日期**: 2026-11-17
+- **作者**: Joyjeet Singh
+
+A legged robot can learn to walk inside a learned simulator: a neural network that predicts the robot's next state and is run forward on its own predictions. They are usually trained and checked one step ahead, although a policy uses them for a hundred steps or more. We audit one published system end to end, without a GPU: the dynamics model of the Robotic World Model (RWM) for the ANYmal D quadruped, and the uncertainty estimate of its follow-up, RWM-U. We rebuilt the model to match the released code's outputs, losses and gradients exactly, measured 101 trained simulators, 200 compressed…
+
+---
+
+### [CADENCE: Learning Acyclic Gaits for Model-Based Quadruped Locomotion](https://arxiv.org/abs/2611.23102v1)
+
+- **arXiv**: `2611.23102v1`  |  **提交日期**: 2026-11-17
+- **作者**: Owen Sullivan, Sourav Selvaraj, Mahdi Agheli
+
+Model-based quadruped controllers usually step on a cyclic gait, which lifts the legs in a fixed order on a fixed period, wherever the safe footholds are. We present CADENCE, a learned step planner with a small action space. Every 40 ms, it picks one of at most 65 discrete choices: no step, or one leg's step to a safe foothold. It also predicts a swing time. We train CADENCE by reinforcement learning on top of a convex model predictive controller (MPC). Nothing prescribes a gait: there is no gait schedule, and the reward has no gait term, only a cost per step. The one structural constraint is…
+
+---
+
+### [Learning Accurate End-Effector Trajectory Tracking with Inertial Feedback for a Quadruped Manipulator](https://arxiv.org/abs/2611.22695v1)
+
+- **arXiv**: `2611.22695v1`  |  **提交日期**: 2026-11-17
+- **作者**: Dohyeon Kim, Seungyong Han, Yeongtae Jung
+
+Accurate end-effector trajectory tracking on quadruped manipulators is challenging because uncertainties in actuators, foot-ground contact, and geometric errors are propagated through the leg-arm kinematic chain. Detecting such errors requires sensing beyond joint encoders that can capture the effects of these uncertainties on the robot's motion, since joint encoders only provide measurements at the actuated joints and cannot fully observe mechanical errors such as backlash, dimensional inaccuracies, or structural deformation. This work addresses these challenges using a reinforcement…
+
+---
+
+### [From Temperature-Limited to Battery-Limited Legged Locomotion](https://arxiv.org/abs/2611.22231v1)
+
+- **arXiv**: `2611.22231v1`  |  **提交日期**: 2026-11-17
+- **作者**: Raphaël Ségas, Balázs Opra, Léo Ghafari, Thomas Stewart
+
+On legged robots, sustained locomotion often ends in thermal shutdown rather than battery depletion: the heat of walking concentrates in a few joint motors, which overheat long before the battery is empty. We train thermally aware locomotion policies by reinforcement learning without ever observing temperature, and demonstrate this on a Unitree Go2 quadruped. We first identify a coupled 13-node lumped RC thermal network, fitted on two runs of a single robot and calibrated against the measured electrical power, that predicts all twelve motor temperatures with a mean RMSE below 1 $^\circ$C…
+
+---
+
+### [SE(3)-LIVOM: Adaptive Multi-LiDAR-Inertial-Visual Odometry and Mapping](https://arxiv.org/abs/2611.22047v1)
+
+- **arXiv**: `2611.22047v1`  |  **提交日期**: 2026-11-17
+- **作者**: Gunhee Shin, Seungjae Lee, Daebeom Kim, Seoyeon Jang, Hyun Myung
+
+This paper presents SE(3)-LIVOM, the overall winner of the COMFORT Challenge at IROS 2026. The challenge asks for the trajectory of a legged robot in the GrandTour dataset, whose scenes include collapsed buildings, construction sites and snowfields. SE(3)-LIVOM runs in real time on two LiDARs, one camera and an IMU. Its frontend extends SE(3)-LIO to multiple LiDARs and a camera. Adaptive downsampling keeps the time per scan near 35 ms within and across scenes. An online backend corrects drift with a plane bundle adjustment over submaps and an incremental pose graph. With a single…
+
+---
+
 ## 📅 2026-11-17
 
 ### [From Companion to Guardian: Designing an Emergency Support System Using a Quadruped Robot for Older Adults](https://arxiv.org/abs/2611.19932v1)
