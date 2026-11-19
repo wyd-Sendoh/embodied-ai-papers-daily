@@ -2,6 +2,71 @@
 
 _自动追踪 arXiv 最新论文，最新更新在最上方。_
 
+## 📅 2026-11-19
+
+### [SearchDiffusion: Information-Guided Diffusion Planning for Object Search](https://arxiv.org/abs/2611.24375v1)
+
+- **arXiv**: `2611.24375v1`  |  **提交日期**: 2026-11-18
+- **作者**: Sausar Karaf, Dmitrii Plotnikov, Alexey Kotcov, Dzmitry Tsetserukou
+
+Object search in unknown environments requires robots to gather useful observations while avoiding obstacles and accounting for limited sensor visibility. We present SearchDiffusion, a diffusion-based planner that generates position and heading trajectories using a learned dense utility map. The map represents geometric accessibility, useful visibility, and semantic progress. It conditions trajectory generation and provides an objective for sampling guidance. Sampled map hypotheses provide additional geometric context, while geometric and heading guidance, validity checks, and analytical…
+
+---
+
+### [Proprioceptive Simultaneous Base and Terrain Elevation Estimation for Legged Robot Locomotion](https://arxiv.org/abs/2611.24310v1)
+
+- **arXiv**: `2611.24310v1`  |  **提交日期**: 2026-11-18
+- **作者**: Michael Maravgakis, Stylianos Piperakis, Panos Trahanias
+
+Legged robots in visually degraded environments must rely exclusively on proprioceptive sensing, under which global position and yaw are unobservable. Vertical drift is particularly detrimental, as it corrupts the height reference required by swing-leg trajectories and can destabilize the robot. We treat the terrain itself as a persistent proprioceptive landmark: every footstep provides a height measurement that anchors the vertical axis. We propose Simultaneous Base and Elevation Estimation (SBEE), a real-time open-source framework in which a Left-Invariant Extended Kalman Filter (LI-EKF)…
+
+---
+
+### [BEV-Diffusion: Camera-Only Traversability Navigation with BEV Memory and Efficient Cross-Robot Adaptation](https://arxiv.org/abs/2611.24155v1)
+
+- **arXiv**: `2611.24155v1`  |  **提交日期**: 2026-11-18
+- **作者**: Iana Zhura, Timofei Kozlov, Dmitrii Plotnikov, Ivan Valuev, Miguel Altamirano Cabrera, Dzmitry Tsetserukou
+
+Robot navigation requires both an understanding of the scene and an efficient adaptation to new robots, yet current methods rely on expensive LiDAR sensors, long mapping and modular pipelines. We present BEV-Diffusion, a camera-only model that learns a bird's-eye view (BEV) traversability map, its uncertainty and the path in a single network. A frozen DINOv2 backbone encodes consecutive RGB frames, which inverse perspective mapping and Bayesian fusion lift into the BEV, and a ranking loss keeps outdoor traversability graded rather than binary, separating asphalt from grass (median 0.94 vs.…
+
+---
+
+### [BiPathCPG: A Novel Load-Sharing Design Architecture for Compound Planetary Gearboxes](https://arxiv.org/abs/2611.24142v1)
+
+- **arXiv**: `2611.24142v1`  |  **提交日期**: 2026-11-18
+- **作者**: Deepak Kapa, Aman Singh, Saketh Vegesna, Suryank Joshi, Mayank Goswami, Shishir Kolathaya
+
+Quasi-Direct Drive (QDD) actuators are widely used in legged robots due to their low reflected inertia, high backdrivability, and high torque density, commonly employing planetary or cycloidal gearboxes. Single-stage planetary gearboxes offer high efficiency but limited torque density; multi-stage designs improve torque density at the cost of efficiency; and cycloidal gearboxes provide high stiffness but suffer from torque ripple. Compound Planetary Gearboxes (CPG) offer a compromise, but conventional designs result in increased actuator width, mass, and reduced torsional stiffness in…
+
+---
+
+### [WAM-Policy: World Action Models with On-Policy Distillation for Quadrupedal Loco-Manipulation](https://arxiv.org/abs/2611.24011v1)
+
+- **arXiv**: `2611.24011v1`  |  **提交日期**: 2026-11-18
+- **作者**: Junlin Long, Xu Deng, Yiran Wang, Yue Yang, Yang Zhao, Zeyu Zhang
+
+Arm-free quadrupeds can perform loco-manipulation, walking on three legs while manipulating with a front leg, yet no existing policy for it follows language instructions. World action models (WAMs) have emerged as effective language-conditioned manipulation policies, but are pretrained for robot arms and sample slowly. WAM-Policy turns one WAM into a quadrupedal loco-manipulation policy via two stages. The first, Cross-Morphology Policy Adaptation and Acceleration, adapts the arm-centric WAM to quadrupeds and distills the transferred policy into a student with one video and two action steps…
+
+---
+
+### [Effects of Locomotion and Viewpoint Control on Immersive Robot Telepresence for Navigation and Inspection](https://arxiv.org/abs/2611.23939v1)
+
+- **arXiv**: `2611.23939v1`  |  **提交日期**: 2026-11-18
+- **作者**: Ammaar Zaman, Neven ElSayed, Oliver Prentner, Mohamed Ellethy, Mostafa M. Lotfy, Maram Selsabila Mahmoudi et al.
+
+In many robot telepresence interfaces, movement and viewing are managed through handheld inputs. This can divide attention between steering, looking, and inspection. We compared joystick versus omnidirectional treadmill locomotion and joystick-based versus head-guided camera control in a within-subject 2x2 study in which 17 participants used a virtual reality headset to guide a quadruped robot through a physical maze while locating marked wall symbols and capturing them as visual evidence. Mixed-effects analyses showed that head-guided camera control was associated with faster completion,…
+
+---
+
+### [Sample-Efficient Model Predictive Control via Proximal Policy Optimization](https://arxiv.org/abs/2611.23544v1)
+
+- **arXiv**: `2611.23544v1`  |  **提交日期**: 2026-11-17
+- **作者**: Jiarui Wang, Sina Sharifi, Mahyar Fazlyab
+
+Sampling-based model predictive control (MPC) enables real-time control of complex nonlinear systems but often incurs substantial computational costs due to repeated trajectory simulations. In this paper, we bridge policy optimization in reinforcement learning and sampling-based MPC to improve computational efficiency through sample reuse. Starting from a KL-regularized distributional formulation of trajectory optimization, we derive an exact performance-difference identity based on a signed exponential advantage function. This identity motivates two algorithms, PPO-MPPI and SPO-MPPI, which…
+
+---
+
 ## 📅 2026-11-18
 
 ### [Auditing a Learned Simulator for Legged Robots: The Robotic World Model on ANYmal D](https://arxiv.org/abs/2611.23118v1)

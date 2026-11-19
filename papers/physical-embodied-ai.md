@@ -2,6 +2,35 @@
 
 _自动追踪 arXiv 最新论文，最新更新在最上方。_
 
+## 📅 2026-11-19
+
+### [From Points to Trajectories: Rethinking Multimodal Alignment for Physical Events](https://arxiv.org/abs/2611.24249v1)
+
+- **arXiv**: `2611.24249v1`  |  **提交日期**: 2026-11-18
+- **作者**: Yiyang Zhu, Guangyuan Liu, Jingdi Lei, Li Wei, Chau Yuen
+
+Advancing physical artificial intelligence (Physical AI) requires moving beyond static object recognition to ground how real-world mechanics (e.g., impact, friction, and force transfer) unfold over time. While multimodal aligners seek to capture these interactions by matching multi-sensor streams, prevailing architectures compress each temporal sequence into a single pooled embedding. We show that this paradigm fails on twin events: distinct physical executions recorded under identical task conditions. Collapsing the temporal dimension averages out transient cross-modal dynamics, effectively…
+
+---
+
+### [HHW-Ego: DSLR-Quality Enhancement for Multi-Source Wearable Ego Imaging](https://arxiv.org/abs/2611.24010v1)
+
+- **arXiv**: `2611.24010v1`  |  **提交日期**: 2026-11-18
+- **作者**: Yunfei Tong, Qianqian Sun, Jixiang Luo, Dell Zhang, Hao Sun
+
+Wearable ego-centric images are now in high demand for scenarios ranging from daily smart glass usage to embodied intelligence. But the image quality is far behind smart phone due to the lacking paired high-quality reference images and the dedicated enhancement systems. To solve this, a customized degradation pipeline is designed to generate paired samples matching wearable camera images, boosting the upper limit of enhancement performance. Besides a two-stage enhancement framework is further built: first, tuning an efficient model on the paired dataset to enhance real wearable images;…
+
+---
+
+### [Vanguard: Knowing When to Trust the Draft in Speculative Vision-Language Agents](https://arxiv.org/abs/2611.23917v1)
+
+- **arXiv**: `2611.23917v1`  |  **提交日期**: 2026-11-18
+- **作者**: Hanqi Mao, Jiajun Fan, Ruihan Guo, Shuaike Shen, Ziwen Wang, Hui Ren et al.
+
+Vision-language agents that browse websites, operate phones and act in homes reason before every action, so every step waits for a large model, a latency and cost that stand in the way of deployment. Step-level speculation lets a small model draft each step and calls the large model only on rejected drafts, but its outcome rests on the judge, and a judge that reads only a step's text cannot tell whether the step fits the screen it acts on. We find that a few samples of a small model can contain a correct step about as often as the large model gets the step right, and not always on the same…
+
+---
+
 ## 📅 2026-11-18
 
 ### [PAIR: Bringing Household Robots into the Smart Home](https://arxiv.org/abs/2611.23070v1)

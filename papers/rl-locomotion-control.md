@@ -2,6 +2,44 @@
 
 _自动追踪 arXiv 最新论文，最新更新在最上方。_
 
+## 📅 2026-11-19
+
+### [Pixel2Perspective: A Benchmark for Multi-Modal and Multi-View Generalization in Vision-Language Models](https://arxiv.org/abs/2611.24327v1)
+
+- **arXiv**: `2611.24327v1`  |  **提交日期**: 2026-11-18
+- **作者**: Aditya Gandhamal, Aniruddh Sikdar, Arya Kishor, Suresh Sundaram
+
+Embodied AI systems, such as drones and autonomous vehicles, improve navigation by enhancing perception in environments containing unseen objects. While Visual Language Models (VLMs) offer strong image understanding, their real-world application is underexplored. For effective deployment, open-vocabulary semantic segmentation (OVSS) models, leveraging models like CLIP to assign pixel-level labels from text, must be robust to outdoor conditions, adverse weather, and varying viewpoints. Despite their potential, these models encounter significant challenges in cross-domain generalization,…
+
+---
+
+### [EyeDiT: Anatomy-Grounded Multi-Modal Eye Generation and Simulation](https://arxiv.org/abs/2611.23670v1)
+
+- **arXiv**: `2611.23670v1`  |  **提交日期**: 2026-11-18
+- **作者**: Yonghan Lee, Zachary Willms, Kun Liu, Pushkar Anand, Ali Behrooz, Dmitri Model et al.
+
+Synthetic eye data are critical for rapid development of eye tracking (ET) in AR/VR applications. However, existing synthetic eye generators are largely image-centric and lack a high-quality underlying 3D anatomy of the eye, which limits their control mainly to the gaze and provides no anatomical labels. To address this problem, we propose EyeDiT, an anatomy-grounded, multi-modal 3D eye generation and simulation model trained with optical coherence tomography (OCT), labeled anatomy point clouds and near-eye images. Our pipeline first trains a Multi-Modal Anatomy Variational Autoencoder (VAE),…
+
+---
+
+### [RFW-S: Everyday Deformable Objects with Independent Simulation Verification](https://arxiv.org/abs/2611.23056v2)
+
+- **arXiv**: `2611.23056v2`  |  **提交日期**: 2026-11-17
+- **作者**: Jiarui Guo, Saining Zhang, Jiaying Wan, Jiawei Weng, Junhao Chen, Rui Zhang et al.
+
+Large-scale robotic simulation requires diverse deformable objects with executable physical properties and realistic interaction behaviors. However, existing 3D asset collections primarily emphasize visual diversity, while scalable physical construction and verification remain challenging. We introduce RFW-S, a large-scale dataset of 83,365 simulation-verified assets spanning 485 everyday categories across five structural families: soft solids, cloth sheets, shells, garments, and bags. We develop an automated pipeline integrating reference-guided 3D generation, structure-aware physical…
+
+---
+
+### [Exploring the link between predictive uncertainty and the sim-to-real gap in deep learning models utilizing synthetic data](https://arxiv.org/abs/2611.21365v2)
+
+- **arXiv**: `2611.21365v2`  |  **提交日期**: 2026-11-16
+- **作者**: Alexander Moriz, Lukas Krebs, Amon Göppert, Robert H. Schmitt
+
+Today, state-of-the-art methods for quality control (QC) are based on Machine Vision, combining deep learning (DL) models with camera-based inspection. Yet, the integration of such solutions in industrial applications is often impeded by data sparsity and trust in model reliability. While synthetic data offers a promising approach to generate the necessary data with perfect annotations, it poses risks related to performance degradation due to the possible occurrence of the sim-to-real gap. This study conducts experiments using the ensemble method to estimate the predictive uncertainty of DL…
+
+---
+
 ## 📅 2026-11-18
 
 ### [RFW-S: Everyday Deformable Objects with Independent Simulation Verification](https://arxiv.org/abs/2611.23056v1)

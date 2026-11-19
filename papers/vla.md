@@ -2,6 +2,179 @@
 
 _自动追踪 arXiv 最新论文，最新更新在最上方。_
 
+## 📅 2026-11-19
+
+### [$Z$-sight: Unifying Vision-Language-Action and Latent World Modeling](https://arxiv.org/abs/2611.24940v1)
+
+- **arXiv**: `2611.24940v1`  |  **提交日期**: 2026-11-18
+- **作者**: Junjie Ye, Yiqi Zhao, Muchen Xu, Celina Shiyu Wang, Hao Dong, Ruohai Ge et al.
+
+We introduce $Z$-sight, a unified robot foundation model that couples vision-language-action (VLA) and generative latent world modeling. Video-based world action models (WAMs) show the value of joint future-and-action generation for control, yet inherit the heavy cost of video generators. Recent latent-space policies avoid pixel generation, yet typically align intermediate features or rely on frozen target encoders, decoupling future prediction from the VLM's native feature space. $Z$-sight instead predicts the future directly in the visual token space in which its VLM perceives the present.…
+
+---
+
+### [NereidVLA: Learning to Understand and Navigate the Underwater World](https://arxiv.org/abs/2611.24864v1)
+
+- **arXiv**: `2611.24864v1`  |  **提交日期**: 2026-11-18
+- **作者**: Chenjie Zhao, Zhiliang Zhu, Quan Chen, Yuquan Xue, Xingxue Shi, Puyue Wang et al.
+
+Underwater navigation requires translating visual spatial cues into motion, yet marine vision-language datasets rarely include paired robot trajectories. We present NereidVLA, a vision-language-action model that transfers marine spatial knowledge to language-conditioned 3D navigation. We first train Sea2Know on approximately two million marine examples to learn target grounding, spatial relations, and scene structure without paired robot-motion supervision. We then adapt it using expert trajectories executed under simulated underwater vehicle dynamics. Given RGB histories and a language…
+
+---
+
+### [RoboMorpher: Scaling Robot Morphology Representations for Cross-Embodiment Action Prediction](https://arxiv.org/abs/2611.24816v1)
+
+- **arXiv**: `2611.24816v1`  |  **提交日期**: 2026-11-18
+- **作者**: Wenwei Lin, Yan Qin, Weiliang Deng, Zixuan Li, Kaixuan Wang, Zanxin Chen et al.
+
+Learning shared action representations is central to cross-embodiment manipulation. However, identical joint values can produce different spatial configurations across robots, limiting representations learned from joint values alone. We introduce RoboMorpher, a morphology-conditioned action tokenizer that jointly reconstructs joint angles and link poses to associate control coordinates with their kinematic effects. MorphGen supplies scalable kinematic supervision by generating serial-arm descriptions from survey-derived geometric priors. We pretrain RoboMorpher on 40 million morphology-state…
+
+---
+
+### [SHAPE: Discrete Supervision and Parallel Continuous Streams for Learning Dexterous Manipulation from Egocentric Human Data](https://arxiv.org/abs/2611.24585v1)
+
+- **arXiv**: `2611.24585v1`  |  **提交日期**: 2026-11-18
+- **作者**: Yaping Li, Zhihong Liu, Jiacheng Li, Yi Yang, Wenchao Yue, Mingzhe Ye et al.
+
+Egocentric human recordings are far cheaper than dexterous robot demonstrations, promising stronger pretraining and direct skill learning without task-specific robot data. Yet humans and robots differ in morphology and kinematics, so human recordings lack the joint positions and actuator commands that supervise robot policies, providing only retargeted end-effector (EEF) actions. This raises two questions: how human data should supervise the policy, and how a dexterous robot should read out actions at deployment. We address both in SHAPE (Supervision from Human Action tokens with Parallel…
+
+---
+
+### [RECLAIM: Robot-Vision-Informed Adversarial Patch Defense via Embodied Attention Feedback](https://arxiv.org/abs/2611.24494v1)
+
+- **arXiv**: `2611.24494v1`  |  **提交日期**: 2026-11-18
+- **作者**: Jiayou Zhu, Peng Guo, Litian Zhang, Xinze Shi, Yuting Zhang, Zelong Yu et al.
+
+Vision-language-action policies control embodied agents through a perception-action loop grounded in physical interaction, where adversarial patches can corrupt action predictions and thereby alter subsequent observations. To mitigate these threats, many existing defenses rely on policy adaptation or auxiliary models, but require additional training or inference. We introduce RECLAIM, a training-free, inference-time defense that uses a frozen VLA's own attention response to local visual interventions to guide purification during closed-loop embodied manipulation. Our key insight is that…
+
+---
+
+### [Homeward: No Place Like the Training View](https://arxiv.org/abs/2611.24455v1)
+
+- **arXiv**: `2611.24455v1`  |  **提交日期**: 2026-11-18
+- **作者**: Mingyang Lyu, Yinqian Sun, Gongce Cao, Guobin Shen, Yuhao Zhang, Lu Jia et al.
+
+Vision-language-action (VLA) policies implicitly assume that third-person cameras remain fixed at their data-collection poses; once a camera is bumped, remounted, or swapped at deployment, task success degrades precipitously even though the underlying task and robot remain unchanged. We present Homeward, a training-free, plug-and-play observation adapter that canonicalizes observations from an uncalibrated deployment camera back into the training view for frozen VLA policies. Our design stems from a closed-loop diagnostic paradox in simulation: while re-rendering perturbed views into the…
+
+---
+
+### [Towards Pose-Robust Few-Shot Vision-Language-Action Models](https://arxiv.org/abs/2611.24360v1)
+
+- **arXiv**: `2611.24360v1`  |  **提交日期**: 2026-11-18
+- **作者**: Wenhao Li, Zhongyi Han, Yuhao Wei, Liang Han, Yilong Yin, Liqiang Nie
+
+Fine-tuning a vision-language-action (VLA) model on a few dozen demonstrations is the standard way to put a manipulation policy on a robot, yet the resulting policy silently assumes that the camera and the robot base stay exactly where they were during data collection: a bumped tripod or a base re-docked a few centimetres away makes it reach for the wrong place. We show that both failures are one phenomenon, a change of the camera-to-base extrinsic that the policy has memorised, and that the robot carries everything needed to undo it. We introduce WACO, a world-anchored canonicalization…
+
+---
+
+### [Allocentric Memory, Egocentric Acting: A Dual-Frame VLA for Urban Aerial Navigation](https://arxiv.org/abs/2611.24247v1)
+
+- **arXiv**: `2611.24247v1`  |  **提交日期**: 2026-11-18
+- **作者**: Haotian Xu, Yue Hu, Zhengqiu Zhu, Tuo Feng, Wenguan Wang, Quanjun Yin
+
+Language-goal aerial navigation requires a UAV to reach a destination specified in natural language using observations collected during flight. A key challenge is linking changing egocentric perception with spatial evidence anchored to stable locations for long-range navigation. We propose CityNav-VLA, a dual-frame vision-language-action model for urban navigation integrating dynamic egocentric context with persistent allocentric spatial memory. The UAV incrementally accumulates visual observations on a fixed north-up map initialized with geographic and landmark priors, preserving evidence…
+
+---
+
+### [Adaptive Action Horizon Selection via Flow-Field Uncertainty](https://arxiv.org/abs/2611.24178v1)
+
+- **arXiv**: `2611.24178v1`  |  **提交日期**: 2026-11-18
+- **作者**: Idan Ben-Ami, Arnon Netzer, Sarah Keren, Idit Diamant
+
+Reliable uncertainty estimates are important for adaptive execution in vision-language-action (VLA) models. Existing approaches such as Adaptive Action Chunking (AAC) estimate action entropy from multiple sampled action chunks, introducing additional inference cost and capturing both uncertainty within an action trajectory and diversity across alternative strategies. We introduce Divergence-based Uncertainty-aware Adaptive Action Chunking (DUAC), a post-hoc method that extracts trajectory-conditioned predictive uncertainty from the vector field of a pretrained VLA. Building on a closed-form…
+
+---
+
+### [AeroRSI: Recursive Self-Improvement for Aerial Vision-Language Navigation](https://arxiv.org/abs/2611.24077v1)
+
+- **arXiv**: `2611.24077v1`  |  **提交日期**: 2026-11-18
+- **作者**: Shiwei Wu, Yuwen Pan, Zhi Li, Yaowen Li, Yan Zhou, Xuemiao Xu et al.
+
+Vision-language-action (VLA) models enable unmanned aerial vehicles (UAVs) to follow natural-language instructions, yet still fail frequently in closed-loop flight. Correcting these failures requires repairs, i.e., actions that avoid them at the states the policy itself reaches, which human pilots cannot label at scale and rule-based planners cannot supply reliably. In this paper, we present AeroRSI, a recursive self-improvement framework in which an aerial navigation policy iteratively learns from its own failures. Our key insight is that a failing policy should judge its own repairs by…
+
+---
+
+### [CoRA-VTLA: Contact-Guided Attention and Queryable Response Memory for Tactile Post-Training](https://arxiv.org/abs/2611.23963v1)
+
+- **arXiv**: `2611.23963v1`  |  **提交日期**: 2026-11-18
+- **作者**: Chengye Song, Rui Song, Shengqi Wang, Jiawei Zhang, Hongzhou Wang, Xueyang Guo et al.
+
+In precision manipulation, small errors in alignment or force can cause jamming or deformation, making contact feedback essential for adapting pretrained vision-language-action (VLA) models to these tasks. A single tactile observation leaves the response to recent actions ambiguous. Direct tactile fusion during post-training can also disperse the action expert's visual attention and reduce the share it allocates to contact regions. To address these challenges, CoRA-VTLA augments pretrained VLAs with lightweight tactile modules. A queryable action-response memory retrieves recent contact…
+
+---
+
+### [3DTouch: A Tactile-aware VLA Model with 3D Geometric Relations for Dexterous Manipulation](https://arxiv.org/abs/2611.23961v1)
+
+- **arXiv**: `2611.23961v1`  |  **提交日期**: 2026-11-18
+- **作者**: Xin Zhang, Shiqi Zhang, Siyuan Cao, Juncheng Cai, Yedong Shen, Yuxuan Gao et al.
+
+In contact-rich dexterous manipulation, occlusion by the fingers and interacting objects obscures local geometry, preventing visual observations from fully capturing contact locations. Visually similar scenes may also differ subtly in the relative positions of interacting objects, leading to different contact states. We propose 3DTouch, a tactile-geometric conditioning approach for vision-language-action (VLA) models. 3DTouch constructs a shared 3D visuo-tactile representation by expressing RGB-D scene points and dense five-finger tactile measurements in the robot-base frame, preserving each…
+
+---
+
+### [GTI: Grounding Task Intent Throughout Long-Horizon VLA Manipulation](https://arxiv.org/abs/2611.23926v1)
+
+- **arXiv**: `2611.23926v1`  |  **提交日期**: 2026-11-18
+- **作者**: Tianqi Gong, Haochen Niu, Yusheng Zhao, Lantao Zhang, Haoyu Liu, Rendong Ying et al.
+
+Vision-language-action (VLA) models generate local actions from visual observations, language, and robot state, but long-horizon manipulation requires the global task intent to remain grounded in the currently executable context. We propose GTI (Grounding Task Intent), which uses the current observation and execution history to localize the active subtask and its execution phase. For the same local subtask, GTI generates two phase-dependent visual targets: an interaction/contact state and a local completion state. The local language instruction and the corresponding phase-specific visual…
+
+---
+
+### [RePlan-VLA: Progress-Aware Replanning for Long-Horizon Vision-Language-Action Models](https://arxiv.org/abs/2611.23843v1)
+
+- **arXiv**: `2611.23843v1`  |  **提交日期**: 2026-11-18
+- **作者**: Apoorva Vashisth, Manav Kulshrestha, Damon Conover, Zachary Kingston, Aniket Bera
+
+Vision-Language-Action (VLA) models have emerged as a promising paradigm for general-purpose robotic manipulation, yet their performance often degrades on long-horizon tasks that require multiple interdependent manipulations. Instead of burdening the VLA policies with long-horizon reasoning, memory, action generation, progress tracking, and error recovery, we argue for leveraging their short-horizon manipulation capabilities within an execution-aware framework. To this end, we introduce \textnormal{\textbf{RePlan-VLA}}, a VLA-agnostic framework that translates a VLA's short-horizon…
+
+---
+
+### [ExecGap: Exploiting Command-Execution Gap for Patch Attacks on Vision-Language-Action Models](https://arxiv.org/abs/2611.23714v1)
+
+- **arXiv**: `2611.23714v1`  |  **提交日期**: 2026-11-18
+- **作者**: Keke Tang, Guolin Qiu, Tianyu Hao, Daizong Liu, Yikai Zhang, Peican Zhu et al.
+
+Vision-Language-Action (VLA) models have become a powerful paradigm for robotic manipulation and show strong promise for real-world deployment, making adversarial robustness critical for reliable robot operation. Existing adversarial attacks on VLA-controlled robots mainly optimize prediction-level discrepancies or rollout-level deviations to disrupt manipulation. However, they rarely account for the fact that VLA-predicted commands are not executed directly, but must be realized through downstream control and robot embodiment. In this paper, we propose ExecGap, an adversarial patch attack…
+
+---
+
+### [Finetuning VLAs for Dexterous Manipulation: The Right Checkpoint Is All You Need](https://arxiv.org/abs/2611.23676v1)
+
+- **arXiv**: `2611.23676v1`  |  **提交日期**: 2026-11-18
+- **作者**: Artur Kuramshin, Charlotte Cloutier, Michael Przystupa, Kirsty Ellis, Mohammad S. Akhter, Glen Berseth
+
+Vision-Language-Action models have demonstrated strong manipulation capabilities. A limitation of VLA models is that most manipulation datasets focus on parallel-jaw gripper systems, making transfer to multi-finger hands challenging, particularly as teleoperation datasets are harder to collect with multi-fingered robots. In this work, we study how to best adapt VLAs to dexterous hands by pairing supervised fine-tuning (SFT) with diffusion-steering reinforcement learning (DSRL). Using $π_{0.5}$ and a LEAP hand, we evaluate five fine-tuning recipes across two simulation tasks using only a…
+
+---
+
+### [RageVLA: Augmentation-Trained Perception and Action for State-of-the-Art Robustness on LIBERO](https://arxiv.org/abs/2611.23517v1)
+
+- **arXiv**: `2611.23517v1`  |  **提交日期**: 2026-11-17
+- **作者**: Amrit Lal Singh, Smarak Kanjilal
+
+Vision-language-action (VLA) models look saturated on LIBERO, yet most of them fall apart on LIBERO-PRO as soon as an object moves or the instruction asks for something new. We argue that what is missing is not scale but decoupling. In these policies, what to do is tied to where things were during training, to the scene around them and to the wording of the instruction. We cut these ties in two places. In the data, LIBERO demonstrations are re-arranged by general rules: every object and fixture is moved and rotated, tasks are carried into other environments and onto other surfaces, and every…
+
+---
+
+### [BiCAT: Bimanual Coordination Action Tokenization](https://arxiv.org/abs/2611.23499v1)
+
+- **arXiv**: `2611.23499v1`  |  **提交日期**: 2026-11-17
+- **作者**: Xuanwei Liu, Guipu Cao, Zhongyi Luo, Jiafei Duan
+
+Autoregressive vision-language-action (VLA) models predict discrete action tokens with the next-token objective of their vision-language backbone, so the action tokenizer defines the interface between the policy and the robot. In bimanual manipulation, the two arms share a repertoire of movements yet coordinate through complementary roles, and an action representation should capture both. However, most existing tokenizers encode both arms as a single concatenated action vector, in which motion patterns common to the two arms are not shared and cross-arm dependencies remain entangled within…
+
+---
+
+### [GRID-UAV: Geometry and Ray-depth Integrated Decision-making for Unmanned Aerial Vehicles](https://arxiv.org/abs/2611.23491v1)
+
+- **arXiv**: `2611.23491v1`  |  **提交日期**: 2026-11-17
+- **作者**: Anas Anwarul Haq Khan, Amrin Kareem, Muhammad Umer Sheikh, Biplab Banerjee, Muhammad Haris Khan
+
+Vision-language-action models (VLAs) encode images with 2D encoders that capture little 3D structure. A common approach is to feed the policy estimated depth, but a UAV chooses its own altitude, must judge distances tens of meters away, where monocular depth is less reliable, and must relate its forward and downward views. On long aerial routes, adding depth features directly brings no significant gain (42.5% vs. 42.6% success), so we study how 3D information should be given to the policy. Analyzing flight failures, we find that two forms of 3D grounding fail in opposite ways: explicit 3D…
+
+---
+
 ## 📅 2026-11-18
 
 ### [Learning Agent-Centric Vision-Language-Action World Models for Autonomous Driving](https://arxiv.org/abs/2611.22880v1)

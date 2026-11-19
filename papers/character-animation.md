@@ -2,6 +2,17 @@
 
 _自动追踪 arXiv 最新论文，最新更新在最上方。_
 
+## 📅 2026-11-19
+
+### [Learning Martial Arts Motion Skills for Animating Opponents in VR Sparring Games](https://arxiv.org/abs/2611.23825v1)
+
+- **arXiv**: `2611.23825v1`  |  **提交日期**: 2026-11-18
+- **作者**: Jiqing Wen, Qixuan Shi, Robert LiKamWa, Pavan Turaga
+
+Animating virtual opponents is an important yet challenging task in game development. In martial arts games, opponent motions must not only be physically plausible but also exhibit appropriate technique, timing, transitions, and target-directed intent. Traditional game animations often rely on handcrafted clips, state machine transitions, and procedural adjustments, which can be labor-intensive and may limit the behavioral diversity of non-player characters. This paper presents a martial arts motion skills learning framework for character animation in virtual sparring games. Inspired by Tang…
+
+---
+
 ## 📅 2026-11-13
 
 ### [FlashMotion: Ultra-Fast Long-Term 3D Motion Generation](https://arxiv.org/abs/2611.13626v2)

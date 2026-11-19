@@ -2,6 +2,35 @@
 
 _自动追踪 arXiv 最新论文，最新更新在最上方。_
 
+## 📅 2026-11-19
+
+### [ReLoco: Unified Humanoid Locomotion and Fall Recovery via Behavior-Conditioned Motion Priors](https://arxiv.org/abs/2611.23916v1)
+
+- **arXiv**: `2611.23916v1`  |  **提交日期**: 2026-11-18
+- **作者**: Lequn Fu, Yufeng Hu, Yijun Zhong, Jie Zhang, Xiao Li, Lingxiang Ji et al.
+
+Humanoid robots must recover from falls and resume commanded motion to sustain locomotion. Learning these behaviors in one policy requires supervision that accommodates both upright movement and ground-contact recovery. We present ReLoco, a framework that uses behavior-conditioned adversarial motion priors to learn locomotion, get-up from arbitrary fallen postures, and command resumption within one proprioceptive policy. During training, robot posture selects the expert pool and conditions a shared discriminator with two behavior-specific outputs. Task rewards and shared regularization…
+
+---
+
+### [Autonomous Track Racing with a Commercially Available Humanoid: System Design and Real-World Deployment](https://arxiv.org/abs/2611.22445v1)
+
+- **arXiv**: `2611.22445v1`  |  **提交日期**: 2026-11-17
+- **作者**: Koki Inami, Takashi Sato, Hiroyuki Oka, Shota Takizawa, Yuya Takahashi, Amon Suzuki et al.
+
+Learning-based methods now let humanoids run robustly, and they have begun to compete in athletic events. Yet few reports describe a complete autonomous humanoid running system in an actual race, where the robot must follow a lane at a new venue, pace itself within hardware limits, and finish without intervention. We report such a system deployed on the Unitree G1, a commercially available general-purpose humanoid, in the 100 m, 400 m, and 1500 m events of the World Humanoid Robot Games 2026. The system integrates vision-based lane perception, path tracking, and a running policy trained by…
+
+---
+
+### [Low-speed Limit Cycle Walking of Planar X-shaped Bipedal Robot with Special Properties](https://arxiv.org/abs/2611.22122v1)
+
+- **arXiv**: `2611.22122v1`  |  **提交日期**: 2026-11-17
+- **作者**: Fumihiko Asano, Cong Yan
+
+This paper proposes a novel planar semicircular-footed X-shaped bipedal robot in which the center of mass of each leg link is at the same position as the hip joint, and discusses a method for generating a stable limit cycle gait on level ground. First, we outline the assumptions of the robot model with four degrees of freedom, and develop the mathematical equations of motion and collision. Second, we set the relative hip-joint angle as a control output and design a control system to follow it to the desired trajectory specified as a fifth-order function of time. Third, we mathematically show…
+
+---
+
 ## 📅 2026-11-17
 
 ### [ROSE: A Shared Cross-Embodiment Facial-Motion Latent Space for Humanoid Robot Expression](https://arxiv.org/abs/2611.20950v1)
