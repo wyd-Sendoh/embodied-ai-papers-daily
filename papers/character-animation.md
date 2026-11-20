@@ -2,6 +2,26 @@
 
 _自动追踪 arXiv 最新论文，最新更新在最上方。_
 
+## 📅 2026-11-20
+
+### [A Tutorial on Complementarity-Based Contact Models for Robotics](https://arxiv.org/abs/2611.26600v1)
+
+- **arXiv**: `2611.26600v1`  |  **提交日期**: 2026-11-19
+- **作者**: Onur Beker, A. René Geist, Michael Posa, Marc Toussaint, Justin Carpentier, Georg Martius
+
+Simulating rigid-body dynamics with contact is fundamental to robotics, from motion synthesis and control to mechanism design. Many widely used simulators rely on cone complementarity formulations, whose physical assumptions and numerical solution require substantial background. While excellent surveys, monographs, and course notes exist, they mostly address computational mechanics or computer graphics or document a single simulator. To the best of our knowledge, a self-contained pedagogical treatment for robotics, bringing these formulations and their solvers together with complete…
+
+---
+
+### [CoRelate: Coordinated Human-Object Motion Synthesis through Interaction Relations](https://arxiv.org/abs/2611.25166v1)
+
+- **arXiv**: `2611.25166v1`  |  **提交日期**: 2026-11-18
+- **作者**: Zhiwen Qiu, Daisy Lin, Diyu Zhou, Jialin Wu, Rosita Ji, Saleh Kalantari
+
+Human-object motion synthesis requires coordinated human participation as objects move toward specified goals. However, reaching object targets does not ensure that contact is established and maintained, while adjustments that improve contact may interfere with task completion. We introduce CoRelate, a diffusion framework that coordinates full-body human-object motion through explicit interaction relations and task feedback for rigid and articulated objects. We represent intended participation through hand-part relations that specify the participating hand, its part-relative reference…
+
+---
+
 ## 📅 2026-11-19
 
 ### [Learning Martial Arts Motion Skills for Animating Opponents in VR Sparring Games](https://arxiv.org/abs/2611.23825v1)

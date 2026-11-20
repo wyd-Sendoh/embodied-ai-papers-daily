@@ -2,6 +2,53 @@
 
 _自动追踪 arXiv 最新论文，最新更新在最上方。_
 
+## 📅 2026-11-20
+
+### [LocoMuJoCo: A Comprehensive Imitation Learning Benchmark for Whole-Body Control](https://arxiv.org/abs/2611.26293v1)
+
+- **arXiv**: `2611.26293v1`  |  **提交日期**: 2026-11-19
+- **作者**: Firas Al-Hafez, Davide Tateo, Oleg Kaidanov, Aditya Bhatt, Artur Zelik, Zhengyi Luo et al.
+
+LocoMuJoCo is an open-source benchmark for imitation learning (IL) and reinforcement learning (RL) on whole-body control. The library couples MuJoCo (CPU) with MJX and the MjWarp backend (GPU) under a single API, exposes 9 humanoid, 3 (musculo-)skeletal, and 4 quadruped embodiments, and ships a curated native motion-capture dataset for every humanoid, to which it can also retarget AMASS and LAFAN1. A modular plug-in architecture makes observations, rewards, control modes, terrains, and domain randomization fully interchangeable, while compact JAX implementations of many RL and IL algorithms…
+
+---
+
+### [A Practical Proprioceptive Data Collection Utility for the Unitree GO1](https://arxiv.org/abs/2611.26146v1)
+
+- **arXiv**: `2611.26146v1`  |  **提交日期**: 2026-11-19
+- **作者**: Jack Anders Smitterberg, Tan Chen
+
+The Unitree Go1 is a widely used platform for legged robotics research, yet collecting proprioceptive data from it is unnecessarily difficult: the Unitree SDK is sparsely documented, and ROS1 (Robot Operating System), the Go1's native middleware, is fully deprecated. We present an open-source graphical utility that enables researchers to reliably record proprioceptive data from the Go1, including joint states, IMU (Inertial Measurement Unit) readings, foot force sensor data, and gyroscope measurements, without requiring ROS expertise. The tool provides a simple GUI (Graphical User Interface)…
+
+---
+
+### [Learning optimal gaits and styles for terrain-adaptive quadruped locomotion](https://arxiv.org/abs/2611.25958v1)
+
+- **arXiv**: `2611.25958v1`  |  **提交日期**: 2026-11-19
+- **作者**: Guillaume Bellegarda, Auke Ijspeert
+
+Animals use many different gaits to locomote at different speeds across varying terrains. A longstanding question in biology and robotics is: which gait is best? This question is most often addressed from an energy-efficiency perspective on flat terrain, leaving open how the answer depends on terrain and on the criterion optimized. Here we show that gait optimality is determined jointly by terrain, performance metric, and velocity. We use deep reinforcement learning and networks of abstract oscillators, modeling spinal central pattern generators, to learn 11 quadrupedal gaits across diverse…
+
+---
+
+### [Collision-Free Is Not Enough: Passage-Conditioned Navigation for Wheeled-Legged Robots](https://arxiv.org/abs/2611.25788v1)
+
+- **arXiv**: `2611.25788v1`  |  **提交日期**: 2026-11-19
+- **作者**: Wai Ka Sun, Waiyiu Pong, Bowen Wang
+
+A collision-free detour can still bring a legged robot to the next stair or ledge a few centimetres or degrees off, and a fixed locomotion skill, factory or learned, can stall or fall. Existing methods prevent this with a robot model or extensive trial and error, but on a new site with unknown skills neither is available, so they cannot be used. We find that a single 27-minute teaching session already supplies what these methods have to derive or learn: for every stair and ledge, one crossing the skill has completed. Our method, passage-conditioned navigation, makes the route remember how…
+
+---
+
+### [Bridging vision-language reasoning and learned control for legged navigation in the wild](https://arxiv.org/abs/2611.25215v1)
+
+- **arXiv**: `2611.25215v1`  |  **提交日期**: 2026-11-18
+- **作者**: Takahiro Miki, Robin Schmid, Manthan Patel, Turcan Tuna, Julia Richter, Julian Nubert et al.
+
+Autonomous navigation in diverse real-world environments remains one of the greatest challenges in robotics. It demands both robust low-level motion control to handle diverse terrain and high-level reasoning to interpret environmental cues. We present ROAM (Robust Open-world Autonomous Mobility), a system that enables legged robots to perform kilometer-scale navigation in complex alpine and urban settings. ROAM combines the world knowledge of a Vision-Language Model (VLM), pre-trained on internet-scale data, with robust locomotion and local planning policies learned in simulation via…
+
+---
+
 ## 📅 2026-11-19
 
 ### [SearchDiffusion: Information-Guided Diffusion Planning for Object Search](https://arxiv.org/abs/2611.24375v1)

@@ -2,6 +2,53 @@
 
 _自动追踪 arXiv 最新论文，最新更新在最上方。_
 
+## 📅 2026-11-20
+
+### [ACE-Brain-0.7: Learning Execution-Grounded Reasoning for Embodied Agents](https://arxiv.org/abs/2611.26519v1)
+
+- **arXiv**: `2611.26519v1`  |  **提交日期**: 2026-11-19
+- **作者**: Yinhe Wang, Shijun Shi, Feng Pan, Tao Tao, Wei Mao, Jiangning Zhang et al.
+
+Reliable reasoning for long-horizon embodied tasks requires predictions grounded in the observed execution state. We present ACE-Brain-0.7, a 9B vision--language model that combines spatial grounding, task understanding, and progress estimation. To train the model, we curate 3.7 million question--answer pairs, drawing execution supervision from egocentric human videos, robot episodes, and simulation. These questions span different stages of an execution and connect task-level judgments with observed progress and outcomes. We then fine-tune Qwen3.5-9B on this collection together with…
+
+---
+
+### [JARVIS: An Agent That Designs, Builds, and Tests Circuit Boards on Its Own](https://arxiv.org/abs/2611.26503v1)
+
+- **arXiv**: `2611.26503v1`  |  **提交日期**: 2026-11-19
+- **作者**: Shibo Zhou, Tianqi Hong, Zheng Yan, He Yang
+
+Power electronics is central to the energy transition, but developing new hardware still relies on human-led design, fabrication, testing, and iteration. We present JARVIS, an embodied AI agent that autonomously closes this loop for circuit boards. JARVIS maintains machine-specific capabilities and constraints, scans its workspace using a robot-mounted 3D scanner, and constructs an executable digital twin in which it rehearses robot motions, fabrication steps, and circuit behavior before consuming materials. A single text instruction initiates the physical experiment. Using unmodified desktop…
+
+---
+
+### [EmbodyAgent: Post-Training Embodied VLM Agents via Distillation, SFT, and RL](https://arxiv.org/abs/2611.26196v1)
+
+- **arXiv**: `2611.26196v1`  |  **提交日期**: 2026-11-19
+- **作者**: Wei Dai, Jinkun Liu, Jiayi Chen, Han Liu, Wenbo Ding, Shaolun Huang
+
+Vision-language models (VLMs) can act as closed-loop robot-use agents (RUAs) by writing and executing control code through tool interfaces. However, turning an open-weight VLM into a high-performing embodied agent requires a complete post-training stack: out-of-the-box open VLMs fail completely at interactive tool contracts, strong frontier teachers are accessible only as black-box endpoints without exposed weights or token probabilities, and supervised imitation alone plateaus under rollout distribution shift. We present EmbodyAgent, an end-to-end post-training framework with three tightly…
+
+---
+
+### [Agentic Scaling of Embodied Tasks in Simulation for Synthetic Data Collection and Policy Evaluation](https://arxiv.org/abs/2611.26046v1)
+
+- **arXiv**: `2611.26046v1`  |  **提交日期**: 2026-11-19
+- **作者**: Kang Wang, Xiaolei Zhou, Xiaoyu Wu, Zhendong Wang
+
+Scaling embodied interaction data requires a broad collection of usable tasks, yet specifying and validating each task instance remains costly. We present AgenticTask, an agent-based framework that expands existing task collections under human intent. Its central representation links interaction requirements to object and part bindings, scene and robot configurations, initial conditions, and completion criteria. A task-generation agent reuses interaction structure to construct supported variations and revises incompatible configurations using validation feedback. A task-execution agent uses…
+
+---
+
+### [DACA: Dual-Anchor Collaborative Agent for Zero-Shot 3D Visual Grounding](https://arxiv.org/abs/2611.25722v1)
+
+- **arXiv**: `2611.25722v1`  |  **提交日期**: 2026-11-19
+- **作者**: Jiaming Liu, Linghe Kong, Guixu Zhang, Huaxi Huang
+
+3D visual grounding (3D-VG) is a task that bridges the natural language and 3D space, serving as a foundational capability for embodied intelligence and human-computer interaction. Although recent 3D-VG agents overcome the reliance on pre-processed 3D point clouds, they essentially employ a unidirectional, pipeline-style tool-calling architecture. This architecture separates semantic understanding from geometric reconstruction, leading to error accumulation and an inability to autonomously recover from failures. To address this flaw, this paper proposes the Dual-Anchor Collaborative Agent…
+
+---
+
 ## 📅 2026-11-19
 
 ### [From Points to Trajectories: Rethinking Multimodal Alignment for Physical Events](https://arxiv.org/abs/2611.24249v1)
