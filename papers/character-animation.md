@@ -2,6 +2,17 @@
 
 _自动追踪 arXiv 最新论文，最新更新在最上方。_
 
+## 📅 2026-11-23
+
+### [Synthesizing Expressive Human-Object Interactions via Test-time Latent Adaptation](https://arxiv.org/abs/2611.27603v1)
+
+- **arXiv**: `2611.27603v1`  |  **提交日期**: 2026-11-20
+- **作者**: Zijing Wu, Yiping Li, ZhiPeng Yu, Yuzhou Zheng, Ziyazhuo Wang, Binghui Zuo et al.
+
+When interacting with objects of unknown physical properties, humans sometimes probe, over-exert, stagger, and adjust through iterative adaptation instead of succeeding immediately. We argue that this process is an expressive but largely overlooked aspect of human-object interaction in motion synthesis. Both kinematic data-driven methods and physics-based controllers tend to produce flawlessly executed motions: the former lack sufficient data for learning fine-grained adaptation, while the latter use reinforcement learning (RL) and privileged object dynamics to learn robust, deterministic…
+
+---
+
 ## 📅 2026-11-20
 
 ### [A Tutorial on Complementarity-Based Contact Models for Robotics](https://arxiv.org/abs/2611.26600v1)

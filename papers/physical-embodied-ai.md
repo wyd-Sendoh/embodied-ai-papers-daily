@@ -2,6 +2,53 @@
 
 _自动追踪 arXiv 最新论文，最新更新在最上方。_
 
+## 📅 2026-11-23
+
+### [EvoTER: Evolving Embodied Agents via Tool-Use Experience and Reflection](https://arxiv.org/abs/2611.27797v1)
+
+- **arXiv**: `2611.27797v1`  |  **提交日期**: 2026-11-20
+- **作者**: Yingting Zhou, Yuyin Zhou, Yongliang Wang, Haoran Li, Dongbin Zhao
+
+Long-horizon embodied tasks require agents to ground instructions in changing observations, coordinate heterogeneous tools, and recover from failures that can propagate through downstream operations. Although existing LLM-based agents retain experience and refine reusable skills, successful local repairs do not by themselves establish complete-task gains over the current shared procedure library. We present EvoTER, an experience-driven framework that enables embodied agents to self-evolve tool-use skills without updating model parameters. EvoTER operates through a three-role evolution loop:…
+
+---
+
+### [Efficient Natural Language to Temporal Logic Translation for Real-Time Physical AI](https://arxiv.org/abs/2611.27489v1)
+
+- **arXiv**: `2611.27489v1`  |  **提交日期**: 2026-11-20
+- **作者**: Oliver Schön, Adrien Banse, John Lygeros, Lars Lindemann
+
+Robots can be controlled to perform tasks with guaranteed correctness when the task instructions are stated in a formal language. Large language models (LLMs) have been widely used to allow users to provide such instructions in natural language (NL), by translating NL into formal language. When deploying such translators on a robot, however, we face limited computing and energy resources, while offloading computation or data to the cloud may be infeasible or undesirable. Yet an LLM is a general-purpose text generator, whereas a formula in a fixed formal language fragment follows a…
+
+---
+
+### [$γ$-Scape: An Agent-Centric World for Mobile Embodied Intelligence](https://arxiv.org/abs/2611.27306v1)
+
+- **arXiv**: `2611.27306v1`  |  **提交日期**: 2026-11-20
+- **作者**: Xiaotao Zhang, Lin Qian, Hao Zhang, Xuanrui Cui, Yuehao Huang, Yunzi Wu et al.
+
+Recent embodied agents construct and adapt robot behavior through executable programs, tool use, and interaction feedback. Studying these systems in mobile manipulation calls for physical worlds that connect agent-directed execution with its physical consequences and reusable interaction experience. We introduce $γ$-Scape, an agent-centric simulation and benchmark platform for mobile embodied intelligence. Agents compose motion tools and learned skills to carry out complete tasks that combine navigation and manipulation in a persistent physical world. BenchForge grounds structured objectives…
+
+---
+
+### [Mem-X: A Memory-Dependent Cross-Episode Benchmark for Vision-and-Language Navigation](https://arxiv.org/abs/2611.27166v1)
+
+- **arXiv**: `2611.27166v1`  |  **提交日期**: 2026-11-20
+- **作者**: Zhikang Shi, Yuk Tung Samuel Fang, Hongyu Ding, Zixuan Chen, Yujin Wang, Junhui Guo et al.
+
+Long-term memory enables embodied agents to reuse past observations across tasks. However, existing cross-episode vision-and-language navigation (VLN) benchmarks often leave it unclear whether successful navigation relies on historical memory or current exploration. We introduce Mem-X, a benchmark designed to evaluate memory-dependent cross-episode VLN. Mem-X organizes episodes into sessions in which subsequent instructions refer to objects or routes encountered in earlier episodes. Its three levels evaluate historical-object recall, in-memory localization and episodic indexing, and…
+
+---
+
+### [Opto-Electronic Hybrid Reinforcement Learning Based on MZI for Robotic Manipulator Control](https://arxiv.org/abs/2611.27129v1)
+
+- **arXiv**: `2611.27129v1`  |  **提交日期**: 2026-11-20
+- **作者**: Mengting Yu, Shuiying Xiang, Changjian Xie, Yonghang Chen, Haowen Zhao, Xingxing Guo et al.
+
+Precise motion control for autonomous robots is a core technical enabler for the large-scale deployment of embodied intelligence. In particular, basic manipulation tasks, such as point-to-point reaching and target grasping with robotic manipulators, impose stringent requirements on control accuracy, real-time response, and energy efficiency for edge deployment. As a prevailing end-to-end control paradigm, reinforcement learning (RL) has demonstrated remarkable capabilities in autonomous learning and generalization for decision-making in continuous action spaces. Nevertheless, constrained by…
+
+---
+
 ## 📅 2026-11-20
 
 ### [ACE-Brain-0.7: Learning Execution-Grounded Reasoning for Embodied Agents](https://arxiv.org/abs/2611.26519v1)
