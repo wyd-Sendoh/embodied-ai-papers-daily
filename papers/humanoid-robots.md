@@ -2,6 +2,44 @@
 
 _自动追踪 arXiv 最新论文，最新更新在最上方。_
 
+## 📅 2026-11-24
+
+### [Beyond Domain Randomization: Real-World Policy Adaptation in Learned Dynamics for Legged Robots](https://arxiv.org/abs/2611.30784v1)
+
+- **arXiv**: `2611.30784v1`  |  **提交日期**: 2026-11-23
+- **作者**: Rui Dai, Shunpeng Yang, Zhen Fu, Maolin Lei, Jiaqi Song, Hua Chen et al.
+
+Reinforcement learning policies are often trained with static domain randomization for real-world deployment. However, real-world environments often exhibit unmodeled dynamic variations, such as payload changes or friction shifts, that lie outside the randomization distribution, leading to performance degradation upon deployment. We propose a framework that moves beyond static domain randomization by adapting a learned dynamics model to the deployed target conditions, with a concurrent teacher-student paradigm applied to both the policy and dynamics model. This framework integrates the…
+
+---
+
+### [CHAMP: Coordinated Humanoid Loco-Manipulation with Whole-Body Motion Priors](https://arxiv.org/abs/2611.30449v1)
+
+- **arXiv**: `2611.30449v1`  |  **提交日期**: 2026-11-23
+- **作者**: Lijun Han, Muyuan Ma, Zichen Wang, Siyuan Liu, Yuxi Liu, Yutong Wang et al.
+
+Coordinating locomotion and dexterous manipulation is fundamental to humanoid robots operating in human environments. A key challenge is learning motion priors from diverse data and using them effectively for coordinated robot control. We present CHAMP, a unified framework for humanoid loco-manipulation that combines whole-body motion pretraining with adaptive feature extraction. CHAMP pretrains a vision-language model to predict future body and hand motion from approximately 2,298 hours of heterogeneous human and robot data. A shared motion representation enables unified whole-body motion…
+
+---
+
+### [Motion Mamba 2.0: Autoregressive Diffusion Mamba for Long-Horizon Humanoid Control](https://arxiv.org/abs/2611.29897v1)
+
+- **arXiv**: `2611.29897v1`  |  **提交日期**: 2026-11-23
+- **作者**: Yue Huang, Tianshan Zhang, Zeyu Zhang, Jayeon Kang, Akide Liu, Sungjoon Choi et al.
+
+Long-horizon, real-time controllable motion generation is essential for interactive animation and humanoid robotics, where an agent must respond to changing instructions and spatial goals while moving. Existing autoregressive diffusion methods generate motion incrementally, but bounded attention caches limit access to distant history, while repeated denoising introduces substantial inference overhead. We present Motion Mamba 2.0, a Mamba-based root-body diffusion architecture that integrates local attention, resumable recurrent states, and persistent content memory (PCM) for long-horizon…
+
+---
+
+### [Into My Arms: Structured reinforcement learning for autonomous transport of objects and humans](https://arxiv.org/abs/2611.29771v1)
+
+- **arXiv**: `2611.29771v1`  |  **提交日期**: 2026-11-22
+- **作者**: Elle Miller, Reem Almheiri, Takuma Tsukakoshi, Ben Sanati, Tamon Miyake, Yushi Wang et al.
+
+Whole-body humanoid manipulation remains bottlenecked by high-dimensional state-action spaces, contact-rich environments, and long task horizons. This trilemma is a challenge that state-of-the-art reinforcement learning (RL) methods are yet to resolve reliably. We address it with three contributions that add just enough structure to guide exploration: Sparse Interaction Edges (SIE) for whole-body manipulation, Interaction Gated Transport (IGT) for sustained transport over long horizons, and a Hinted Object Path (HOP) that resolves collision and search complexity bottlenecks. Across all three,…
+
+---
+
 ## 📅 2026-11-23
 
 ### [Humanoid robots for safety-critical electrical switching: A perception-informed runtime constraint filter](https://arxiv.org/abs/2611.27845v1)

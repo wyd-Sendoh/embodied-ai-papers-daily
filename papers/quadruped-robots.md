@@ -2,6 +2,44 @@
 
 _自动追踪 arXiv 最新论文，最新更新在最上方。_
 
+## 📅 2026-11-24
+
+### [Confidently Lost: Silent Failure and Edge Deployment of Dense Visual SLAM under Photon Starvation](https://arxiv.org/abs/2611.30173v1)
+
+- **arXiv**: `2611.30173v1`  |  **提交日期**: 2026-11-23
+- **作者**: Shrikrishna Bhagirath Rajule, Srinath Neelamagam, Aniket Bera
+
+Dense visual SLAM built on learned two-view geometry is evaluated in good light; in low light it fails silently. Two frames of 9-level quantized noise, no scene at all, give MASt3R-SLAM's network a cross-view geometric self-consistency of 0.936; a real dark frame pair gives 0.935. Starved of structure, the network invents the same geometry for both views and the system trusts the agreement: on a dark sequence it consumes 1,605 frames, emits 7 keyframes, rejects no factor-graph edges and reports full frame rate, while over 95% of the correspondences it accepts violate the ground-truth epipolar…
+
+---
+
+### [Value function based Reward shaping for safety in quadrupeds](https://arxiv.org/abs/2611.30133v1)
+
+- **arXiv**: `2611.30133v1`  |  **提交日期**: 2026-11-23
+- **作者**: Janani S K, Manan Tayal, Shishir N. Y Kolathaya
+
+Reinforcement Learning (RL) has progressed from simple control tasks to complex real-world challenges with large state spaces. While RL excels in these tasks, training time remains a limitation. Reward shaping is a popular solution, but existing methods often rely on value functions, which face scalability issues. This paper presents a novel safety-oriented reward-shaping framework inspired by barrier functions, offering simplicity and ease of implementation across various environments and tasks. To evaluate the effectiveness of the proposed reward formulations, we conduct simulation…
+
+---
+
+### [Design of a Compact Cable-driven 4-DoF Salamander Robotic Limb with Large Range of Motion and High Load Capacity](https://arxiv.org/abs/2611.30026v1)
+
+- **arXiv**: `2611.30026v1`  |  **提交日期**: 2026-11-23
+- **作者**: Zhuowen Li, Qiyuan Fu, Auke Ijspeert
+
+A compact yet agile and powerful limb is essential for amphibious legged robots that transition between spine-based swimming and leg-based terrestrial walking, as salamanders do. Salamander limbs combine large ranges of motion (ROM), multiple degrees of freedom (DoFs), and high load capacity. These features enable swinging and body-weight support during walking, as well as folding alongside the body during swimming. Their proximal kinematics can be represented by three rotational DoFs at the hip and one at the knee. Replicating these capabilities within a compact robotic limb is challenging…
+
+---
+
+### [SuperNav-1.5: Structured Spatial Memory For Agentic Navigation Systems](https://arxiv.org/abs/2611.29912v1)
+
+- **arXiv**: `2611.29912v1`  |  **提交日期**: 2026-11-23
+- **作者**: Jiarui Guo, Jinkai Zhang, Yuanhong Yu, Yongchen Zai, Futang Zhu, Ruizhen Hu et al.
+
+This paper addresses the challenge of scene-level memory design for efficient navigation across sessions and successive object goals. Recent methods commonly represent a scene using scene graphs or image--text records. However, dense scene-graph representations impose substantial reasoning and context overhead on multimodal large language models, while image--text records cannot be directly converted into executable geometric routes. To address these limitations, we propose SuperNav-1.5, an agentic navigation system equipped with a structured spatial memory constructed by the agent. The…
+
+---
+
 ## 📅 2026-11-23
 
 ### [What Must a Model Tell a Planner? Outcome Interfaces for Risk-Aware Planning After Robot Damage](https://arxiv.org/abs/2611.27939v1)

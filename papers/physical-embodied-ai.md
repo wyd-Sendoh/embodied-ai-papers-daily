@@ -2,6 +2,134 @@
 
 _自动追踪 arXiv 最新论文，最新更新在最上方。_
 
+## 📅 2026-11-24
+
+### [Self-Upgrading Embodied Agents](https://arxiv.org/abs/2611.31117v1)
+
+- **arXiv**: `2611.31117v1`  |  **提交日期**: 2026-11-23
+- **作者**: Jiajun Fan, Neil He, Qinglong Zheng, Changyi Yang, Tong Wei, Andy Mao et al.
+
+An embodied agent built on a language model goes to work with the weights it was given and keeps them for life. To get better, it needs more training, or reflection, memory, search or prompts that cost every step and are lost when the task changes. Editing weights by reasoning, weight-space programming, could end this, but has stayed with models that only reason or relied on a far larger commercial model. We introduce the self-upgrading embodied agent, to our knowledge the first that learns from its own experience by upgrading its own weights on the job, between its tasks, with no training,…
+
+---
+
+### [RUIBench: What Makes a Good Robot-Use Interface?](https://arxiv.org/abs/2611.31115v1)
+
+- **arXiv**: `2611.31115v1`  |  **提交日期**: 2026-11-23
+- **作者**: Yanzhe Chen, Zhijun Cao, Zechen Bai, Wenzheng Zeng, Kevin Yuchen Ma, Yiqi Lin et al.
+
+Foundation models can reason about complex physical tasks, yet translating this intelligence into reliable robot execution remains challenging. We argue that a critical, often overlooked factor is the robot-use interface (RUI), which determines how agents express and execute physical actions. To systematically study its impact, we introduce RUIBench, comprising 30 manipulation tasks across five suites spanning world knowledge, in-context learning, discovery, dynamic interaction, and contact-rich manipulation. We further develop RUIKit, a unified framework that crosses six action abstractions…
+
+---
+
+### [ReWeave: Emergent Physical Task Topologies for Embodied Harness Optimization and Cross-Task Meta-Distillation](https://arxiv.org/abs/2611.31053v1)
+
+- **arXiv**: `2611.31053v1`  |  **提交日期**: 2026-11-23
+- **作者**: Yicheng Xu, Wencan Jiang, Zihao Zhu, Keru Zhou, Chang Zhou, Li Liu et al.
+
+Long-horizon embodied tasks involve physical dependencies that may only become clear through interaction. As task understanding deepens, past trials can reveal new information for adaptation and transfer. However, coarse progress feedback cannot identify which physical preconditions held, leaving search unguided, while task-specific optimization easily overfits to individual scenes, making cross-task transfer brittle. We introduce ReWeave, a framework that jointly optimizes an embodied agent harness and an emergent physical task topology from interaction without updating policy weights.…
+
+---
+
+### [OmniV-Bench: Can MLLMs Comprehend Immersive Spatio-temporal Scenes?](https://arxiv.org/abs/2611.31022v1)
+
+- **arXiv**: `2611.31022v1`  |  **提交日期**: 2026-11-23
+- **作者**: Liu Yang, Huiyu Duan, Yixuan Gao, Sirui Liu, Lu Liu, Zhaolin Cai et al.
+
+Omnidirectional videos (ODVs) capture dynamic environments with a full $360^\circ$ field of view, providing rich spatial context and temporal dynamics for applications such as virtual reality (VR), augmented reality (AR), and embodied intelligence. Recent multimodal large language models (MLLMs) have made great progress in spatial and temporal understanding, yet their ability to comprehend the immersive 360 spatio-temporal information conveyed by ODVs remains largely unexplored. To bridge this gap, we first introduce OmniV-Bench, a Benchmark designed to comprehensively evaluate the…
+
+---
+
+### [RoboUniverse-10K: Toward the Scaling Era of Agentic Robotics via Real-to-Sim Environments](https://arxiv.org/abs/2611.31002v1)
+
+- **arXiv**: `2611.31002v1`  |  **提交日期**: 2026-11-23
+- **作者**: Jinkun Liu, Yingze Wang, Situ Wang, Deyao Hong, Mingju Gao, Wenyi Li et al.
+
+Agentic Robotics, in which foundation models act as coding agents to control robots through executable programs, has emerged as a compelling paradigm for embodied intelligence. Yet unlike software engineering, where massive executable environments power post-training, robotics remains constrained by small, manual benchmarks and in-distribution evaluation. To bridge this gap, we introduce RoboUniverse-10K, 10,807 interactive, resettable, and verifiable physics environments built from real-world videos via an automated Real2Sim and quality assurance pipeline. Each runs in an isolated,…
+
+---
+
+### [AXE: AlpaSim E2E Closed Loop Challenge Technical Report](https://arxiv.org/abs/2611.30511v1)
+
+- **arXiv**: `2611.30511v1`  |  **提交日期**: 2026-11-23
+- **作者**: Joonhee Lim, Seonmyeong Lee, Sihwan Hwang, Hanbin Jang, Hiwon Shin, Dogun Kim et al.
+
+This report presents a comprehensive pipeline for developing an end-to-end (E2E) autonomous driving model for the Physical AI AV Track. The framework consists of data curation, HD map auto-labelling, data-driven imitation learning, and simulator-based reinforcement learning. To ensure safety in the closed-loop setting, we introduce a selection-based E2E planning approach that leverages object detection and BEV segmentation to filter out trajectory candidates likely to cause collisions or off-road driving. Trained on NVIDIA NuRec and the NVIDIA PAI-AV dataset, our method scores a fixed…
+
+---
+
+### [Innata-0: A Native Embodied World System with Model-Agent Co-Design](https://arxiv.org/abs/2611.30254v1)
+
+- **arXiv**: `2611.30254v1`  |  **提交日期**: 2026-11-23
+- **作者**:  Innata Team, Yu Bai, Ziyi Bai, Yuxuan Cai, Chenrui He, Wenhao Li et al.
+
+The physical world is open-ended, dynamic, and partially observable. While foundation models have advanced embodied intelligence, standalone models struggle with long-horizon execution, and simply integrating models with agents may lead to inconsistencies between planning and physical control. To support reliable and adaptive behaviors in the physical world, we introduce Innata-0, a native embodied world system. Innata-0 jointly designs an embodied world-action model and an agent to combine their complementary strengths. The model, Innata-0-WAM, adopts a tri-tower Mixture-of-Transformers…
+
+---
+
+### [Audio-Visual Rearrangement](https://arxiv.org/abs/2611.30171v1)
+
+- **arXiv**: `2611.30171v1`  |  **提交日期**: 2026-11-23
+- **作者**: Ruohao Guo, Jiatong Ye, Chenwei Dong, Jinxing Zhou, Dantong Niu, Guangyao Li et al.
+
+We introduce Audio-Visual Rearrangement (AVR), a novel task in which an agent hears a spoken request, retrieves a suitable object, and delivers it to the requesting user or an instruction-specified destination. AVR requires the agent to understand the spoken request and acoustically localize the speaker for delivery. To support this task, we construct a dataset covering three query types: explicit target specification, speaker-relative spatial references, and implicit user intent, spanning eight subtypes with diverse object selection and delivery requirements. Moreover, we propose a framework…
+
+---
+
+### [Spiking World-Action Models for Robotic Manipulation](https://arxiv.org/abs/2611.30041v1)
+
+- **arXiv**: `2611.30041v1`  |  **提交日期**: 2026-11-23
+- **作者**: Mingquan Liu, Peng Zhou, Shanming Yao, Shuai Wang, Simo Wu, Malu Zhang
+
+World action models (WAMs) predict how the world responds to actions and offer a promising path toward general embodied intelligence, but they are large and run the network many times per plan, so they are hard to deploy on robots. Spiking neural networks (SNNs) compute with sparse binary spikes and use additions instead of multiplications, which saves power. However, existing WAMs use dense videos as the world state, so a spiking version would spend most of its computation on the background. We therefore introduce SpikingWAM, the first spiking WAM, which uses a sparse task skeleton as the…
+
+---
+
+### [TeleMultiStream: An Integrated Robot Teleoperation System with Low-Latency Multi-Stream Video Feedback](https://arxiv.org/abs/2611.29980v1)
+
+- **arXiv**: `2611.29980v1`  |  **提交日期**: 2026-11-23
+- **作者**: Chenchen Lv, Lingchen Hu, Yaosai Zhang, Chunlan Li, Gengkui Wei, Wei Xin et al.
+
+Training embodied-intelligence models requires large-scale, high-quality demonstration data. Robot teleoperation provides an important means of collecting these data. Low-latency teleoperation also helps human operators take control promptly and provide corrective demonstrations in DAgger-based interactive learning. This paper presents TeleMultiStream, a robot teleoperation system that combines multi-stream WebRTC video feedback with UDP pose downlink. The system supports heterogeneous video sources and uses buffer reuse, bounded queues, and native XR rendering to reduce processing and…
+
+---
+
+### [CARE-3D: Reinforcement Learning for Evidence Grounded Agentic Reasoning in Situated 3D Scenes](https://arxiv.org/abs/2611.29969v1)
+
+- **arXiv**: `2611.29969v1`  |  **提交日期**: 2026-11-23
+- **作者**: Xiaoqian Hu, Ruihong Qiu, Yanran Tang, Sen Wang
+
+Situated 3D reasoning requires embodied agents to interpret objects, scene geometry, and viewpoint dependent spatial relations. Existing methods learn grounded interactions from supervised traces, but largely imitate prescribed evidence acquisition patterns rather than optimizing the support that the returned evidence provides for the correct answer. Moreover, outcome rewards provide limited credit for intermediate tool choices and may leave infrequent tools underexplored. An effective agent should instead adaptively decide what to ground, which tool to invoke, and how to assess the utility…
+
+---
+
+### [MAWAM: Joint Imagination for Collaborative Robot Manipulation with a Multi-Agent World Action Model](https://arxiv.org/abs/2611.29501v1)
+
+- **arXiv**: `2611.29501v1`  |  **提交日期**: 2026-11-22
+- **作者**: Rongze Tang, Chenyu Zhou, Jianjie Fang, Ziming Liu, Zhaolu Wang, Ziyou Wang et al.
+
+World action models (WAMs) excel at robot manipulation by imagining future observations and decoding actions from them, yet remain confined to a single embodied agent. In practice, manipulation often requires multiple robots to collaborate across disjoint workspaces, coupled timing, and heterogeneous embodiments. Such coordination demands both spatiotemporal alignment of future interactions and awareness of individual embodiment and role identities, whereas existing decentralized per-robot policies, flat centralized models, and multi-robot VLAs fail to unite both. To bridge this gap, we…
+
+---
+
+### [EMIP: Embodied Multi-Party Interaction Platform](https://arxiv.org/abs/2611.29333v1)
+
+- **arXiv**: `2611.29333v1`  |  **提交日期**: 2026-11-22
+- **作者**: Koichiro Terao, Rikunari Sagara, Moe Nagao, Naoto Iwahashi
+
+Experimental platforms that enable multiple participants to engage in spoken dialogue and perform physical actions concurrently in a shared environment are important for studying cooperation between humans and embodied AI agents. In this paper, we propose EMIP (Embodied Multi-Party Interaction Platform), a virtual environment platform built on Minecraft. Through an Internet-based client-server architecture, EMIP connects multiple humans and multiple AI agents to the same virtual environment and supports full-duplex speech communication and simultaneous physical interaction. It provides…
+
+---
+
+### [WorldWeave: Rethinking Embodied Navigation through Cross-Task World Modeling](https://arxiv.org/abs/2611.28553v1)
+
+- **arXiv**: `2611.28553v1`  |  **提交日期**: 2026-11-21
+- **作者**: Xuan Yao, Jiahao Zhang, Rongjunchen Zhang, Kaixuan Huang, Junyu Gao, Changsheng Xu
+
+Mobile embodied agents continuously alter their observations through their own motion, while external dynamics further shape future interactions. Different mobile embodied tasks therefore capture complementary patterns of state evolution, yet jointly learning world dynamics across such interactions remains less explored. We investigate this problem through Vision-and-Language Navigation (VLN) and Embodied Visual Tracking (EVT), which respectively involve navigation toward a stationary goal and interaction with a moving target. We propose WorldWeave, a cross-task world model that couples…
+
+---
+
 ## 📅 2026-11-23
 
 ### [EvoTER: Evolving Embodied Agents via Tool-Use Experience and Reflection](https://arxiv.org/abs/2611.27797v1)

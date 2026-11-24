@@ -2,6 +2,53 @@
 
 _自动追踪 arXiv 最新论文，最新更新在最上方。_
 
+## 📅 2026-11-24
+
+### [Real2Worlds2Real: Scaling Self-Improving Agentic Real2Sim2Real for Robot Manipulation](https://arxiv.org/abs/2611.31098v1)
+
+- **arXiv**: `2611.31098v1`  |  **提交日期**: 2026-11-23
+- **作者**: Jinzhong Gu, Jiakai Chen, Xinyi Cao, Yan Shen, Hangke Sui, Shutian Zheng et al.
+
+Scaling robot manipulation learning remains challenging due to the high cost of collecting real-world interaction data. Real-to-Sim-to-Real (Real2Sim2Real) offers a promising route by enabling policy learning in simulation grounded in real-world observations, yet scaling this paradigm across diverse tasks and physical interactions remains difficult. We introduce Real2Worlds2Real, a self-improving agentic framework that integrates scalable simulation-world construction with policy development. Given limited visual observations and task descriptions, its tool-orchestration harness constructs…
+
+---
+
+### [Part-wise Certified State Estimation of Articulated Objects from Passive Stereo](https://arxiv.org/abs/2611.30646v1)
+
+- **arXiv**: `2611.30646v1`  |  **提交日期**: 2026-11-23
+- **作者**: Orion Desbonnet, Kei Higuchi, Alex Sykes, Ayush Deshmukh, Victor Leve, Joao Moura et al.
+
+Robots in manufacturing often handle thin, hinged objects known from CAD models that change shape during the task, like folding cartons. Monitoring such tasks requires estimating the object's articulation state, its pose and the shape of any semi-deformable part. Learning-based estimators generalise across objects but lose precision while handling thin parts. Model-based fitting is precise but often needs accurate depth, a close initial estimate and a clean object mask. We present part-wise certification of an articulated object's state, estimated from passive stereo. Our estimator rivals the…
+
+---
+
+### [Arcadian: Open-Source Humanoid Ecosystem for Accessible and Customizable Research and Education](https://arxiv.org/abs/2611.29868v1)
+
+- **arXiv**: `2611.29868v1`  |  **提交日期**: 2026-11-23
+- **作者**: Zelin Shen, Gabriel Ramos Salinas, Qiyu Zhang, Yue Qin, Chen Qian, Yanran Ding
+
+Reproducing and modifying a meter-scale humanoid remains challenging for research and teaching groups with limited fabrication resources and engineering support. This paper presents Arcadian, an open-source humanoid ecosystem that offers accessible and customizable humanoid hardware and software with community support. Arcadian aims to strike a balance among cost-effectiveness, structural durability, and full customizability, lowering the barrier to entry for research and education. Specifically, this meter-scale humanoid adopts metal-embedded 3D printing to achieve a high strength-to-cost…
+
+---
+
+### [Tacinf: A Unified Tactile Infrastructure for Robot Manipulation](https://arxiv.org/abs/2611.29240v1)
+
+- **arXiv**: `2611.29240v1`  |  **提交日期**: 2026-11-22
+- **作者**: Qiwei Wu, Xiangyu Chen, Xin Xiang, Rui Zhang, Yihang Kang, Weiran Chen et al.
+
+Force-aware manipulation requires robots to infer appropriate interaction forces from task context and tactile feedback. We present Tacinf, a low-cost, modular infrastructure that enables policies to predict robot actions and fingertip forces from task language, vision, and touch. Task instructions can optionally specify the desired force level. Tacinf integrates simulation data synthesis and tactile benchmarking (Tabero), vision-tactile-language-action (VTLA) policy learning, handheld data collection using the same gripper as robot deployment (Tacumi), and task-aligned sim-to-real evaluation…
+
+---
+
+### [Fast World Planner: Advantage-Aware Action-Chunk Policy for Online Planning](https://arxiv.org/abs/2611.28616v1)
+
+- **arXiv**: `2611.28616v1`  |  **提交日期**: 2026-11-21
+- **作者**: Jiangtao Kong, Yuchen Wang, Yandong Luo, Rongchao Xu, Guang Wang, Yanbing Mao et al.
+
+Model Predictive Path Integral (MPPI) control is central to online planning for model-based reinforcement learning (MBRL), but its iterative refinement incurs planning latency. Reducing refinement iterations often degrades performance, motivating stronger policy guidance learned from the planner. However, existing methods typically learn from the planner through action-level alignment, which does not directly capture the complete $H$-step planner proposal. Moreover, planner imitation leaves further target improvement to online refinement. To address these limitations, we propose FaSt World…
+
+---
+
 ## 📅 2026-11-20
 
 ### [Domain-Aware Conformal Prediction for Trustworthy Spacecraft Pose Estimation under Sim-to-Real Shift](https://arxiv.org/abs/2611.26065v1)

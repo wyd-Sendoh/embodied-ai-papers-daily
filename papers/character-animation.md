@@ -2,6 +2,17 @@
 
 _自动追踪 arXiv 最新论文，最新更新在最上方。_
 
+## 📅 2026-11-24
+
+### [Tri-DNO: Trilateral Diffusion Noise Optimization for 3D Human Object Interaction](https://arxiv.org/abs/2611.30607v1)
+
+- **arXiv**: `2611.30607v1`  |  **提交日期**: 2026-11-23
+- **作者**: Paul Hinzer, Niklas Gard, Anna Hilsmann, Peter Eisert
+
+Generating realistic 3D human object interactions (HOI) is essential for applications, such as augmented or virtual reality (AR/VR) or character animation of interactive entertainment. A particular challenge lies in the faithful generation of hand grasps in human object interaction scenes, where even minor geometric inconsistencies, such as insufficient contact or interpenetration, can significantly compromise realism. While diffusion-based generative models have shown promising results in HOI synthesis, ensuring physically plausible hand-object interactions remains challenging. We present…
+
+---
+
 ## 📅 2026-11-23
 
 ### [Synthesizing Expressive Human-Object Interactions via Test-time Latent Adaptation](https://arxiv.org/abs/2611.27603v1)
