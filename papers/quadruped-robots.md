@@ -2,6 +2,35 @@
 
 _自动追踪 arXiv 最新论文，最新更新在最上方。_
 
+## 📅 2026-11-25
+
+### [AirLeg: A Robust and Accurate Self-Supervised Visual-Inertial-Leg SLAM System](https://arxiv.org/abs/2611.32523v1)
+
+- **arXiv**: `2611.32523v1`  |  **提交日期**: 2026-11-24
+- **作者**: Kuan Xu, Tianxin Hu, Ruofei Bai, Ruimeng Liu, Yuefan Hao, Zeyu Jiang et al.
+
+Visual-inertial-leg (VIL) state estimation offers cost-effective localization for legged robots, adding only a camera to the onboard IMU and joint encoders. However, learning-based leg odometry is limited by its supervision: networks trained in simulation suffer from the sim-to-real gap, while real-world labels require costly sensors or inherit the errors of visual estimates. To address this, we present AirLeg, a self-supervised VIL SLAM system in which vision and leg proprioception improve each other from training to deployment. We pre-train the leg odometry network in simulation and adapt…
+
+---
+
+### [Does Research-Paper Context Improve LLM-Generated Quadruped Navigation? An Exploratory Simulation Study](https://arxiv.org/abs/2611.32381v1)
+
+- **arXiv**: `2611.32381v1`  |  **提交日期**: 2026-11-24
+- **作者**: Barnabas Juhasz, Rolf Pfister
+
+Large language models can write competent robot navigation code, but not only does the research on the topic advance, a model may also, due to the volume of findings, fail to recall relevant findings and apply them to the task at hand. In this work, we test whether providing particular research papers as context improves the LLM-written navigation code for the Go2 quadruped, with the LLM (Claude Opus 5) and locomotion policy frozen. Specifically, we compare the navigation controllers the LLM writes when provided with and without particular papers across three settings: behavior trees,…
+
+---
+
+### [SuperNav-1.5: Structured Spatial Memory For Agentic Navigation Systems](https://arxiv.org/abs/2611.29912v2)
+
+- **arXiv**: `2611.29912v2`  |  **提交日期**: 2026-11-23
+- **作者**: Jiarui Guo, Jinkai Zhang, Yuanhong Yu, Yongchen Zai, Futang Zhu, Ruizhen Hu et al.
+
+This paper addresses the challenge of scene-level memory design for efficient navigation across sessions and successive object goals. Recent methods commonly represent a scene using scene graphs or image--text records. However, dense scene-graph representations impose substantial reasoning and context overhead on multimodal large language models, while image--text records cannot be directly converted into executable geometric routes. To address these limitations, we propose SuperNav-1.5, an agentic navigation system equipped with a structured spatial memory constructed by the agent. The…
+
+---
+
 ## 📅 2026-11-24
 
 ### [Confidently Lost: Silent Failure and Edge Deployment of Dense Visual SLAM under Photon Starvation](https://arxiv.org/abs/2611.30173v1)

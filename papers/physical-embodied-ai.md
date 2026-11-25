@@ -2,6 +2,62 @@
 
 _自动追踪 arXiv 最新论文，最新更新在最上方。_
 
+## 📅 2026-11-25
+
+### [Lost on Campus: Evaluating Embodied Spatial Reasoning of Vision-Language Models in the Wild](https://arxiv.org/abs/2611.33145v1)
+
+- **arXiv**: `2611.33145v1`  |  **提交日期**: 2026-11-24
+- **作者**: Zehan Zheng, Yanyuan Chen, Deming Li, Yutao Tang, Jianwen Xie, Alan Yuille et al.
+
+Embodied Spatial Reasoning (ESR) is central to deploying Vision-Language Models (VLMs) in real-world embodied tasks, yet remains inadequately evaluated. Existing benchmarks primarily assess spatial reasoning in static images or synthetic indoor environments, where semantic shortcuts often suffice, making it difficult to faithfully evaluate spatial reasoning capabilities in the wild. In light of this, we present Lost on Campus, a benchmark for evaluating ESR in large-scale real-world outdoor 3D environments reconstructed by 3D Gaussian Splatting. Our benchmark introduces a unified…
+
+---
+
+### [EmbodiSafety: Benchmarking Risk Understanding and Response in Embodied AI](https://arxiv.org/abs/2611.33054v1)
+
+- **arXiv**: `2611.33054v1`  |  **提交日期**: 2026-11-24
+- **作者**: Erfei Cui, Shengjia Zhao, Yan Qin, Kaixuan Wang, Junming Chen, Ping Luo et al.
+
+Progress in embodied foundation models is largely measured by task success, while the physical safety of their decisions remains underexamined. Safety evaluations centered on rule following and binary judgments do not adequately assess whether embodied models understand environmental hazards and make safe decisions. We introduce EmbodiSafety, comprising 1,092 snapshot tasks and 540 trajectory tasks across 844 visual scenarios to assess safety over short and long horizons. Six response modes cover direct execution, refusal, clarification, constrained execution, autonomous recovery, and human…
+
+---
+
+### [VidForce: Predicting Force-Aware Articulation by Observing Humans](https://arxiv.org/abs/2611.32967v1)
+
+- **arXiv**: `2611.32967v1`  |  **提交日期**: 2026-11-24
+- **作者**: Rafay Mohiuddin, Jiaqi Chen, Marc Pollefeys, Hermann Blum
+
+People can anticipate how an object moves and the effort an interaction may require by watching others. How can embodied agents acquire this understanding from video? Force measurements provide direct sensory supervision, but require specialized equipment and remain limited in quantity. We introduce VidForce, which estimates an interaction trajectory together with a force profile from a third-person RGB video; 2D contact clicks and textual object-action prompts are optional. Our approach makes limited instrumented measurements useful for interpreting human interactions through learned…
+
+---
+
+### [EviCraft: Can Minecraft Agents Find What They Cannot See?](https://arxiv.org/abs/2611.32765v1)
+
+- **arXiv**: `2611.32765v1`  |  **提交日期**: 2026-11-24
+- **作者**: Wenyou Yi, Lantian Zhang, Guanlin Chen, Xingqiu Xu, Haiyang Sun, Minrui Huang et al.
+
+In Minecraft, a common testbed for embodied agents, semantic tools such as mineBlock pick targets from the simulator's loaded world state without a visibility test, so a buried ore the agent has never seen is one call away, and scores cannot show whether the agent searched. We formalize the missing requirement as evidence closure: every decision of an agent system, including those inside its tools, may depend on the world only through facts for which the agent holds evidence. EviCraft is a runtime and benchmark that enforces closure below the agent and makes the admission rule an experimental…
+
+---
+
+### [PoseVLN: Learning Geometric State Evolution for Vision-Language Navigation](https://arxiv.org/abs/2611.32218v1)
+
+- **arXiv**: `2611.32218v1`  |  **提交日期**: 2026-11-24
+- **作者**: Pengyu Hou, Mingfei Han, Haihong Hao, Xiaolong Wu, Bo Dong, Xiaojun Chang et al.
+
+Vision-Language Navigation (VLN) requires an embodied agent to relate past experience, current spatial state, and future motion while following natural-language instructions. Recent approaches improve these capabilities through long-horizon memory, state-aware reasoning, and future prediction, yet these components are often modeled separately, leaving navigation state evolution insufficiently connected across time. We argue that camera pose provides a natural geometric representation for bridging past, present, and future states. Based on this insight, we propose PoseVLN, a pose-aware VLN…
+
+---
+
+### [Instant LiDAR: Feed-Forward Gaussian Reconstruction for LiDAR Simulation](https://arxiv.org/abs/2611.32042v1)
+
+- **arXiv**: `2611.32042v1`  |  **提交日期**: 2026-11-24
+- **作者**: Xin Kang, Jiahui Huang, Jiawei Ren, Sipeng Zhang, Yu Chen, Weihua Zhang et al.
+
+LiDAR reconstruction supports closed-loop autonomous driving simulation, but hours of per-scene optimization make large asset libraries costly to build and maintain. We present Instant LiDAR, a feed-forward pipeline that reconstructs multiple LiDAR scans as reusable Gaussian assets in minutes without per-scene optimization. LiDAR measurements provide strong geometric priors, but directly initializing Gaussians from them yields poor reconstruction due to nonuniform sampling and a limited field of view. Sparse returns leave surface gaps, while combining scans expands coverage but introduces…
+
+---
+
 ## 📅 2026-11-24
 
 ### [Self-Upgrading Embodied Agents](https://arxiv.org/abs/2611.31117v1)

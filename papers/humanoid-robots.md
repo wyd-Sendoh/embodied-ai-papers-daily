@@ -2,6 +2,26 @@
 
 _自动追踪 arXiv 最新论文，最新更新在最上方。_
 
+## 📅 2026-11-25
+
+### [DynaMimic: A Physics-Informed World Model for Humanoid Motion Tracking](https://arxiv.org/abs/2611.32944v1)
+
+- **arXiv**: `2611.32944v1`  |  **提交日期**: 2026-11-24
+- **作者**: Chaoyue Xing, Linyi Huang, Yiting He, Yixuan Yin, Siqi Hou, Yi Zhang et al.
+
+Whole-body motion tracking enables humanoid robots to reproduce diverse skills from human demonstrations. Existing model-free reinforcement learning methods either distill motion specialists into a single policy at the cost of performance or train a generalist policy directly using cluster-scale computation. SuperMimic reduces this computational cost through a differentiable world model that implicitly learns the physics shared across motions by predicting the next state from the current state and action. However, this implicit formulation may not fully capture the underlying physical…
+
+---
+
+### [BARE: Body-Aware Reflexive Evasion for Humanoid Robots](https://arxiv.org/abs/2611.32642v1)
+
+- **arXiv**: `2611.32642v1`  |  **提交日期**: 2026-11-24
+- **作者**: Zihao Li, Tong Chen, Hua Song, Zitong Ding, Zihao Xu, Ce Hao et al.
+
+Dynamic obstacle avoidance is essential for safely deploying humanoid robots in real-world environments, where rapidly approaching objects require immediate evasive responses. Recent advances in reflexive evasion have focused primarily on quadrupeds, which typically rely on large-scale whole-body maneuvers. In contrast, humanoids can exploit their rich body articulation to evade through small, localized body adjustments. By moving threatened body regions without repositioning the entire body, these responses may require less execution time and less surrounding free space. However, local…
+
+---
+
 ## 📅 2026-11-24
 
 ### [Beyond Domain Randomization: Real-World Policy Adaptation in Learned Dynamics for Legged Robots](https://arxiv.org/abs/2611.30784v1)

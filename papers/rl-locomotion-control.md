@@ -2,6 +2,44 @@
 
 _自动追踪 arXiv 最新论文，最新更新在最上方。_
 
+## 📅 2026-11-25
+
+### [DiffGR00T: Execution-Aware Differentiable Training for Humanoid Whole-Body Vision-Language-Action Models](https://arxiv.org/abs/2611.32665v1)
+
+- **arXiv**: `2611.32665v1`  |  **提交日期**: 2026-11-24
+- **作者**: Sichen Wu, Qian Sun, Mengfan Liu, Weikai Qin, Bike Zhu, Hesheng Wang
+
+Vision-language-action (VLA) models have achieved strong results in arm-centric manipulation, yet humanoid whole-body control (WBC) requires dynamic balance and tightly coupled full-body coordination. Existing hierarchical humanoid VLAs typically decouple motion generation from physical execution, leaving tracking and balance errors unable to directly optimize the VLA generator. We propose DiffGR00T, an end-to-end differentiable training framework that couples GR00T N1.7 with SONIC, a pretrained whole-body behavior foundation model. To enable execution-aware differentiable training, we…
+
+---
+
+### [SkillHarness: Execution-Aware Coordination with Plug-and-Play Skills for Long-Horizon Traversal](https://arxiv.org/abs/2611.32186v1)
+
+- **arXiv**: `2611.32186v1`  |  **提交日期**: 2026-11-24
+- **作者**: Bailin He, Xiting Zhao, Kang Wang, Xinyu Zhou, Yongxing Cui, Haojie Liu et al.
+
+Traversing complex terrain requires robots to coordinate diverse locomotion skills while adapting to unseen obstacles and changing environments. Although perceptive reinforcement learning enables agile locomotion, conventional multi-terrain locomotion rely on fixed policy, limiting adaptability and skill extensibility. Perceptual disturbances and unreliable skill transitions further challenge robust execution. To address these challenges, we propose SkillHarness, an execution-aware coordination framework that integrates a flexible, plug-and-play locomotion skill library. To enhance traversal…
+
+---
+
+### [Ada-BFM: Adapting Behavior Foundation Models for Humanoid Scene Interaction](https://arxiv.org/abs/2611.31863v1)
+
+- **arXiv**: `2611.31863v1`  |  **提交日期**: 2026-11-24
+- **作者**: Furui Xu, Weishuai Zeng, Zirui Wang, Kangning Yin, Jiacheng Bao, Huayi Wang et al.
+
+Behavior Foundation Models (BFMs) have emerged as a promising paradigm for general-purpose humanoid control through pretraining on large-scale behavioral data. However, their proficiency in whole-body coordination does not readily extend to scene interaction, which requires adapting motion to scene-dependent geometric constraints and contact dynamics. To bridge this gap, we introduce Ada-BFM, a post-training framework that adapts pretrained BFMs for humanoid scene interaction. Ada-BFM augments the original architecture with a lightweight adapter, enabling interaction-specific adjustments…
+
+---
+
+### [One Phase Is Enough: Sim-to-Real Transfer with Direct Visual Reinforcement Learning](https://arxiv.org/abs/2611.31588v1)
+
+- **arXiv**: `2611.31588v1`  |  **提交日期**: 2026-11-23
+- **作者**: John Marangola, Antonia Bronars, Younghyo Park, Stephen Andrews, Kushal Kedia, Pulkit Agrawal
+
+Sim-to-real reinforcement learning (RL) has enabled impressive robotic behaviors, yet deploying policies directly from vision remains challenging. A common approach first trains a teacher policy with RL using privileged state observations, then distills its behavior into a vision-based student via imitation. However, the resulting student can substantially underperform its teacher. Directly training visual policies with RL offers a promising alternative, but learning task-relevant visual representations from scratch can be sample-inefficient, making one-phase visual RL intractable. We propose…
+
+---
+
 ## 📅 2026-11-24
 
 ### [Real2Worlds2Real: Scaling Self-Improving Agentic Real2Sim2Real for Robot Manipulation](https://arxiv.org/abs/2611.31098v1)

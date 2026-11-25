@@ -2,6 +2,26 @@
 
 _自动追踪 arXiv 最新论文，最新更新在最上方。_
 
+## 📅 2026-11-25
+
+### [MESSI: Multi-Expert Soccer Skill Integration for Physics-Based Character Control](https://arxiv.org/abs/2611.33011v1)
+
+- **arXiv**: `2611.33011v1`  |  **提交日期**: 2026-11-24
+- **作者**: Xiaogang Peng, Jiaqi Zou, Lei Zhong, Sirui Xu, Huaizu Jiang
+
+Physics-based soccer characters must perform diverse motor skills and transition smoothly between them, such as dribbling into a shot. However, skills that perform well in isolation may fail when executed sequentially, as preceding behaviors can leave the character and ball in unfamiliar states. We present MESSI (Multi-Expert Soccer Skill Integration), a framework that enables multiple soccer skill transitions through shared adaptation while preserving the original skill policy outside transitions. MESSI first trains eight task-competent experts using motion priors and task rewards, then…
+
+---
+
+### [RoMo Hands: A Large Scale Richly Organized Text to Hand Motion Dataset](https://arxiv.org/abs/2611.31766v1)
+
+- **arXiv**: `2611.31766v1`  |  **提交日期**: 2026-11-24
+- **作者**: Yizhak Ben-Shabat, Jiahao Zhang, Joseph Liu, Seonghyeon Moon, Young-Yoon Lee, Haomiao Jiang et al.
+
+While text-driven body motion generation has matured, pure-hand synthesis remains bottlenecked by data. Existing datasets often treat hands as rigid end-effectors, lack fine-grained captions, or are too limited in scale to support robust generalization. We introduce RoMo Hands, an in-the-wild, text-paired dataset of ~542K sequences (884 hours, 95.5M frames at 30 fps) which is an order of magnitude larger than prior work. To ensure high-quality supervision, a stringent dexterity filter discards low-articulation sequences, focusing the distribution on complex bimanual movement. Each clip is…
+
+---
+
 ## 📅 2026-11-24
 
 ### [Tri-DNO: Trilateral Diffusion Noise Optimization for 3D Human Object Interaction](https://arxiv.org/abs/2611.30607v1)
