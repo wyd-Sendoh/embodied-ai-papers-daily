@@ -2,6 +2,44 @@
 
 _自动追踪 arXiv 最新论文，最新更新在最上方。_
 
+## 📅 2026-11-26
+
+### [$μ$MPC: Microsecond-Scale Nonlinear and World Model Control from Edge to GPU via Koopman-Linearized Precompilation](https://arxiv.org/abs/2611.34597v1)
+
+- **arXiv**: `2611.34597v1`  |  **提交日期**: 2026-11-25
+- **作者**: Devesh Nath, Glen Chou
+
+We present $μ$MPC, a fast model predictive control (MPC) framework that reduces online computation using learned Koopman-linearized dynamics. By precomputing finite-horizon control-to-output maps, $μ$MPC eliminates lifted-state trajectories, yielding an action-only Koopman-Compiled QP (KC-QP) with $Hn_u$ decision variables, independent of lifted dimension. A fixed, precomputed primal operator enables efficient primal-dual iterations using only matrix-vector products and projections, accommodating changing goals and constraints without refactorization. This efficiency also enables…
+
+---
+
+### [Autonomous Vineyard Exploration using LiDAR Sensing: A Field Evaluation on Legged-Wheeled Quadruped Robot](https://arxiv.org/abs/2611.34246v1)
+
+- **arXiv**: `2611.34246v1`  |  **提交日期**: 2026-11-25
+- **作者**: Spencer Sweeney, Hongbo Li, Michael Ziegltrum, Dimitra Koumoutsou, Andromachi Maria Delfaki, Taskin Padir et al.
+
+Autonomous navigation in vineyards presents significant challenges due to uneven terrain, sparse vegetation, and the repetitive geometric nature of vineyard rows. This paper evaluates a LiDAR-based autonomous exploration system deployed on a Unitree Go2 Wheeled quadruped robot. Our approach utilizes an iterative RANSAC-based line detection pipeline to identify vineyard rows and a finite-state navigation strategy to govern row selection and traversal. Field evaluations conducted at Denbies Vineyard (UK) demonstrate the system's ability to perform sustained autonomous row following, completing…
+
+---
+
+### [CoTAMP: Cooperative Task and Motion Planning for Quadruped Robots with Large Language Models](https://arxiv.org/abs/2611.33911v1)
+
+- **arXiv**: `2611.33911v1`  |  **提交日期**: 2026-11-25
+- **作者**: Woojin Kim, Jemin Hwangbo
+
+Some environments cannot be traversed by a single quadruped robot, for example a ledge that one robot can climb only from its partner's back or a gap that must be bridged with boxes. Solving them requires cooperative task and motion planning (TAMP). Previous works are limited to the motions of a single robot or only select actions from a predefined set of skills. We propose a framework with two parts: task planning that invents motions not defined in advance, and motion generation that realizes the invented motions. Both parts consist of large language model (LLM)-based modules and code-based…
+
+---
+
+### [FOCI: Trajectory Optimization on Gaussian Splats for Gaussian Robots](https://arxiv.org/abs/2611.33380v1)
+
+- **arXiv**: `2611.33380v1`  |  **提交日期**: 2026-11-24
+- **作者**: Mario Gomez Andreu, Carlos Martinez Cuenca, Maximum Wilder-Smith, Victor Klemm, Vaishakh Patil, Marco Hutter et al.
+
+3D Gaussian Splatting (3DGS) has recently gained popularity as a faster alternative to Neural Radiance Fields (NeRFs) in 3D reconstruction and view synthesis methods. Leveraging the spatial information encoded in 3DGS, this work proposes FOCI (Field Overlap Collision Integral), an algorithm that is able to optimize trajectories directly on the Gaussians themselves. FOCI leverages a novel and interpretable collision formulation for 3DGS using the notion of the overlap integral between Gaussians. The formulation presented applies to different robot morphologies (e.g., fixed and mobile base…
+
+---
+
 ## 📅 2026-11-25
 
 ### [AirLeg: A Robust and Accurate Self-Supervised Visual-Inertial-Leg SLAM System](https://arxiv.org/abs/2611.32523v1)

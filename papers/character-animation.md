@@ -2,6 +2,17 @@
 
 _自动追踪 arXiv 最新论文，最新更新在最上方。_
 
+## 📅 2026-11-26
+
+### [ContextHands: Completing Hand Motion with Learned Context and Joint-Specific Body Kinematics](https://arxiv.org/abs/2611.34027v1)
+
+- **arXiv**: `2611.34027v1`  |  **提交日期**: 2026-11-25
+- **作者**: Taewoo Kim, Seunghun Koh, Hyosup Shin, Sungho Jo
+
+Detailed hand motion contributes to the realism and expressiveness of generated human motion. Completing these details from body motion and language requires connecting the context of an action to the articulation of the hands. We introduce ContextHands, which completes hand motion from an observed body sequence and text descriptions assigned to hands and time intervals. Our approach learns probabilistic hand features from the descriptions and body motion, using auxiliary hand prediction to connect these features to hand articulation. A body encoder preserves joint and body-part features…
+
+---
+
 ## 📅 2026-11-25
 
 ### [MESSI: Multi-Expert Soccer Skill Integration for Physics-Based Character Control](https://arxiv.org/abs/2611.33011v1)
